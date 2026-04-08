@@ -1,0 +1,10 @@
+{
+  "id": "claude-ads",
+  "source_url": "https://github.com/AgriciDaniel/claude-ads",
+  "source_kind": "github",
+  "import_method": "github_inspect",
+  "imported_from_pack": "",
+  "imported_at": "2026-04-08T18:13:21.835893",
+  "is_pack": true,
+  "notes": ""
+}

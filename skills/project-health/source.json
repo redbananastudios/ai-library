@@ -1,0 +1,10 @@
+{
+  "id": "project-health",
+  "source_url": "https://github.com/jezweb/claude-skills",
+  "source_kind": "github",
+  "import_method": "github_subpath",
+  "imported_from_pack": "jezweb-claude-skills",
+  "imported_at": "2026-04-08T18:13:19.379568",
+  "is_pack": false,
+  "notes": ""
+}

@@ -1,0 +1,757 @@
+[2026-04-08T18:13:10] [INFO] Importing: browser-use (method=github_inspect)
+[2026-04-08T18:13:11] [INFO] Found upstream content: O:\ai-library\.tmp-imports\browser-use\skills\browser-use\SKILL.md
+[2026-04-08T18:13:11] [INFO] Wrote O:\ai-library\skills\browser-use\source.json
+[2026-04-08T18:13:11] [INFO] Normalized: browser-use
+[2026-04-08T18:13:11] [INFO] Importing: frontend-design (method=github_subpath)
+[2026-04-08T18:13:12] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-code\plugins\frontend-design\skills\frontend-design\SKILL.md
+[2026-04-08T18:13:12] [INFO] Wrote O:\ai-library\skills\frontend-design\source.json
+[2026-04-08T18:13:12] [INFO] Normalized: frontend-design
+[2026-04-08T18:13:12] [INFO] Importing: simplify (method=github_subpath)
+[2026-04-08T18:13:12] [WARN] No specific file found for simplify in O:\ai-library\.tmp-imports\claude-code, using generated prompt
+[2026-04-08T18:13:12] [INFO] Wrote O:\ai-library\skills\simplify\source.json
+[2026-04-08T18:13:12] [INFO] Normalized: simplify
+[2026-04-08T18:13:12] [INFO] Importing: upload-post (method=github_inspect)
+[2026-04-08T18:13:13] [INFO] Found upstream content: O:\ai-library\.tmp-imports\upload-post-skill\SKILL.md
+[2026-04-08T18:13:13] [INFO] Wrote O:\ai-library\skills\upload-post\source.json
+[2026-04-08T18:13:13] [INFO] Normalized: upload-post
+[2026-04-08T18:13:13] [INFO] Importing: claude-seo (method=github_inspect)
+[2026-04-08T18:13:14] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-seo\skills\seo\SKILL.md
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\claude-seo\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: claude-seo
+[2026-04-08T18:13:14] [INFO] Importing: content-strategy (method=github_subpath)
+[2026-04-08T18:13:14] [INFO] Found upstream content: O:\ai-library\.tmp-imports\marketingskills\skills\content-strategy\SKILL.md
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\content-strategy\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: content-strategy
+[2026-04-08T18:13:14] [INFO] Importing: competitor-alternatives (method=github_subpath)
+[2026-04-08T18:13:14] [INFO] Found upstream content: O:\ai-library\.tmp-imports\marketingskills\skills\competitor-alternatives\SKILL.md
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\competitor-alternatives\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: competitor-alternatives
+[2026-04-08T18:13:14] [INFO] Importing: copywriter (method=github_subpath)
+[2026-04-08T18:13:14] [WARN] No specific file found for copywriter in O:\ai-library\.tmp-imports\marketingskills, using generated prompt
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\copywriter\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: copywriter
+[2026-04-08T18:13:14] [INFO] Importing: ai-seo (method=github_subpath)
+[2026-04-08T18:13:14] [INFO] Found upstream content: O:\ai-library\.tmp-imports\marketingskills\skills\ai-seo\SKILL.md
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\ai-seo\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: ai-seo
+[2026-04-08T18:13:14] [INFO] Importing: seo-audit (method=github_subpath)
+[2026-04-08T18:13:14] [INFO] Found upstream content: O:\ai-library\.tmp-imports\marketingskills\skills\seo-audit\SKILL.md
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\seo-audit\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: seo-audit
+[2026-04-08T18:13:14] [INFO] Importing: paid-ads (method=github_subpath)
+[2026-04-08T18:13:14] [INFO] Found upstream content: O:\ai-library\.tmp-imports\marketingskills\skills\paid-ads\SKILL.md
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\paid-ads\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: paid-ads
+[2026-04-08T18:13:14] [INFO] Importing: social-content (method=github_subpath)
+[2026-04-08T18:13:14] [INFO] Found upstream content: O:\ai-library\.tmp-imports\marketingskills\skills\social-content\SKILL.md
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\social-content\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: social-content
+[2026-04-08T18:13:14] [INFO] Importing: seo-geo-optimizer (method=manual)
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\seo-geo-optimizer\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: seo-geo-optimizer
+[2026-04-08T18:13:14] [INFO] Created manual entry: seo-geo-optimizer (needs manual content)
+[2026-04-08T18:13:14] [INFO] Importing: localrank-agent (method=manual)
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\localrank-agent\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: localrank-agent
+[2026-04-08T18:13:14] [INFO] Created manual entry: localrank-agent (needs manual content)
+[2026-04-08T18:13:14] [INFO] Importing: local-visibility (method=manual)
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\local-visibility\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: local-visibility
+[2026-04-08T18:13:14] [INFO] Created manual entry: local-visibility (needs manual content)
+[2026-04-08T18:13:14] [INFO] Importing: backlink-analyzer (method=manual)
+[2026-04-08T18:13:14] [INFO] Wrote O:\ai-library\skills\backlink-analyzer\source.json
+[2026-04-08T18:13:14] [INFO] Normalized: backlink-analyzer
+[2026-04-08T18:13:14] [INFO] Created manual entry: backlink-analyzer (needs manual content)
+[2026-04-08T18:13:14] [INFO] Importing: backlink-outreach (method=github_inspect)
+[2026-04-08T18:13:15] [WARN] No specific file found for backlink-outreach in O:\ai-library\.tmp-imports\backlink-outreach-js, using generated prompt
+[2026-04-08T18:13:15] [INFO] Wrote O:\ai-library\skills\backlink-outreach\source.json
+[2026-04-08T18:13:15] [INFO] Normalized: backlink-outreach
+[2026-04-08T18:13:15] [INFO] Importing: ai-discoverability-audit (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\ai-discoverability-audit\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\ai-discoverability-audit\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: ai-discoverability-audit
+[2026-04-08T18:13:16] [INFO] Importing: positioning-basics (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\positioning-basics\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\positioning-basics\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: positioning-basics
+[2026-04-08T18:13:16] [INFO] Importing: marketing-principles (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\marketing-principles\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\marketing-principles\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: marketing-principles
+[2026-04-08T18:13:16] [INFO] Importing: linkedin-authority-builder (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\linkedin-authority-builder\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\linkedin-authority-builder\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: linkedin-authority-builder
+[2026-04-08T18:13:16] [INFO] Importing: content-idea-generator (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\content-idea-generator\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\content-idea-generator\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: content-idea-generator
+[2026-04-08T18:13:16] [INFO] Importing: voice-extractor (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\voice-extractor\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\voice-extractor\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: voice-extractor
+[2026-04-08T18:13:16] [INFO] Importing: de-ai-ify (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\de-ai-ify\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\de-ai-ify\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: de-ai-ify
+[2026-04-08T18:13:16] [INFO] Importing: social-card-gen (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\social-card-gen\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\social-card-gen\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: social-card-gen
+[2026-04-08T18:13:16] [INFO] Importing: last30days (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\last30days\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\last30days\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: last30days
+[2026-04-08T18:13:16] [INFO] Importing: reddit-insights (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\reddit-insights\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\reddit-insights\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: reddit-insights
+[2026-04-08T18:13:16] [INFO] Importing: youtube-summarizer (method=github_subpath)
+[2026-04-08T18:13:16] [INFO] Found upstream content: O:\ai-library\.tmp-imports\ai-marketing-claude-code-skills\youtube-summarizer\SKILL.md
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\skills\youtube-summarizer\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: youtube-summarizer
+[2026-04-08T18:13:16] [INFO] Importing: fullstack-developer (method=github_inspect)
+[2026-04-08T18:13:16] [WARN] Clone failed for fullstack-developer, creating placeholder
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\agents\fullstack-developer\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: fullstack-developer
+[2026-04-08T18:13:16] [INFO] Importing: frontend-developer (method=github_inspect)
+[2026-04-08T18:13:16] [WARN] Clone failed for frontend-developer, creating placeholder
+[2026-04-08T18:13:16] [INFO] Wrote O:\ai-library\agents\frontend-developer\source.json
+[2026-04-08T18:13:16] [INFO] Normalized: frontend-developer
+[2026-04-08T18:13:16] [INFO] Importing: backend-developer (method=github_inspect)
+[2026-04-08T18:13:17] [WARN] Clone failed for backend-developer, creating placeholder
+[2026-04-08T18:13:17] [INFO] Wrote O:\ai-library\agents\backend-developer\source.json
+[2026-04-08T18:13:17] [INFO] Normalized: backend-developer
+[2026-04-08T18:13:17] [INFO] Importing: investigate (method=github_inspect)
+[2026-04-08T18:13:18] [INFO] Found upstream content: O:\ai-library\.tmp-imports\gstack\investigate\SKILL.md
+[2026-04-08T18:13:18] [INFO] Wrote O:\ai-library\skills\investigate\source.json
+[2026-04-08T18:13:18] [INFO] Normalized: investigate
+[2026-04-08T18:13:18] [INFO] Importing: qa (method=github_inspect)
+[2026-04-08T18:13:18] [INFO] Found upstream content: O:\ai-library\.tmp-imports\gstack\qa\SKILL.md
+[2026-04-08T18:13:18] [INFO] Wrote O:\ai-library\skills\qa\source.json
+[2026-04-08T18:13:18] [INFO] Normalized: qa
+[2026-04-08T18:13:18] [INFO] Importing: review (method=github_inspect)
+[2026-04-08T18:13:18] [INFO] Found upstream content: O:\ai-library\.tmp-imports\gstack\review\SKILL.md
+[2026-04-08T18:13:18] [INFO] Wrote O:\ai-library\skills\review\source.json
+[2026-04-08T18:13:18] [INFO] Normalized: review
+[2026-04-08T18:13:18] [INFO] Importing: qa-only (method=github_inspect)
+[2026-04-08T18:13:18] [INFO] Found upstream content: O:\ai-library\.tmp-imports\gstack\qa-only\SKILL.md
+[2026-04-08T18:13:18] [INFO] Wrote O:\ai-library\skills\qa-only\source.json
+[2026-04-08T18:13:18] [INFO] Normalized: qa-only
+[2026-04-08T18:13:18] [INFO] Importing: code-reviewer (method=manual)
+[2026-04-08T18:13:18] [INFO] Wrote O:\ai-library\skills\code-reviewer\source.json
+[2026-04-08T18:13:18] [INFO] Normalized: code-reviewer
+[2026-04-08T18:13:18] [INFO] Created manual entry: code-reviewer (needs manual content)
+[2026-04-08T18:13:18] [INFO] Importing: shopify-setup (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\shopify\skills\shopify-setup\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\shopify-setup\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: shopify-setup
+[2026-04-08T18:13:19] [INFO] Importing: shopify-products (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\shopify\skills\shopify-products\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\shopify-products\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: shopify-products
+[2026-04-08T18:13:19] [INFO] Importing: shopify-content (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\shopify\skills\shopify-content\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\shopify-content\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: shopify-content
+[2026-04-08T18:13:19] [INFO] Importing: wordpress-setup (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\wordpress\skills\wordpress-setup\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\wordpress-setup\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: wordpress-setup
+[2026-04-08T18:13:19] [INFO] Importing: wordpress-content (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\wordpress\skills\wordpress-content\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\wordpress-content\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: wordpress-content
+[2026-04-08T18:13:19] [INFO] Importing: wordpress-elementor (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\wordpress\skills\wordpress-elementor\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\wordpress-elementor\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: wordpress-elementor
+[2026-04-08T18:13:19] [INFO] Importing: design-assets (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\design-assets\skills\ai-image-generator\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\design-assets\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: design-assets
+[2026-04-08T18:13:19] [INFO] Importing: project-health (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\dev-tools\skills\project-health\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\project-health\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: project-health
+[2026-04-08T18:13:19] [INFO] Importing: deep-research (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\dev-tools\skills\deep-research\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\deep-research\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: deep-research
+[2026-04-08T18:13:19] [INFO] Importing: ux-audit (method=github_subpath)
+[2026-04-08T18:13:19] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-skills\plugins\dev-tools\skills\ux-audit\SKILL.md
+[2026-04-08T18:13:19] [INFO] Wrote O:\ai-library\skills\ux-audit\source.json
+[2026-04-08T18:13:19] [INFO] Normalized: ux-audit
+[2026-04-08T18:13:19] [INFO] Importing: shopify-theme-development (method=github_inspect)
+[2026-04-08T18:13:20] [WARN] No specific file found for shopify-theme-development in O:\ai-library\.tmp-imports\Shopify-agent-skills, using generated prompt
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-theme-development\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-theme-development
+[2026-04-08T18:13:20] [INFO] Importing: shopify-liquid-templating (method=github_inspect)
+[2026-04-08T18:13:20] [WARN] No specific file found for shopify-liquid-templating in O:\ai-library\.tmp-imports\Shopify-agent-skills, using generated prompt
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-liquid-templating\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-liquid-templating
+[2026-04-08T18:13:20] [INFO] Importing: shopify-app-development (method=github_inspect)
+[2026-04-08T18:13:20] [WARN] No specific file found for shopify-app-development in O:\ai-library\.tmp-imports\Shopify-agent-skills, using generated prompt
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-app-development\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-app-development
+[2026-04-08T18:13:20] [INFO] Importing: shopify-hydrogen (method=github_inspect)
+[2026-04-08T18:13:20] [WARN] No specific file found for shopify-hydrogen in O:\ai-library\.tmp-imports\Shopify-agent-skills, using generated prompt
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-hydrogen\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-hydrogen
+[2026-04-08T18:13:20] [INFO] Importing: shopify-checkout (method=github_inspect)
+[2026-04-08T18:13:20] [WARN] No specific file found for shopify-checkout in O:\ai-library\.tmp-imports\Shopify-agent-skills, using generated prompt
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-checkout\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-checkout
+[2026-04-08T18:13:20] [INFO] Importing: shopify-functions (method=github_inspect)
+[2026-04-08T18:13:20] [INFO] Found upstream content: O:\ai-library\.tmp-imports\Shopify-agent-skills\skills\shopify-functions\SKILL.md
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-functions\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-functions
+[2026-04-08T18:13:20] [INFO] Importing: shopify-graphql (method=github_inspect)
+[2026-04-08T18:13:20] [WARN] No specific file found for shopify-graphql in O:\ai-library\.tmp-imports\Shopify-agent-skills, using generated prompt
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-graphql\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-graphql
+[2026-04-08T18:13:20] [INFO] Importing: shopify-cli (method=github_inspect)
+[2026-04-08T18:13:20] [WARN] No specific file found for shopify-cli in O:\ai-library\.tmp-imports\Shopify-agent-skills, using generated prompt
+[2026-04-08T18:13:20] [INFO] Wrote O:\ai-library\skills\shopify-cli\source.json
+[2026-04-08T18:13:20] [INFO] Normalized: shopify-cli
+[2026-04-08T18:13:20] [INFO] Importing: wordpress-agent (method=github_inspect)
+[2026-04-08T18:13:21] [INFO] Found upstream content: O:\ai-library\.tmp-imports\wordpress-agent-skills\claude-cowork\wp-site-creator\skills\design-systems\SKILL.md
+[2026-04-08T18:13:21] [INFO] Wrote O:\ai-library\skills\wordpress-agent\source.json
+[2026-04-08T18:13:21] [INFO] Normalized: wordpress-agent
+[2026-04-08T18:13:21] [INFO] Importing: claude-ads (method=github_inspect)
+[2026-04-08T18:13:21] [INFO] Found upstream content: O:\ai-library\.tmp-imports\claude-ads\ads\SKILL.md
+[2026-04-08T18:13:21] [INFO] Wrote O:\ai-library\skills\claude-ads\source.json
+[2026-04-08T18:13:21] [INFO] Normalized: claude-ads
+[2026-04-08T18:13:21] [INFO] Importing: facebook-ads-optimizer (method=placeholder)
+[2026-04-08T18:13:21] [INFO] Wrote O:\ai-library\skills\facebook-ads-optimizer\source.json
+[2026-04-08T18:13:21] [INFO] Normalized: facebook-ads-optimizer
+[2026-04-08T18:13:21] [INFO] Created placeholder: facebook-ads-optimizer
+[2026-04-08T18:13:21] [INFO] Importing: personal-brand-builder (method=manual)
+[2026-04-08T18:13:21] [INFO] Wrote O:\ai-library\skills\personal-brand-builder\source.json
+[2026-04-08T18:13:21] [INFO] Normalized: personal-brand-builder
+[2026-04-08T18:13:21] [INFO] Created manual entry: personal-brand-builder (needs manual content)
+[2026-04-08T18:13:21] [INFO] Importing: creative-director (method=manual)
+[2026-04-08T18:13:21] [INFO] Wrote O:\ai-library\skills\creative-director\source.json
+[2026-04-08T18:13:21] [INFO] Normalized: creative-director
+[2026-04-08T18:13:21] [INFO] Created manual entry: creative-director (needs manual content)
+[2026-04-08T18:13:21] [INFO] Importing: nano-banana-pro (method=manual)
+[2026-04-08T18:13:21] [INFO] Wrote O:\ai-library\skills\nano-banana-pro\source.json
+[2026-04-08T18:13:21] [INFO] Normalized: nano-banana-pro
+[2026-04-08T18:13:21] [INFO] Created manual entry: nano-banana-pro (needs manual content)
+[2026-04-08T18:13:21] [INFO] Importing: nano-banana-ppt (method=github_inspect)
+[2026-04-08T18:13:22] [WARN] No specific file found for nano-banana-ppt in O:\ai-library\.tmp-imports\NanoBanana-PPT-Skills, using generated prompt
+[2026-04-08T18:13:22] [INFO] Wrote O:\ai-library\skills\nano-banana-ppt\source.json
+[2026-04-08T18:13:22] [INFO] Normalized: nano-banana-ppt
+[2026-04-08T18:13:22] [INFO] Importing: awesome-agent-skills (method=metadata_only)
+[2026-04-08T18:13:22] [INFO] Wrote O:\ai-library\skills\awesome-agent-skills\source.json
+[2026-04-08T18:13:22] [INFO] Normalized: awesome-agent-skills
+[2026-04-08T18:13:22] [INFO] Created metadata entry: awesome-agent-skills
+[2026-04-08T18:13:22] [INFO] Importing: awesome-claude-code-subagents (method=metadata_only)
+[2026-04-08T18:13:22] [INFO] Wrote O:\ai-library\skills\awesome-claude-code-subagents\source.json
+[2026-04-08T18:13:22] [INFO] Normalized: awesome-claude-code-subagents
+[2026-04-08T18:13:22] [INFO] Created metadata entry: awesome-claude-code-subagents
+[2026-04-08T18:13:27] [INFO] Built Claude skill: ai-discoverability-audit
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-discoverability-audit\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: ai-discoverability-audit
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: ai-seo
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-seo\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: ai-seo
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: awesome-agent-skills
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-agent-skills\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip metadata: awesome-agent-skills
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: awesome-claude-code-subagents
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-claude-code-subagents\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip metadata: awesome-claude-code-subagents
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: backlink-analyzer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-analyzer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: backlink-analyzer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: backlink-outreach
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-outreach\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: backlink-outreach
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: browser-use
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\browser-use\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: browser-use
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: claude-ads
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-ads\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: claude-ads
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: claude-seo
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-seo\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: claude-seo
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: code-reviewer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\code-reviewer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: code-reviewer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: competitor-alternatives
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\competitor-alternatives\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: competitor-alternatives
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: content-idea-generator
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-idea-generator\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: content-idea-generator
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: content-strategy
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-strategy\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: content-strategy
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: copywriter
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\copywriter\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: copywriter
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: creative-director
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\creative-director\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: creative-director
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: de-ai-ify
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\de-ai-ify\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: de-ai-ify
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: deep-research
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\deep-research\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: deep-research
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: design-assets
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\design-assets\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: design-assets
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: facebook-ads-optimizer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\facebook-ads-optimizer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: facebook-ads-optimizer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: frontend-design
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\frontend-design\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: frontend-design
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: investigate
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\investigate\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: investigate
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: last30days
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\last30days\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: last30days
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: linkedin-authority-builder
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\linkedin-authority-builder\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: linkedin-authority-builder
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: local-visibility
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\local-visibility\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: local-visibility
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: localrank-agent
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\localrank-agent\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: localrank-agent
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: marketing-principles
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\marketing-principles\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: marketing-principles
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: nano-banana-ppt
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-ppt\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: nano-banana-ppt
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: nano-banana-pro
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-pro\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: nano-banana-pro
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: paid-ads
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\paid-ads\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: paid-ads
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: personal-brand-builder
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\personal-brand-builder\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: personal-brand-builder
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: positioning-basics
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\positioning-basics\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: positioning-basics
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: project-health
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\project-health\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: project-health
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: qa
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: qa
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: qa-only
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa-only\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: qa-only
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: reddit-insights
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\reddit-insights\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: reddit-insights
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: review
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\review\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: review
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: seo-audit
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-audit\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: seo-audit
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: seo-geo-optimizer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-geo-optimizer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: seo-geo-optimizer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-app-development
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-app-development\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-app-development
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-checkout
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-checkout\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-checkout
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-cli
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-cli\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-cli
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-content
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-content\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-content
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-functions
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-functions\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-functions
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-graphql
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-graphql\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-graphql
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-hydrogen
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-hydrogen\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-hydrogen
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-liquid-templating
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-liquid-templating\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-liquid-templating
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-products
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-products\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-products
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-setup
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-setup\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-setup
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: shopify-theme-development
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-theme-development\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: shopify-theme-development
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: simplify
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\simplify\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: simplify
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: social-card-gen
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-card-gen\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: social-card-gen
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: social-content
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-content\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: social-content
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: upload-post
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\upload-post\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: upload-post
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: ux-audit
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ux-audit\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: ux-audit
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: voice-extractor
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\voice-extractor\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: voice-extractor
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: wordpress-agent
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-agent\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: wordpress-agent
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: wordpress-content
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-content\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: wordpress-content
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: wordpress-elementor
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-elementor\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: wordpress-elementor
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: wordpress-setup
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-setup\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: wordpress-setup
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude skill: youtube-summarizer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\skills\youtube-summarizer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip skill: youtube-summarizer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude agent: backend-developer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\agents\backend-developer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip agent: backend-developer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude agent: frontend-developer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\agents\frontend-developer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip agent: frontend-developer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:27] [INFO] Built Claude agent: fullstack-developer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\generated\paperclip\agents\fullstack-developer\payload.json
+[2026-04-08T18:13:27] [INFO] Built Paperclip agent: fullstack-developer
+[2026-04-08T18:13:27] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: ai-discoverability-audit
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: ai-seo
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: awesome-agent-skills
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: awesome-claude-code-subagents
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: backlink-analyzer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: backlink-outreach
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: browser-use
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: claude-ads
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: claude-seo
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: code-reviewer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: competitor-alternatives
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: content-idea-generator
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: content-strategy
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: copywriter
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: creative-director
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: de-ai-ify
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: deep-research
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: design-assets
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: facebook-ads-optimizer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: frontend-design
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: investigate
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: last30days
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: linkedin-authority-builder
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: local-visibility
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: localrank-agent
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: marketing-principles
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: nano-banana-ppt
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: nano-banana-pro
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: paid-ads
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: personal-brand-builder
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: positioning-basics
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: project-health
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: qa
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: qa-only
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: reddit-insights
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: review
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: seo-audit
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: seo-geo-optimizer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-app-development
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-checkout
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-cli
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-content
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-functions
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-graphql
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-hydrogen
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-liquid-templating
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-products
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-setup
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: shopify-theme-development
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: simplify
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: social-card-gen
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: social-content
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: upload-post
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: ux-audit
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: voice-extractor
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: wordpress-agent
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: wordpress-content
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: wordpress-elementor
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: wordpress-setup
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: youtube-summarizer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: backend-developer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: frontend-developer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Published to Claude: fullstack-developer
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\ai-discoverability-audit-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\ai-seo-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\awesome-agent-skills-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\awesome-claude-code-subagents-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\backlink-analyzer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\backlink-outreach-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\browser-use-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\claude-ads-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\claude-seo-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\code-reviewer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\competitor-alternatives-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\content-idea-generator-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\content-strategy-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\copywriter-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\creative-director-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\de-ai-ify-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\deep-research-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\design-assets-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\facebook-ads-optimizer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\frontend-design-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\investigate-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\last30days-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\linkedin-authority-builder-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\local-visibility-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\localrank-agent-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\marketing-principles-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\nano-banana-ppt-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\nano-banana-pro-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\paid-ads-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\personal-brand-builder-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\positioning-basics-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\project-health-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\qa-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\qa-only-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\reddit-insights-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\review-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\seo-audit-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\seo-geo-optimizer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-app-development-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-checkout-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-cli-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-content-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-functions-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-graphql-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-hydrogen-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-liquid-templating-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-products-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-setup-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\shopify-theme-development-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\simplify-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\social-card-gen-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\social-content-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\upload-post-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\ux-audit-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\voice-extractor-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\wordpress-agent-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\wordpress-content-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\wordpress-elementor-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\wordpress-setup-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\youtube-summarizer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\backend-developer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\frontend-developer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\manifests\fullstack-developer-paperclip-manifest.json
+[2026-04-08T18:13:32] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-08T18:13:39] [INFO] Wrote O:\ai-library\versions.json

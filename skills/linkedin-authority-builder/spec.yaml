@@ -1,0 +1,13 @@
+id: linkedin-authority-builder
+name: LinkedIn Authority Builder
+type: skill
+version: 0.1.0
+source_url: "https://github.com/BrianRWagner/ai-marketing-claude-code-skills"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Build LinkedIn thought leadership and authority
+trigger: ""
+imported_from_pack: ai-marketing-claude-code-skills

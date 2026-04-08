@@ -1,0 +1,10 @@
+{
+  "id": "fullstack-developer",
+  "source_url": "https://github.com/AiDA-Agents/awesome-claude-code-subagents",
+  "source_kind": "github",
+  "import_method": "github_inspect",
+  "imported_from_pack": "",
+  "imported_at": "2026-04-08T18:13:16.489719",
+  "is_pack": false,
+  "notes": "Clone failed for https://github.com/AiDA-Agents/awesome-claude-code-subagents"
+}

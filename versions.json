@@ -1,0 +1,317 @@
+{
+  "ai-discoverability-audit": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.942603"
+  },
+  "ai-seo": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.942665"
+  },
+  "awesome-agent-skills": {
+    "version": "0.1.0",
+    "type": "metadata",
+    "updated": "2026-04-08T18:13:39.942711"
+  },
+  "awesome-claude-code-subagents": {
+    "version": "0.1.0",
+    "type": "metadata",
+    "updated": "2026-04-08T18:13:39.942756"
+  },
+  "backlink-analyzer": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.942800"
+  },
+  "backlink-outreach": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.942844"
+  },
+  "browser-use": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.942894"
+  },
+  "claude-ads": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.942936"
+  },
+  "claude-seo": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.942978"
+  },
+  "code-reviewer": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943022"
+  },
+  "competitor-alternatives": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943064"
+  },
+  "content-idea-generator": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943108"
+  },
+  "content-strategy": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943150"
+  },
+  "copywriter": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943192"
+  },
+  "creative-director": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943235"
+  },
+  "de-ai-ify": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943277"
+  },
+  "deep-research": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943321"
+  },
+  "design-assets": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943362"
+  },
+  "facebook-ads-optimizer": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943404"
+  },
+  "frontend-design": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943451"
+  },
+  "investigate": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943493"
+  },
+  "last30days": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943533"
+  },
+  "linkedin-authority-builder": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943576"
+  },
+  "local-visibility": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943618"
+  },
+  "localrank-agent": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943659"
+  },
+  "marketing-principles": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943701"
+  },
+  "nano-banana-ppt": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943744"
+  },
+  "nano-banana-pro": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943785"
+  },
+  "paid-ads": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943826"
+  },
+  "personal-brand-builder": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943867"
+  },
+  "positioning-basics": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943920"
+  },
+  "project-health": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.943962"
+  },
+  "qa": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944004"
+  },
+  "qa-only": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944045"
+  },
+  "reddit-insights": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944085"
+  },
+  "review": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944127"
+  },
+  "seo-audit": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944169"
+  },
+  "seo-geo-optimizer": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944211"
+  },
+  "shopify-app-development": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944263"
+  },
+  "shopify-checkout": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944307"
+  },
+  "shopify-cli": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944350"
+  },
+  "shopify-content": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944391"
+  },
+  "shopify-functions": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944432"
+  },
+  "shopify-graphql": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944474"
+  },
+  "shopify-hydrogen": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944516"
+  },
+  "shopify-liquid-templating": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944558"
+  },
+  "shopify-products": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944598"
+  },
+  "shopify-setup": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944639"
+  },
+  "shopify-theme-development": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944680"
+  },
+  "simplify": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944721"
+  },
+  "social-card-gen": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944762"
+  },
+  "social-content": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944802"
+  },
+  "upload-post": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944843"
+  },
+  "ux-audit": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944883"
+  },
+  "voice-extractor": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944923"
+  },
+  "wordpress-agent": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.944963"
+  },
+  "wordpress-content": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.945003"
+  },
+  "wordpress-elementor": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.945045"
+  },
+  "wordpress-setup": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.945086"
+  },
+  "youtube-summarizer": {
+    "version": "0.1.0",
+    "type": "skill",
+    "updated": "2026-04-08T18:13:39.945126"
+  },
+  "backend-developer": {
+    "version": "0.1.0",
+    "type": "agent",
+    "updated": "2026-04-08T18:13:39.945166"
+  },
+  "frontend-developer": {
+    "version": "0.1.0",
+    "type": "agent",
+    "updated": "2026-04-08T18:13:39.945206"
+  },
+  "fullstack-developer": {
+    "version": "0.1.0",
+    "type": "agent",
+    "updated": "2026-04-08T18:13:39.945244"
+  }
+}

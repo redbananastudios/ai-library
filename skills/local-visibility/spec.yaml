@@ -1,0 +1,13 @@
+id: local-visibility
+name: Local Visibility
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: community
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: AI visibility + local SEO + map pack + Google Business Profile guidance
+trigger: ""
+imported_from_pack: ""

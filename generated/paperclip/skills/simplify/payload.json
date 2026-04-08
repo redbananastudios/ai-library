@@ -1,0 +1,18 @@
+{
+  "id": "simplify",
+  "name": "Simplify",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Code simplification, review, and cleanup",
+  "prompt": "# Simplify\n\nCode simplification, review, and cleanup\n\n## When to Use\nUse this skill when the user needs help with: code simplification, review, and cleanup\n\n## Workflow\n1. Understand the user's specific requirements\n2. Gather necessary context and constraints\n3. Execute the core simplify workflow\n4. Validate output quality\n5. Present results with actionable next steps\n\n## Source\nUpstream: https://github.com/anthropics/claude-code\n",
+  "source_url": "https://github.com/anthropics/claude-code",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "github",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": "Initial import"
+  }
+}

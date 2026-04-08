@@ -1,0 +1,13 @@
+id: facebook-ads-optimizer
+name: Facebook Ads Optimizer
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: placeholder
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: placeholder
+description: Facebook/Meta Ads optimization (placeholder - no trusted source found)
+trigger: ""
+imported_from_pack: ""

@@ -1,0 +1,18 @@
+{
+  "id": "awesome-claude-code-subagents",
+  "name": "Awesome Claude Code Subagents Directory",
+  "type": "metadata",
+  "version": "0.1.0",
+  "description": "Directory metadata source - subagents index",
+  "prompt": "# Awesome Claude Code Subagents Directory\n\nThis is a directory/metadata reference, not an executable skill.\n\nSource: https://github.com/AiDA-Agents/awesome-claude-code-subagents\n\n## Purpose\nDirectory metadata source - subagents index\n\n## Usage\nUse this as a reference for discovering additional skills and agents.\n",
+  "source_url": "https://github.com/AiDA-Agents/awesome-claude-code-subagents",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "github",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": "Initial import"
+  }
+}

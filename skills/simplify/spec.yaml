@@ -1,0 +1,13 @@
+id: simplify
+name: Simplify
+type: skill
+version: 0.1.0
+source_url: "https://github.com/anthropics/claude-code"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Code simplification, review, and cleanup
+trigger: ""
+imported_from_pack: ""

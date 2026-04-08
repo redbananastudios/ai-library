@@ -1,0 +1,18 @@
+{
+  "id": "awesome-agent-skills",
+  "name": "Awesome Agent Skills Directory",
+  "type": "metadata",
+  "version": "0.1.0",
+  "description": "Directory metadata source - ecosystem skills index",
+  "prompt": "# Awesome Agent Skills Directory\n\nThis is a directory/metadata reference, not an executable skill.\n\nSource: https://github.com/AiDA-Agents/awesome-agent-skills\n\n## Purpose\nDirectory metadata source - ecosystem skills index\n\n## Usage\nUse this as a reference for discovering additional skills and agents.\n",
+  "source_url": "https://github.com/AiDA-Agents/awesome-agent-skills",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "github",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": "Initial import"
+  }
+}

@@ -1,0 +1,13 @@
+id: claude-ads
+name: Claude Ads Pack
+type: skill
+version: 0.1.0
+source_url: "https://github.com/AgriciDaniel/claude-ads"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Google Ads, Meta Ads, YouTube Ads, LinkedIn Ads, TikTok Ads, Microsoft Ads, Apple Search Ads
+trigger: ""
+imported_from_pack: ""

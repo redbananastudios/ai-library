@@ -1,0 +1,13 @@
+id: investigate
+name: Investigate
+type: skill
+version: 0.1.0
+source_url: "https://github.com/garrytan/gstack"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Debugging and root-cause analysis workflow
+trigger: ""
+imported_from_pack: ""

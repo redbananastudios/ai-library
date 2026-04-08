@@ -1,0 +1,7 @@
+{
+  "item_id": "shopify-cli",
+  "type": "skill",
+  "payload_path": "generated\\paperclip\\skills\\shopify-cli\\payload.json",
+  "published_at": "2026-04-08T18:13:32.720261",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}

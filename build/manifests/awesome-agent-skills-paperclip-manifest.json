@@ -1,0 +1,7 @@
+{
+  "item_id": "awesome-agent-skills",
+  "type": "metadata",
+  "payload_path": "generated\\paperclip\\skills\\awesome-agent-skills\\payload.json",
+  "published_at": "2026-04-08T18:13:32.651065",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}

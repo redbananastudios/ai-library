@@ -1,0 +1,13 @@
+id: competitor-alternatives
+name: Competitor Alternatives
+type: skill
+version: 0.1.0
+source_url: "https://github.com/coreyhaines31/marketingskills"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Competitor analysis and alternative identification
+trigger: ""
+imported_from_pack: marketingskills

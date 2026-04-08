@@ -1,0 +1,71 @@
+# AI Library Registry
+
+Updated: 2026-04-08T18:13:32
+
+Total items: 63
+
+| ID | Name | Type | Version | Status | Claude | Paperclip |
+|---|---|---|---|---|---|---|
+| ai-discoverability-audit | AI Discoverability Audit | skill | 0.1.0 | imported | yes | manifest_generated |
+| ai-seo | AI SEO | skill | 0.1.0 | imported | yes | manifest_generated |
+| awesome-agent-skills | Awesome Agent Skills Directory | metadata | 0.1.0 | imported | yes | manifest_generated |
+| awesome-claude-code-subagents | Awesome Claude Code Subagents Directory | metadata | 0.1.0 | imported | yes | manifest_generated |
+| backend-developer | Backend Developer | agent | 0.1.0 | clone_failed | yes | manifest_generated |
+| backlink-analyzer | Backlink Analyzer | skill | 0.1.0 | imported | yes | manifest_generated |
+| backlink-outreach | Backlink Outreach | skill | 0.1.0 | imported | yes | manifest_generated |
+| browser-use | Browser Use | skill | 0.1.0 | imported | yes | manifest_generated |
+| claude-ads | Claude Ads Pack | skill | 0.1.0 | imported | yes | manifest_generated |
+| claude-seo | Claude SEO Pack | skill | 0.1.0 | imported | yes | manifest_generated |
+| code-reviewer | Code Reviewer | skill | 0.1.0 | imported | yes | manifest_generated |
+| competitor-alternatives | Competitor Alternatives | skill | 0.1.0 | imported | yes | manifest_generated |
+| content-idea-generator | Content Idea Generator | skill | 0.1.0 | imported | yes | manifest_generated |
+| content-strategy | Content Strategy | skill | 0.1.0 | imported | yes | manifest_generated |
+| copywriter | Copywriter | skill | 0.1.0 | imported | yes | manifest_generated |
+| creative-director | Creative Director | skill | 0.1.0 | imported | yes | manifest_generated |
+| de-ai-ify | De-AI-ify | skill | 0.1.0 | imported | yes | manifest_generated |
+| deep-research | Deep Research | skill | 0.1.0 | imported | yes | manifest_generated |
+| design-assets | Design Assets | skill | 0.1.0 | imported | yes | manifest_generated |
+| facebook-ads-optimizer | Facebook Ads Optimizer | skill | 0.1.0 | placeholder | yes | manifest_generated |
+| frontend-design | Frontend Design | skill | 0.1.0 | imported | yes | manifest_generated |
+| frontend-developer | Frontend Developer | agent | 0.1.0 | clone_failed | yes | manifest_generated |
+| fullstack-developer | Fullstack Developer | agent | 0.1.0 | clone_failed | yes | manifest_generated |
+| investigate | Investigate | skill | 0.1.0 | imported | yes | manifest_generated |
+| last30days | Last 30 Days | skill | 0.1.0 | imported | yes | manifest_generated |
+| linkedin-authority-builder | LinkedIn Authority Builder | skill | 0.1.0 | imported | yes | manifest_generated |
+| local-visibility | Local Visibility | skill | 0.1.0 | imported | yes | manifest_generated |
+| localrank-agent | LocalRank Agent | skill | 0.1.0 | imported | yes | manifest_generated |
+| marketing-principles | Marketing Principles | skill | 0.1.0 | imported | yes | manifest_generated |
+| nano-banana-ppt | Nano Banana PPT | skill | 0.1.0 | imported | yes | manifest_generated |
+| nano-banana-pro | Nano Banana Pro | skill | 0.1.0 | imported | yes | manifest_generated |
+| paid-ads | Paid Ads | skill | 0.1.0 | imported | yes | manifest_generated |
+| personal-brand-builder | Personal Brand Builder | skill | 0.1.0 | imported | yes | manifest_generated |
+| positioning-basics | Positioning Basics | skill | 0.1.0 | imported | yes | manifest_generated |
+| project-health | Project Health | skill | 0.1.0 | imported | yes | manifest_generated |
+| qa | QA | skill | 0.1.0 | imported | yes | manifest_generated |
+| qa-only | QA Only | skill | 0.1.0 | imported | yes | manifest_generated |
+| reddit-insights | Reddit Insights | skill | 0.1.0 | imported | yes | manifest_generated |
+| review | Review | skill | 0.1.0 | imported | yes | manifest_generated |
+| seo-audit | SEO Audit | skill | 0.1.0 | imported | yes | manifest_generated |
+| seo-geo-optimizer | SEO GEO Optimizer | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-app-development | Shopify App Development | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-checkout | Shopify Checkout | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-cli | Shopify CLI | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-content | Shopify Content | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-functions | Shopify Functions | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-graphql | Shopify GraphQL | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-hydrogen | Shopify Hydrogen | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-liquid-templating | Shopify Liquid Templating | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-products | Shopify Products | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-setup | Shopify Setup | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-theme-development | Shopify Theme Development | skill | 0.1.0 | imported | yes | manifest_generated |
+| simplify | Simplify | skill | 0.1.0 | imported | yes | manifest_generated |
+| social-card-gen | Social Card Generator | skill | 0.1.0 | imported | yes | manifest_generated |
+| social-content | Social Content | skill | 0.1.0 | imported | yes | manifest_generated |
+| upload-post | Upload Post | skill | 0.1.0 | imported | yes | manifest_generated |
+| ux-audit | UX Audit | skill | 0.1.0 | imported | yes | manifest_generated |
+| voice-extractor | Voice Extractor | skill | 0.1.0 | imported | yes | manifest_generated |
+| wordpress-agent | WordPress Agent | skill | 0.1.0 | imported | yes | manifest_generated |
+| wordpress-content | WordPress Content | skill | 0.1.0 | imported | yes | manifest_generated |
+| wordpress-elementor | WordPress Elementor | skill | 0.1.0 | imported | yes | manifest_generated |
+| wordpress-setup | WordPress Setup | skill | 0.1.0 | imported | yes | manifest_generated |
+| youtube-summarizer | YouTube Summarizer | skill | 0.1.0 | imported | yes | manifest_generated |

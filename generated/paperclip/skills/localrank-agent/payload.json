@@ -1,0 +1,18 @@
+{
+  "id": "localrank-agent",
+  "name": "LocalRank Agent",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Google Business Profile rankings, audits, citations, local SEO workflows",
+  "prompt": "# LocalRank Agent\n\nGoogle Business Profile rankings, audits, citations, local SEO workflows\n\n## When to Use\nUse this skill when the user needs help with: google business profile rankings, audits, citations, local seo workflows\n\n## Workflow\n1. Understand the user's specific requirements\n2. Gather necessary context and constraints\n3. Execute the core localrank agent workflow\n4. Validate output quality\n5. Present results with actionable next steps\n\n## Source\nUpstream: \n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "community",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": "Initial import"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wordpress-agent",
+  "source_url": "https://github.com/Automattic/wordpress-agent-skills",
+  "source_kind": "github",
+  "import_method": "github_inspect",
+  "imported_from_pack": "",
+  "imported_at": "2026-04-08T18:13:21.036262",
+  "is_pack": false,
+  "notes": ""
+}

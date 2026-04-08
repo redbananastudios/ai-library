@@ -1,0 +1,13 @@
+id: code-reviewer
+name: Code Reviewer
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: community
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Structured code review (maps to simplify if unavailable upstream)
+trigger: ""
+imported_from_pack: ""

@@ -1,0 +1,13 @@
+id: upload-post
+name: Upload Post
+type: skill
+version: 0.1.0
+source_url: "https://github.com/Upload-Post/upload-post-skill"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Social publishing to multiple platforms
+trigger: ""
+imported_from_pack: ""

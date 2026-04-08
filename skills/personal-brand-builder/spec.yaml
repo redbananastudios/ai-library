@@ -1,0 +1,13 @@
+id: personal-brand-builder
+name: Personal Brand Builder
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: community
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Personal brand development strategy and execution
+trigger: ""
+imported_from_pack: ""

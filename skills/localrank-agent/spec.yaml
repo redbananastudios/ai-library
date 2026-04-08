@@ -1,0 +1,13 @@
+id: localrank-agent
+name: LocalRank Agent
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: community
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial import
+requirements: []
+status: imported
+description: Google Business Profile rankings, audits, citations, local SEO workflows
+trigger: ""
+imported_from_pack: ""
