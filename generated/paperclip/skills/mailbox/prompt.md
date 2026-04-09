@@ -419,8 +419,24 @@ When asked to triage the inbox:
 4. **Suggest actions**: reply, archive, flag, delegate
 5. **Draft replies** for urgent items if requested
 
+## Humanizer Integration
+
+**IMPORTANT**: Before sending or drafting any email, always run the content through the **humanizer** skill to remove AI writing patterns. This ensures all outgoing emails sound natural and human-written.
+
+Workflow:
+1. Compose the email content
+2. Apply the humanizer skill to remove AI patterns (significance inflation, promotional language, AI vocabulary, filler phrases, sycophantic tone, etc.)
+3. Review the humanized output
+4. Then draft/send the cleaned version
+
+This applies to:
+- New emails and replies via Gmail draft
+- New emails and replies via SMTP
+- Email templates and outreach messages
+
 ## Drafting & Sending Best Practices
 
+- **Always humanize before sending** — run all email content through the humanizer skill first
 - **Match the user's tone and style** — formal for business, casual for colleagues
 - **Keep it concise** — get to the point quickly
 - **Use clear subject lines** — specific and actionable

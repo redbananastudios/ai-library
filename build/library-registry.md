@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-10T00:07:46
+Updated: 2026-04-10T00:36:57
 
-Total items: 85
+Total items: 86
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -15,7 +15,7 @@ Total items: 85
 | awesome-claude-code-subagents | Awesome Claude Code Subagents Directory | metadata | 0.1.0 | imported | yes | generated |
 | backend-developer | Backend Developer | agent | 0.1.0 | active | yes | generated |
 | backlink-analyzer | Backlink Analyzer | skill | 0.1.0 | imported | yes | generated |
-| backlink-builder | Backlink Builder | agent | 0.2.0 | active | yes | generated |
+| backlink-builder | Backlink Builder | agent | 0.2.0 | active | yes | manifest_generated |
 | backlink-outreach | Backlink Outreach | skill | 0.1.0 | imported | yes | generated |
 | brand-builder | Brand Builder | agent | 0.2.0 | active | yes | generated |
 | browser-use | Browser Use | skill | 0.1.0 | imported | yes | generated |
@@ -39,6 +39,7 @@ Total items: 85
 | fullstack-developer | Fullstack Developer | agent | 0.2.0 | active | yes | generated |
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | generated |
 | higgsfield | Higgsfield AI Image Generator | skill | 0.1.0 | active | yes | generated |
+| humanizer |  |  |  |  | no | manifest_generated |
 | image-generator | Image Generator | agent | 0.2.0 | active | yes | generated |
 | investigate | Investigate | skill | 0.1.0 | imported | yes | generated |
 | last30days | Last 30 Days | skill | 0.1.0 | imported | yes | generated |

@@ -1443,8 +1443,8 @@
       "source_path": "agents\\backlink-builder",
       "generated_claude_path": "generated\\claude\\agents\\backlink-builder.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\backlink-builder",
-      "published_claude_path": "",
-      "published_paperclip_status": "generated",
+      "published_claude_path": ".claude\\agents\\backlink-builder.md",
+      "published_paperclip_status": "manifest_generated",
       "requirements": [
         "backlink-analyzer",
         "backlink-outreach"
@@ -1818,7 +1818,12 @@
       "id": "mailbox",
       "published_claude_path": ".claude\\skills\\mailbox",
       "published_paperclip_status": "manifest_generated"
+    },
+    {
+      "id": "humanizer",
+      "published_claude_path": ".claude\\skills\\humanizer",
+      "published_paperclip_status": "manifest_generated"
     }
   ],
-  "updated": "2026-04-10T00:07:46.056002"
+  "updated": "2026-04-10T00:36:57.004894"
 }

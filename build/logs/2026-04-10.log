@@ -6,3 +6,25 @@
 [2026-04-10T00:07:46] [INFO] Published to Claude: mailbox
 [2026-04-10T00:07:46] [INFO] Wrote C:\Workspace\ai-library\build\manifests\mailbox-paperclip-manifest.json
 [2026-04-10T00:07:46] [INFO] Wrote C:\Workspace\ai-library\build\library-registry.json
+[2026-04-10T00:36:49] [INFO] Built Claude skill: humanizer
+[2026-04-10T00:36:49] [INFO] Wrote C:\Workspace\ai-library\generated\paperclip\skills\humanizer\payload.json
+[2026-04-10T00:36:49] [INFO] Built Paperclip skill: humanizer
+[2026-04-10T00:36:49] [INFO] Build complete for skill: humanizer
+[2026-04-10T00:36:49] [INFO] Published to Claude: humanizer
+[2026-04-10T00:36:49] [INFO] Wrote C:\Workspace\ai-library\build\manifests\humanizer-paperclip-manifest.json
+[2026-04-10T00:36:49] [INFO] Wrote C:\Workspace\ai-library\build\library-registry.json
+[2026-04-10T00:36:55] [INFO] Built Claude skill: mailbox
+[2026-04-10T00:36:55] [INFO] Wrote C:\Workspace\ai-library\generated\paperclip\skills\mailbox\payload.json
+[2026-04-10T00:36:55] [INFO] Built Paperclip skill: mailbox
+[2026-04-10T00:36:55] [INFO] Build complete for skill: mailbox
+[2026-04-10T00:36:56] [INFO] Backed up existing: C:\Workspace\.claude\skills\mailbox -> C:\Workspace\.claude\skills\mailbox.bak.20260410003656
+[2026-04-10T00:36:56] [INFO] Published to Claude: mailbox
+[2026-04-10T00:36:56] [INFO] Wrote C:\Workspace\ai-library\build\manifests\mailbox-paperclip-manifest.json
+[2026-04-10T00:36:56] [INFO] Wrote C:\Workspace\ai-library\build\library-registry.json
+[2026-04-10T00:36:56] [INFO] Built Claude agent: backlink-builder
+[2026-04-10T00:36:56] [INFO] Wrote C:\Workspace\ai-library\generated\paperclip\agents\backlink-builder\payload.json
+[2026-04-10T00:36:56] [INFO] Built Paperclip agent: backlink-builder
+[2026-04-10T00:36:56] [INFO] Build complete for agent: backlink-builder
+[2026-04-10T00:36:56] [INFO] Published to Claude: backlink-builder
+[2026-04-10T00:36:56] [INFO] Wrote C:\Workspace\ai-library\build\manifests\backlink-builder-paperclip-manifest.json
+[2026-04-10T00:36:57] [INFO] Wrote C:\Workspace\ai-library\build\library-registry.json

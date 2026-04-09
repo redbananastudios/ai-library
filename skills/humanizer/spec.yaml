@@ -1,0 +1,13 @@
+id: humanizer
+name: Humanizer
+type: skill
+version: 2.5.1
+source_url: "https://github.com/blader/humanizer"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Imported from blader/humanizer - removes AI writing patterns based on Wikipedia's Signs of AI writing guide
+requirements: []
+status: active
+description: Remove signs of AI-generated writing from text. Detects and fixes 29 patterns including inflated symbolism, promotional language, AI vocabulary, em dash overuse, rule of three, passive voice, sycophantic tone, and filler phrases. Two-pass rewrite with anti-AI audit.
+trigger: "humanize, humanizer, remove ai writing, make it human, natural writing, de-ai, rewrite human, sound human, less ai"
+imported_from_pack: ""

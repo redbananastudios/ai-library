@@ -1,0 +1,6 @@
+{
+  "import_method": "github_clone",
+  "imported_at": "2026-04-10T00:00:00",
+  "upstream_source": "https://github.com/blader/humanizer",
+  "notes": "Imported from blader/humanizer v2.5.1. MIT licensed. Based on Wikipedia's Signs of AI writing guide maintained by WikiProject AI Cleanup. Detects 29 AI writing patterns."
+}

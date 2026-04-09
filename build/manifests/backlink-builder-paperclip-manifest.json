@@ -1,0 +1,7 @@
+{
+  "item_id": "backlink-builder",
+  "type": "agent",
+  "payload_path": "C:\\Workspace\\ai-library\\generated\\paperclip\\agents\\backlink-builder\\payload.json",
+  "published_at": "2026-04-10T00:36:56.984478",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}
