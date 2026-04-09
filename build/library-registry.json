@@ -1803,7 +1803,12 @@
         "ux-audit"
       ],
       "notes": ""
+    },
+    {
+      "id": "firecrawl",
+      "published_claude_path": ".claude\\skills\\firecrawl",
+      "published_paperclip_status": "manifest_generated"
     }
   ],
-  "updated": "2026-04-09T21:27:13.442816"
+  "updated": "2026-04-09T23:30:38.475437"
 }

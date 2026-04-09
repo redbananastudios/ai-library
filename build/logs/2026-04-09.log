@@ -921,3 +921,10 @@
 [2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\ui-designer\payload.json
 [2026-04-09T21:27:13] [INFO] Built Paperclip agent: ui-designer
 [2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T23:30:28] [INFO] Built Claude skill: firecrawl
+[2026-04-09T23:30:28] [INFO] Wrote C:\Workspace\ai-library\generated\paperclip\skills\firecrawl\payload.json
+[2026-04-09T23:30:28] [INFO] Built Paperclip skill: firecrawl
+[2026-04-09T23:30:28] [INFO] Build complete for skill: firecrawl
+[2026-04-09T23:30:38] [INFO] Published to Claude: firecrawl
+[2026-04-09T23:30:38] [INFO] Wrote C:\Workspace\ai-library\build\manifests\firecrawl-paperclip-manifest.json
+[2026-04-09T23:30:38] [INFO] Wrote C:\Workspace\ai-library\build\library-registry.json

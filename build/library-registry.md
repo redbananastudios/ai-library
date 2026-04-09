@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-09T21:27:13
+Updated: 2026-04-09T23:30:38
 
-Total items: 82
+Total items: 83
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -33,6 +33,7 @@ Total items: 82
 | design-assets | Design Assets | skill | 0.1.0 | imported | yes | generated |
 | design-bridge | Design Bridge | agent | 0.2.0 | active | yes | generated |
 | facebook-ads-optimizer | Facebook Ads Optimizer | skill | 0.1.0 | placeholder | yes | generated |
+| firecrawl |  |  |  |  | no | manifest_generated |
 | frontend-design | Frontend Design | skill | 0.1.0 | imported | yes | generated |
 | frontend-developer | Frontend Developer | agent | 0.2.0 | active | yes | generated |
 | fullstack-developer | Fullstack Developer | agent | 0.2.0 | active | yes | generated |
