@@ -1,13 +1,13 @@
 id: mailbox
 name: AI Mailbox Assistant
 type: skill
-version: 0.1.0
+version: 0.2.0
 source_url: "https://gmail.google.com"
 source_kind: custom
 compatible_targets: ['claude', 'paperclip']
-changelog_summary: Initial creation - Gmail-powered email assistant via MCP tools
-requirements: ['gmail-mcp']
+changelog_summary: Added IMAP/SMTP support for IONOS and other email providers via imapflow and nodemailer
+requirements: ['gmail-mcp', 'imapflow', 'nodemailer', 'mailparser']
 status: active
-description: Read, search, draft, and manage emails using Gmail MCP tools. Supports inbox triage, email search, thread reading, drafting replies, creating new emails, label management, and email summarization.
-trigger: "email, mail, mailbox, inbox, gmail, send email, draft email, read email, check email, reply email, email summary, triage inbox"
+description: Read, search, draft, send, and manage emails. Supports Gmail via MCP tools and IONOS/other providers via IMAP (imapflow) and SMTP (nodemailer). Inbox triage, email search, thread reading, drafting, sending, replies, attachments, and label management.
+trigger: "email, mail, mailbox, inbox, gmail, ionos, imap, smtp, send email, draft email, read email, check email, reply email, email summary, triage inbox"
 imported_from_pack: ""
