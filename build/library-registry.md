@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-09T23:51:38
+Updated: 2026-04-09T23:59:39
 
-Total items: 84
+Total items: 85
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -46,6 +46,7 @@ Total items: 84
 | local-seo-specialist | Local SEO Specialist | agent | 0.2.0 | active | yes | generated |
 | local-visibility | Local Visibility | skill | 0.1.0 | imported | yes | generated |
 | localrank-agent | LocalRank Agent | skill | 0.1.0 | imported | yes | generated |
+| mailbox |  |  |  |  | no | manifest_generated |
 | marketing-principles | Marketing Principles | skill | 0.1.0 | imported | yes | generated |
 | microservices-architect | Microservices Architect | agent | 0.2.0 | active | yes | generated |
 | nano-banana-ppt | Nano Banana PPT | skill | 0.1.0 | imported | yes | generated |

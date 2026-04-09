@@ -1,0 +1,6 @@
+{
+  "import_method": "manual",
+  "imported_at": "2026-04-09T00:00:00",
+  "upstream_source": "https://gmail.google.com",
+  "notes": "AI Mailbox Assistant skill using Gmail MCP tools for email reading, searching, drafting, thread management, and inbox triage."
+}

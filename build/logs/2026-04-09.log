@@ -939,3 +939,10 @@
 [2026-04-09T23:51:38] [INFO] Published to Claude: stitch
 [2026-04-09T23:51:38] [INFO] Wrote C:\Workspace\ai-library\build\manifests\stitch-paperclip-manifest.json
 [2026-04-09T23:51:38] [INFO] Wrote C:\Workspace\ai-library\build\library-registry.json
+[2026-04-09T23:59:38] [INFO] Built Claude skill: mailbox
+[2026-04-09T23:59:38] [INFO] Wrote C:\Workspace\ai-library\generated\paperclip\skills\mailbox\payload.json
+[2026-04-09T23:59:38] [INFO] Built Paperclip skill: mailbox
+[2026-04-09T23:59:38] [INFO] Build complete for skill: mailbox
+[2026-04-09T23:59:39] [INFO] Published to Claude: mailbox
+[2026-04-09T23:59:39] [INFO] Wrote C:\Workspace\ai-library\build\manifests\mailbox-paperclip-manifest.json
+[2026-04-09T23:59:39] [INFO] Wrote C:\Workspace\ai-library\build\library-registry.json
