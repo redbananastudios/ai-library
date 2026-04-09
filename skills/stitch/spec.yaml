@@ -1,0 +1,13 @@
+id: stitch
+name: Google Stitch AI UI Designer
+type: skill
+version: 0.1.0
+source_url: "https://stitch.withgoogle.com"
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - browser-automated UI design and code generation via Google Stitch
+requirements: ['@_davideast/stitch-mcp']
+status: active
+description: Design and generate UI components, web pages, and full applications using Google Stitch AI. Supports natural language prompts, image-to-UI conversion, iterative design, code export (HTML/CSS), and Figma export. Powered by Gemini 2.5 Pro.
+trigger: "stitch, google stitch, design ui, generate ui, ai ui design, design website, create ui, web design ai, ui generator, design app"
+imported_from_pack: ""

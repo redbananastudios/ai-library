@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-09T23:30:38
+Updated: 2026-04-09T23:51:38
 
-Total items: 83
+Total items: 84
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -80,6 +80,7 @@ Total items: 83
 | social-card-gen | Social Card Generator | skill | 0.1.0 | imported | yes | generated |
 | social-content | Social Content | skill | 0.1.0 | imported | yes | generated |
 | social-media-manager | Social Media Manager | agent | 0.2.0 | active | yes | generated |
+| stitch |  |  |  |  | no | manifest_generated |
 | ui-designer | UI Designer | agent | 0.2.0 | active | yes | generated |
 | upload-post | Upload Post | skill | 0.1.0 | imported | yes | generated |
 | ux-audit | UX Audit | skill | 0.1.0 | imported | yes | generated |

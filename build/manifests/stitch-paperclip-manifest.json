@@ -1,0 +1,7 @@
+{
+  "item_id": "stitch",
+  "type": "skill",
+  "payload_path": "C:\\Workspace\\ai-library\\generated\\paperclip\\skills\\stitch\\payload.json",
+  "published_at": "2026-04-09T23:51:38.458990",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}

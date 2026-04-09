@@ -1808,7 +1808,12 @@
       "id": "firecrawl",
       "published_claude_path": ".claude\\skills\\firecrawl",
       "published_paperclip_status": "manifest_generated"
+    },
+    {
+      "id": "stitch",
+      "published_claude_path": ".claude\\skills\\stitch",
+      "published_paperclip_status": "manifest_generated"
     }
   ],
-  "updated": "2026-04-09T23:30:38.475437"
+  "updated": "2026-04-09T23:51:38.485928"
 }
