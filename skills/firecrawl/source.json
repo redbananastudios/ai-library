@@ -1,0 +1,6 @@
+{
+  "import_method": "manual",
+  "imported_at": "2026-04-09T00:00:00",
+  "upstream_source": "https://github.com/mendableai/firecrawl",
+  "notes": "Firecrawl JS SDK skill for web scraping, crawling, structured extraction, batch scrape, URL mapping, and web search."
+}

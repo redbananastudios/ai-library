@@ -1,0 +1,13 @@
+id: firecrawl
+name: Firecrawl Web Scraper
+type: skill
+version: 0.1.0
+source_url: "https://github.com/mendableai/firecrawl"
+source_kind: github
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - web scraping, crawling, and structured data extraction via Firecrawl SDK
+requirements: ['@mendable/firecrawl-js']
+status: active
+description: Scrape, crawl, and extract structured data from websites using the Firecrawl API. Supports single-page scrape, full-site crawl, batch scrape, URL mapping, web search, and AI-powered structured extraction.
+trigger: "firecrawl, scrape website, crawl website, extract data from website, web scraping, batch scrape, map urls, scrape page"
+imported_from_pack: ""
