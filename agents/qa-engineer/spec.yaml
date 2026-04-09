@@ -1,0 +1,13 @@
+id: qa-engineer
+name: QA Engineer
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['qa', 'qa-only', 'browser-use']
+status: active
+description: Designs and executes automated and manual test cases. Writes integration and end-to-end tests, measures performance, ensures cross-browser compatibility and reports issues.
+trigger: ""
+imported_from_pack: ""

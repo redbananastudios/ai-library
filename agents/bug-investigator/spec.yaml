@@ -1,0 +1,13 @@
+id: bug-investigator
+name: Bug Investigator
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['investigate', 'browser-use']
+status: active
+description: Performs root-cause analysis of reported bugs. Replicates issues, traces data flows and proposes fixes or follow-up tasks.
+trigger: ""
+imported_from_pack: ""

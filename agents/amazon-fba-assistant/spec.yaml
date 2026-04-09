@@ -1,0 +1,13 @@
+id: amazon-fba-assistant
+name: Amazon FBA Assistant
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['deep-research', 'competitor-alternatives']
+status: active
+description: Assists with Amazon FBA operations. Optimises listings, conducts keyword research, manages inventory analysis and coordinates marketing strategies.
+trigger: ""
+imported_from_pack: ""

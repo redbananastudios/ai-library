@@ -1,0 +1,13 @@
+id: ads-manager
+name: Ads Manager
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['claude-ads', 'facebook-ads-optimizer', 'paid-ads']
+status: active
+description: Creates, monitors and optimises advertising campaigns across multiple platforms (Google, Meta, LinkedIn, TikTok, etc.). Utilises the Claude Ads skill for multi-platform audits and budgeting.
+trigger: ""
+imported_from_pack: ""

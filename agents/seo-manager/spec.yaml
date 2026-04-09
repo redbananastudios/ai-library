@@ -1,0 +1,13 @@
+id: seo-manager
+name: SEO Manager
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['claude-seo', 'seo-audit', 'seo-geo-optimizer', 'ai-seo', 'ai-discoverability-audit']
+status: active
+description: Coordinates all SEO efforts by orchestrating skills for technical audits, keyword research, content optimisation, local SEO, programmatic SEO and AI search optimisation.
+trigger: ""
+imported_from_pack: ""

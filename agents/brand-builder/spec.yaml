@@ -1,0 +1,13 @@
+id: brand-builder
+name: Brand Builder
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['personal-brand-builder', 'voice-extractor', 'creative-director', 'positioning-basics']
+status: active
+description: Develops brand identity and voice. Crafts taglines, bios and messaging across channels using Personal Brand Builder, Voice Extractor and AI discoverability audits.
+trigger: ""
+imported_from_pack: ""

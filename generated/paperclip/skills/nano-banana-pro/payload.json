@@ -4,7 +4,7 @@
   "type": "skill",
   "version": "0.1.0",
   "description": "Gemini 3 Pro Image / Nano Banana Pro image generation",
-  "prompt": "# Nano Banana Pro\n\nGemini 3 Pro Image / Nano Banana Pro image generation\n\n## When to Use\nUse this skill when the user needs help with: gemini 3 pro image / nano banana pro image generation\n\n## Workflow\n1. Understand the user's specific requirements\n2. Gather necessary context and constraints\n3. Execute the core nano banana pro workflow\n4. Validate output quality\n5. Present results with actionable next steps\n\n## Source\nUpstream: \n",
+  "prompt": "# Nano Banana Pro\n\nGemini 3 Pro Image / Nano Banana Pro image generation.\n\n## When to Use\nUse this skill when the user needs direct Nano Banana Pro model guidance outside of a browser workflow.\n\nFor browser-automated generation via Higgsfield.ai (including auto-download), use the **higgsfield** skill instead - it supports Nano Banana Pro and 15+ other models with full automation.\n\n## Model Strengths\n- 4K image generation\n- Up to 8 reference images\n- Draw-to-edit, object swaps, pose editing\n- Creative editing powerhouse\n\n## Workflow\n1. Understand the user's specific requirements\n2. Gather necessary context and constraints\n3. Execute the core nano banana pro workflow\n4. Validate output quality\n5. Present results with actionable next steps\n\n## Source\nUpstream: \n",
   "source_url": "",
   "requirements": [],
   "metadata": {

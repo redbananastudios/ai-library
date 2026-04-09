@@ -1,0 +1,923 @@
+[2026-04-09T20:41:25] [INFO] Built Claude skill: higgsfield
+[2026-04-09T20:41:25] [INFO] Wrote O:\ai-library\generated\paperclip\skills\higgsfield\payload.json
+[2026-04-09T20:41:25] [INFO] Built Paperclip skill: higgsfield
+[2026-04-09T20:41:25] [INFO] Build complete for skill: higgsfield
+[2026-04-09T20:51:24] [INFO] Built Claude skill: ai-discoverability-audit
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-discoverability-audit\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: ai-discoverability-audit
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: ai-seo
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-seo\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: ai-seo
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: awesome-agent-skills
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-agent-skills\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip metadata: awesome-agent-skills
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: awesome-claude-code-subagents
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-claude-code-subagents\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip metadata: awesome-claude-code-subagents
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: backlink-analyzer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-analyzer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: backlink-analyzer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: backlink-outreach
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-outreach\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: backlink-outreach
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: browser-use
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\browser-use\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: browser-use
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: claude-ads
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-ads\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: claude-ads
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: claude-seo
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-seo\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: claude-seo
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: code-reviewer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\code-reviewer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: code-reviewer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: competitor-alternatives
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\competitor-alternatives\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: competitor-alternatives
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: content-idea-generator
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-idea-generator\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: content-idea-generator
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: content-strategy
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-strategy\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: content-strategy
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: copywriter
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\copywriter\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: copywriter
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: creative-director
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\creative-director\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: creative-director
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: de-ai-ify
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\de-ai-ify\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: de-ai-ify
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: deep-research
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\deep-research\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: deep-research
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: design-assets
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\design-assets\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: design-assets
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: facebook-ads-optimizer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\facebook-ads-optimizer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: facebook-ads-optimizer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: frontend-design
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\frontend-design\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: frontend-design
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: higgsfield
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\higgsfield\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: higgsfield
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: investigate
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\investigate\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: investigate
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: last30days
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\last30days\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: last30days
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: linkedin-authority-builder
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\linkedin-authority-builder\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: linkedin-authority-builder
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: local-visibility
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\local-visibility\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: local-visibility
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: localrank-agent
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\localrank-agent\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: localrank-agent
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: marketing-principles
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\marketing-principles\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: marketing-principles
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: nano-banana-ppt
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-ppt\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: nano-banana-ppt
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: nano-banana-pro
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-pro\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: nano-banana-pro
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: paid-ads
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\paid-ads\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: paid-ads
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: personal-brand-builder
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\personal-brand-builder\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: personal-brand-builder
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: positioning-basics
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\positioning-basics\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: positioning-basics
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: project-health
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\project-health\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: project-health
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: qa
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: qa
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: qa-only
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa-only\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: qa-only
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: reddit-insights
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\reddit-insights\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: reddit-insights
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: review
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\review\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: review
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: seo-audit
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-audit\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: seo-audit
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: seo-geo-optimizer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-geo-optimizer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: seo-geo-optimizer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-app-development
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-app-development\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-app-development
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-checkout
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-checkout\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-checkout
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-cli
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-cli\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-cli
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-content
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-content\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-content
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-functions
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-functions\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-functions
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-graphql
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-graphql\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-graphql
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-hydrogen
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-hydrogen\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-hydrogen
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-liquid-templating
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-liquid-templating\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-liquid-templating
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-products
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-products\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-products
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-setup
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-setup\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-setup
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: shopify-theme-development
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-theme-development\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: shopify-theme-development
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: simplify
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\simplify\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: simplify
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: social-card-gen
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-card-gen\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: social-card-gen
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: social-content
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-content\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: social-content
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: upload-post
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\upload-post\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: upload-post
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: ux-audit
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ux-audit\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: ux-audit
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: voice-extractor
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\voice-extractor\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: voice-extractor
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: wordpress-agent
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-agent\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: wordpress-agent
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: wordpress-content
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-content\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: wordpress-content
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: wordpress-elementor
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-elementor\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: wordpress-elementor
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: wordpress-setup
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-setup\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: wordpress-setup
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude skill: youtube-summarizer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\youtube-summarizer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip skill: youtube-summarizer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude agent: backend-developer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\agents\backend-developer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip agent: backend-developer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude agent: frontend-developer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\agents\frontend-developer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip agent: frontend-developer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T20:51:24] [INFO] Built Claude agent: fullstack-developer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\generated\paperclip\agents\fullstack-developer\payload.json
+[2026-04-09T20:51:24] [INFO] Built Paperclip agent: fullstack-developer
+[2026-04-09T20:51:24] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: ai-discoverability-audit
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-discoverability-audit\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: ai-discoverability-audit
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: ai-seo
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-seo\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: ai-seo
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: awesome-agent-skills
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-agent-skills\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip metadata: awesome-agent-skills
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: awesome-claude-code-subagents
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-claude-code-subagents\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip metadata: awesome-claude-code-subagents
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: backlink-analyzer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-analyzer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: backlink-analyzer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: backlink-outreach
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-outreach\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: backlink-outreach
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: browser-use
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\browser-use\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: browser-use
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: claude-ads
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-ads\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: claude-ads
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: claude-seo
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-seo\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: claude-seo
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: code-reviewer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\code-reviewer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: code-reviewer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: competitor-alternatives
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\competitor-alternatives\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: competitor-alternatives
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: content-idea-generator
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-idea-generator\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: content-idea-generator
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: content-strategy
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-strategy\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: content-strategy
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: copywriter
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\copywriter\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: copywriter
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: creative-director
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\creative-director\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: creative-director
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: de-ai-ify
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\de-ai-ify\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: de-ai-ify
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: deep-research
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\deep-research\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: deep-research
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: design-assets
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\design-assets\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: design-assets
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: facebook-ads-optimizer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\facebook-ads-optimizer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: facebook-ads-optimizer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: frontend-design
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\frontend-design\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: frontend-design
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: higgsfield
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\higgsfield\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: higgsfield
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: investigate
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\investigate\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: investigate
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: last30days
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\last30days\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: last30days
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: linkedin-authority-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\linkedin-authority-builder\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: linkedin-authority-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: local-visibility
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\local-visibility\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: local-visibility
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: localrank-agent
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\localrank-agent\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: localrank-agent
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: marketing-principles
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\marketing-principles\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: marketing-principles
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: nano-banana-ppt
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-ppt\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: nano-banana-ppt
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: nano-banana-pro
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-pro\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: nano-banana-pro
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: paid-ads
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\paid-ads\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: paid-ads
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: personal-brand-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\personal-brand-builder\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: personal-brand-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: positioning-basics
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\positioning-basics\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: positioning-basics
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: project-health
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\project-health\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: project-health
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: qa
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: qa
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: qa-only
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa-only\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: qa-only
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: reddit-insights
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\reddit-insights\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: reddit-insights
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: review
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\review\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: review
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: seo-audit
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-audit\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: seo-audit
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: seo-geo-optimizer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-geo-optimizer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: seo-geo-optimizer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-app-development
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-app-development\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-app-development
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-checkout
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-checkout\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-checkout
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-cli
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-cli\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-cli
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-content
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-content\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-content
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-functions
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-functions\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-functions
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-graphql
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-graphql\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-graphql
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-hydrogen
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-hydrogen\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-hydrogen
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-liquid-templating
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-liquid-templating\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-liquid-templating
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-products
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-products\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-products
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-setup
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-setup\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-setup
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: shopify-theme-development
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-theme-development\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: shopify-theme-development
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: simplify
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\simplify\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: simplify
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: social-card-gen
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-card-gen\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: social-card-gen
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: social-content
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-content\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: social-content
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: upload-post
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\upload-post\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: upload-post
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: ux-audit
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ux-audit\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: ux-audit
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: voice-extractor
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\voice-extractor\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: voice-extractor
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: wordpress-agent
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-agent\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: wordpress-agent
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: wordpress-content
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-content\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: wordpress-content
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: wordpress-elementor
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-elementor\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: wordpress-elementor
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: wordpress-setup
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-setup\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: wordpress-setup
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude skill: youtube-summarizer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\skills\youtube-summarizer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip skill: youtube-summarizer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: ads-manager
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\ads-manager\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: ads-manager
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: amazon-fba-assistant
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\amazon-fba-assistant\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: amazon-fba-assistant
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: api-designer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\api-designer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: api-designer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: backlink-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\backlink-builder\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: backlink-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: brand-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\brand-builder\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: brand-builder
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: bug-investigator
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\bug-investigator\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: bug-investigator
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: code-reviewer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\code-reviewer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: code-reviewer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: design-bridge
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\design-bridge\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: design-bridge
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: frontend-developer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\frontend-developer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: frontend-developer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: fullstack-developer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\fullstack-developer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: fullstack-developer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: graphql-architect
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\graphql-architect\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: graphql-architect
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: image-generator
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\image-generator\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: image-generator
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: local-seo-specialist
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\local-seo-specialist\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: local-seo-specialist
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: microservices-architect
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\microservices-architect\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: microservices-architect
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: product-researcher
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\product-researcher\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: product-researcher
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: qa-engineer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\qa-engineer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: qa-engineer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: research-assistant
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\research-assistant\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: research-assistant
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: seo-manager
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\seo-manager\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: seo-manager
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: shopify-developer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\shopify-developer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: shopify-developer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: social-media-manager
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\social-media-manager\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: social-media-manager
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:19:23] [INFO] Built Claude agent: ui-designer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\generated\paperclip\agents\ui-designer\payload.json
+[2026-04-09T21:19:23] [INFO] Built Paperclip agent: ui-designer
+[2026-04-09T21:19:23] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:26:20] [INFO] Built Claude agent: frontend-developer
+[2026-04-09T21:26:20] [INFO] Wrote O:\ai-library\generated\paperclip\agents\frontend-developer\payload.json
+[2026-04-09T21:26:20] [INFO] Built Paperclip agent: frontend-developer
+[2026-04-09T21:26:20] [INFO] Build complete for agent: frontend-developer
+[2026-04-09T21:26:20] [INFO] Build complete for agent: backend-developer
+[2026-04-09T21:27:13] [INFO] Built Claude skill: ai-discoverability-audit
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-discoverability-audit\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: ai-discoverability-audit
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: ai-seo
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ai-seo\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: ai-seo
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: awesome-agent-skills
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-agent-skills\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip metadata: awesome-agent-skills
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: awesome-claude-code-subagents
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\awesome-claude-code-subagents\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip metadata: awesome-claude-code-subagents
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: backlink-analyzer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-analyzer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: backlink-analyzer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: backlink-outreach
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\backlink-outreach\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: backlink-outreach
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: browser-use
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\browser-use\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: browser-use
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: claude-ads
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-ads\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: claude-ads
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: claude-seo
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\claude-seo\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: claude-seo
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: code-reviewer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\code-reviewer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: code-reviewer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: competitor-alternatives
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\competitor-alternatives\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: competitor-alternatives
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: content-idea-generator
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-idea-generator\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: content-idea-generator
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: content-strategy
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\content-strategy\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: content-strategy
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: copywriter
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\copywriter\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: copywriter
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: creative-director
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\creative-director\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: creative-director
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: de-ai-ify
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\de-ai-ify\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: de-ai-ify
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: deep-research
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\deep-research\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: deep-research
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: design-assets
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\design-assets\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: design-assets
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: facebook-ads-optimizer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\facebook-ads-optimizer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: facebook-ads-optimizer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: frontend-design
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\frontend-design\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: frontend-design
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: higgsfield
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\higgsfield\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: higgsfield
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: investigate
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\investigate\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: investigate
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: last30days
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\last30days\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: last30days
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: linkedin-authority-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\linkedin-authority-builder\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: linkedin-authority-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: local-visibility
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\local-visibility\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: local-visibility
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: localrank-agent
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\localrank-agent\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: localrank-agent
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: marketing-principles
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\marketing-principles\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: marketing-principles
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: nano-banana-ppt
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-ppt\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: nano-banana-ppt
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: nano-banana-pro
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-pro\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: nano-banana-pro
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: paid-ads
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\paid-ads\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: paid-ads
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: personal-brand-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\personal-brand-builder\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: personal-brand-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: positioning-basics
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\positioning-basics\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: positioning-basics
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: project-health
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\project-health\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: project-health
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: qa
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: qa
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: qa-only
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\qa-only\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: qa-only
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: reddit-insights
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\reddit-insights\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: reddit-insights
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: review
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\review\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: review
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: seo-audit
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-audit\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: seo-audit
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: seo-geo-optimizer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\seo-geo-optimizer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: seo-geo-optimizer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-app-development
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-app-development\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-app-development
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-checkout
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-checkout\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-checkout
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-cli
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-cli\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-cli
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-content
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-content\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-content
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-functions
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-functions\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-functions
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-graphql
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-graphql\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-graphql
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-hydrogen
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-hydrogen\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-hydrogen
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-liquid-templating
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-liquid-templating\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-liquid-templating
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-products
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-products\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-products
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-setup
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-setup\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-setup
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: shopify-theme-development
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\shopify-theme-development\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: shopify-theme-development
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: simplify
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\simplify\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: simplify
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: social-card-gen
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-card-gen\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: social-card-gen
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: social-content
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\social-content\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: social-content
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: upload-post
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\upload-post\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: upload-post
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: ux-audit
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\ux-audit\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: ux-audit
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: voice-extractor
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\voice-extractor\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: voice-extractor
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: wordpress-agent
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-agent\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: wordpress-agent
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: wordpress-content
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-content\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: wordpress-content
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: wordpress-elementor
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-elementor\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: wordpress-elementor
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: wordpress-setup
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\wordpress-setup\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: wordpress-setup
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude skill: youtube-summarizer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\skills\youtube-summarizer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip skill: youtube-summarizer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: ads-manager
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\ads-manager\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: ads-manager
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: amazon-fba-assistant
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\amazon-fba-assistant\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: amazon-fba-assistant
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: api-designer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\api-designer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: api-designer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: backlink-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\backlink-builder\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: backlink-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: brand-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\brand-builder\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: brand-builder
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: bug-investigator
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\bug-investigator\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: bug-investigator
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: code-reviewer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\code-reviewer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: code-reviewer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: design-bridge
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\design-bridge\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: design-bridge
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: frontend-developer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\frontend-developer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: frontend-developer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: fullstack-developer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\fullstack-developer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: fullstack-developer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: graphql-architect
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\graphql-architect\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: graphql-architect
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: image-generator
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\image-generator\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: image-generator
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: local-seo-specialist
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\local-seo-specialist\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: local-seo-specialist
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: microservices-architect
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\microservices-architect\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: microservices-architect
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: product-researcher
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\product-researcher\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: product-researcher
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: qa-engineer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\qa-engineer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: qa-engineer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: research-assistant
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\research-assistant\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: research-assistant
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: seo-manager
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\seo-manager\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: seo-manager
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: shopify-developer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\shopify-developer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: shopify-developer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: social-media-manager
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\social-media-manager\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: social-media-manager
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-09T21:27:13] [INFO] Built Claude agent: ui-designer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\generated\paperclip\agents\ui-designer\payload.json
+[2026-04-09T21:27:13] [INFO] Built Paperclip agent: ui-designer
+[2026-04-09T21:27:13] [INFO] Wrote O:\ai-library\build\library-registry.json

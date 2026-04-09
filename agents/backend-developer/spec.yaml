@@ -2,12 +2,16 @@ id: backend-developer
 name: Backend Developer
 type: agent
 version: 0.1.0
-source_url: "https://github.com/AiDA-Agents/awesome-claude-code-subagents"
-source_kind: github
-compatible_targets: ['claude', 'paperclip']
-changelog_summary: Initial import
+source_url: ''
+source_kind: custom-derived
+compatible_targets:
+- claude
+- paperclip
+changelog_summary: Initial creation
 requirements: []
-status: clone_failed
-description: Backend development agent (VoltAgent)
-trigger: ""
-imported_from_pack: ""
+status: active
+description: Design and implement backend services and APIs. Focus on RESTful API
+  design, database modeling, authentication, caching, logging, and optimizing performance
+  and security.
+trigger: ''
+imported_from_pack: ''

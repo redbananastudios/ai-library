@@ -1,0 +1,13 @@
+id: design-bridge
+name: Design Bridge
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['frontend-design', 'design-assets']
+status: active
+description: Bridges product design and code by translating Figma/Tailwind specifications and design tokens into reusable components and corresponding code.
+trigger: ""
+imported_from_pack: ""

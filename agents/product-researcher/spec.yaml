@@ -1,0 +1,13 @@
+id: product-researcher
+name: Product Researcher
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['deep-research', 'competitor-alternatives', 'reddit-insights']
+status: active
+description: Conducts market research, competitor analysis and user studies. Generates product requirements, content ideas and strategic reports.
+trigger: ""
+imported_from_pack: ""

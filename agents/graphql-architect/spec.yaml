@@ -1,0 +1,13 @@
+id: graphql-architect
+name: GraphQL Architect
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow and tool guidance
+requirements: ['shopify-graphql']
+status: active
+description: Designs GraphQL schemas, queries and mutations. Composes resolvers, optimises performance, mitigates N+1 queries and integrates GraphQL with backend systems.
+trigger: ""
+imported_from_pack: ""

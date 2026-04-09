@@ -1,0 +1,13 @@
+id: higgsfield
+name: Higgsfield AI Image Generator
+type: skill
+version: 0.1.0
+source_url: "https://higgsfield.ai"
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - browser-automated image generation via Higgsfield.ai
+requirements: ['browser-use']
+status: active
+description: Generate images via Higgsfield.ai using browser automation - supports Nano Banana, Seedream, FLUX, GPT Image, Kling, Reve, and more. Auto-selects the best model for the task.
+trigger: "higgsfield, generate image, create image, make image, image generation, nano banana, seedream, flux image, kling image"
+imported_from_pack: ""

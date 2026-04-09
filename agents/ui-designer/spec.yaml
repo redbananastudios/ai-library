@@ -1,0 +1,13 @@
+id: ui-designer
+name: UI Designer
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['frontend-design', 'design-assets', 'ux-audit']
+status: active
+description: Transforms design briefs into high-fidelity UI designs. Works with design tokens, creates wireframes and mockups, ensures designs are responsive and accessible.
+trigger: ""
+imported_from_pack: ""

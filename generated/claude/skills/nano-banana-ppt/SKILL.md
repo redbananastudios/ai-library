@@ -4,10 +4,12 @@ description: Presentation image generation and PPT/media workflows
 ---
 # Nano Banana PPT
 
-Presentation image generation and PPT/media workflows
+Presentation image generation and PPT/media workflows.
 
 ## When to Use
-Use this skill when the user needs help with: presentation image generation and ppt/media workflows
+Use this skill when the user needs help with presentation-specific image generation and PPT/media workflows.
+
+For general image generation via browser automation, use the **higgsfield** skill instead - it supports Nano Banana and 15+ other models with auto-download to your workspace.
 
 ## Workflow
 1. Understand the user's specific requirements

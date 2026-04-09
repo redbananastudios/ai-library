@@ -1,0 +1,13 @@
+id: code-reviewer
+name: Code Reviewer
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['code-reviewer', 'simplify', 'review']
+status: active
+description: Conducts senior-level code reviews to improve quality, maintainability and consistency. Simplifies logic, removes duplication, fixes inefficiencies and improves naming.
+trigger: ""
+imported_from_pack: ""

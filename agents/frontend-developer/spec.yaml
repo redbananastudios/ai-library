@@ -1,13 +1,13 @@
 id: frontend-developer
 name: Frontend Developer
 type: agent
-version: 0.1.0
-source_url: "https://github.com/AiDA-Agents/awesome-claude-code-subagents"
-source_kind: github
+version: 0.2.0
+source_url: ""
+source_kind: custom
 compatible_targets: ['claude', 'paperclip']
-changelog_summary: Initial import
-requirements: []
-status: clone_failed
-description: Frontend development agent (VoltAgent)
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['frontend-design', 'design-assets', 'browser-use']
+status: active
+description: Builds modern user interfaces using React, Vue or Angular. Gathers context about UI architecture and design tokens, scaffolds responsive components, integrates state management and APIs, and ensures accessibility.
 trigger: ""
 imported_from_pack: ""

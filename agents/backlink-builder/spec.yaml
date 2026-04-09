@@ -1,0 +1,13 @@
+id: backlink-builder
+name: Backlink Builder
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['backlink-analyzer', 'backlink-outreach']
+status: active
+description: Automates link acquisition. Identifies relevant websites, gathers contact information, drafts personalised outreach and tracks outcomes.
+trigger: ""
+imported_from_pack: ""

@@ -1,0 +1,13 @@
+id: social-media-manager
+name: Social Media Manager
+type: agent
+version: 0.2.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+requirements: ['social-content', 'social-card-gen', 'upload-post']
+status: active
+description: Manages social media presence. Plans content calendars, creates and publishes posts, monitors engagement, and manages brand voice across platforms using Social Content and Upload-Post skills.
+trigger: ""
+imported_from_pack: ""
