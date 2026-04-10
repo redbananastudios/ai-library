@@ -6,7 +6,7 @@ source_url: ""
 source_kind: custom
 compatible_targets: ['claude', 'paperclip']
 changelog_summary: Rebuilt with full workflow, skill references and tool guidance
-requirements: ['localrank-agent', 'local-visibility']
+requirements: ['localrank-agent', 'local-visibility', 'google-business-profile-optimizer', 'linkgap']
 status: active
 description: Focuses on local SEO. Manages Google Business Profiles, builds citations, monitors map-pack rankings and coordinates review campaigns.
 trigger: ""
