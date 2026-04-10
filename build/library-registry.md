@@ -1,6 +1,6 @@
 # AI Library Registry
 
-Updated: 2026-04-10T00:36:57
+Updated: 2026-04-10T14:37:34
 
 Total items: 86
 
@@ -15,7 +15,7 @@ Total items: 86
 | awesome-claude-code-subagents | Awesome Claude Code Subagents Directory | metadata | 0.1.0 | imported | yes | generated |
 | backend-developer | Backend Developer | agent | 0.1.0 | active | yes | generated |
 | backlink-analyzer | Backlink Analyzer | skill | 0.1.0 | imported | yes | generated |
-| backlink-builder | Backlink Builder | agent | 0.2.0 | active | yes | manifest_generated |
+| backlink-builder | Backlink Builder | agent | 0.2.0 | active | yes | generated |
 | backlink-outreach | Backlink Outreach | skill | 0.1.0 | imported | yes | generated |
 | brand-builder | Brand Builder | agent | 0.2.0 | active | yes | generated |
 | browser-use | Browser Use | skill | 0.1.0 | imported | yes | generated |
@@ -33,13 +33,13 @@ Total items: 86
 | design-assets | Design Assets | skill | 0.1.0 | imported | yes | generated |
 | design-bridge | Design Bridge | agent | 0.2.0 | active | yes | generated |
 | facebook-ads-optimizer | Facebook Ads Optimizer | skill | 0.1.0 | placeholder | yes | generated |
-| firecrawl |  |  |  |  | no | manifest_generated |
+| firecrawl | Firecrawl Web Scraper | skill | 0.1.0 | active | yes | generated |
 | frontend-design | Frontend Design | skill | 0.1.0 | imported | yes | generated |
 | frontend-developer | Frontend Developer | agent | 0.2.0 | active | yes | generated |
 | fullstack-developer | Fullstack Developer | agent | 0.2.0 | active | yes | generated |
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | generated |
 | higgsfield | Higgsfield AI Image Generator | skill | 0.1.0 | active | yes | generated |
-| humanizer |  |  |  |  | no | manifest_generated |
+| humanizer | Humanizer | skill | 2.5.1 | active | yes | generated |
 | image-generator | Image Generator | agent | 0.2.0 | active | yes | generated |
 | investigate | Investigate | skill | 0.1.0 | imported | yes | generated |
 | last30days | Last 30 Days | skill | 0.1.0 | imported | yes | generated |
@@ -47,7 +47,7 @@ Total items: 86
 | local-seo-specialist | Local SEO Specialist | agent | 0.2.0 | active | yes | generated |
 | local-visibility | Local Visibility | skill | 0.1.0 | imported | yes | generated |
 | localrank-agent | LocalRank Agent | skill | 0.1.0 | imported | yes | generated |
-| mailbox |  |  |  |  | no | manifest_generated |
+| mailbox | AI Mailbox Assistant | skill | 0.2.0 | active | yes | generated |
 | marketing-principles | Marketing Principles | skill | 0.1.0 | imported | yes | generated |
 | microservices-architect | Microservices Architect | agent | 0.2.0 | active | yes | generated |
 | nano-banana-ppt | Nano Banana PPT | skill | 0.1.0 | imported | yes | generated |
@@ -82,7 +82,7 @@ Total items: 86
 | social-card-gen | Social Card Generator | skill | 0.1.0 | imported | yes | generated |
 | social-content | Social Content | skill | 0.1.0 | imported | yes | generated |
 | social-media-manager | Social Media Manager | agent | 0.2.0 | active | yes | generated |
-| stitch |  |  |  |  | no | manifest_generated |
+| stitch | Google Stitch AI UI Designer | skill | 0.1.0 | active | yes | generated |
 | ui-designer | UI Designer | agent | 0.2.0 | active | yes | generated |
 | upload-post | Upload Post | skill | 0.1.0 | imported | yes | generated |
 | ux-audit | UX Audit | skill | 0.1.0 | imported | yes | generated |

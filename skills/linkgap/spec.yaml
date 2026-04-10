@@ -1,0 +1,13 @@
+id: linkgap
+name: LinkGap Backlink Gap Analyzer
+type: skill
+version: 0.1.0
+source_url: "https://linkgap.io"
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - browser-automated backlink gap analysis via linkgap.io
+requirements: ['browser-use']
+status: active
+description: Analyse backlink gaps between your domain and a competitor using linkgap.io. Identifies directory gaps, directory opportunities and backlink gaps via browser automation. Free, no login required.
+trigger: "linkgap, link gap, backlink gap, competitor backlinks, directory gap"
+imported_from_pack: ""

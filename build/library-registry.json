@@ -1443,8 +1443,8 @@
       "source_path": "agents\\backlink-builder",
       "generated_claude_path": "generated\\claude\\agents\\backlink-builder.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\backlink-builder",
-      "published_claude_path": ".claude\\agents\\backlink-builder.md",
-      "published_paperclip_status": "manifest_generated",
+      "published_claude_path": "",
+      "published_paperclip_status": "generated",
       "requirements": [
         "backlink-analyzer",
         "backlink-outreach"
@@ -1806,24 +1806,97 @@
     },
     {
       "id": "firecrawl",
-      "published_claude_path": ".claude\\skills\\firecrawl",
-      "published_paperclip_status": "manifest_generated"
+      "published_claude_path": "",
+      "published_paperclip_status": "generated",
+      "name": "Firecrawl Web Scraper",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "https://github.com/mendableai/firecrawl",
+      "source_url": "https://github.com/mendableai/firecrawl",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\firecrawl",
+      "generated_claude_path": "generated\\claude\\skills\\firecrawl",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\firecrawl",
+      "requirements": [
+        "@mendable/firecrawl-js"
+      ],
+      "notes": ""
     },
     {
       "id": "stitch",
-      "published_claude_path": ".claude\\skills\\stitch",
-      "published_paperclip_status": "manifest_generated"
+      "published_claude_path": "",
+      "published_paperclip_status": "generated",
+      "name": "Google Stitch AI UI Designer",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "https://stitch.withgoogle.com",
+      "source_url": "https://stitch.withgoogle.com",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\stitch",
+      "generated_claude_path": "generated\\claude\\skills\\stitch",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\stitch",
+      "requirements": [
+        "@_davideast/stitch-mcp"
+      ],
+      "notes": ""
     },
     {
       "id": "mailbox",
-      "published_claude_path": ".claude\\skills\\mailbox",
-      "published_paperclip_status": "manifest_generated"
+      "published_claude_path": "",
+      "published_paperclip_status": "generated",
+      "name": "AI Mailbox Assistant",
+      "type": "skill",
+      "version": "0.2.0",
+      "status": "active",
+      "upstream_repo_or_source": "https://gmail.google.com",
+      "source_url": "https://gmail.google.com",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\mailbox",
+      "generated_claude_path": "generated\\claude\\skills\\mailbox",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\mailbox",
+      "requirements": [
+        "gmail-mcp",
+        "imapflow",
+        "nodemailer",
+        "mailparser"
+      ],
+      "notes": ""
     },
     {
       "id": "humanizer",
-      "published_claude_path": ".claude\\skills\\humanizer",
-      "published_paperclip_status": "manifest_generated"
+      "published_claude_path": "",
+      "published_paperclip_status": "generated",
+      "name": "Humanizer",
+      "type": "skill",
+      "version": "2.5.1",
+      "status": "active",
+      "upstream_repo_or_source": "https://github.com/blader/humanizer",
+      "source_url": "https://github.com/blader/humanizer",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\humanizer",
+      "generated_claude_path": "generated\\claude\\skills\\humanizer",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\humanizer",
+      "requirements": [],
+      "notes": ""
     }
   ],
-  "updated": "2026-04-10T00:36:57.004894"
+  "updated": "2026-04-10T14:37:34.422419"
 }
