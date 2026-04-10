@@ -1,0 +1,13 @@
+id: google-business-profile-optimizer
+name: Google Business Profile Optimizer
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - two-phase GBP optimisation (interview + browser fill)
+requirements: ['browser-use']
+status: active
+description: Fully optimise a Google Business Profile for a UK business. Two phases - interview the user and generate all profile copy, then optionally use browser automation to fill the GBP dashboard fields automatically.
+trigger: "google business profile, gbp, google listing, google maps listing, optimise gbp, business profile, google my business"
+imported_from_pack: ""

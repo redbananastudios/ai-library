@@ -381,3 +381,11 @@
 [2026-04-10T19:04:35] [INFO] Wrote O:\ai-library\generated\paperclip\agents\backlink-builder\payload.json
 [2026-04-10T19:04:35] [INFO] Built Paperclip agent: backlink-builder
 [2026-04-10T19:04:35] [INFO] Build complete for agent: backlink-builder
+[2026-04-10T20:15:24] [INFO] Built Claude skill: linkgap
+[2026-04-10T20:15:24] [INFO] Wrote O:\ai-library\generated\paperclip\skills\linkgap\payload.json
+[2026-04-10T20:15:24] [INFO] Built Paperclip skill: linkgap
+[2026-04-10T20:15:24] [INFO] Build complete for skill: linkgap
+[2026-04-10T21:02:35] [INFO] Built Claude skill: google-business-profile-optimizer
+[2026-04-10T21:02:35] [INFO] Wrote O:\ai-library\generated\paperclip\skills\google-business-profile-optimizer\payload.json
+[2026-04-10T21:02:35] [INFO] Built Paperclip skill: google-business-profile-optimizer
+[2026-04-10T21:02:35] [INFO] Build complete for skill: google-business-profile-optimizer

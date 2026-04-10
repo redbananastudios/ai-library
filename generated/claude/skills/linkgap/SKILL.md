@@ -24,6 +24,7 @@ Analyse backlink gaps between your domain and a competitor using linkgap.io thro
 
 - `browser-use` CLI installed (`browser-use doctor` to verify)
 - No login or account required — the tool is free and anonymous
+- **An email address is required to receive the full report** — only 3 results are visible without one. Ask the user for their email before starting, or confirm they are happy with just the top 3 results.
 
 ## Limits
 
@@ -124,9 +125,9 @@ Or extract all visible data via JavaScript:
 browser-use eval "JSON.stringify([...document.querySelectorAll('.gap-card')].map(c => ({ name: c.querySelector('h3,h4,.font-semibold')?.textContent?.trim(), domain: c.querySelector('a')?.textContent?.trim(), url: c.querySelector('a')?.href, tag: c.querySelector('.badge,.tag,[class*=gap],[class*=opportunity]')?.textContent?.trim() })))"
 ```
 
-### Step 7: Get Full Report (Optional)
+### Step 7: Get Full Report
 
-Only 3 results are shown for free. To get the full report as a PDF via email:
+Only 3 results are shown in the browser. To get the full report (all opportunities) as a PDF via email, **you must complete this step**. Ask the user for their email address if not already provided.
 
 ```bash
 browser-use state    # Find the email form in the unlock section

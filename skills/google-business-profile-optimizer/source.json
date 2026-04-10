@@ -1,0 +1,6 @@
+{
+  "import_method": "manual",
+  "imported_at": "2026-04-10T00:00:00",
+  "upstream_source": "",
+  "notes": "Custom skill for Google Business Profile optimisation. Two-phase workflow: interview + browser automation fill."
+}
