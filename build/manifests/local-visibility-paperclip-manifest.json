@@ -1,7 +1,7 @@
 {
   "item_id": "local-visibility",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\local-visibility\\payload.json",
-  "published_at": "2026-04-13T17:32:18.951183",
+  "payload_path": "generated/paperclip/skills/local-visibility/payload.json",
+  "published_at": "2026-04-13T23:18:02.532336",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

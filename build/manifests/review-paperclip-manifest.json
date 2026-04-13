@@ -1,7 +1,7 @@
 {
   "item_id": "review",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\review\\payload.json",
-  "published_at": "2026-04-13T17:32:18.983994",
+  "payload_path": "generated/paperclip/skills/review/payload.json",
+  "published_at": "2026-04-13T23:18:02.607988",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

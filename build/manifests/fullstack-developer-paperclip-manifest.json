@@ -1,7 +1,7 @@
 {
   "item_id": "fullstack-developer",
   "type": "agent",
-  "payload_path": "generated\\paperclip\\agents\\fullstack-developer\\payload.json",
-  "published_at": "2026-04-13T17:32:19.098300",
+  "payload_path": "generated/paperclip/agents/fullstack-developer/payload.json",
+  "published_at": "2026-04-13T23:18:02.871385",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

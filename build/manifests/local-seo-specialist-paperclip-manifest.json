@@ -1,7 +1,7 @@
 {
   "item_id": "local-seo-specialist",
   "type": "agent",
-  "payload_path": "generated\\paperclip\\agents\\local-seo-specialist\\payload.json",
-  "published_at": "2026-04-13T17:32:19.106700",
+  "payload_path": "generated/paperclip/agents/local-seo-specialist/payload.json",
+  "published_at": "2026-04-13T23:18:02.893865",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

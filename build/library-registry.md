@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-13T17:32:19
+Updated: 2026-04-13T23:18:02
 
-Total items: 96
+Total items: 100
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -42,8 +42,11 @@ Total items: 96
 | google-business-profile-optimizer | Google Business Profile Optimizer | skill | 0.1.0 | active | yes | manifest_generated |
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | manifest_generated |
 | higgsfield | Higgsfield | skill | 1.0.0 | active | yes | manifest_generated |
+| higgsfield-video | Higgsfield Video Generator | skill | 1.0.0 | active | yes | manifest_generated |
 | humanizer | Humanizer | skill | 2.5.1 | active | yes | manifest_generated |
+| image-blueprint | Image Blueprint | skill | 1.0.0 | active | yes | manifest_generated |
 | image-generator | Image Generator | agent | 0.2.0 | active | yes | manifest_generated |
+| image-reverse-engineer | Image Reverse Engineer | agent | 2.0.0 | active | yes | manifest_generated |
 | investigate | Investigate | skill | 0.1.0 | imported | yes | manifest_generated |
 | last30days | Last 30 Days | skill | 0.1.0 | imported | yes | manifest_generated |
 | linkedin-authority-builder | LinkedIn Authority Builder | skill | 0.1.0 | imported | yes | manifest_generated |
@@ -96,6 +99,7 @@ Total items: 96
 | ui-designer | UI Designer | agent | 0.2.0 | active | yes | manifest_generated |
 | upload-post | Upload Post | skill | 0.1.0 | imported | yes | manifest_generated |
 | ux-audit | UX Audit | skill | 0.1.0 | imported | yes | manifest_generated |
+| video-director | Video Director | agent | 1.0.0 | active | yes | manifest_generated |
 | voice-extractor | Voice Extractor | skill | 0.1.0 | imported | yes | manifest_generated |
 | wordpress-agent | WordPress Agent | skill | 0.1.0 | imported | yes | manifest_generated |
 | wordpress-content | WordPress Content | skill | 0.1.0 | imported | yes | manifest_generated |

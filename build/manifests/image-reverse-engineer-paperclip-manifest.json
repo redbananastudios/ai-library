@@ -1,0 +1,7 @@
+{
+  "item_id": "image-reverse-engineer",
+  "type": "agent",
+  "payload_path": "generated/paperclip/agents/image-reverse-engineer/payload.json",
+  "published_at": "2026-04-13T23:18:02.888295",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}
