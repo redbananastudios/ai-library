@@ -53,20 +53,27 @@ Example: `seedream5-sunset-beach-portrait-20260413-160000.png`
 ## Workflow (browser-use CLI)
 
 ### Step 1: Ensure Browser Session
+### Step 1: Ensure Browser Session and Authentication
 
-Connect to the user's existing Chrome to preserve logins:
+Higgsfield uses **Google authentication**. The AI cannot enter Google credentials — the user must log in manually first.
 
-```bash
-browser-use connect
-```
+**Authentication flow:**
 
-If not logged in, navigate to:
+1. Check if the user is already authenticated by navigating to any Higgsfield page and looking for a user avatar/profile icon in the top-right corner (instead of "Login" / "Sign up" buttons).
 
-```bash
-browser-use open https://higgsfield.ai/auth/email/sign-in
-```
+2. If NOT authenticated:
+   a. **Ask the user to log into Google first.** Navigate the browser to `https://accounts.google.com` and tell the user: *"Please sign into your Google account in the browser window. Let me know when you're done."*
+   b. Once the user confirms they are logged into Google, navigate to `https://higgsfield.ai/image/nano_banana_pro` (any model page).
+   c. Click the **"Login"** button in the top-right corner of the Higgsfield page.
+   d. On the auth page, click **"Continue with Google"** — since the user is already signed into Google in this browser session, it will authenticate automatically without needing credentials.
+   e. Wait for the redirect back to Higgsfield. Verify the user avatar now appears in the top-right.
 
-Then use `browser-use state` to find the login fields and `browser-use input <index> "value"` to fill them.
+3. If using `browser-use` CLI, connect to the user's Chrome profile to preserve existing Google sessions:
+   ```bash
+   browser-use connect
+   ```
+
+**Important:** NEVER attempt to fill in Google credentials programmatically. Google blocks automated sign-ins. Always ask the user to complete the Google login manually, then use the Google OAuth button on Higgsfield.
 
 ### Step 2: Navigate to the Model Page
 

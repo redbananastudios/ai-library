@@ -2,6 +2,6 @@
   "item_id": "shopify-liquid-templating",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\shopify-liquid-templating\\payload.json",
-  "published_at": "2026-04-13T16:32:24.287321",
+  "published_at": "2026-04-13T17:32:19.015768",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

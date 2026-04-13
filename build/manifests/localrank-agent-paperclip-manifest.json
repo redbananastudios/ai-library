@@ -2,6 +2,6 @@
   "item_id": "localrank-agent",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\localrank-agent\\payload.json",
-  "published_at": "2026-04-13T16:32:24.227688",
+  "published_at": "2026-04-13T17:32:18.953966",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }
