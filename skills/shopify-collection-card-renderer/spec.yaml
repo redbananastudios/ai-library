@@ -1,0 +1,9 @@
+id: shopify-collection-card-renderer
+name: Shopify Collection Card Renderer
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+description: Generate consistent matching collection cards
+status: active

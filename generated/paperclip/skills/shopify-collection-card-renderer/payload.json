@@ -1,0 +1,18 @@
+{
+  "id": "shopify-collection-card-renderer",
+  "name": "Shopify Collection Card Renderer",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Generate consistent matching collection cards",
+  "prompt": "---\nname: shopify-collection-card-renderer\ndescription: generate consistent matching cards for shopify collections by editing only the title text on the approved project-local baseline image. ensures no visual drift across the catalogue.\n---\n\n# Shopify Collection Card Renderer\n\nUse the bundled approved image for the current project as the master template. Do not recreate the design with prompts or AI image generators. Do not redraw the border, divider, texture, or framing. Only replace the title text using an SVG/Python composition approach.\n\n## 🚨 Standard Project Architecture: Brand Memory Structure\nThis skill relies on project-local overrides to stay consistent. Every project using this skill MUST have the following structure in its root directory:\n- `./brand-memory/cards/reference-baseline.png` (The canonical approved master background)\n- `./brand-memory/cards/spec.md` (The exact locked design rules for text placement, font, and uppercase rules)\n\nIf you are running this skill and `./brand-memory/cards/reference-baseline.png` is not found, **STOP and inform the user** that they must set up the `brand-memory/cards/` structure with a baseline image before this skill can execute.\n\n## Core rule\n\nEdit the approved master template only.\n\n- Keep the exact same card artwork.\n- Keep the exact same border, divider, texture, proportions, and page background from the baseline.\n- Change only the centered title text.\n- Never introduce a new variant.\n- Never add icons.\n- Never switch from dark to light or vice versa unexpectedly.\n- Never alter aspect ratio or canvas size.\n\n## Generation method\n\nWrite or use a script (e.g., `scripts/generate_card_svg.py`) that outputs PNG files by:\n1. Loading the approved baseline PNG from `./brand-memory/cards/reference-baseline.png`.\n2. Preserving the baseline unchanged (like an empty template or a fixed reference).\n3. Covering ONLY the original title area.\n4. Rendering the replacement title in the same locked position using the specs.\n5. Saving a new PNG.\n\nThis is the preferred workflow because consistency matters more than regeneration.\nIf you ABSOLUTELY must redesign the baseline from scratch, use the **nano-banana-realism-engine** skill to do it (but NEVER do an AI generation when the user asks just for text replacements).\n\n## Output rules\n\n- Output PNG only.\n- Uppercase the visible title (or follow `./brand-memory/cards/spec.md`).\n- Preserve ampersands.\n- Keep all geometry and ornament locked.\n- Only shrink title size when required for longer names.\n- Use lowercase kebab-case filenames ending with `-card.png` (e.g. `taps-and-mixers-card.png`).\n\n## Acceptance check\n\nBefore returning output, verify:\n- same canvas size as the master asset\n- same border and divider placement as the master asset\n- no new icon present\n- only title text actually changed\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": ""
+  }
+}

@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-13T11:35:39.421078
+Generated: 2026-04-13T13:24:39.058832
 
 ## Steps
 
@@ -16,6 +16,7 @@ Generated: 2026-04-13T11:35:39.421078
 - **awesome-claude-code-subagents** (metadata): `generated\paperclip\skills\awesome-claude-code-subagents\payload.json`
 - **backlink-analyzer** (skill): `generated\paperclip\skills\backlink-analyzer\payload.json`
 - **backlink-outreach** (skill): `generated\paperclip\skills\backlink-outreach\payload.json`
+- **boilerplate-generator** (skill): `generated\paperclip\skills\boilerplate-generator\payload.json`
 - **browser-use** (skill): `generated\paperclip\skills\browser-use\payload.json`
 - **claude-ads** (skill): `generated\paperclip\skills\claude-ads\payload.json`
 - **claude-seo** (skill): `generated\paperclip\skills\claude-seo\payload.json`
@@ -28,6 +29,7 @@ Generated: 2026-04-13T11:35:39.421078
 - **de-ai-ify** (skill): `generated\paperclip\skills\de-ai-ify\payload.json`
 - **deep-research** (skill): `generated\paperclip\skills\deep-research\payload.json`
 - **design-assets** (skill): `generated\paperclip\skills\design-assets\payload.json`
+- **engineering-standards** (skill): `generated\paperclip\skills\engineering-standards\payload.json`
 - **facebook-ads-optimizer** (skill): `generated\paperclip\skills\facebook-ads-optimizer\payload.json`
 - **firecrawl** (skill): `generated\paperclip\skills\firecrawl\payload.json`
 - **frontend-design** (skill): `generated\paperclip\skills\frontend-design\payload.json`
@@ -55,13 +57,18 @@ Generated: 2026-04-13T11:35:39.421078
 - **shopify-app-development** (skill): `generated\paperclip\skills\shopify-app-development\payload.json`
 - **shopify-checkout** (skill): `generated\paperclip\skills\shopify-checkout\payload.json`
 - **shopify-cli** (skill): `generated\paperclip\skills\shopify-cli\payload.json`
+- **shopify-collection-card-renderer** (skill): `generated\paperclip\skills\shopify-collection-card-renderer\payload.json`
 - **shopify-content** (skill): `generated\paperclip\skills\shopify-content\payload.json`
 - **shopify-functions** (skill): `generated\paperclip\skills\shopify-functions\payload.json`
 - **shopify-graphql** (skill): `generated\paperclip\skills\shopify-graphql\payload.json`
 - **shopify-hydrogen** (skill): `generated\paperclip\skills\shopify-hydrogen\payload.json`
 - **shopify-liquid-templating** (skill): `generated\paperclip\skills\shopify-liquid-templating\payload.json`
+- **shopify-pdp-designer** (skill): `generated\paperclip\skills\shopify-pdp-designer\payload.json`
+- **shopify-product-enrich** (skill): `generated\paperclip\skills\shopify-product-enrich\payload.json`
 - **shopify-products** (skill): `generated\paperclip\skills\shopify-products\payload.json`
 - **shopify-setup** (skill): `generated\paperclip\skills\shopify-setup\payload.json`
+- **shopify-supplier-extract** (skill): `generated\paperclip\skills\shopify-supplier-extract\payload.json`
+- **shopify-sync** (skill): `generated\paperclip\skills\shopify-sync\payload.json`
 - **shopify-theme-development** (skill): `generated\paperclip\skills\shopify-theme-development\payload.json`
 - **simplify** (skill): `generated\paperclip\skills\simplify\payload.json`
 - **social-card-gen** (skill): `generated\paperclip\skills\social-card-gen\payload.json`

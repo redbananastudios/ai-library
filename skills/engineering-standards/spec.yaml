@@ -1,0 +1,9 @@
+id: engineering-standards
+name: Engineering Standards
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+description: Global engineering standards and coding rules
+status: active

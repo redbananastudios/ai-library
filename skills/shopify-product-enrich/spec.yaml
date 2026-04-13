@@ -1,0 +1,9 @@
+id: shopify-product-enrich
+name: Shopify Product Enrich
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+description: Enrich raw JSON into Shopify-ready product info
+status: active

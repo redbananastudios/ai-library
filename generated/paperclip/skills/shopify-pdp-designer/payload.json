@@ -1,0 +1,18 @@
+{
+  "id": "shopify-pdp-designer",
+  "name": "Shopify PDP Designer",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Design high-conversion Shopify PDPs",
+  "prompt": "---\nname: shopify-pdp-designer\ndescription: design high-conversion shopify product pages from structured product json, generating three layout variants, comparing them, recommending the best option, and producing a build-ready implementation brief. \n---\n\n# Shopify PDP Designer\n\n## Workflow\n\n1. Read enriched JSON input from the current project structure.\n2. Validate required fields.\n3. Generate 3 layout variants:\n   - Heritage Premium\n   - Conversion Hybrid\n   - Editorial\n   *(Adjust variant themes intuitively based on the brand style found in `./brand-memory/brand-voice.md` if available).*\n4. Compare layouts (conversion, brand fit, complexity)\n5. Recommend 1 primary + 1 fallback\n6. Produce implementation brief\n7. Run QA checklist\n\n## Rules\n- Always use answer-first summary\n- Never hide key info in tabs\n- Always show delivery clearly\n- Max 5–7 features\n- Maintain tone as defined by the project's brand guidelines\n- Use **nano-banana-realism-engine** to instruct or visualize any new hero blocks, photography requirements, or lifestyle product shots within the layout brief.\n\n## Output Structure\n- **Layout Variants**: Describe all 3 layouts clearly\n- **Comparison**: Table comparing strengths\n- **Recommendation**: Primary + fallback\n- **Implementation Brief**: Section mapping, data sources, layout logic\n- **QA Checklist**: Validation rules\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": ""
+  }
+}

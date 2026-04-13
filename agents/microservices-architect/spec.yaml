@@ -2,12 +2,18 @@ id: microservices-architect
 name: Microservices Architect
 type: agent
 version: 0.2.0
-source_url: ""
+source_url: ''
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets:
+- claude
+- paperclip
 changelog_summary: Rebuilt with full workflow and tool guidance
-requirements: []
+requirements:
+- engineering-standards
+- boilerplate-generator
 status: active
-description: Defines microservices architecture. Establishes domain boundaries, communication patterns (event streaming, RPC), service discovery and deployment strategies for scalable systems.
-trigger: ""
-imported_from_pack: ""
+description: Defines microservices architecture. Establishes domain boundaries, communication
+  patterns (event streaming, RPC), service discovery and deployment strategies for
+  scalable systems.
+trigger: ''
+imported_from_pack: ''

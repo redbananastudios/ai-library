@@ -199,19 +199,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\code-reviewer",
       "generated_claude_path": "generated\\claude\\agents\\code-reviewer.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\code-reviewer",
       "published_claude_path": ".claude\\agents\\code-reviewer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "code-reviewer",
-        "simplify",
-        "review"
-      ],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1281,7 +1276,7 @@
       "generated_paperclip_path": "generated\\paperclip\\agents\\backend-developer",
       "published_claude_path": ".claude\\agents\\backend-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1294,19 +1289,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\frontend-developer",
       "generated_claude_path": "generated\\claude\\agents\\frontend-developer.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\frontend-developer",
       "published_claude_path": ".claude\\agents\\frontend-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "frontend-design",
-        "design-assets",
-        "browser-use"
-      ],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1319,19 +1309,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\fullstack-developer",
       "generated_claude_path": "generated\\claude\\agents\\fullstack-developer.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\fullstack-developer",
       "published_claude_path": ".claude\\agents\\fullstack-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "frontend-design",
-        "code-reviewer",
-        "qa"
-      ],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1416,15 +1401,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\api-designer",
       "generated_claude_path": "generated\\claude\\agents\\api-designer.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\api-designer",
       "published_claude_path": ".claude\\agents\\api-designer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1489,18 +1473,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\bug-investigator",
       "generated_claude_path": "generated\\claude\\agents\\bug-investigator.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\bug-investigator",
       "published_claude_path": ".claude\\agents\\bug-investigator.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "investigate",
-        "browser-use"
-      ],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1537,17 +1517,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\graphql-architect",
       "generated_claude_path": "generated\\claude\\agents\\graphql-architect.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\graphql-architect",
       "published_claude_path": ".claude\\agents\\graphql-architect.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "shopify-graphql"
-      ],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1611,15 +1588,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\microservices-architect",
       "generated_claude_path": "generated\\claude\\agents\\microservices-architect.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\microservices-architect",
       "published_claude_path": ".claude\\agents\\microservices-architect.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1733,27 +1709,14 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        "claude",
-        "paperclip"
+        ""
       ],
       "source_path": "agents\\shopify-developer",
       "generated_claude_path": "generated\\claude\\agents\\shopify-developer.md",
       "generated_paperclip_path": "generated\\paperclip\\agents\\shopify-developer",
       "published_claude_path": ".claude\\agents\\shopify-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "shopify-setup",
-        "shopify-cli",
-        "shopify-app-development",
-        "shopify-checkout",
-        "shopify-content",
-        "shopify-functions",
-        "shopify-graphql",
-        "shopify-hydrogen",
-        "shopify-liquid-templating",
-        "shopify-products",
-        "shopify-theme-development"
-      ],
+      "requirements": "",
       "notes": ""
     },
     {
@@ -1965,7 +1928,154 @@
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": ""
+    },
+    {
+      "id": "shopify-collection-card-renderer",
+      "name": "Shopify Collection Card Renderer",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\shopify-collection-card-renderer",
+      "generated_claude_path": "generated\\claude\\skills\\shopify-collection-card-renderer",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-collection-card-renderer",
+      "published_claude_path": ".claude\\skills\\shopify-collection-card-renderer",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "shopify-pdp-designer",
+      "name": "Shopify PDP Designer",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\shopify-pdp-designer",
+      "generated_claude_path": "generated\\claude\\skills\\shopify-pdp-designer",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-pdp-designer",
+      "published_claude_path": ".claude\\skills\\shopify-pdp-designer",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "shopify-product-enrich",
+      "name": "Shopify Product Enrich",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\shopify-product-enrich",
+      "generated_claude_path": "generated\\claude\\skills\\shopify-product-enrich",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-product-enrich",
+      "published_claude_path": ".claude\\skills\\shopify-product-enrich",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "shopify-supplier-extract",
+      "name": "Shopify Supplier Extract",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\shopify-supplier-extract",
+      "generated_claude_path": "generated\\claude\\skills\\shopify-supplier-extract",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-supplier-extract",
+      "published_claude_path": ".claude\\skills\\shopify-supplier-extract",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "shopify-sync",
+      "name": "Shopify Sync",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\shopify-sync",
+      "generated_claude_path": "generated\\claude\\skills\\shopify-sync",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-sync",
+      "published_claude_path": ".claude\\skills\\shopify-sync",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "engineering-standards",
+      "name": "Engineering Standards",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\engineering-standards",
+      "generated_claude_path": "generated\\claude\\skills\\engineering-standards",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\engineering-standards",
+      "published_claude_path": ".claude\\skills\\engineering-standards",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "boilerplate-generator",
+      "name": "Boilerplate Generator",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills\\boilerplate-generator",
+      "generated_claude_path": "generated\\claude\\skills\\boilerplate-generator",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\boilerplate-generator",
+      "published_claude_path": ".claude\\skills\\boilerplate-generator",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
     }
   ],
-  "updated": "2026-04-13T11:35:39.419358"
+  "updated": "2026-04-13T13:24:39.056919"
 }

@@ -2,12 +2,29 @@ id: shopify-developer
 name: Shopify Developer
 type: agent
 version: 0.2.0
-source_url: ""
+source_url: ''
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets:
+- claude
+- paperclip
 changelog_summary: Rebuilt with full workflow, skill references and tool guidance
-requirements: ['shopify-setup', 'shopify-cli', 'shopify-app-development', 'shopify-checkout', 'shopify-content', 'shopify-functions', 'shopify-graphql', 'shopify-hydrogen', 'shopify-liquid-templating', 'shopify-products', 'shopify-theme-development']
+requirements:
+- shopify-setup
+- shopify-cli
+- shopify-app-development
+- shopify-checkout
+- shopify-content
+- shopify-functions
+- shopify-graphql
+- shopify-hydrogen
+- shopify-liquid-templating
+- shopify-products
+- shopify-theme-development
+- engineering-standards
+- boilerplate-generator
 status: active
-description: Develops and customises Shopify stores. Configures themes, builds Liquid templates, integrates apps, uses Hydrogen for headless storefronts and manages checkout and backend functions.
-trigger: ""
-imported_from_pack: ""
+description: Develops and customises Shopify stores. Configures themes, builds Liquid
+  templates, integrates apps, uses Hydrogen for headless storefronts and manages checkout
+  and backend functions.
+trigger: ''
+imported_from_pack: ''

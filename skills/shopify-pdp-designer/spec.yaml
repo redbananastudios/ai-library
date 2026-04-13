@@ -1,0 +1,9 @@
+id: shopify-pdp-designer
+name: Shopify PDP Designer
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+description: Design high-conversion Shopify PDPs
+status: active

@@ -1,0 +1,9 @@
+id: shopify-supplier-extract
+name: Shopify Supplier Extract
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+description: Extract product data from supplier pages using CSV
+status: active

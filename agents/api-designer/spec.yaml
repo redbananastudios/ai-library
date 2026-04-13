@@ -2,12 +2,17 @@ id: api-designer
 name: API Designer
 type: agent
 version: 0.2.0
-source_url: ""
+source_url: ''
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets:
+- claude
+- paperclip
 changelog_summary: Rebuilt with full workflow and tool guidance
-requirements: []
+requirements:
+- engineering-standards
 status: active
-description: Designs API contracts for REST and GraphQL. Creates versioned endpoints, defines request/response schemas and error models, produces OpenAPI specs and ensures consistency across services.
-trigger: ""
-imported_from_pack: ""
+description: Designs API contracts for REST and GraphQL. Creates versioned endpoints,
+  defines request/response schemas and error models, produces OpenAPI specs and ensures
+  consistency across services.
+trigger: ''
+imported_from_pack: ''
