@@ -52,28 +52,27 @@ Example: `seedream5-sunset-beach-portrait-20260413-160000.png`
 
 ## Workflow (browser-use CLI)
 
-### Step 1: Ensure Browser Session
 ### Step 1: Ensure Browser Session and Authentication
 
-Higgsfield uses **Google authentication**. The AI cannot enter Google credentials — the user must log in manually first.
+**Fast path:** If a browser is already open on a Higgsfield page and the user is logged in (user avatar visible in top-right, no "Login" / "Sign up" buttons), skip directly to **Step 2**. Do NOT re-check authentication if the current page is already Higgsfield and shows the user is logged in.
 
-**Authentication flow:**
+**Authentication flow (only if NOT logged in):**
 
-1. Check if the user is already authenticated by navigating to any Higgsfield page and looking for a user avatar/profile icon in the top-right corner (instead of "Login" / "Sign up" buttons).
-
-2. If NOT authenticated:
+1. Navigate to any Higgsfield page (e.g. `https://higgsfield.ai/image/nano_banana_pro`).
+2. Check the top-right corner: if you see a user avatar/profile icon, the user is already authenticated — skip to Step 2.
+3. If you see "Login" / "Sign up" buttons instead:
    a. **Ask the user to log into Google first.** Navigate the browser to `https://accounts.google.com` and tell the user: *"Please sign into your Google account in the browser window. Let me know when you're done."*
-   b. Once the user confirms they are logged into Google, navigate to `https://higgsfield.ai/image/nano_banana_pro` (any model page).
-   c. Click the **"Login"** button in the top-right corner of the Higgsfield page.
-   d. On the auth page, click **"Continue with Google"** — since the user is already signed into Google in this browser session, it will authenticate automatically without needing credentials.
-   e. Wait for the redirect back to Higgsfield. Verify the user avatar now appears in the top-right.
+   b. Once the user confirms, navigate back to `https://higgsfield.ai/image/nano_banana_pro`.
+   c. Click the **"Login"** button in the top-right corner.
+   d. Click **"Continue with Google"** — the user's existing Google session will authenticate automatically.
+   e. Wait for the redirect back to Higgsfield. Verify the user avatar now appears.
 
-3. If using `browser-use` CLI, connect to the user's Chrome profile to preserve existing Google sessions:
+4. If using `browser-use` CLI, connect to the user's Chrome profile to preserve existing Google sessions:
    ```bash
    browser-use connect
    ```
 
-**Important:** NEVER attempt to fill in Google credentials programmatically. Google blocks automated sign-ins. Always ask the user to complete the Google login manually, then use the Google OAuth button on Higgsfield.
+**Important:** NEVER attempt to fill in Google credentials programmatically. Google blocks automated sign-ins.
 
 ### Step 2: Navigate to the Model Page
 
