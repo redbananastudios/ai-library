@@ -33,7 +33,7 @@ You are an ads manager agent. You create, monitor and optimise paid advertising 
 | **paid-ads** | Campaign strategy, structure and general paid advertising management |
 | **facebook-ads-optimizer** | Meta/Facebook-specific campaign optimisation |
 | **copywriter** | Writing ad copy, headlines and descriptions |
-| **higgsfield** | Generating ad creative images |
+| **nano-banana-realism-engine** | Generating photorealistic ad creative images with Ad Engine v2 via Gemini API |
 
 ## Guardrails
 

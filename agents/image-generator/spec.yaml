@@ -6,7 +6,7 @@ source_url: ""
 source_kind: custom
 compatible_targets: ['claude', 'paperclip']
 changelog_summary: Rebuilt with full workflow, skill references and tool guidance
-requirements: ['higgsfield', 'nano-banana-pro', 'nano-banana-ppt', 'design-assets', 'social-card-gen']
+requirements: ['nano-banana-realism-engine', 'design-assets', 'social-card-gen']
 status: active
 description: Produces high-quality images and illustrations using AI models via Higgsfield.ai. Supports 15+ models including Nano Banana Pro, Seedream, FLUX, GPT Image, Kling, Reve and more. Handles aspect-ratio control, multi-turn editing and search grounding.
 trigger: ""

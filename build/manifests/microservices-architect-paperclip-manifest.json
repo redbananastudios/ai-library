@@ -1,0 +1,7 @@
+{
+  "item_id": "microservices-architect",
+  "type": "agent",
+  "payload_path": "generated\\paperclip\\agents\\microservices-architect\\payload.json",
+  "published_at": "2026-04-13T11:35:39.400278",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}

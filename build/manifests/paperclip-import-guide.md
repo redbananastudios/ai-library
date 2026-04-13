@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-08T18:13:32.761823
+Generated: 2026-04-13T11:35:39.421078
 
 ## Steps
 
@@ -29,15 +29,19 @@ Generated: 2026-04-08T18:13:32.761823
 - **deep-research** (skill): `generated\paperclip\skills\deep-research\payload.json`
 - **design-assets** (skill): `generated\paperclip\skills\design-assets\payload.json`
 - **facebook-ads-optimizer** (skill): `generated\paperclip\skills\facebook-ads-optimizer\payload.json`
+- **firecrawl** (skill): `generated\paperclip\skills\firecrawl\payload.json`
 - **frontend-design** (skill): `generated\paperclip\skills\frontend-design\payload.json`
+- **google-business-profile-optimizer** (skill): `generated\paperclip\skills\google-business-profile-optimizer\payload.json`
+- **humanizer** (skill): `generated\paperclip\skills\humanizer\payload.json`
 - **investigate** (skill): `generated\paperclip\skills\investigate\payload.json`
 - **last30days** (skill): `generated\paperclip\skills\last30days\payload.json`
 - **linkedin-authority-builder** (skill): `generated\paperclip\skills\linkedin-authority-builder\payload.json`
+- **linkgap** (skill): `generated\paperclip\skills\linkgap\payload.json`
 - **local-visibility** (skill): `generated\paperclip\skills\local-visibility\payload.json`
 - **localrank-agent** (skill): `generated\paperclip\skills\localrank-agent\payload.json`
+- **mailbox** (skill): `generated\paperclip\skills\mailbox\payload.json`
 - **marketing-principles** (skill): `generated\paperclip\skills\marketing-principles\payload.json`
-- **nano-banana-ppt** (skill): `generated\paperclip\skills\nano-banana-ppt\payload.json`
-- **nano-banana-pro** (skill): `generated\paperclip\skills\nano-banana-pro\payload.json`
+- **nano-banana-realism-engine** (skill): `generated\paperclip\skills\nano-banana-realism-engine\payload.json`
 - **paid-ads** (skill): `generated\paperclip\skills\paid-ads\payload.json`
 - **personal-brand-builder** (skill): `generated\paperclip\skills\personal-brand-builder\payload.json`
 - **positioning-basics** (skill): `generated\paperclip\skills\positioning-basics\payload.json`
@@ -62,6 +66,7 @@ Generated: 2026-04-08T18:13:32.761823
 - **simplify** (skill): `generated\paperclip\skills\simplify\payload.json`
 - **social-card-gen** (skill): `generated\paperclip\skills\social-card-gen\payload.json`
 - **social-content** (skill): `generated\paperclip\skills\social-content\payload.json`
+- **stitch** (skill): `generated\paperclip\skills\stitch\payload.json`
 - **upload-post** (skill): `generated\paperclip\skills\upload-post\payload.json`
 - **ux-audit** (skill): `generated\paperclip\skills\ux-audit\payload.json`
 - **voice-extractor** (skill): `generated\paperclip\skills\voice-extractor\payload.json`
@@ -70,6 +75,25 @@ Generated: 2026-04-08T18:13:32.761823
 - **wordpress-elementor** (skill): `generated\paperclip\skills\wordpress-elementor\payload.json`
 - **wordpress-setup** (skill): `generated\paperclip\skills\wordpress-setup\payload.json`
 - **youtube-summarizer** (skill): `generated\paperclip\skills\youtube-summarizer\payload.json`
+- **ads-manager** (agent): `generated\paperclip\agents\ads-manager\payload.json`
+- **amazon-fba-assistant** (agent): `generated\paperclip\agents\amazon-fba-assistant\payload.json`
+- **api-designer** (agent): `generated\paperclip\agents\api-designer\payload.json`
 - **backend-developer** (agent): `generated\paperclip\agents\backend-developer\payload.json`
+- **backlink-builder** (agent): `generated\paperclip\agents\backlink-builder\payload.json`
+- **brand-builder** (agent): `generated\paperclip\agents\brand-builder\payload.json`
+- **bug-investigator** (agent): `generated\paperclip\agents\bug-investigator\payload.json`
+- **code-reviewer** (agent): `generated\paperclip\agents\code-reviewer\payload.json`
+- **design-bridge** (agent): `generated\paperclip\agents\design-bridge\payload.json`
 - **frontend-developer** (agent): `generated\paperclip\agents\frontend-developer\payload.json`
 - **fullstack-developer** (agent): `generated\paperclip\agents\fullstack-developer\payload.json`
+- **graphql-architect** (agent): `generated\paperclip\agents\graphql-architect\payload.json`
+- **image-generator** (agent): `generated\paperclip\agents\image-generator\payload.json`
+- **local-seo-specialist** (agent): `generated\paperclip\agents\local-seo-specialist\payload.json`
+- **microservices-architect** (agent): `generated\paperclip\agents\microservices-architect\payload.json`
+- **product-researcher** (agent): `generated\paperclip\agents\product-researcher\payload.json`
+- **qa-engineer** (agent): `generated\paperclip\agents\qa-engineer\payload.json`
+- **research-assistant** (agent): `generated\paperclip\agents\research-assistant\payload.json`
+- **seo-manager** (agent): `generated\paperclip\agents\seo-manager\payload.json`
+- **shopify-developer** (agent): `generated\paperclip\agents\shopify-developer\payload.json`
+- **social-media-manager** (agent): `generated\paperclip\agents\social-media-manager\payload.json`
+- **ui-designer** (agent): `generated\paperclip\agents\ui-designer\payload.json`

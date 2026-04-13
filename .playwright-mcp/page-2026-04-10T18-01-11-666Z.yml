@@ -1,0 +1,77 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - link "← Run another analysis" [ref=e7] [cursor=pointer]:
+      - /url: /
+    - heading "Gap Analysis Results" [level=1] [ref=e8]
+    - paragraph [ref=e9]: heytony.ca vs moz.com
+  - generic [ref=e10]:
+    - generic [ref=e11]: "245"
+    - generic [ref=e12]: Opportunities Found
+  - generic [ref=e13]:
+    - heading "Opportunities Found" [level=2] [ref=e14]: Opportunities Found
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - generic [ref=e20]: SaaSHub
+            - generic [ref=e21]: Gap
+          - generic [ref=e22]: saashub.com
+        - link "Visit Site →" [ref=e23] [cursor=pointer]:
+          - /url: https://www.saashub.com/
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: Agency Spotter
+            - generic [ref=e28]: Opportunity
+          - generic [ref=e29]: agencyspotter.com
+        - link "Visit Site →" [ref=e30] [cursor=pointer]:
+          - /url: https://www.agencyspotter.com/
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: DesignRush
+            - generic [ref=e35]: Opportunity
+          - generic [ref=e36]: designrush.com
+        - link "Visit Site →" [ref=e37] [cursor=pointer]:
+          - /url: https://www.designrush.com/
+  - generic [ref=e38]:
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - img [ref=e41]
+        - text: 242 more opportunities
+      - heading "Get Your Full Report" [level=2] [ref=e43]
+      - paragraph [ref=e44]: "Enter your email and we'll send you a PDF with all 245 opportunities:"
+      - generic [ref=e45]:
+        - generic [ref=e46]: 1 Directory Gaps
+        - generic [ref=e47]: 47 Directory Opportunities
+        - generic [ref=e48]: 197 Backlink Gaps
+    - generic [ref=e50]:
+      - textbox "Your name (optional)" [ref=e51]
+      - textbox "your@email.com" [ref=e52]
+      - generic [ref=e53] [cursor=pointer]:
+        - checkbox "I agree to receive email communications from HeyTony" [ref=e54]
+        - generic [ref=e55]: I agree to receive email communications from HeyTony
+      - button "Send Me The Report" [ref=e56] [cursor=pointer]
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: ████████ Directory
+          - generic [ref=e61]: ████████.com
+        - generic [ref=e62]: Locked
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: ████████ Directory
+          - generic [ref=e66]: ████████.com
+        - generic [ref=e67]: Locked
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]: ████████ Directory
+          - generic [ref=e71]: ████████.com
+        - generic [ref=e72]: Locked
+      - generic [ref=e73]: + 239 more opportunities...
+  - contentinfo [ref=e74]:
+    - link "Run another analysis" [ref=e75] [cursor=pointer]:
+      - /url: /
+    - text: •
+    - link "Terms & Privacy" [ref=e76] [cursor=pointer]:
+      - /url: /terms

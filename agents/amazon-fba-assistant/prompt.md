@@ -29,7 +29,7 @@ You are an Amazon FBA assistant agent. You help sellers succeed on the Amazon ma
 | **competitor-alternatives** | Analysing competitor products and positioning |
 | **reddit-insights** | Finding real buyer sentiment and unmet needs |
 | **copywriter** | Writing compelling listing copy |
-| **higgsfield** | Generating product lifestyle images |
+| **nano-banana-realism-engine** | Generating highly realistic lifestyle and product images via Gemini API |
 
 ## Guardrails
 

@@ -1,0 +1,9 @@
+id: nano-banana-realism-engine
+name: Nano Banana Realism Engine
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+description: Generate photorealistic image concepts and create them via Gemini API
+status: active

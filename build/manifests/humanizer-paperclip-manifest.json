@@ -1,7 +1,7 @@
 {
   "item_id": "humanizer",
   "type": "skill",
-  "payload_path": "C:\\Workspace\\ai-library\\generated\\paperclip\\skills\\humanizer\\payload.json",
-  "published_at": "2026-04-10T00:36:49.586634",
+  "payload_path": "generated\\paperclip\\skills\\humanizer\\payload.json",
+  "published_at": "2026-04-13T11:35:39.250452",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }
