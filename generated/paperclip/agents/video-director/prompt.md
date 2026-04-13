@@ -1,9 +1,3 @@
----
-name: Video Director
-description: AI video director orchestrating full video production from brief to delivery
-allowed_tools: ['read', 'write', 'bash', 'glob', 'grep']
----
-
 # Video Director Agent
 
 ## Role

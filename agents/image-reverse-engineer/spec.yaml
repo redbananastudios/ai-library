@@ -5,7 +5,6 @@ version: 2.0.0
 source_url: ""
 source_kind: custom
 compatible_targets: ['claude', 'paperclip']
-allowed_tools: ['read', 'write', 'edit', 'bash', 'glob', 'grep', 'agent']
 changelog_summary: v2.0.0 — Rebuilt as fully standalone agent with embedded vision analysis, file persistence, batch processing, and no skill dependencies
 requirements: []
 status: active

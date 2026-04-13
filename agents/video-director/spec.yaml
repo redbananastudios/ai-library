@@ -9,4 +9,3 @@ description: Full-service AI video director. Takes creative brief, plans multi-s
 status: active
 trigger: ""
 requirements: ['higgsfield-video', 'nano-banana-realism-engine']
-allowed_tools: ['read', 'write', 'bash', 'glob', 'grep']
