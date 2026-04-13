@@ -2,6 +2,6 @@
   "item_id": "image-generator",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/image-generator/payload.json",
-  "published_at": "2026-04-13T23:18:02.882545",
+  "published_at": "2026-04-13T23:34:36.807802",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

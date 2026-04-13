@@ -1,17 +1,18 @@
 id: fullstack-developer
 name: Fullstack Developer
 type: agent
-version: 0.2.0
+version: 0.3.0
 source_url: ''
 source_kind: custom
 compatible_targets:
 - claude
 - paperclip
-changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+changelog_summary: Add git workflow, QA gate before PR, error handling requirements, agent delegation, documentation gate
 requirements:
 - frontend-design
 - code-reviewer
 - qa
+- qa-only
 - engineering-standards
 - boilerplate-generator
 status: active

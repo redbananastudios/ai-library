@@ -7729,3 +7729,503 @@
 [2026-04-13T23:18:02] [INFO] Wrote /home/user/ai-library/build/library-registry.json
 [2026-04-13T23:18:02] [INFO] Wrote /home/user/ai-library/build/manifests/video-director-paperclip-manifest.json
 [2026-04-13T23:18:02] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:17] [INFO] Build complete for agent: backend-developer
+[2026-04-13T23:34:17] [INFO] Build complete for agent: frontend-developer
+[2026-04-13T23:34:18] [INFO] Build complete for agent: fullstack-developer
+[2026-04-13T23:34:25] [INFO] Backed up existing: /root/.claude/agents/backend-developer.md -> /root/.claude/agents/backend-developer.md.bak.20260413233425
+[2026-04-13T23:34:25] [INFO] Published to Claude: backend-developer
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/ai-discoverability-audit -> /root/.claude/skills/ai-discoverability-audit.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: ai-discoverability-audit
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/ai-seo -> /root/.claude/skills/ai-seo.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: ai-seo
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/awesome-agent-skills -> /root/.claude/skills/awesome-agent-skills.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: awesome-agent-skills
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/awesome-claude-code-subagents -> /root/.claude/skills/awesome-claude-code-subagents.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: awesome-claude-code-subagents
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/backlink-analyzer -> /root/.claude/skills/backlink-analyzer.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: backlink-analyzer
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/backlink-outreach -> /root/.claude/skills/backlink-outreach.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: backlink-outreach
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/boilerplate-generator -> /root/.claude/skills/boilerplate-generator.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: boilerplate-generator
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/browser-use -> /root/.claude/skills/browser-use.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: browser-use
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/claude-ads -> /root/.claude/skills/claude-ads.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: claude-ads
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/claude-seo -> /root/.claude/skills/claude-seo.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: claude-seo
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/code-reviewer -> /root/.claude/skills/code-reviewer.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: code-reviewer
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/competitor-alternatives -> /root/.claude/skills/competitor-alternatives.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: competitor-alternatives
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/content-idea-generator -> /root/.claude/skills/content-idea-generator.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: content-idea-generator
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/content-strategy -> /root/.claude/skills/content-strategy.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: content-strategy
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/copywriter -> /root/.claude/skills/copywriter.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: copywriter
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/creative-director -> /root/.claude/skills/creative-director.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: creative-director
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/de-ai-ify -> /root/.claude/skills/de-ai-ify.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: de-ai-ify
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/deep-research -> /root/.claude/skills/deep-research.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: deep-research
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/design-assets -> /root/.claude/skills/design-assets.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: design-assets
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/engineering-standards -> /root/.claude/skills/engineering-standards.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: engineering-standards
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/facebook-ads-optimizer -> /root/.claude/skills/facebook-ads-optimizer.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: facebook-ads-optimizer
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/firecrawl -> /root/.claude/skills/firecrawl.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: firecrawl
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/frontend-design -> /root/.claude/skills/frontend-design.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: frontend-design
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/google-business-profile-optimizer -> /root/.claude/skills/google-business-profile-optimizer.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: google-business-profile-optimizer
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/higgsfield -> /root/.claude/skills/higgsfield.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: higgsfield
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/higgsfield-video -> /root/.claude/skills/higgsfield-video.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: higgsfield-video
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:33] [INFO] Backed up existing: /root/.claude/skills/humanizer -> /root/.claude/skills/humanizer.bak.20260413233433
+[2026-04-13T23:34:33] [INFO] Published to Claude: humanizer
+[2026-04-13T23:34:33] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/image-blueprint -> /root/.claude/skills/image-blueprint.bak.20260413233433
+[2026-04-13T23:34:34] [INFO] Published to Claude: image-blueprint
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/investigate -> /root/.claude/skills/investigate.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: investigate
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/last30days -> /root/.claude/skills/last30days.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: last30days
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/linkedin-authority-builder -> /root/.claude/skills/linkedin-authority-builder.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: linkedin-authority-builder
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/linkgap -> /root/.claude/skills/linkgap.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: linkgap
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/local-visibility -> /root/.claude/skills/local-visibility.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: local-visibility
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/localrank-agent -> /root/.claude/skills/localrank-agent.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: localrank-agent
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/mailbox -> /root/.claude/skills/mailbox.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: mailbox
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/marketing-principles -> /root/.claude/skills/marketing-principles.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: marketing-principles
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/nano-banana-realism-engine -> /root/.claude/skills/nano-banana-realism-engine.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: nano-banana-realism-engine
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/paid-ads -> /root/.claude/skills/paid-ads.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: paid-ads
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/personal-brand-builder -> /root/.claude/skills/personal-brand-builder.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: personal-brand-builder
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/positioning-basics -> /root/.claude/skills/positioning-basics.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: positioning-basics
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/project-health -> /root/.claude/skills/project-health.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: project-health
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/qa -> /root/.claude/skills/qa.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: qa
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/qa-only -> /root/.claude/skills/qa-only.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: qa-only
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/reddit-insights -> /root/.claude/skills/reddit-insights.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: reddit-insights
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/review -> /root/.claude/skills/review.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: review
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/seo-audit -> /root/.claude/skills/seo-audit.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: seo-audit
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/seo-geo-optimizer -> /root/.claude/skills/seo-geo-optimizer.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: seo-geo-optimizer
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-app-development -> /root/.claude/skills/shopify-app-development.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-app-development
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-checkout -> /root/.claude/skills/shopify-checkout.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-checkout
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-cli -> /root/.claude/skills/shopify-cli.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-cli
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-collection-card-renderer -> /root/.claude/skills/shopify-collection-card-renderer.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-collection-card-renderer
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-content -> /root/.claude/skills/shopify-content.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-content
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-functions -> /root/.claude/skills/shopify-functions.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-functions
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-graphql -> /root/.claude/skills/shopify-graphql.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-graphql
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-hydrogen -> /root/.claude/skills/shopify-hydrogen.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-hydrogen
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-liquid-templating -> /root/.claude/skills/shopify-liquid-templating.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-liquid-templating
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-pdp-designer -> /root/.claude/skills/shopify-pdp-designer.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-pdp-designer
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-product-enrich -> /root/.claude/skills/shopify-product-enrich.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-product-enrich
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-products -> /root/.claude/skills/shopify-products.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-products
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-setup -> /root/.claude/skills/shopify-setup.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-setup
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-supplier-extract -> /root/.claude/skills/shopify-supplier-extract.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-supplier-extract
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-sync -> /root/.claude/skills/shopify-sync.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-sync
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/shopify-theme-development -> /root/.claude/skills/shopify-theme-development.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: shopify-theme-development
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:34] [INFO] Backed up existing: /root/.claude/skills/simplify -> /root/.claude/skills/simplify.bak.20260413233434
+[2026-04-13T23:34:34] [INFO] Published to Claude: simplify
+[2026-04-13T23:34:34] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/social-card-gen -> /root/.claude/skills/social-card-gen.bak.20260413233434
+[2026-04-13T23:34:35] [INFO] Published to Claude: social-card-gen
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/social-content -> /root/.claude/skills/social-content.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: social-content
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/stitch -> /root/.claude/skills/stitch.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: stitch
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/upload-post -> /root/.claude/skills/upload-post.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: upload-post
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/ux-audit -> /root/.claude/skills/ux-audit.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: ux-audit
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/voice-extractor -> /root/.claude/skills/voice-extractor.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: voice-extractor
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/wordpress-agent -> /root/.claude/skills/wordpress-agent.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: wordpress-agent
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/wordpress-content -> /root/.claude/skills/wordpress-content.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: wordpress-content
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/wordpress-elementor -> /root/.claude/skills/wordpress-elementor.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: wordpress-elementor
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/wordpress-setup -> /root/.claude/skills/wordpress-setup.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: wordpress-setup
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/skills/youtube-summarizer -> /root/.claude/skills/youtube-summarizer.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: youtube-summarizer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/ads-manager.md -> /root/.claude/agents/ads-manager.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: ads-manager
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/amazon-fba-assistant.md -> /root/.claude/agents/amazon-fba-assistant.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: amazon-fba-assistant
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/api-designer.md -> /root/.claude/agents/api-designer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: api-designer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/backend-developer.md -> /root/.claude/agents/backend-developer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: backend-developer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/backlink-builder.md -> /root/.claude/agents/backlink-builder.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: backlink-builder
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/brand-builder.md -> /root/.claude/agents/brand-builder.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: brand-builder
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/bug-investigator.md -> /root/.claude/agents/bug-investigator.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: bug-investigator
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/code-reviewer.md -> /root/.claude/agents/code-reviewer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: code-reviewer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/design-bridge.md -> /root/.claude/agents/design-bridge.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: design-bridge
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/frontend-developer.md -> /root/.claude/agents/frontend-developer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: frontend-developer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/fullstack-developer.md -> /root/.claude/agents/fullstack-developer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: fullstack-developer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/graphql-architect.md -> /root/.claude/agents/graphql-architect.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: graphql-architect
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/image-generator.md -> /root/.claude/agents/image-generator.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: image-generator
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/image-reverse-engineer.md -> /root/.claude/agents/image-reverse-engineer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: image-reverse-engineer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/local-seo-specialist.md -> /root/.claude/agents/local-seo-specialist.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: local-seo-specialist
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/microservices-architect.md -> /root/.claude/agents/microservices-architect.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: microservices-architect
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/product-researcher.md -> /root/.claude/agents/product-researcher.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: product-researcher
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/qa-engineer.md -> /root/.claude/agents/qa-engineer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: qa-engineer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/research-assistant.md -> /root/.claude/agents/research-assistant.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: research-assistant
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/seo-manager.md -> /root/.claude/agents/seo-manager.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: seo-manager
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/shopify-developer.md -> /root/.claude/agents/shopify-developer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: shopify-developer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/social-media-manager.md -> /root/.claude/agents/social-media-manager.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: social-media-manager
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/ui-designer.md -> /root/.claude/agents/ui-designer.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: ui-designer
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Backed up existing: /root/.claude/agents/video-director.md -> /root/.claude/agents/video-director.md.bak.20260413233435
+[2026-04-13T23:34:35] [INFO] Published to Claude: video-director
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/ai-discoverability-audit-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/ai-seo-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/awesome-agent-skills-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/awesome-claude-code-subagents-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/backlink-analyzer-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/backlink-outreach-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/boilerplate-generator-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/browser-use-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/claude-ads-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/claude-seo-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/code-reviewer-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/competitor-alternatives-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/manifests/content-idea-generator-paperclip-manifest.json
+[2026-04-13T23:34:35] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/content-strategy-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/copywriter-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/creative-director-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/de-ai-ify-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/deep-research-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/design-assets-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/engineering-standards-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/facebook-ads-optimizer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/firecrawl-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/frontend-design-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/google-business-profile-optimizer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/higgsfield-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/higgsfield-video-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/humanizer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/image-blueprint-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/investigate-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/last30days-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/linkedin-authority-builder-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/linkgap-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/local-visibility-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/localrank-agent-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/mailbox-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/marketing-principles-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/nano-banana-realism-engine-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/paid-ads-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/personal-brand-builder-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/positioning-basics-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/project-health-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/qa-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/qa-only-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/reddit-insights-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/review-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/seo-audit-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/seo-geo-optimizer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-app-development-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-checkout-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-cli-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-collection-card-renderer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-content-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-functions-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-graphql-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-hydrogen-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-liquid-templating-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-pdp-designer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-product-enrich-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-products-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-setup-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-supplier-extract-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-sync-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-theme-development-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/simplify-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/social-card-gen-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/social-content-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/stitch-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/upload-post-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/ux-audit-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/voice-extractor-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/wordpress-agent-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/wordpress-content-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/wordpress-elementor-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/wordpress-setup-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/youtube-summarizer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/ads-manager-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/amazon-fba-assistant-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/api-designer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/backend-developer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/backlink-builder-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/brand-builder-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/bug-investigator-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/code-reviewer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/design-bridge-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/frontend-developer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/fullstack-developer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/graphql-architect-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/image-generator-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/image-reverse-engineer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/local-seo-specialist-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/microservices-architect-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/product-researcher-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/qa-engineer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/research-assistant-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/seo-manager-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/shopify-developer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/social-media-manager-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/ui-designer-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/manifests/video-director-paperclip-manifest.json
+[2026-04-13T23:34:36] [INFO] Wrote /home/user/ai-library/build/library-registry.json
