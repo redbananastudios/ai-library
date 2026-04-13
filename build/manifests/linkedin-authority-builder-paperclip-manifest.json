@@ -2,6 +2,6 @@
   "item_id": "linkedin-authority-builder",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\linkedin-authority-builder\\payload.json",
-  "published_at": "2026-04-13T11:35:39.258315",
+  "published_at": "2026-04-13T13:24:38.876280",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

@@ -46,3 +46,7 @@ When delivering work, provide:
 2. Files changed, grouped by layer (database / API / UI)
 3. Test results and coverage
 4. Any follow-up items or known limitations
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

@@ -1,0 +1,9 @@
+id: shopify-sync
+name: Shopify Sync
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+description: Sync enriched product JSON to Shopify store
+status: active

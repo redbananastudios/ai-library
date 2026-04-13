@@ -1,0 +1,18 @@
+{
+  "id": "shopify-sync",
+  "name": "Shopify Sync",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Sync enriched product JSON to Shopify store",
+  "prompt": "---\nname: shopify-sync\ndescription: Sync enriched product JSON to Shopify. Groups colour variants, creates or updates products with variants, matches existing products by SKU.\n---\n\n# Shopify Product Sync\n\nYou are publishing enriched product data to the current project's Shopify store.\n\n## Input\n\nThe user will provide either:\n- A path to a single product folder (e.g. `output/fontmell-sku/`)\n- The word \"all\" or \"batch\" to process all `output/*/enriched.json` files\n\n## Process\n\n### Step 0: Load and group products\nRead all `enriched.json` files from the target folders.\n**Group products into families by `identity.our_product_name`.**\nProducts with the same name but different `metadata.colour` values are variants. Products with a unique name are standalone.\nDesignate the primary variant as the first when sorted alphabetically by SKU. Product-level fields come from the primary. \n\n### Step 1: For each product family\n\n#### 1a: Render HTML description\nUse the primary variant's enriched JSON to render enabled sections as formatted HTML (`<h2>` for sections, `<p>`, `<ul>`, `<table>` where appropriate).\n\n#### 1b: Check for existing product by SKU\n1. For each variant, use `get-products` matching the title.\n2. Check if any existing product matches the SKU `shopify.sku`.\n3. If found, use the existing product GID to update. \n4. If `shopify.shopify_gid` is already inside `enriched.json`, use that directly!\n5. If no match is found, create a new product.\n**SKU is the authoritative match key.**\n\n#### 1c: Create or update product\nNew: `create-product` with title (stripped of variant colours), HTML description, type, vendor, tags (merged from variants), handle (slugified), status=\"draft\", seo objects.\nUpdate: `update-product` with existing GID and same fields.\n\n#### 1d: Set variant details\nFor each variant, use `manage-product-variants` to set price, sku, taxable=false, and optionValues (e.g. Colour).\n(Note: Handle Cost Per Item manually if MCP doesn't support it).\n\n#### 1e: Handle images\nAttempt to set images via MCP tools. Upload all images. If MCP tool doesn't support variant-level association, upload at product level.\nIf MCP has no image support, report it needs manual upload.\nIf any new lifestyle/aesthetic images are requested by the user separately, use the **nano-banana-realism-engine** skill to generate concepts.\n\n#### 1f: Store GID\nWrite the Shopify product GID back to EVERY variant's `enriched.json` in the `shopify.shopify_gid` field.\n\n### Step 2: Summary\nReport total processed, created, updated, total variants, skipped.\nRemind user products are in DRAFT status.\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": ""
+  }
+}

@@ -2,6 +2,6 @@
   "item_id": "content-strategy",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\content-strategy\\payload.json",
-  "published_at": "2026-04-13T11:35:39.224726",
+  "published_at": "2026-04-13T13:24:38.839010",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

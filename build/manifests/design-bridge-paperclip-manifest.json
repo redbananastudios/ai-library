@@ -2,6 +2,6 @@
   "item_id": "design-bridge",
   "type": "agent",
   "payload_path": "generated\\paperclip\\agents\\design-bridge\\payload.json",
-  "published_at": "2026-04-13T11:35:39.384300",
+  "published_at": "2026-04-13T13:24:39.020427",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

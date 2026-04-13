@@ -8,7 +8,9 @@ compatible_targets:
 - claude
 - paperclip
 changelog_summary: Initial creation
-requirements: []
+requirements:
+- engineering-standards
+- boilerplate-generator
 status: active
 description: Design and implement backend services and APIs. Focus on RESTful API
   design, database modeling, authentication, caching, logging, and optimizing performance

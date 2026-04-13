@@ -97,3 +97,7 @@ When delivering work, provide:
 2. Screenshots or browser-use verification of the result
 3. Accessibility checklist status
 4. Any design decisions made and their rationale
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

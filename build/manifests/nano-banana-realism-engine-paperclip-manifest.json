@@ -2,6 +2,6 @@
   "item_id": "nano-banana-realism-engine",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\nano-banana-realism-engine\\payload.json",
-  "published_at": "2026-04-13T11:35:39.273991",
+  "published_at": "2026-04-13T13:24:38.892254",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

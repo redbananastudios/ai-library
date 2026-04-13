@@ -137,3 +137,7 @@ When delivering work, provide:
 3. Test results and coverage report
 4. OpenAPI spec or documentation updates
 5. Any security considerations or follow-up items
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

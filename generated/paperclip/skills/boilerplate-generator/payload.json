@@ -1,0 +1,18 @@
+{
+  "id": "boilerplate-generator",
+  "name": "Boilerplate Generator",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Strict scaffolding routine ensuring decoupled architecture",
+  "prompt": "---\nname: boilerplate-generator\ndescription: Strict scaffolding tool. Generates the exact mandatory boilerplate files for routing, envelope packaging, and handler decoupling BEFORE any logic is written.\n---\n\n# Boilerplate Generator scaffolding\n\nYou are bound by strict architectural standards that decouple controllers from business logic and mandate consistent response envelopes. Because it is easy to \"forget\" to do this when focusing on logic, you MUST use this generation workflow first.\n\n## Directive\nWhenever you are asked to implement a new feature, a new route, or a new complex frontend component, you MUST first create the **empty structural boilerplate** files before you write a single line of business logic.\n\n## Steps to Follow\n\n### 1. Identify the Boundaries\nDecide exactly where the Controller/Route ends and the Business Logic Handler begins.\nDecide exactly where the API/Data layer ends and the UI rendering begins.\n\n### 2. Scaffold the Boilerplate\nGenerate the source files featuring ONLY empty shells and the required exact return types (envelopes / `Result<T>`).\n\nExample for Backend:\n- Create `Controller` file. It must only extract params and return the result of the `Handler`.\n- Create `Handler` file. It must return the required envelope / Result object with hardcoded `NotImplemented` or empty state.\n- Create any required Interfaces (only if multiple implementations are planned).\n\nExample for Frontend:\n- Create the Main Component file with separated fetching hooks.\n- Create the standard skeleton loading and error states immediately.\n\n### 3. Verify Constraints\nReview your empty files:\n- Does the Controller have 0 lines of business logic? YES.\n- Does the API return the standardized `{ success, data, errors }` format? YES.\n\n### 4. Implement Logic\nOnly AFTER confirming the scaffold is correct, mutate the files to add the inner business logic computations, database queries, or UI state bindings.\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": ""
+  }
+}

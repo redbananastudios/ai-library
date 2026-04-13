@@ -1,0 +1,18 @@
+{
+  "id": "shopify-supplier-extract",
+  "name": "Shopify Supplier Extract",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Extract product data from supplier pages using CSV",
+  "prompt": "---\nname: shopify-supplier-extract\ndescription: Extract product data from supplier pages using CSV mapping. Fetches pages, AI-extracts structured content, downloads images and datasheets, outputs canonical raw JSON.\n---\n\n# Supplier Product Extraction\n\nYou are extracting project-agnostic product data from supplier websites for the current project.\n\n## 🚨 Standard Project Architecture: Input File\nThis skill expects a CSV instruction file in the project's root:\n- `./brand-memory/input/products.csv` (Fallback to `./input/products.csv` if memory folder is not used yet)\n\nThe CSV MUST contain: SKU, OUR NAME, SUPPLIER, SUPPLIER SKU, Url, COST INC VAT, SALE PRICE, MFR NAME, COLOUR, TYPE, Category 1/2/3.\n\n## Row Filtering\nSkip rows where SUPPLIER is \"amazon\" (blocks scraping), or where SUPPLIER SKU is empty.\n\n## Process\n\n### Step 1: Validate CSV\nCheck for required columns. Check for duplicate `our_sku` or `supplier_url` values. Reject duplicates.\n\n### Step 2: Process Each Row\n\n**2a:** Create output folder `output/{product-name-slug}-{our_sku}/` and subdirectories for `images/` and `datasheets/`.\n**2b:** Fetch supplier HTML via WebFetch from `Url`. Handle errors gracefully.\n**2c:** Clean HTML (strip script, style, nav, footer, noscript, comments).\n**2d:** Extract into `schemas/raw-product.schema.json`. Factual content only. No rewriting. Keep table data structured. Break out description, bullets, specs, FAQ. Extract hi-res image URLs and assign `alt_text` and positions. Classify and extract datasheets.\n**2e:** Download Images: use `curl -sL -o \"{output_path}\" \"{source_url}\"`\n**2f:** Download Datasheets: use `curl -sL -o \"{output_path}\" \"{source_url}\"`\n**2g:** Write complete JSON object to `raw.json`.\n\nIf any new realistic creative/hero imagery is needed later instead of pure supplier photos, defer to **nano-banana-realism-engine**. \n\n### Step 3: Summary\nReport total successful/failed extractions, downloaded images/datasheets.\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip"
+    ],
+    "changelog_summary": ""
+  }
+}

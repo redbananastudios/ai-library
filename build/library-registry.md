@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-13T11:35:39
+Updated: 2026-04-13T13:24:39
 
-Total items: 89
+Total items: 96
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -17,6 +17,7 @@ Total items: 89
 | backlink-analyzer | Backlink Analyzer | skill | 0.1.0 | imported | yes | manifest_generated |
 | backlink-builder | Backlink Builder | agent | 0.2.0 | active | yes | manifest_generated |
 | backlink-outreach | Backlink Outreach | skill | 0.1.0 | imported | yes | manifest_generated |
+| boilerplate-generator | Boilerplate Generator | skill | 0.1.0 | active | yes | manifest_generated |
 | brand-builder | Brand Builder | agent | 0.2.0 | active | yes | manifest_generated |
 | browser-use | Browser Use | skill | 0.1.0 | imported | yes | manifest_generated |
 | bug-investigator | Bug Investigator | agent | 0.2.0 | active | yes | manifest_generated |
@@ -32,6 +33,7 @@ Total items: 89
 | deep-research | Deep Research | skill | 0.1.0 | imported | yes | manifest_generated |
 | design-assets | Design Assets | skill | 0.1.0 | imported | yes | manifest_generated |
 | design-bridge | Design Bridge | agent | 0.2.0 | active | yes | manifest_generated |
+| engineering-standards | Engineering Standards | skill | 0.1.0 | active | yes | manifest_generated |
 | facebook-ads-optimizer | Facebook Ads Optimizer | skill | 0.1.0 | placeholder | yes | manifest_generated |
 | firecrawl | Firecrawl Web Scraper | skill | 0.1.0 | active | yes | manifest_generated |
 | frontend-design | Frontend Design | skill | 0.1.0 | imported | yes | manifest_generated |
@@ -72,14 +74,19 @@ Total items: 89
 | shopify-app-development | Shopify App Development | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-checkout | Shopify Checkout | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-cli | Shopify CLI | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-collection-card-renderer | Shopify Collection Card Renderer | skill | 0.1.0 | active | yes | manifest_generated |
 | shopify-content | Shopify Content | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-developer | Shopify Developer | agent | 0.2.0 | active | yes | manifest_generated |
 | shopify-functions | Shopify Functions | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-graphql | Shopify GraphQL | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-hydrogen | Shopify Hydrogen | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-liquid-templating | Shopify Liquid Templating | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-pdp-designer | Shopify PDP Designer | skill | 0.1.0 | active | yes | manifest_generated |
+| shopify-product-enrich | Shopify Product Enrich | skill | 0.1.0 | active | yes | manifest_generated |
 | shopify-products | Shopify Products | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-setup | Shopify Setup | skill | 0.1.0 | imported | yes | manifest_generated |
+| shopify-supplier-extract | Shopify Supplier Extract | skill | 0.1.0 | active | yes | manifest_generated |
+| shopify-sync | Shopify Sync | skill | 0.1.0 | active | yes | manifest_generated |
 | shopify-theme-development | Shopify Theme Development | skill | 0.1.0 | imported | yes | manifest_generated |
 | simplify | Simplify | skill | 0.1.0 | imported | yes | manifest_generated |
 | social-card-gen | Social Card Generator | skill | 0.1.0 | imported | yes | manifest_generated |

@@ -2,12 +2,21 @@ id: fullstack-developer
 name: Fullstack Developer
 type: agent
 version: 0.2.0
-source_url: ""
+source_url: ''
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets:
+- claude
+- paperclip
 changelog_summary: Rebuilt with full workflow, skill references and tool guidance
-requirements: ['frontend-design', 'code-reviewer', 'qa']
+requirements:
+- frontend-design
+- code-reviewer
+- qa
+- engineering-standards
+- boilerplate-generator
 status: active
-description: Senior developer agent that plans and implements end-to-end features across database, API and UI layers. Ensures schemas align with API contracts, builds type-safe APIs and handles auth, testing, performance and deployment.
-trigger: ""
-imported_from_pack: ""
+description: Senior developer agent that plans and implements end-to-end features
+  across database, API and UI layers. Ensures schemas align with API contracts, builds
+  type-safe APIs and handles auth, testing, performance and deployment.
+trigger: ''
+imported_from_pack: ''

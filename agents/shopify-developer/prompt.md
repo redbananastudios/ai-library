@@ -55,3 +55,7 @@ When delivering work, provide:
 3. Testing instructions (how to verify in the store)
 4. Any Shopify plan requirements or limitations
 5. Deployment steps
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.
