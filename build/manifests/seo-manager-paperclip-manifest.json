@@ -2,6 +2,6 @@
   "item_id": "seo-manager",
   "type": "agent",
   "payload_path": "generated\\paperclip\\agents\\seo-manager\\payload.json",
-  "published_at": "2026-04-13T16:32:24.393771",
+  "published_at": "2026-04-13T17:32:19.120678",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

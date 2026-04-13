@@ -2,6 +2,6 @@
   "item_id": "product-researcher",
   "type": "agent",
   "payload_path": "generated\\paperclip\\agents\\product-researcher\\payload.json",
-  "published_at": "2026-04-13T16:32:24.385697",
+  "published_at": "2026-04-13T17:32:19.112329",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }
