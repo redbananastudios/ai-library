@@ -155,39 +155,23 @@ Set up the brand memory layer for Willow & Weir inside this project.
 - populate brand profile and visual direction files
 - do not save those files inside the skill bundle
 
-## Media Execution — Intelligent Model Routing
+## Media Execution — Higgsfield Browser (Primary)
 
-When the user requests actual image or video files, decide which execution backend to use based on the task:
+When the user requests actual image or video files, use the **Higgsfield** browser interface as the primary execution path. Higgsfield provides access to 15+ premium AI image models with the best photorealistic results.
 
-### Route 1: Nano Banana CLI (Speed + Video)
-Use the `nano-banana` CLI when:
-- The user wants **fast** generation with minimal fuss
-- The request is **general purpose** and doesn't need a specific model
-- The user wants **video** (Veo 3.1 — Higgsfield doesn't offer this)
-- The user wants **image editing** on an existing file (`--file`)
-- No browser is available
+### Route 1: Higgsfield Browser (Primary)
+Always use the `higgsfield` skill for image generation. Higgsfield offers:
+- **Photo-realistic people, fashion, lifestyle** → Seedream 5.0
+- **General purpose, fast turnaround** → Nano Banana 2.5
+- **Creative editing, reference images, object swaps** → Nano Banana Pro
+- **Text rendered inside images (logos, signs, posters)** → FLUX.2 Pro / Max
+- **Anime, illustration, stylized art** → WAN 2.5 or Reve
+- **Concept art, mixed media, strict prompt accuracy** → Reve
+- **Character consistency across multiple images** → Soul 2.0
+- **Context-aware generation, consistent characters** → FLUX Kontext
+- **Highest possible photorealism, complex composition** → Seedream 5.0 or GPT Image
 
-**Image commands:**
-- `nano-banana "your photorealistic prompt"`
-- `--model pro` for highest quality (defaults to `gemini-3.1-flash-image-preview`)
-- `--output {path}` for descriptive saving
-- `--file {path}` to edit an existing image
-
-**Video commands (Veo 3.1):**
-- `nano-banana --video "A cinematic sunset hyperlapse"`
-- `--video-fast` for cheaper drafts, `--no-audio` to save cost
-- `--duration {4|6|8}`, `--resolution {720p|1080p|4K}`, `--aspect {16:9|9:16}`
-- `--reference {path}` for character consistency, `--extend {video}` to continue a clip
-
-### Route 2: Higgsfield Browser (Premium Model Selection)
-Use the `higgsfield` skill when:
-- The user wants a **specific model** (Seedream, FLUX, Reve, Soul ID, etc.)
-- The task benefits from a **specialist model** (see selection table below)
-- The user wants **4K+ resolution** or **inpainting / editing tools**
-- The user wants **character consistency** (Soul ID)
-- A browser is already open and authenticated on Higgsfield
-
-**Automatic model selection for Higgsfield:**
+**Automatic model selection table:**
 
 | Task | Best Model | URL Slug |
 |------|-----------|----------|
@@ -200,17 +184,27 @@ Use the `higgsfield` skill when:
 | Character consistency across multiple images | Soul 2.0 | `soul_2` |
 | Context-aware generation, consistent characters | FLUX Kontext | `flux_kontext` |
 | Highest possible photorealism, complex composition | Seedream 5.0 or GPT Image | `seedream_5` / `gpt_image` |
+| 4K+ resolution or inpainting / editing tools | Any model on Higgsfield | — |
 
 When using Higgsfield, follow the full `higgsfield` skill workflow (browser navigation, settings, prompt entry, generation, download).
 
-### Route 3: Native `generate_image` Tool (Fallback)
-If neither the CLI nor a browser is available, use your environment's native `generate_image` tool as a last resort.
+### Route 2: Nano Banana CLI (Future - API Access Pending)
+Once Nano Banana API access is available, the CLI will support:
+- **Video generation** (Veo 3.1) — cinematic video creation
+- **Image editing** on existing files (`--file`)
+- **Fast batch generation** for general-purpose requests
+
+### Route 3: Native `generate_image` Tool (Last Resort)
+If Higgsfield is unavailable, use your environment's native `generate_image` tool as a fallback.
 
 ### Routing Decision
-Apply this priority:
-1. If the user names a specific model (e.g. "use Seedream" or "use Nano Banana Pro") → **Higgsfield**
-2. If the task matches a specialist model (text-in-image, character consistency, anime) → **Higgsfield**
-3. If the user wants video → **CLI only** (Higgsfield doesn't support video)
-4. If speed matters and no specific model is needed → **CLI**
-5. If nothing else is available → **Native tool fallback**
+Apply this priority (current state):
+1. **Always use Higgsfield** for all image generation requests
+2. If the user wants video → Inform them this is coming (Veo 3.1 via CLI, pending API access)
+3. If Higgsfield is unavailable → **Native tool fallback**
+
+*Future routing (once Nano Banana API access is enabled):*
+1. If the user wants video → Nano Banana CLI (Veo 3.1)
+2. If the user wants image editing → Nano Banana CLI
+3. All other image generation → Higgsfield
 
