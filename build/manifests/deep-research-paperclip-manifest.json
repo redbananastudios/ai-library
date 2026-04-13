@@ -1,7 +1,7 @@
 {
   "item_id": "deep-research",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\deep-research\\payload.json",
-  "published_at": "2026-04-13T17:32:18.915516",
+  "payload_path": "generated/paperclip/skills/deep-research/payload.json",
+  "published_at": "2026-04-13T23:46:22.611402",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

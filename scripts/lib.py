@@ -110,29 +110,75 @@ def default_spec(item_id: str, item_type: str = "skill") -> dict:
 
 
 def load_spec(item_dir: Path) -> dict:
-    """Load spec.yaml as dict (basic YAML parser for simple flat specs)."""
+    """Load spec.yaml as dict (basic YAML parser for simple flat specs).
+
+    Supports inline list syntax (key: [a, b, c]) and YAML block list syntax:
+        key:
+        - a
+        - b
+    Multi-line folded scalars (value continues on next indented line) are joined.
+    """
     spec_path = item_dir / "spec.yaml"
     if not spec_path.exists():
         return {}
     text = read_text(spec_path)
     result = {}
-    for line in text.strip().split("\n"):
-        line = line.strip()
-        if not line or line.startswith("#"):
+    lines = text.split("\n")
+    i = 0
+    current_key = None
+    while i < len(lines):
+        raw = lines[i]
+        stripped = raw.strip()
+        if not stripped or stripped.startswith("#"):
+            i += 1
             continue
-        if ":" in line:
-            key, val = line.split(":", 1)
+        # Block list item (continues current_key)
+        if stripped.startswith("- ") and current_key is not None:
+            item = stripped[2:].strip().strip('"').strip("'")
+            if not isinstance(result.get(current_key), list):
+                result[current_key] = []
+            result[current_key].append(item)
+            i += 1
+            continue
+        # Key: value line
+        if ":" in stripped:
+            key, val = stripped.split(":", 1)
             key = key.strip()
             val = val.strip()
-            # Handle lists
+            # Inline list
             if val.startswith("[") and val.endswith("]"):
                 items = val[1:-1].split(",")
-                val = [i.strip().strip('"').strip("'") for i in items if i.strip()]
-            elif val.startswith('"') and val.endswith('"'):
-                val = val[1:-1]
-            elif val.startswith("'") and val.endswith("'"):
-                val = val[1:-1]
-            result[key] = val
+                val = [x.strip().strip('"').strip("'") for x in items if x.strip()]
+                result[key] = val
+                current_key = None
+            elif val == "":
+                # Either a block list follows, or a folded scalar. Peek next line.
+                j = i + 1
+                while j < len(lines) and not lines[j].strip():
+                    j += 1
+                if j < len(lines) and lines[j].lstrip().startswith("- "):
+                    result[key] = []
+                    current_key = key
+                else:
+                    result[key] = ""
+                    current_key = key
+            else:
+                if val.startswith('"') and val.endswith('"'):
+                    val = val[1:-1]
+                elif val.startswith("'") and val.endswith("'"):
+                    val = val[1:-1]
+                result[key] = val
+                current_key = key
+            i += 1
+            continue
+        # Continuation line for folded scalar (indented, no colon, no dash)
+        if current_key is not None and isinstance(result.get(current_key), str) and raw.startswith(" "):
+            existing = result[current_key]
+            joined = (existing + " " + stripped).strip() if existing else stripped
+            result[current_key] = joined
+            i += 1
+            continue
+        i += 1
     return result
 
 

@@ -1,7 +1,7 @@
 {
   "item_id": "design-assets",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\design-assets\\payload.json",
-  "published_at": "2026-04-13T17:32:18.918230",
+  "payload_path": "generated/paperclip/skills/design-assets/payload.json",
+  "published_at": "2026-04-13T23:46:22.618491",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

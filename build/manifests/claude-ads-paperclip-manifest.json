@@ -1,7 +1,7 @@
 {
   "item_id": "claude-ads",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\claude-ads\\payload.json",
-  "published_at": "2026-04-13T17:32:18.890564",
+  "payload_path": "generated/paperclip/skills/claude-ads/payload.json",
+  "published_at": "2026-04-13T23:46:22.558380",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

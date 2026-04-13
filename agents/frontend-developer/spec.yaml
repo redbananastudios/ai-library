@@ -1,19 +1,21 @@
 id: frontend-developer
 name: Frontend Developer
 type: agent
-version: 0.2.0
+version: 0.4.0
 source_url: ''
 source_kind: custom
 compatible_targets:
 - claude
 - paperclip
-changelog_summary: Rebuilt with full workflow, skill references and tool guidance
+changelog_summary: Delegate git conflicts and history surgery to git-specialist agent
 requirements:
 - frontend-design
 - design-assets
 - browser-use
 - engineering-standards
 - boilerplate-generator
+- qa
+- code-reviewer
 status: active
 description: Builds modern user interfaces using React, Vue or Angular. Gathers context
   about UI architecture and design tokens, scaffolds responsive components, integrates

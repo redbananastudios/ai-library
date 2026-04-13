@@ -41,3 +41,7 @@ When delivering work, provide:
 3. Communication map (which services talk to which, sync vs async)
 4. Data consistency strategy per interaction
 5. Deployment and scaling recommendations
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

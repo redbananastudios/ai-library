@@ -49,3 +49,7 @@ When delivering work, provide:
 3. Evidence collected (logs, screenshots, traces)
 4. Proposed fix (code changes or task description)
 5. Regression test recommendation
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

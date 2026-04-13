@@ -1,7 +1,7 @@
 {
   "item_id": "copywriter",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\copywriter\\payload.json",
-  "published_at": "2026-04-13T17:32:18.907230",
+  "payload_path": "generated/paperclip/skills/copywriter/payload.json",
+  "published_at": "2026-04-13T23:46:22.589322",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

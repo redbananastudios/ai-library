@@ -1,7 +1,7 @@
 {
   "item_id": "shopify-developer",
   "type": "agent",
-  "payload_path": "generated\\paperclip\\agents\\shopify-developer\\payload.json",
-  "published_at": "2026-04-13T17:32:19.123446",
+  "payload_path": "generated/paperclip/agents/shopify-developer/payload.json",
+  "published_at": "2026-04-13T23:46:23.115412",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }
