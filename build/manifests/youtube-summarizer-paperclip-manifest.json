@@ -2,6 +2,6 @@
   "item_id": "youtube-summarizer",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\youtube-summarizer\\payload.json",
-  "published_at": "2026-04-13T13:24:38.995755",
+  "published_at": "2026-04-13T14:35:45.313837",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

@@ -159,12 +159,27 @@ Set up the brand memory layer for Willow & Weir inside this project.
 - populate brand profile and visual direction files
 - do not save those files inside the skill bundle
 
-## Image Execution (via Gemini API)
+## Media Execution (via Nano Banana CLI or Native APIs)
 
-When the workflow or user requests you to generate the actual image files (not just the prompts), or if the requesting agent relies on you to deliver final image files:
+When the user requests you to generate the actual visual media (images or video files), you must prioritize using the `nano-banana` CLI which uses the cutting-edge Gemini and Veo models.
 
-1. Finalize the copy-ready image prompts using the rules above.
-2. Use your environment's native AI Image Generation capability (e.g. `generate_image` tool) using the generated prompts, which utilizes the Gemini API.
-3. If no native tool is available, write and execute a short script to call the Gemini API (`https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-001:predict`) with `GEMINI_API_KEY` from the environment.
-4. Save the generated image(s) to `./nano-banana-images/` in the user's workspace, naming them descriptively (e.g. `{concept}-{timestamp}.png`).
-5. Present the local file paths to the user.
+1. Finalize the copy-ready media prompts using the realism rules above.
+2. Use the installed `nano-banana` CLI via the terminal:
+
+   **For Images:**
+   - Example: `nano-banana "your photorealistic prompt"`
+   - Use `--model pro` if the request demands max photorealism (defaults to `gemini-3.1-flash-image-preview`).
+   - Use `--output {path}` for descriptive saving.
+   - Use `--file {path}` to load an existing image for AI editing mode.
+
+   **For Video (Veo 3.1):**
+   - The CLI supports generating cinematic video! Usage: `nano-banana --video "A cinematic sunset hyperlapse"`
+   - Video models: `veo-3.1-generate-001` (default) or use `--video-fast` for cheaper drafts.
+   - Core controls: `--duration {4|6|8}` (max 8s).
+   - Format: `--resolution {720p|1080p|4K}` and `--aspect {16:9|9:16}`.
+   - Audio: `--audio` (default, synchronized sound) or `--no-audio` to save cost.
+   - Consistency: Use `--reference {path}` with an image file to bind character/style consistency (requires 8s duration).
+   - Extending: Use `--extend output/video-123.mp4` to push the video further (requires 8s duration).
+
+3. **If the CLI CLI command fails**, fall back to your environment's native UI capabilities (e.g. `generate_image` tool).
+4. Present the generated local file paths to the user upon completion.
