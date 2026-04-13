@@ -1,0 +1,13 @@
+id: higgsfield-video
+name: Higgsfield Video Generator
+type: skill
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - comprehensive video generation for UGC, social, and cinematic production
+requirements: ['nano-banana-realism-engine']
+status: active
+description: Generate high-quality videos via Higgsfield.ai with 9+ models (Kling 3.0, Cinema Studio, Veo 3.1 UGC Builder, Seedance, WAN, Sora). Browser automation for all workflows including Cinema Studio (ARRI/RED/IMAX), UGC talking heads, multi-shot scenes, and stitching.
+trigger: ""
+imported_from_pack: ""

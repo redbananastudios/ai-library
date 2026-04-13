@@ -6954,3 +6954,13 @@
 [2026-04-13T17:32:19] [INFO] Wrote O:\ai-library\build\library-registry.json
 [2026-04-13T17:32:19] [INFO] Wrote O:\ai-library\build\manifests\ui-designer-paperclip-manifest.json
 [2026-04-13T17:32:19] [INFO] Wrote O:\ai-library\build\library-registry.json
+[2026-04-13T17:42:07] [INFO] Built Claude skill: higgsfield
+[2026-04-13T17:42:07] [INFO] Wrote O:\ai-library\generated\paperclip\skills\higgsfield\payload.json
+[2026-04-13T17:42:07] [INFO] Built Paperclip skill: higgsfield
+[2026-04-13T17:42:07] [INFO] Build complete for skill: higgsfield
+[2026-04-13T17:42:07] [INFO] Built Claude skill: nano-banana-realism-engine
+[2026-04-13T17:42:07] [INFO] Wrote O:\ai-library\generated\paperclip\skills\nano-banana-realism-engine\payload.json
+[2026-04-13T17:42:07] [INFO] Built Paperclip skill: nano-banana-realism-engine
+[2026-04-13T17:42:07] [INFO] Build complete for skill: nano-banana-realism-engine
+[2026-04-13T17:42:12] [INFO] Backed up existing: C:\Users\peter\.claude\skills\higgsfield -> C:\Users\peter\.claude\skills\higgsfield.bak.20260413174212
+[2026-04-13T17:42:12] [INFO] Published to Claude: higgsfield
