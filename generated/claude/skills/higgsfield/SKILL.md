@@ -1,11 +1,10 @@
 ---
 name: higgsfield
-description: Generate images via Higgsfield.ai using browser automation - supports Nano Banana, Seedream, FLUX, GPT Image, Kling, Reve, and more. Auto-selects the best model for the task.
-trigger: higgsfield, generate image, create image, make image, image generation, nano banana, seedream, flux image, kling image
+description: Generate images via Higgsfield.ai browser automation. Access 15+ premium AI models including Nano Banana Pro, Seedream, FLUX, GPT Image, Reve, and Soul ID.
 ---
 ---
 name: higgsfield
-description: Generate images via Higgsfield.ai using browser automation. Supports 15+ models including Nano Banana, Seedream, FLUX, GPT Image, Kling, Reve, and more. Auto-selects the best model for the task or lets the user choose.
+description: Generate images via Higgsfield.ai using browser automation. Access 15+ premium AI models (Nano Banana Pro, Seedream, FLUX, GPT Image, Reve, Soul ID) through browser-use CLI or Playwright MCP. Auto-selects the best model for the task, handles generation, and downloads results.
 ---
 
 # Higgsfield AI Image Generator
@@ -14,74 +13,74 @@ Generate images using Higgsfield.ai through browser automation. This skill navig
 
 ## Prerequisites
 
-- `browser-use` CLI installed (`browser-use doctor` to verify)
+- `browser-use` CLI installed (`browser-use doctor` to verify), OR Playwright MCP available
 - Logged into Higgsfield.ai (via Chrome profile or manual login)
 
-## Available Models and When to Use Them
+## Available Models
 
-| Model | Best For | Slug |
-|-------|----------|------|
-| **Nano Banana Pro** | 4K images, creative editing, up to 8 reference images, object swaps, pose editing | `nano_banana_pro` |
-| **Nano Banana 2.5** | Latest 4K model (Gemini Flash), general-purpose, fast | `nano_banana_2` |
-| **Seedream 5.0** | Ultra-realistic lifestyle, editorial, fashion, cinematic lighting | `seedream_5` |
-| **Seedream 4.0** | Realistic imagery, fashion-grade quality | `seedream_4` |
-| **FLUX.2 Pro** | High-fidelity, sharp text rendering in images | `flux_2_pro` |
-| **FLUX.2 Max** | Maximum quality text rendering | `flux_2_max` |
-| **FLUX Kontext** | Context-aware generation, consistent characters | `flux_kontext` |
-| **GPT Image 1.5** | Multimodal reasoning, general purpose, versatile | `gpt_image` |
-| **Reve** | Strict prompt accuracy, concept design, anime, mixed-media | `reve` |
-| **Kling O1** | Kuaishou model, good for varied styles | `kling_o1` |
-| **Z-Image** | Alibaba model, diverse styles | `z_image` |
-| **WAN 2.5** | Anime style, illustration | `wan_2_5` |
-| **Soul 2.0** | Character consistency, identity preservation across generations | `soul_2` |
+| Model | Best For | URL Path |
+|-------|----------|----------|
+| **Nano Banana Pro** | 4K creative editing, up to 8 reference images, object swaps, pose editing | `/image/nano_banana_pro` |
+| **Nano Banana 2.5** | Latest 4K model (Gemini Flash), general-purpose, fast | `/image/nano_banana_2` |
+| **Seedream 5.0** | Ultra-realistic lifestyle, editorial, fashion, cinematic lighting | `/image/seedream_5` |
+| **Seedream 4.0** | Realistic imagery, fashion-grade quality | `/image/seedream_4` |
+| **FLUX.2 Pro** | High-fidelity, sharp text rendering in images | `/image/flux_2_pro` |
+| **FLUX.2 Max** | Maximum quality text rendering | `/image/flux_2_max` |
+| **FLUX Kontext** | Context-aware generation, consistent characters | `/image/flux_kontext` |
+| **GPT Image 1.5** | Multimodal reasoning, general purpose, versatile | `/image/gpt_image` |
+| **Reve** | Strict prompt accuracy, concept design, anime, mixed-media | `/image/reve` |
+| **Kling O1** | Kuaishou model, good for varied styles | `/image/kling_o1` |
+| **Z-Image** | Alibaba model, diverse styles | `/image/z_image` |
+| **WAN 2.5** | Anime style, illustration | `/image/wan_2_5` |
+| **Soul 2.0** | Character consistency, identity preservation across generations | `/image/soul_2` |
 
 ### Auto-Selection Guide
 
 When the user does NOT specify a model, choose based on the request:
 
-- **Photo-realistic people/fashion/lifestyle** -> Seedream 5.0
-- **General purpose / quick generation** -> Nano Banana 2.5
-- **Text in image (logos, signs, posters)** -> FLUX.2 Pro or FLUX.2 Max
-- **Anime / illustration / stylized** -> WAN 2.5 or Reve
-- **Concept art / mixed media** -> Reve
-- **Character consistency across multiple images** -> Soul 2.0 or FLUX Kontext
-- **Creative editing with reference images** -> Nano Banana Pro
-- **Highest quality, no specific need** -> Seedream 5.0 or GPT Image 1.5
+- **Photo-realistic people / fashion / lifestyle** → Seedream 5.0
+- **General purpose / quick generation** → Nano Banana 2.5
+- **Text in image (logos, signs, posters)** → FLUX.2 Pro or FLUX.2 Max
+- **Anime / illustration / stylized** → WAN 2.5 or Reve
+- **Concept art / mixed media** → Reve
+- **Character consistency across multiple images** → Soul 2.0 or FLUX Kontext
+- **Creative editing with reference images** → Nano Banana Pro
+- **Highest quality, no specific need** → Seedream 5.0 or GPT Image 1.5
 
 ## Output Directory
 
 All downloaded images are saved to `./higgsfield-images/` relative to the user's workspace. Create this directory if it does not exist.
 
 Name files descriptively: `{model}-{short-description}-{timestamp}.png`
-Example: `seedream5-sunset-beach-portrait-20260409-143022.png`
+Example: `seedream5-sunset-beach-portrait-20260413-160000.png`
 
-## Workflow
+## Workflow (browser-use CLI)
 
 ### Step 1: Ensure Browser Session
 
-Check if browser-use has an active session. If not, connect to the user's Chrome (preserves login):
+Connect to the user's existing Chrome to preserve logins:
 
 ```bash
 browser-use connect
 ```
 
-If connect fails or the user is not logged in, navigate to the login page:
+If not logged in, navigate to:
 
 ```bash
 browser-use open https://higgsfield.ai/auth/email/sign-in
 ```
 
-Then ask the user for their email and password if needed. Use `browser-use state` to find the input fields and `browser-use input <index> "value"` to fill them.
+Then use `browser-use state` to find the login fields and `browser-use input <index> "value"` to fill them.
 
-### Step 2: Navigate to Image Generation
-
-Navigate to the model page. Use the slug from the model table:
+### Step 2: Navigate to the Model Page
 
 ```bash
 browser-use open https://higgsfield.ai/image/{model_slug}
 ```
 
-If the user wants to browse models or you need to discover what's available:
+Replace `{model_slug}` with the URL path from the model table (e.g. `nano_banana_2`, `seedream_5`).
+
+To browse all available models:
 
 ```bash
 browser-use open https://higgsfield.ai/ai-image
@@ -94,20 +93,18 @@ browser-use state
 ```
 
 Look for:
-- The prompt textarea (usually has placeholder text like "Describe any visual idea")
-- The model selector (to confirm correct model is selected)
+- The prompt textarea (placeholder like "Describe any visual idea")
+- Model selector (confirm correct model is active)
 - Settings controls (aspect ratio, quality)
 - The Generate button
 
-### Step 4: Configure Settings (if needed)
+### Step 4: Configure Settings
 
 Before entering the prompt, adjust settings if the user specified them:
 
-**Aspect Ratio** - Look for aspect ratio controls (1:1, 9:16, 16:9, 3:4, 4:3). Click the appropriate option.
-
-**Image Quality** - Look for quality settings (1K, 2K, 4K). Default to the highest available for the model.
-
-**Number of Images** - If the user wants multiple images, look for a count selector.
+- **Aspect Ratio**: Click the appropriate option (1:1, 9:16, 16:9, 3:4, 4:3)
+- **Image Quality**: Select the highest available (1K, 2K, 4K)
+- **Number of Images**: Adjust the count selector if available
 
 ### Step 5: Enter Prompt and Generate
 
@@ -120,61 +117,47 @@ browser-use click <generate_button_index>
 
 ### Step 6: Wait for Generation
 
-Image generation takes 10-60 seconds depending on model and quality. Poll for completion:
+Image generation takes 10–60 seconds depending on model and quality. Poll for completion:
 
 ```bash
 browser-use wait text "Download" --timeout 120000
 ```
 
-If `wait` is not available or times out, use a loop:
+If `wait` times out, poll with screenshots:
 
 ```bash
 browser-use screenshot
 ```
 
-Check the screenshot to see if the image has been generated. Look for the rendered image and download icon. Repeat every 10 seconds until done.
+Repeat every 10 seconds until the rendered image and download icon are visible.
 
 ### Step 7: Download the Image
 
-Once the image is generated:
+Once generated:
 
 ```bash
-browser-use state    # Find the download icon/button
-```
-
-Look for a download button or icon near the generated image. Click it:
-
-```bash
+browser-use state    # Find the download icon/button near the generated image
 browser-use click <download_icon_index>
 ```
 
-The browser will download the file. Wait briefly for the download to complete:
+The browser downloads the file. Find and move it to the workspace:
 
 ```bash
-browser-use wait selector "[data-download-complete]" --timeout 10000
-```
+# Find the most recently downloaded image (Windows)
+Get-ChildItem -Path "$env:USERPROFILE\Downloads" -Include *.png,*.jpg,*.webp -Recurse | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 
-If the download button triggers a direct browser download, the file lands in the system's default Downloads folder. Move it to the workspace:
-
-```bash
-# Find the most recently downloaded image
-ls -t ~/Downloads/*.png ~/Downloads/*.jpg ~/Downloads/*.webp 2>/dev/null | head -1
-```
-
-Then move and rename it:
-
-```bash
+# Move and rename
 mkdir -p ./higgsfield-images
 mv "<downloaded_file>" "./higgsfield-images/{model}-{description}-{timestamp}.png"
 ```
 
-### Step 8: Alternative Download - Extract Image URL
+### Step 8: Fallback – Extract Image URL
 
 If the download button approach fails, extract the image URL directly:
 
 ```bash
-browser-use state    # Find the generated image element
-browser-use get attributes <image_index>    # Get the src URL
+browser-use state                         # Find the generated image element
+browser-use get attributes <image_index>  # Get the src URL
 ```
 
 Then download via curl:
@@ -186,33 +169,27 @@ curl -L "<image_url>" -o "./higgsfield-images/{model}-{description}-{timestamp}.
 
 ### Step 9: Confirm and Present
 
-After downloading, confirm the file exists and show the user:
-
-```bash
-ls -la ./higgsfield-images/
-```
-
-Report to the user:
+After downloading, confirm and report:
 - Which model was used and why
 - The file path of the downloaded image
 - The image dimensions/size
 - Offer to generate more variations or try a different model
 
-## Visual Mode
+## Workflow (Playwright MCP)
 
-When using Playwright or Chrome DevTools MCP tools instead of browser-use CLI, follow the same workflow but use the equivalent MCP tool calls:
+If Playwright MCP tools are available instead of browser-use CLI, follow the same logical workflow using these tool mappings:
 
-1. **Navigate**: `mcp__playwright__browser_navigate` or `mcp__chrome-devtools__navigate_page`
-2. **Inspect**: `mcp__playwright__browser_snapshot` or `mcp__chrome-devtools__take_snapshot`
-3. **Click**: `mcp__playwright__browser_click` or `mcp__chrome-devtools__click`
-4. **Type**: `mcp__playwright__browser_type` or `mcp__chrome-devtools__fill`
-5. **Screenshot**: `mcp__playwright__browser_take_screenshot` or `mcp__chrome-devtools__take_screenshot`
-6. **Wait**: `mcp__playwright__browser_wait_for` or `mcp__chrome-devtools__wait_for`
-7. **Download**: `mcp__playwright__browser_evaluate` to extract URLs, then `curl` to download
+| Action | Playwright MCP |
+|--------|---------------|
+| Navigate | `mcp__playwright__browser_navigate` |
+| Inspect | `mcp__playwright__browser_snapshot` |
+| Click | `mcp__playwright__browser_click` |
+| Type | `mcp__playwright__browser_type` |
+| Screenshot | `mcp__playwright__browser_take_screenshot` |
+| Wait | `mcp__playwright__browser_wait_for` |
+| Download | `mcp__playwright__browser_evaluate` to extract URLs, then `curl` |
 
-The workflow steps remain the same - adapt the tool calls to whichever browser automation is available.
-
-## Prompt Engineering Tips
+## Prompt Engineering
 
 When the user gives a brief description, enhance the prompt for better results:
 
@@ -223,23 +200,26 @@ When the user gives a brief description, enhance the prompt for better results:
 
 Always show the enhanced prompt to the user before generating so they can approve or adjust.
 
+**For photorealistic prompts**, use the `nano-banana-realism-engine` skill to construct the prompt. That skill applies camera presets, lighting presets, and anti-AI realism constraints to produce prompts that look like real photography. Feed the resulting prompt into Higgsfield for generation.
+
 ## Error Handling
 
-- **Not logged in**: The page redirects to `/auth`. Ask the user for credentials or to connect their Chrome profile.
+- **Not logged in**: Page redirects to `/auth`. Ask the user for credentials or to connect their Chrome profile.
 - **Model not available**: Fall back to Nano Banana 2.5 as the default general-purpose model.
-- **Generation fails/errors**: Screenshot the page, report the error to the user, suggest trying a different model.
+- **Generation fails**: Screenshot the page, report the error, suggest trying a different model.
 - **Download fails**: Try the URL extraction method (Step 8) as a fallback.
-- **Rate limited**: Should not happen on paid plan, but if it does, wait and retry.
+- **Rate limited**: Wait and retry. Should not happen on paid plans.
 
 ## Multiple Images
 
-To generate a batch of images:
+To generate a batch:
 
 1. Generate the first image following the full workflow
-2. For subsequent images with the same model, the browser is already on the page - just clear the prompt, enter the new one, and click Generate
+2. For subsequent images with the same model, the browser is already on the page — just clear the prompt, enter the new one, and click Generate
 3. Download each result before generating the next
 4. Name files sequentially: `{model}-{description}-{timestamp}-01.png`, `-02.png`, etc.
 
-## Integration with Nano Banana Skills
+## Integration
 
-This skill supersedes the standalone `nano-banana-pro` and `nano-banana-ppt` skills when working through Higgsfield.ai's web interface. Those skills can still be used independently for direct model-specific workflows outside of Higgsfield.
+- **Prompt quality**: Use `nano-banana-realism-engine` to craft photorealistic prompts before feeding them into Higgsfield.
+- **CLI fallback**: If Higgsfield is unavailable or the user prefers speed over model choice, the `nano-banana` CLI can generate images directly via the Gemini API without a browser.

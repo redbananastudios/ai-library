@@ -1,0 +1,203 @@
+- generic [ref=e1]:
+  - region "Google AI Studio uses cookies to deliver and enhance the quality of its services and to analyze traffic. If you agree, cookies are also used to serve advertising and to personalize the content and advertisements that you see." [ref=e2]:
+    - paragraph [ref=e3]:
+      - text: Google AI Studio uses cookies to deliver and enhance the quality of its services and to analyze traffic. If you agree, cookies are also used to serve advertising and to personalize the content and advertisements that you see.
+      - link "Learn more about how Google uses cookies. Opens in a new tab." [ref=e4] [cursor=pointer]:
+        - /url: https://policies.google.com/technologies/cookies?hl=en
+        - text: Learn more
+    - button "Agree" [ref=e5] [cursor=pointer]
+    - button "No thanks" [ref=e6] [cursor=pointer]
+  - generic [ref=e9]:
+    - button "Skip to main content" [ref=e10]
+    - generic [ref=e12]:
+      - paragraph [ref=e13]:
+        - text: We have updated our
+        - link "Terms of Service" [ref=e14] [cursor=pointer]:
+          - /url: https://ai.google.dev/gemini-api/terms
+      - button "Dismiss" [ref=e15] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - link "Google AI Studio logo" [ref=e21] [cursor=pointer]:
+            - /url: /prompts/new_chat
+            - img "Google AI Studio logo" [ref=e23]
+          - button "View related products" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: expand_more
+        - navigation [ref=e40]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - link "Playground" [ref=e45] [cursor=pointer]:
+                - /url: /prompts/new_chat
+                - generic [ref=e46]: chat_spark
+                - text: Playground
+              - button "Enable saving" [ref=e48] [cursor=pointer]
+            - link "Build" [ref=e49] [cursor=pointer]:
+              - /url: /apps
+              - generic [ref=e50]: design_services
+              - generic [ref=e51]: Build
+              - generic [ref=e52]: chevron_right
+            - link "Dashboard" [ref=e53] [cursor=pointer]:
+              - /url: /api-keys
+              - generic [ref=e54]: speed
+              - generic [ref=e55]: Dashboard
+              - generic [ref=e56]: chevron_right
+            - link "Documentation" [ref=e57] [cursor=pointer]:
+              - /url: https://ai.google.dev/gemini-api/docs
+              - generic [ref=e58]: developer_guide
+              - generic [ref=e59]: Documentation
+              - generic [ref=e60]: arrow_outward
+          - generic [ref=e62]:
+            - button "Search Ctrl /" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: search
+              - generic [ref=e67]: Search
+              - generic [ref=e68]: Ctrl /
+            - button "What's new" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: notifications
+              - text: What's new
+            - button "Get API key" [ref=e73] [cursor=pointer]:
+              - generic [ref=e74]: key
+              - text: Get API key
+            - button "Settings" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: settings
+              - text: Settings
+            - generic [ref=e78]:
+              - button "peter@redbananastudios.com" [ref=e79] [cursor=pointer]:
+                - generic [ref=e80]: peter@redbananastudios.com
+              - 'button "Google Account: Peter Farrell (peter@redbananastudios.com)" [ref=e83] [cursor=pointer]':
+                - img "Peter Farrell" [ref=e85]
+      - main [ref=e86]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - button "Toggle navigation menu" [ref=e95] [cursor=pointer]:
+                  - generic [ref=e96]: menu_open
+                - generic [ref=e97]:
+                  - heading "Playground" [level=1] [ref=e99]
+                  - paragraph
+              - generic [ref=e100]:
+                - button "Share prompt" [disabled] [ref=e102]:
+                  - generic [ref=e103]: share
+                - button [ref=e104] [cursor=pointer]:
+                  - generic [ref=e105]: compare_arrows
+                - button "New chat" [disabled] [ref=e106]:
+                  - generic [ref=e107]: add
+                - button "View more actions" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]: more_vert
+            - region "Model category grid" [ref=e115]:
+              - generic [ref=e354]:
+                - button "Back to categories" [ref=e355] [cursor=pointer]:
+                  - generic [ref=e356]: arrow_back
+                - generic [ref=e357]:
+                  - heading "Image Generation" [level=1] [ref=e358]
+                  - paragraph [ref=e359]: Create and edit images with Nano Banana and Imagen.
+              - generic [ref=e361]:
+                - generic [ref=e362]:
+                  - button "Nano Banana 2 New Paid Pro-level visual intelligence with Flash-speed efficiency and reality-grounded generation capabilities." [ref=e363] [cursor=pointer]:
+                    - generic [ref=e364]:
+                      - img [ref=e365]
+                      - generic [ref=e368]:
+                        - generic [ref=e369]:
+                          - generic [ref=e370]: Nano Banana 2
+                          - generic [ref=e371]: New
+                          - generic [ref=e372]: Paid
+                        - generic [ref=e373]: Pro-level visual intelligence with Flash-speed efficiency and reality-grounded generation capabilities.
+                  - generic [ref=e374]:
+                    - button "Copy to clipboard" [ref=e375] [cursor=pointer]:
+                      - generic [ref=e376]: content_copy
+                    - separator [ref=e377]
+                    - link "developer guide docs" [ref=e378] [cursor=pointer]:
+                      - /url: https://ai.google.dev/gemini-api/docs/gemini-3
+                      - generic [ref=e379]: developer_guide
+                - separator [ref=e380]
+                - generic [ref=e381]:
+                  - button "Nano Banana Pro Paid State-of-the-art image generation and editing model." [ref=e382] [cursor=pointer]:
+                    - generic [ref=e383]:
+                      - img [ref=e384]
+                      - generic [ref=e387]:
+                        - generic [ref=e388]:
+                          - generic [ref=e389]: Nano Banana Pro
+                          - generic [ref=e390]: Paid
+                        - generic [ref=e391]: State-of-the-art image generation and editing model.
+                  - generic [ref=e392]:
+                    - button "Copy to clipboard" [ref=e393] [cursor=pointer]:
+                      - generic [ref=e394]: content_copy
+                    - separator [ref=e395]
+                    - link "developer guide docs" [ref=e396] [cursor=pointer]:
+                      - /url: https://ai.google.dev/gemini-api/docs/models#gemini-3-pro
+                      - generic [ref=e397]: developer_guide
+                - separator [ref=e398]
+                - generic [ref=e399]:
+                  - button "Nano Banana Our state-of-the-art image generation and editing model." [ref=e400] [cursor=pointer]:
+                    - generic [ref=e401]:
+                      - img [ref=e402]
+                      - generic [ref=e405]:
+                        - generic [ref=e407]: Nano Banana
+                        - generic [ref=e408]: Our state-of-the-art image generation and editing model.
+                  - generic [ref=e409]:
+                    - button "Copy to clipboard" [ref=e410] [cursor=pointer]:
+                      - generic [ref=e411]: content_copy
+                    - separator [ref=e412]
+                    - link "developer guide docs" [ref=e413] [cursor=pointer]:
+                      - /url: https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash
+                      - generic [ref=e414]: developer_guide
+            - generic [ref=e160]:
+              - textbox "Enter a prompt" [active] [ref=e162]:
+                - /placeholder: Start typing a prompt to see what our models can do
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - button "No API key selected" [ref=e166] [cursor=pointer]:
+                    - generic [ref=e167]: key_off
+                  - button "Open tools menu" [disabled] [ref=e169]:
+                    - generic [ref=e170]: widgets
+                    - text: Tools
+                - generic [ref=e180]:
+                  - button "Speech to text" [ref=e182] [cursor=pointer]:
+                    - generic [ref=e183]: mic
+                  - button "Insert images or files" [ref=e431] [cursor=pointer]:
+                    - generic [ref=e187]: add_circle
+                  - button "Run Ctrl" [disabled] [ref=e189]:
+                    - generic [ref=e190]: Run
+                    - generic [ref=e191]: Ctrl
+                    - generic [ref=e192]: keyboard_return
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - heading "Run settings" [level=2] [ref=e197]
+              - generic [ref=e198]:
+                - button "Get code" [ref=e200] [cursor=pointer]:
+                  - generic [ref=e201]: code
+                  - text: Get code
+                - button "Reset default settings" [ref=e202] [cursor=pointer]:
+                  - generic [ref=e203]: reset_settings
+                - button "Close run settings panel" [ref=e204] [cursor=pointer]:
+                  - generic [ref=e205]: close
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - generic [ref=e213]:
+                  - button "Nano Banana gemini-2.5-flash-image Our state-of-the-art image generation and editing model." [ref=e432] [cursor=pointer]:
+                    - generic [ref=e215]: Nano Banana
+                    - generic [ref=e216]: gemini-2.5-flash-image
+                    - generic [ref=e217]: Our state-of-the-art image generation and editing model.
+                  - generic "Model selection"
+                - button "System instructions" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]: System instructions
+                  - generic [ref=e221]: Optional tone and style instructions for the model
+                - button "No API Key" [ref=e223] [cursor=pointer]:
+                  - generic [ref=e225]: No API Key
+                  - generic [ref=e226]: Switch to a paid API key to unlock higher quota and more features.
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - heading "Temperature" [level=3] [ref=e231]
+                  - generic [ref=e234]:
+                    - slider [ref=e236] [cursor=pointer]: "1"
+                    - spinbutton [ref=e237]: "1"
+                - generic [ref=e433]:
+                  - heading "Aspect ratio" [level=3] [ref=e436]
+                  - combobox "Aspect ratio" [ref=e442] [cursor=pointer]:
+                    - generic [ref=e443]:
+                      - generic [ref=e445]: Auto
+                      - generic [ref=e446]: expand_more
+              - generic [ref=e349] [cursor=pointer]:
+                - button "Expand or collapse advanced settings" [ref=e350]:
+                  - generic [ref=e351]: expand_more
+                - paragraph [ref=e352]: Advanced settings

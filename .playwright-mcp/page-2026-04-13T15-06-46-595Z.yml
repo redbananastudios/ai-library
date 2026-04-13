@@ -1,0 +1,221 @@
+- generic [ref=e1]:
+  - generic "Generated Image April 13, 2026 - 4:06PM.png Download Close" [ref=e538]:
+    - generic [ref=e543]:
+      - banner [ref=e544]:
+        - generic [ref=e545]: Generated Image April 13, 2026 - 4:06PM.png
+        - generic [ref=e546]:
+          - button "Download" [ref=e547] [cursor=pointer]:
+            - generic [ref=e548]: download
+          - button "Close" [ref=e549] [cursor=pointer]:
+            - generic [ref=e550]: close
+      - main [ref=e551]:
+        - img "Generated Image April 13, 2026 - 4:06PM.png" [ref=e553]
+  - region [ref=e556]:
+    - paragraph [ref=e3]:
+      - text: Google AI Studio uses cookies to deliver and enhance the quality of its services and to analyze traffic. If you agree, cookies are also used to serve advertising and to personalize the content and advertisements that you see.
+      - link [ref=e557] [cursor=pointer]:
+        - /url: https://policies.google.com/technologies/cookies?hl=en
+        - text: Learn more
+    - button [ref=e558] [cursor=pointer]: Agree
+    - button [ref=e559] [cursor=pointer]: No thanks
+  - generic [ref=e9]:
+    - button [ref=e560]: Skip to main content
+    - generic [ref=e12]:
+      - paragraph [ref=e13]:
+        - text: We have updated our
+        - link [ref=e561] [cursor=pointer]:
+          - /url: https://ai.google.dev/gemini-api/terms
+          - text: Terms of Service
+      - button [ref=e562] [cursor=pointer]: Dismiss
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - link [ref=e563] [cursor=pointer]:
+            - /url: /prompts/new_chat
+            - img [ref=e564]
+          - button [ref=e565] [cursor=pointer]:
+            - generic [ref=e39]: expand_more
+        - navigation [ref=e40]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - link [ref=e566] [cursor=pointer]:
+                - /url: /prompts/new_chat
+                - generic [ref=e46]: chat_spark
+                - text: Playground
+              - button [ref=e567] [cursor=pointer]: Enable saving
+            - link [ref=e568] [cursor=pointer]:
+              - /url: /apps
+              - generic [ref=e50]: design_services
+              - generic [ref=e51]: Build
+              - generic [ref=e52]: chevron_right
+            - link [ref=e569] [cursor=pointer]:
+              - /url: /api-keys
+              - generic [ref=e54]: speed
+              - generic [ref=e55]: Dashboard
+              - generic [ref=e56]: chevron_right
+            - link [ref=e570] [cursor=pointer]:
+              - /url: https://ai.google.dev/gemini-api/docs
+              - generic [ref=e58]: developer_guide
+              - generic [ref=e59]: Documentation
+              - generic [ref=e60]: arrow_outward
+          - generic [ref=e62]:
+            - button [ref=e571] [cursor=pointer]:
+              - generic [ref=e66]: search
+              - generic [ref=e67]: Search
+              - generic [ref=e68]: Ctrl /
+            - button [ref=e572] [cursor=pointer]:
+              - generic [ref=e71]: notifications
+              - text: What's new
+            - button [ref=e573] [cursor=pointer]:
+              - generic [ref=e74]: key
+              - text: Get API key
+            - button [ref=e574] [cursor=pointer]:
+              - generic [ref=e77]: settings
+              - text: Settings
+            - generic [ref=e78]:
+              - button [ref=e575] [cursor=pointer]:
+                - generic [ref=e80]: peter@redbananastudios.com
+              - button [ref=e576] [cursor=pointer]:
+                - img [ref=e577]
+      - main [ref=e86]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - button [ref=e578] [cursor=pointer]:
+                  - generic [ref=e96]: menu_open
+                - generic [ref=e97]:
+                  - generic [ref=e492]:
+                    - generic [ref=e493]: incognito
+                    - generic [ref=e494]: Temporary chat
+                    - generic [ref=e495]: • Your conversation won’t be saved automatically
+                  - paragraph [ref=e450]:
+                    - generic [ref=e496]: 1,383 tokens
+              - generic [ref=e100]:
+                - button [ref=e579] [cursor=pointer]:
+                  - generic [ref=e460]: design_services
+                - button [ref=e104] [cursor=pointer]:
+                  - generic [ref=e105]: compare_arrows
+                - button [ref=e580] [cursor=pointer]:
+                  - generic [ref=e107]: add
+                - button [ref=e581] [cursor=pointer]:
+                  - generic [ref=e110]: more_vert
+            - generic [ref=e461]:
+              - generic [ref=e464]:
+                - generic [ref=e466]:
+                  - generic:
+                    - button:
+                      - generic: edit
+                    - button:
+                      - img
+                    - generic:
+                      - generic:
+                        - button:
+                          - generic: more_vert
+                  - generic [ref=e469]:
+                    - heading [level=3] [ref=e582]: User •4:05 PM
+                    - paragraph [ref=e474]:
+                      - generic [ref=e475]: Generate a photorealistic image of a glass of red wine on a white marble bar counter in a stylish wine bar, first-person perspective as if just sitting down. Warm ambient lighting from Edison bulb pendants, small tea light candles along the bar. Blurred wine bottles on shelves in background, soft bokeh. Cozy evening atmosphere. Shot on iPhone, handheld, candid, slight motion softness. No text in the image.
+                - generic [ref=e477]:
+                  - generic:
+                    - button:
+                      - generic: edit
+                    - button:
+                      - img
+                    - generic:
+                      - generic:
+                        - button:
+                          - generic: more_vert
+                  - generic [ref=e480]:
+                    - heading [level=3] [ref=e583]: Model •4:05 PM
+                    - paragraph [ref=e485]:
+                      - generic [ref=e486]: "Here's that image for you:"
+                - generic [ref=e498]:
+                  - generic:
+                    - button:
+                      - img
+                    - generic:
+                      - generic:
+                        - button:
+                          - generic: more_vert
+                  - img [ref=e584] [cursor=pointer]
+                  - generic [ref=e506]:
+                    - button [ref=e585] [cursor=pointer]:
+                      - generic [ref=e508]: thumb_up
+                    - button [ref=e586] [cursor=pointer]:
+                      - generic [ref=e510]: thumb_down
+                - generic [ref=e511]:
+                  - generic [ref=e512]: info
+                  - generic [ref=e513]: Google AI models may make mistakes, so double-check outputs.
+                - generic [ref=e514]:
+                  - separator [ref=e515]
+                  - generic [ref=e516]:
+                    - generic [ref=e517]:
+                      - generic [ref=e518]: warning
+                      - paragraph [ref=e519]: Turn Drive on for future conversations
+                      - button [ref=e520] [cursor=pointer]:
+                        - generic [ref=e521]: close
+                    - generic [ref=e522]: Your work is currently not being saved and will be lost, we recommend enabling Google Drive, you will always have the option to turn on Temporary chat for conversations you do not want to save to your chat history.
+                    - button [ref=e587] [cursor=pointer]: Enable Google Drive
+              - generic [ref=e524]: Use Arrow Up and Arrow Down to select a turn, Enter to jump to it, and Escape to return to the chat.
+              - toolbar [ref=e588]:
+                - button [pressed] [ref=e589]
+            - generic [ref=e160]:
+              - textbox [ref=e590]:
+                - /placeholder: Start typing a prompt to see what our models can do
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - button [ref=e591] [cursor=pointer]:
+                    - generic [ref=e167]: key_off
+                  - button [disabled] [ref=e592]:
+                    - generic [ref=e170]: widgets
+                    - text: Tools
+                - generic [ref=e180]:
+                  - button [ref=e593] [cursor=pointer]:
+                    - generic [ref=e183]: mic
+                  - button [ref=e594] [cursor=pointer]:
+                    - generic [ref=e187]: add_circle
+                  - button [disabled] [ref=e595]:
+                    - generic [ref=e532]: Run
+                    - generic [ref=e533]: Ctrl
+                    - generic [ref=e534]: keyboard_return
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - heading [level=2] [ref=e596]: Run settings
+              - generic [ref=e198]:
+                - button [ref=e597] [cursor=pointer]:
+                  - generic [ref=e201]: code
+                  - text: Get code
+                - button [ref=e598] [cursor=pointer]:
+                  - generic [ref=e203]: reset_settings
+                - button [ref=e599] [cursor=pointer]:
+                  - generic [ref=e205]: close
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - button [ref=e600] [cursor=pointer]:
+                  - generic [ref=e215]: Nano Banana
+                  - generic [ref=e216]: gemini-2.5-flash-image
+                  - generic [ref=e217]: Our state-of-the-art image generation and editing model.
+                - button [ref=e601] [cursor=pointer]:
+                  - generic [ref=e220]: System instructions
+                  - generic [ref=e221]: Optional tone and style instructions for the model
+                - button [ref=e602] [cursor=pointer]:
+                  - generic [ref=e225]: No API Key
+                  - generic [ref=e226]: Switch to a paid API key to unlock higher quota and more features.
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - heading [level=3] [ref=e603]: Temperature
+                  - generic [ref=e234]:
+                    - slider [ref=e236] [cursor=pointer]: "1"
+                    - spinbutton [ref=e237]: "1"
+                - generic [ref=e433]:
+                  - heading [level=3] [ref=e604]: Aspect ratio
+                  - combobox [ref=e605] [cursor=pointer]:
+                    - generic [ref=e443]:
+                      - generic [ref=e445]: Auto
+                      - generic [ref=e446]: expand_more
+              - generic [ref=e349] [cursor=pointer]:
+                - button [ref=e606]:
+                  - generic [ref=e351]: expand_more
+                - paragraph [ref=e352]: Advanced settings
+  - generic [ref=e353]: Response ready.
