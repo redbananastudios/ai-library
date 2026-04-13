@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-13T23:34:36
+Updated: 2026-04-13T23:46:23
 
-Total items: 100
+Total items: 101
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -13,7 +13,7 @@ Total items: 100
 | api-designer | API Designer | agent | 0.2.0 | active | yes | manifest_generated |
 | awesome-agent-skills | Awesome Agent Skills Directory | metadata | 0.1.0 | imported | yes | manifest_generated |
 | awesome-claude-code-subagents | Awesome Claude Code Subagents Directory | metadata | 0.1.0 | imported | yes | manifest_generated |
-| backend-developer | Backend Developer | agent | 0.1.0 | active | yes | manifest_generated |
+| backend-developer | Backend Developer | agent | 0.3.0 | active | yes | manifest_generated |
 | backlink-analyzer | Backlink Analyzer | skill | 0.1.0 | imported | yes | manifest_generated |
 | backlink-builder | Backlink Builder | agent | 0.2.0 | active | yes | manifest_generated |
 | backlink-outreach | Backlink Outreach | skill | 0.1.0 | imported | yes | manifest_generated |
@@ -37,8 +37,9 @@ Total items: 100
 | facebook-ads-optimizer | Facebook Ads Optimizer | skill | 0.1.0 | placeholder | yes | manifest_generated |
 | firecrawl | Firecrawl Web Scraper | skill | 0.1.0 | active | yes | manifest_generated |
 | frontend-design | Frontend Design | skill | 0.1.0 | imported | yes | manifest_generated |
-| frontend-developer | Frontend Developer | agent | 0.2.0 | active | yes | manifest_generated |
-| fullstack-developer | Fullstack Developer | agent | 0.2.0 | active | yes | manifest_generated |
+| frontend-developer | Frontend Developer | agent | 0.4.0 | active | yes | manifest_generated |
+| fullstack-developer | Fullstack Developer | agent | 0.4.0 | active | yes | manifest_generated |
+| git-specialist | Git Specialist | agent | 0.1.0 | active | yes | manifest_generated |
 | google-business-profile-optimizer | Google Business Profile Optimizer | skill | 0.1.0 | active | yes | manifest_generated |
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | manifest_generated |
 | higgsfield | Higgsfield | skill | 1.0.0 | active | yes | manifest_generated |

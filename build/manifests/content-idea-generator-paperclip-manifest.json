@@ -2,6 +2,6 @@
   "item_id": "content-idea-generator",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/content-idea-generator/payload.json",
-  "published_at": "2026-04-13T23:34:35.986079",
+  "published_at": "2026-04-13T23:46:22.578493",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

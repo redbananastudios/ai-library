@@ -1,13 +1,13 @@
 id: backend-developer
 name: Backend Developer
 type: agent
-version: 0.2.0
+version: 0.3.0
 source_url: ''
 source_kind: custom-derived
 compatible_targets:
 - claude
 - paperclip
-changelog_summary: Add git workflow, QA gate before PR, agent delegation, documentation gate
+changelog_summary: Delegate git conflicts and history surgery to git-specialist agent
 requirements:
 - engineering-standards
 - boilerplate-generator

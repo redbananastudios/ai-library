@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-13T23:34:36.908819
+Generated: 2026-04-13T23:46:23.134830
 
 ## Steps
 
@@ -96,6 +96,7 @@ Generated: 2026-04-13T23:34:36.908819
 - **design-bridge** (agent): `generated/paperclip/agents/design-bridge/payload.json`
 - **frontend-developer** (agent): `generated/paperclip/agents/frontend-developer/payload.json`
 - **fullstack-developer** (agent): `generated/paperclip/agents/fullstack-developer/payload.json`
+- **git-specialist** (agent): `generated/paperclip/agents/git-specialist/payload.json`
 - **graphql-architect** (agent): `generated/paperclip/agents/graphql-architect/payload.json`
 - **image-generator** (agent): `generated/paperclip/agents/image-generator/payload.json`
 - **image-reverse-engineer** (agent): `generated/paperclip/agents/image-reverse-engineer/payload.json`

@@ -2,6 +2,6 @@
   "item_id": "api-designer",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/api-designer/payload.json",
-  "published_at": "2026-04-13T23:34:36.715228",
+  "published_at": "2026-04-13T23:46:23.005841",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

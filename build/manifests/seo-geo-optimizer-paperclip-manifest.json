@@ -2,6 +2,6 @@
   "item_id": "seo-geo-optimizer",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/seo-geo-optimizer/payload.json",
-  "published_at": "2026-04-13T23:34:36.353928",
+  "published_at": "2026-04-13T23:46:22.816618",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

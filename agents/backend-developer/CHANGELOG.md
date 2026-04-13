@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.3.0 - Git specialist delegation
+- Added git-specialist agent to delegation table for conflicts, rebases, history surgery and recovery
+- Added Git Workflow guardrails: delegate conflicts to git-specialist, never force-push shared branches
+
 ### 0.2.0 - Git workflow, QA gate and documentation gate
 - Added Git Workflow section: feature branching, atomic commits, branch naming conventions
 - Added QA gate: delegate to qa-engineer agent before creating PRs, fix-forward loop

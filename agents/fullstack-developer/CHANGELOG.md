@@ -1,5 +1,10 @@
 ## Changelog
 
+### 0.4.0 - Git specialist delegation and dev team coordination
+- Added git-specialist agent to delegation table for conflicts, rebases, history surgery and recovery
+- Added backend-developer and frontend-developer as delegation targets for parallel specialist work
+- Added Git Workflow guardrails: delegate conflicts to git-specialist, never force-push shared branches
+
 ### 0.3.0 - Git workflow, QA gate, error handling and documentation gate
 - Added Git Workflow section: feature branching, atomic commits, branch naming conventions
 - Added QA gate: delegate to qa-engineer agent before creating PRs, fix-forward loop

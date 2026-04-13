@@ -199,14 +199,20 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/code-reviewer",
       "generated_claude_path": "generated/claude/agents/code-reviewer.md",
       "generated_paperclip_path": "generated/paperclip/agents/code-reviewer",
       "published_claude_path": "/root/.claude/agents/code-reviewer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "code-reviewer",
+        "simplify",
+        "review",
+        "engineering-standards"
+      ],
       "notes": ""
     },
     {
@@ -1263,60 +1269,83 @@
       "id": "backend-developer",
       "name": "Backend Developer",
       "type": "agent",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/backend-developer",
       "generated_claude_path": "generated/claude/agents/backend-developer.md",
       "generated_paperclip_path": "generated/paperclip/agents/backend-developer",
       "published_claude_path": "/root/.claude/agents/backend-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "engineering-standards",
+        "boilerplate-generator",
+        "qa",
+        "code-reviewer"
+      ],
       "notes": ""
     },
     {
       "id": "frontend-developer",
       "name": "Frontend Developer",
       "type": "agent",
-      "version": "0.2.0",
+      "version": "0.4.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/frontend-developer",
       "generated_claude_path": "generated/claude/agents/frontend-developer.md",
       "generated_paperclip_path": "generated/paperclip/agents/frontend-developer",
       "published_claude_path": "/root/.claude/agents/frontend-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "frontend-design",
+        "design-assets",
+        "browser-use",
+        "engineering-standards",
+        "boilerplate-generator",
+        "qa",
+        "code-reviewer"
+      ],
       "notes": ""
     },
     {
       "id": "fullstack-developer",
       "name": "Fullstack Developer",
       "type": "agent",
-      "version": "0.2.0",
+      "version": "0.4.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/fullstack-developer",
       "generated_claude_path": "generated/claude/agents/fullstack-developer.md",
       "generated_paperclip_path": "generated/paperclip/agents/fullstack-developer",
       "published_claude_path": "/root/.claude/agents/fullstack-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "frontend-design",
+        "code-reviewer",
+        "qa",
+        "qa-only",
+        "engineering-standards",
+        "boilerplate-generator"
+      ],
       "notes": ""
     },
     {
@@ -1402,14 +1431,17 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/api-designer",
       "generated_claude_path": "generated/claude/agents/api-designer.md",
       "generated_paperclip_path": "generated/paperclip/agents/api-designer",
       "published_claude_path": "/root/.claude/agents/api-designer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "engineering-standards"
+      ],
       "notes": ""
     },
     {
@@ -1474,14 +1506,19 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/bug-investigator",
       "generated_claude_path": "generated/claude/agents/bug-investigator.md",
       "generated_paperclip_path": "generated/paperclip/agents/bug-investigator",
       "published_claude_path": "/root/.claude/agents/bug-investigator.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "investigate",
+        "browser-use",
+        "engineering-standards"
+      ],
       "notes": ""
     },
     {
@@ -1518,14 +1555,18 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/graphql-architect",
       "generated_claude_path": "generated/claude/agents/graphql-architect.md",
       "generated_paperclip_path": "generated/paperclip/agents/graphql-architect",
       "published_claude_path": "/root/.claude/agents/graphql-architect.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "shopify-graphql",
+        "engineering-standards"
+      ],
       "notes": ""
     },
     {
@@ -1589,14 +1630,18 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/microservices-architect",
       "generated_claude_path": "generated/claude/agents/microservices-architect.md",
       "generated_paperclip_path": "generated/paperclip/agents/microservices-architect",
       "published_claude_path": "/root/.claude/agents/microservices-architect.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "engineering-standards",
+        "boilerplate-generator"
+      ],
       "notes": ""
     },
     {
@@ -1710,14 +1755,29 @@
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
-        ""
+        "claude",
+        "paperclip"
       ],
       "source_path": "agents/shopify-developer",
       "generated_claude_path": "generated/claude/agents/shopify-developer.md",
       "generated_paperclip_path": "generated/paperclip/agents/shopify-developer",
       "published_claude_path": "/root/.claude/agents/shopify-developer.md",
       "published_paperclip_status": "manifest_generated",
-      "requirements": "",
+      "requirements": [
+        "shopify-setup",
+        "shopify-cli",
+        "shopify-app-development",
+        "shopify-checkout",
+        "shopify-content",
+        "shopify-functions",
+        "shopify-graphql",
+        "shopify-hydrogen",
+        "shopify-liquid-templating",
+        "shopify-products",
+        "shopify-theme-development",
+        "engineering-standards",
+        "boilerplate-generator"
+      ],
       "notes": ""
     },
     {
@@ -2167,7 +2227,31 @@
         "nano-banana-realism-engine"
       ],
       "notes": ""
+    },
+    {
+      "id": "git-specialist",
+      "name": "Git Specialist",
+      "type": "agent",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "agents/git-specialist",
+      "generated_claude_path": "generated/claude/agents/git-specialist.md",
+      "generated_paperclip_path": "generated/paperclip/agents/git-specialist",
+      "published_claude_path": "/root/.claude/agents/git-specialist.md",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "investigate",
+        "engineering-standards"
+      ],
+      "notes": ""
     }
   ],
-  "updated": "2026-04-13T23:34:36.904047"
+  "updated": "2026-04-13T23:46:23.131850"
 }
