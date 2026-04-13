@@ -1,0 +1,14 @@
+{
+  "source_kind": "custom",
+  "source_url": "",
+  "imported_from_pack": "",
+  "created_by": "peter",
+  "created_date": "2026-04-13",
+  "research_sources": [
+    "https://docs.anthropic.com/en/docs/about/models/models-overview",
+    "https://github.com/lllyasviel/ControlNet",
+    "https://docs.midjourney.com/docs/quick-start",
+    "https://huggingface.co/black-forest-labs/FLUX.1-pro",
+    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+  ]
+}

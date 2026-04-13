@@ -1,0 +1,12 @@
+id: image-blueprint
+name: Image Blueprint
+type: skill
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation — multimodal image reverse-engineering to structured JSON blueprint
+requirements: ['nano-banana-realism-engine']
+status: active
+description: Reverse-engineer any image into a structured JSON blueprint covering composition, lighting, color, technical style, subject details, artistic DNA, and reproduction prompts for Midjourney, Flux, Stable Diffusion, and Higgsfield.
+trigger: ""
