@@ -1,0 +1,174 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e577] [cursor=pointer]:
+        - /url: /pricing?type=private
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - paragraph [ref=e7]:
+              - generic [ref=e8]:
+                - img [ref=e9]
+                - text: Seedance 2.0 Unlimited
+            - paragraph [ref=e15]:
+              - generic [ref=e16]:
+                - img [ref=e17]
+                - generic [ref=e19]: Expires in
+                - text: 09h 34m 10s
+          - paragraph [ref=e20]: UNLIMITED SEEDANCE 2.0 & SEEDANCE 2.0 FAST. UP TO 70% OFF
+          - generic [ref=e21]:
+            - generic [ref=e22]: Upgrade
+            - img [ref=e23]
+      - button [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+  - banner [ref=e28]:
+    - navigation [ref=e578]:
+      - link [ref=e579] [cursor=pointer]:
+        - /url: /
+        - img [ref=e31]
+      - generic [ref=e34]:
+        - link [ref=e580] [cursor=pointer]:
+          - /url: /
+          - text: Explore
+        - button [ref=e581] [cursor=pointer]: Image
+        - button [ref=e582] [cursor=pointer]: Video
+        - button [ref=e583] [cursor=pointer]: Audio
+        - link [ref=e584] [cursor=pointer]:
+          - /url: /generate
+          - text: Chat
+          - generic [ref=e43]: New
+        - button [ref=e585] [cursor=pointer]: Edit
+        - button [ref=e586] [cursor=pointer]: Character
+        - link [ref=e587] [cursor=pointer]:
+          - /url: /moodboard
+          - text: Moodboard
+        - link [ref=e588] [cursor=pointer]:
+          - /url: /cinema-studio
+          - text: Cinema Studio
+          - generic [ref=e50]: "3.0"
+        - link [ref=e589] [cursor=pointer]:
+          - /url: /original-series
+          - text: Original Series
+          - generic [ref=e52]: New
+        - link [ref=e590] [cursor=pointer]:
+          - /url: /apps
+          - text: Apps
+        - link [ref=e591] [cursor=pointer]:
+          - /url: /chat
+          - text: Assist
+        - button [ref=e592] [cursor=pointer]: Gallery
+      - generic [ref=e58]:
+        - link [ref=e593] [cursor=pointer]:
+          - /url: /pricing
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - text: Pricing
+            - generic [ref=e63]: 70% OFF
+        - separator [ref=e64]
+        - generic [ref=e65]:
+          - link [ref=e594] [cursor=pointer]:
+            - /url: "#"
+            - text: Login
+          - link [ref=e595] [cursor=pointer]:
+            - /url: "#"
+            - text: Sign up
+  - main [ref=e68]:
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - tablist [ref=e74]:
+            - tab [selected] [ref=e596] [cursor=pointer]:
+              - img [ref=e76]
+              - text: History
+            - tab [ref=e597] [cursor=pointer]:
+              - img [ref=e80]
+              - text: Community
+          - slider [ref=e86]
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: Start creating with
+            - paragraph [ref=e121]: Nano Banana Pro
+          - paragraph [ref=e122]: Describe a scene, character, mood, or style — and watch it come to life
+      - group [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - button [ref=e128] [cursor=pointer]:
+              - img [ref=e129]
+            - generic [ref=e131]:
+              - textbox [ref=e132]
+              - generic: Describe the scene you imagine
+          - generic [ref=e133]:
+            - group [ref=e135]:
+              - button [ref=e137] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - img [ref=e533]
+                  - generic [ref=e143]: Seedream 5.0 lite
+                - img [ref=e144]
+            - group [ref=e539]:
+              - generic [ref=e541]:
+                - button [ref=e598] [cursor=pointer]:
+                  - generic [ref=e546]:
+                    - text: 2K
+                    - img [ref=e548]
+                - combobox [ref=e552]
+            - generic [ref=e554]:
+              - button [expanded] [ref=e599] [cursor=pointer]:
+                - generic [ref=e559]:
+                  - text: 3:4
+                  - img [ref=e561]
+              - combobox [ref=e565]
+            - generic [ref=e567]:
+              - button [disabled] [ref=e600]:
+                - img [ref=e569]
+              - generic [ref=e571]: 4/4
+              - button [disabled] [ref=e601]:
+                - img [ref=e573]
+            - button [ref=e182] [cursor=pointer]:
+              - img [ref=e183]
+        - complementary [ref=e191]:
+          - button [ref=e602] [cursor=pointer]:
+            - generic [ref=e194]:
+              - text: Generate
+              - generic [ref=e195]:
+                - img [ref=e196]
+                - generic [ref=e199]: "1"
+  - alert [ref=e200]
+  - dialog [ref=e605]:
+    - button "Dismiss" [ref=e607] [cursor=pointer]
+    - generic [ref=e608]: Aspect ratio
+    - listbox [ref=e609]:
+      - group [ref=e610]:
+        - option "1:1" [ref=e611]:
+          - generic [ref=e612]:
+            - img [ref=e614]
+            - generic [ref=e618]: 1:1
+        - option "4:3" [ref=e619]:
+          - generic [ref=e620]:
+            - img [ref=e622]
+            - generic [ref=e626]: 4:3
+        - option "3:4" [active] [selected] [ref=e627]:
+          - generic [ref=e628]:
+            - img [ref=e630]
+            - generic [ref=e632]:
+              - generic [ref=e634]: 3:4
+              - img [ref=e635]
+        - option "16:9" [ref=e637]:
+          - generic [ref=e638]:
+            - img [ref=e640]
+            - generic [ref=e644]: 16:9
+        - option "9:16" [ref=e645]:
+          - generic [ref=e646]:
+            - img [ref=e648]
+            - generic [ref=e652]: 9:16
+        - option "2:3" [ref=e653]:
+          - generic [ref=e654]:
+            - img [ref=e656]
+            - generic [ref=e660]: 2:3
+        - option "3:2" [ref=e661]:
+          - generic [ref=e662]:
+            - img [ref=e664]
+            - generic [ref=e668]: 3:2
+        - option "21:9" [ref=e669]:
+          - generic [ref=e670]:
+            - img [ref=e672]
+            - generic [ref=e676]: 21:9
+    - button "Dismiss" [ref=e678] [cursor=pointer]

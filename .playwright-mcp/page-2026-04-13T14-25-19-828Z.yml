@@ -1,0 +1,304 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e201] [cursor=pointer]:
+        - /url: /pricing?type=private
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - paragraph [ref=e7]:
+              - generic [ref=e8]:
+                - img [ref=e9]
+                - text: Seedance 2.0 Unlimited
+            - paragraph [ref=e15]:
+              - generic [ref=e16]:
+                - img [ref=e17]
+                - generic [ref=e19]: Expires in
+                - text: 09h 34m 39s
+          - paragraph [ref=e20]: UNLIMITED SEEDANCE 2.0 & SEEDANCE 2.0 FAST. UP TO 70% OFF
+          - generic [ref=e21]:
+            - generic [ref=e22]: Upgrade
+            - img [ref=e23]
+      - button [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+  - banner [ref=e28]:
+    - navigation [ref=e202]:
+      - link [ref=e203] [cursor=pointer]:
+        - /url: /
+        - img [ref=e31]
+      - generic [ref=e34]:
+        - link [ref=e204] [cursor=pointer]:
+          - /url: /
+          - text: Explore
+        - button [ref=e205] [cursor=pointer]: Image
+        - button [ref=e206] [cursor=pointer]: Video
+        - button [ref=e207] [cursor=pointer]: Audio
+        - link [ref=e208] [cursor=pointer]:
+          - /url: /generate
+          - text: Chat
+          - generic [ref=e43]: New
+        - button [ref=e209] [cursor=pointer]: Edit
+        - button [ref=e210] [cursor=pointer]: Character
+        - link [ref=e211] [cursor=pointer]:
+          - /url: /moodboard
+          - text: Moodboard
+        - link [ref=e212] [cursor=pointer]:
+          - /url: /cinema-studio
+          - text: Cinema Studio
+          - generic [ref=e50]: "3.0"
+        - link [ref=e213] [cursor=pointer]:
+          - /url: /original-series
+          - text: Original Series
+          - generic [ref=e52]: New
+        - link [ref=e214] [cursor=pointer]:
+          - /url: /apps
+          - text: Apps
+        - link [ref=e215] [cursor=pointer]:
+          - /url: /chat
+          - text: Assist
+        - button [ref=e216] [cursor=pointer]: Gallery
+      - generic [ref=e58]:
+        - link [ref=e217] [cursor=pointer]:
+          - /url: /pricing
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - text: Pricing
+            - generic [ref=e63]: 70% OFF
+        - separator [ref=e64]
+        - generic [ref=e65]:
+          - link [ref=e218] [cursor=pointer]:
+            - /url: "#"
+            - text: Login
+          - link [ref=e219] [cursor=pointer]:
+            - /url: "#"
+            - text: Sign up
+  - main [ref=e68]:
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - tablist [ref=e74]:
+            - tab [selected] [ref=e220] [cursor=pointer]:
+              - img [ref=e76]
+              - text: History
+            - tab [ref=e221] [cursor=pointer]:
+              - img [ref=e80]
+              - text: Community
+          - slider [ref=e86]
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: Start creating with
+            - paragraph [ref=e121]: Nano Banana Pro
+          - paragraph [ref=e122]: Describe a scene, character, mood, or style — and watch it come to life
+      - group [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - button [ref=e128] [cursor=pointer]:
+              - img [ref=e129]
+            - generic [ref=e131]:
+              - textbox [ref=e132]
+              - generic: Describe the scene you imagine
+          - generic [ref=e133]:
+            - group [ref=e135]:
+              - button [ref=e137] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - img [ref=e141]
+                  - generic [ref=e143]: Nano Banana Pro
+                - img [ref=e144]
+            - generic [ref=e147]:
+              - button [ref=e222] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - text: 3:4
+                  - img [ref=e154]
+              - combobox [ref=e158]
+            - group [ref=e159]:
+              - generic [ref=e161]:
+                - button [ref=e223] [cursor=pointer]:
+                  - generic [ref=e166]:
+                    - text: 1K
+                    - img [ref=e168]
+                - combobox [ref=e172]
+            - button [ref=e224] [cursor=pointer]:
+              - generic [ref=e174]:
+                - button [disabled] [ref=e225]:
+                  - img [ref=e176]
+                - generic [ref=e178]: 1/4
+                - button [ref=e226]:
+                  - img [ref=e180]
+            - button [ref=e182] [cursor=pointer]:
+              - img [ref=e183]
+            - generic [ref=e185]:
+              - generic [ref=e186]: Extra free gens
+              - switch [checked] [ref=e187] [cursor=pointer]
+            - generic [ref=e188] [cursor=pointer]:
+              - img [ref=e189]
+              - text: Draw
+        - complementary [ref=e191]:
+          - button [ref=e227] [cursor=pointer]:
+            - generic [ref=e194]:
+              - text: Generate
+              - generic [ref=e195]:
+                - img [ref=e196]
+                - generic [ref=e199]: "2"
+  - alert [ref=e200]
+  - dialog [ref=e230]:
+    - button "Dismiss" [ref=e232] [cursor=pointer]
+    - generic [ref=e233]:
+      - generic [ref=e236]:
+        - img [ref=e237]
+        - textbox [active] [ref=e239]:
+          - /placeholder: Search...
+      - generic [ref=e241]:
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - img [ref=e244]
+            - paragraph [ref=e246]: Featured models
+          - generic [ref=e247]:
+            - button "Higgsfield Soul 2.0 New Next generation ultra-realistic fashion visuals" [ref=e248] [cursor=pointer]:
+              - img [ref=e250]
+              - generic [ref=e252]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Higgsfield Soul 2.0
+                  - generic [ref=e255]: New
+                - paragraph [ref=e256]: Next generation ultra-realistic fashion visuals
+            - button "Higgsfield Soul Cinema New Cinema-grade visual creation" [ref=e258] [cursor=pointer]:
+              - img [ref=e260]
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Higgsfield Soul Cinema
+                  - generic [ref=e265]: New
+                - paragraph [ref=e266]: Cinema-grade visual creation
+            - button "Seedream 5.0 lite Intelligent visual reasoning" [ref=e268] [cursor=pointer]:
+              - img [ref=e270]
+              - generic [ref=e276]:
+                - generic [ref=e278]: Seedream 5.0 lite
+                - paragraph [ref=e279]: Intelligent visual reasoning
+            - button "Seedream 4.5 ByteDance's next-gen 4K image model" [ref=e281] [cursor=pointer]:
+              - img [ref=e283]
+              - generic [ref=e289]:
+                - generic [ref=e291]: Seedream 4.5
+                - paragraph [ref=e292]: ByteDance's next-gen 4K image model
+            - button "Nano Banana 2 Premium Pro quality at Flash speed" [ref=e294] [cursor=pointer]:
+              - img [ref=e296]
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - generic [ref=e300]: Nano Banana 2
+                  - generic [ref=e301]: Premium
+                - paragraph [ref=e302]: Pro quality at Flash speed
+            - button "Nano Banana Pro Google's flagship generation model" [ref=e304] [cursor=pointer]:
+              - img [ref=e306]
+              - generic [ref=e308]:
+                - generic [ref=e310]: Nano Banana Pro
+                - paragraph [ref=e311]: Google's flagship generation model
+              - img [ref=e313]
+            - button "Grok Imagine New Versatile image styles by xAI" [ref=e315] [cursor=pointer]:
+              - img [ref=e317]
+              - generic [ref=e321]:
+                - generic [ref=e322]:
+                  - generic [ref=e323]: Grok Imagine
+                  - generic [ref=e324]: New
+                - paragraph [ref=e325]: Versatile image styles by xAI
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - img [ref=e329]
+            - paragraph [ref=e332]: All models
+          - generic [ref=e333]:
+            - button "Nano Banana Premium Google's standard generation model" [ref=e334] [cursor=pointer]:
+              - img [ref=e336]
+              - generic [ref=e338]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]: Nano Banana
+                  - generic [ref=e341]: Premium
+                - paragraph [ref=e342]: Google's standard generation model
+            - button "Higgsfield Soul Ultra-realistic fashion visuals" [ref=e344] [cursor=pointer]:
+              - img [ref=e346]
+              - generic [ref=e348]:
+                - generic [ref=e350]: Higgsfield Soul
+                - paragraph [ref=e351]: Ultra-realistic fashion visuals
+            - button "Higgsfield Face Swap Seamless face swapping" [ref=e353] [cursor=pointer]:
+              - img [ref=e355]
+              - generic [ref=e357]:
+                - generic [ref=e359]: Higgsfield Face Swap
+                - paragraph [ref=e360]: Seamless face swapping
+            - button "Higgsfield Character Swap Seamless character swapping" [ref=e362] [cursor=pointer]:
+              - img [ref=e364]
+              - generic [ref=e366]:
+                - generic [ref=e368]: Higgsfield Character Swap
+                - paragraph [ref=e369]: Seamless character swapping
+            - button "Seedream 4.0 Premium ByteDance's advanced image editing model" [ref=e371] [cursor=pointer]:
+              - img [ref=e373]
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - generic [ref=e381]: Seedream 4.0
+                  - generic [ref=e382]: Premium
+                - paragraph [ref=e383]: ByteDance's advanced image editing model
+            - button "GPT Image 1.5 Premium True-color precision rendering" [ref=e385] [cursor=pointer]:
+              - img [ref=e387]
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - generic [ref=e391]: GPT Image 1.5
+                  - generic [ref=e392]: Premium
+                - paragraph [ref=e393]: True-color precision rendering
+            - button "Z-Image Instant lifelike portraits" [ref=e395] [cursor=pointer]:
+              - img [ref=e397]
+              - generic [ref=e400]:
+                - generic [ref=e402]: Z-Image
+                - paragraph [ref=e403]: Instant lifelike portraits
+            - button "Kling O1 Premium Kling's Photorealistic Image Model" [ref=e405] [cursor=pointer]:
+              - img [ref=e407]
+              - generic [ref=e409]:
+                - generic [ref=e410]:
+                  - generic [ref=e411]: Kling O1
+                  - generic [ref=e412]: Premium
+                - paragraph [ref=e413]: Kling's Photorealistic Image Model
+            - button "FLUX.2 Pro Speed-optimized detail" [ref=e415] [cursor=pointer]:
+              - img [ref=e417]
+              - generic [ref=e423]:
+                - generic [ref=e425]: FLUX.2 Pro
+                - paragraph [ref=e426]: Speed-optimized detail
+            - button "FLUX.2 Flex Premium Next-gen image generation" [ref=e428] [cursor=pointer]:
+              - img [ref=e430]
+              - generic [ref=e436]:
+                - generic [ref=e437]:
+                  - generic [ref=e438]: FLUX.2 Flex
+                  - generic [ref=e439]: Premium
+                - paragraph [ref=e440]: Next-gen image generation
+            - button "FLUX.2 Max Premium Ultimate precision and speed" [ref=e442] [cursor=pointer]:
+              - img [ref=e444]
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]: FLUX.2 Max
+                  - generic [ref=e453]: Premium
+                - paragraph [ref=e454]: Ultimate precision and speed
+            - button "Flux Kontext Max Premium Edit with accuracy" [ref=e456] [cursor=pointer]:
+              - img [ref=e458]
+              - generic [ref=e464]:
+                - generic [ref=e465]:
+                  - generic [ref=e466]: Flux Kontext Max
+                  - generic [ref=e467]: Premium
+                - paragraph [ref=e468]: Edit with accuracy
+            - button "GPT Image Premium Versatile text-to-image AI" [ref=e470] [cursor=pointer]:
+              - img [ref=e472]
+              - generic [ref=e474]:
+                - generic [ref=e475]:
+                  - generic [ref=e476]: GPT Image
+                  - generic [ref=e477]: Premium
+                - paragraph [ref=e478]: Versatile text-to-image AI
+            - button "Multi Reference Premium Multiple edits in one shot" [ref=e480] [cursor=pointer]:
+              - img [ref=e482]
+              - generic [ref=e484]:
+                - generic [ref=e485]:
+                  - generic [ref=e486]: Multi Reference
+                  - generic [ref=e487]: Premium
+                - paragraph [ref=e488]: Multiple edits in one shot
+            - button "Reve Premium Advanced image editing model" [ref=e490] [cursor=pointer]:
+              - img [ref=e492]
+              - generic [ref=e494]:
+                - generic [ref=e495]:
+                  - generic [ref=e496]: Reve
+                  - generic [ref=e497]: Premium
+                - paragraph [ref=e498]: Advanced image editing model
+            - button "WAN 2.2 High-fidelity cinematic visuals" [ref=e500] [cursor=pointer]:
+              - img [ref=e502]
+              - generic [ref=e505]:
+                - generic [ref=e507]: WAN 2.2
+                - paragraph [ref=e508]: High-fidelity cinematic visuals
+    - button "Dismiss" [ref=e511] [cursor=pointer]

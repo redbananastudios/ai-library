@@ -1,4 +1,7 @@
 {
+  "env": {
+    "UPLOAD_POST_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBldGVyQHJlZGJhbmFuYXN0dWRpb3MuY29tIiwiZXhwIjo0OTI5Njg4NzIxLCJqdGkiOiJmM2U5MjAwMC1mYTYxLTQ0ODEtOTRkZi02ZjNkNTFjYmRkODAifQ.TNBSbtM8C8QbU6ncvqDPGHpJ6ht0VqwrCSHvJJRpQCc"
+  },
   "permissions": {
     "allow": [
       "mcp__playwright__browser_navigate",
@@ -10,7 +13,9 @@
       "mcp__playwright__browser_evaluate",
       "mcp__chrome-devtools__take_snapshot",
       "mcp__chrome-devtools__list_pages",
-      "mcp__chrome-devtools__navigate_page"
+      "mcp__chrome-devtools__navigate_page",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
     ]
   }
 }
