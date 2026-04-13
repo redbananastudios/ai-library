@@ -1,6 +1,6 @@
 # AI Library Registry
 
-Updated: 2026-04-13T14:55:15
+Updated: 2026-04-13T16:32:24
 
 Total items: 96
 
@@ -41,7 +41,7 @@ Total items: 96
 | fullstack-developer | Fullstack Developer | agent | 0.2.0 | active | yes | manifest_generated |
 | google-business-profile-optimizer | Google Business Profile Optimizer | skill | 0.1.0 | active | yes | manifest_generated |
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | manifest_generated |
-| higgsfield | Higgsfield AI Image Generator | skill | 0.1.0 | active | yes | generated |
+| higgsfield | Higgsfield | skill | 1.0.0 | active | yes | manifest_generated |
 | humanizer | Humanizer | skill | 2.5.1 | active | yes | manifest_generated |
 | image-generator | Image Generator | agent | 0.2.0 | active | yes | manifest_generated |
 | investigate | Investigate | skill | 0.1.0 | imported | yes | manifest_generated |

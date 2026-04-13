@@ -2,6 +2,6 @@
   "item_id": "frontend-design",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\frontend-design\\payload.json",
-  "published_at": "2026-04-13T14:35:45.178519",
+  "published_at": "2026-04-13T16:32:24.202803",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

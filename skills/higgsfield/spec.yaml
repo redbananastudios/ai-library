@@ -1,0 +1,13 @@
+id: higgsfield
+name: Higgsfield
+type: skill
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Rebuilt from scratch with browser-use CLI, Playwright MCP, and nano-banana-realism-engine integration
+requirements: ['browser-use', 'nano-banana-realism-engine']
+status: active
+description: Generate images via Higgsfield.ai browser automation. Access 15+ premium AI models including Nano Banana Pro, Seedream, FLUX, GPT Image, Reve, and Soul ID.
+trigger: ""
+imported_from_pack: ""

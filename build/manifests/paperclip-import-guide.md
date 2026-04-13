@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-13T14:35:45.376409
+Generated: 2026-04-13T16:32:24.404696
 
 ## Steps
 
@@ -34,6 +34,7 @@ Generated: 2026-04-13T14:35:45.376409
 - **firecrawl** (skill): `generated\paperclip\skills\firecrawl\payload.json`
 - **frontend-design** (skill): `generated\paperclip\skills\frontend-design\payload.json`
 - **google-business-profile-optimizer** (skill): `generated\paperclip\skills\google-business-profile-optimizer\payload.json`
+- **higgsfield** (skill): `generated\paperclip\skills\higgsfield\payload.json`
 - **humanizer** (skill): `generated\paperclip\skills\humanizer\payload.json`
 - **investigate** (skill): `generated\paperclip\skills\investigate\payload.json`
 - **last30days** (skill): `generated\paperclip\skills\last30days\payload.json`

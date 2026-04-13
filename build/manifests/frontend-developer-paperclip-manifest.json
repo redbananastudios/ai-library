@@ -2,6 +2,6 @@
   "item_id": "frontend-developer",
   "type": "agent",
   "payload_path": "generated\\paperclip\\agents\\frontend-developer\\payload.json",
-  "published_at": "2026-04-13T14:35:45.341034",
+  "published_at": "2026-04-13T16:32:24.368722",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

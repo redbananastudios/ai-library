@@ -2,6 +2,6 @@
   "item_id": "creative-director",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\creative-director\\payload.json",
-  "published_at": "2026-04-13T14:35:45.157855",
+  "published_at": "2026-04-13T16:32:24.183894",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

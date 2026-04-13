@@ -1321,12 +1321,12 @@
     },
     {
       "id": "higgsfield",
-      "name": "Higgsfield AI Image Generator",
+      "name": "Higgsfield",
       "type": "skill",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "status": "active",
-      "upstream_repo_or_source": "https://higgsfield.ai",
-      "source_url": "https://higgsfield.ai",
+      "upstream_repo_or_source": "",
+      "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
@@ -1335,10 +1335,11 @@
       "source_path": "skills\\higgsfield",
       "generated_claude_path": "generated\\claude\\skills\\higgsfield",
       "generated_paperclip_path": "generated\\paperclip\\skills\\higgsfield",
-      "published_claude_path": "",
-      "published_paperclip_status": "generated",
+      "published_claude_path": "C:/Users/peter/.claude/skills/higgsfield",
+      "published_paperclip_status": "manifest_generated",
       "requirements": [
-        "browser-use"
+        "browser-use",
+        "nano-banana-realism-engine"
       ],
       "notes": ""
     },
@@ -2077,5 +2078,5 @@
       "notes": ""
     }
   ],
-  "updated": "2026-04-13T14:55:15.209942"
+  "updated": "2026-04-13T16:32:24.402811"
 }
