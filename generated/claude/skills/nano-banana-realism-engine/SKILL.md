@@ -159,27 +159,62 @@ Set up the brand memory layer for Willow & Weir inside this project.
 - populate brand profile and visual direction files
 - do not save those files inside the skill bundle
 
-## Media Execution (via Nano Banana CLI or Native APIs)
+## Media Execution — Intelligent Model Routing
 
-When the user requests you to generate the actual visual media (images or video files), you must prioritize using the `nano-banana` CLI which uses the cutting-edge Gemini and Veo models.
+When the user requests actual image or video files, decide which execution backend to use based on the task:
 
-1. Finalize the copy-ready media prompts using the realism rules above.
-2. Use the installed `nano-banana` CLI via the terminal:
+### Route 1: Nano Banana CLI (Speed + Video)
+Use the `nano-banana` CLI when:
+- The user wants **fast** generation with minimal fuss
+- The request is **general purpose** and doesn't need a specific model
+- The user wants **video** (Veo 3.1 — Higgsfield doesn't offer this)
+- The user wants **image editing** on an existing file (`--file`)
+- No browser is available
 
-   **For Images:**
-   - Example: `nano-banana "your photorealistic prompt"`
-   - Use `--model pro` if the request demands max photorealism (defaults to `gemini-3.1-flash-image-preview`).
-   - Use `--output {path}` for descriptive saving.
-   - Use `--file {path}` to load an existing image for AI editing mode.
+**Image commands:**
+- `nano-banana "your photorealistic prompt"`
+- `--model pro` for highest quality (defaults to `gemini-3.1-flash-image-preview`)
+- `--output {path}` for descriptive saving
+- `--file {path}` to edit an existing image
 
-   **For Video (Veo 3.1):**
-   - The CLI supports generating cinematic video! Usage: `nano-banana --video "A cinematic sunset hyperlapse"`
-   - Video models: `veo-3.1-generate-001` (default) or use `--video-fast` for cheaper drafts.
-   - Core controls: `--duration {4|6|8}` (max 8s).
-   - Format: `--resolution {720p|1080p|4K}` and `--aspect {16:9|9:16}`.
-   - Audio: `--audio` (default, synchronized sound) or `--no-audio` to save cost.
-   - Consistency: Use `--reference {path}` with an image file to bind character/style consistency (requires 8s duration).
-   - Extending: Use `--extend output/video-123.mp4` to push the video further (requires 8s duration).
+**Video commands (Veo 3.1):**
+- `nano-banana --video "A cinematic sunset hyperlapse"`
+- `--video-fast` for cheaper drafts, `--no-audio` to save cost
+- `--duration {4|6|8}`, `--resolution {720p|1080p|4K}`, `--aspect {16:9|9:16}`
+- `--reference {path}` for character consistency, `--extend {video}` to continue a clip
 
-3. **If the CLI CLI command fails**, fall back to your environment's native UI capabilities (e.g. `generate_image` tool).
-4. Present the generated local file paths to the user upon completion.
+### Route 2: Higgsfield Browser (Premium Model Selection)
+Use the `higgsfield` skill when:
+- The user wants a **specific model** (Seedream, FLUX, Reve, Soul ID, etc.)
+- The task benefits from a **specialist model** (see selection table below)
+- The user wants **4K+ resolution** or **inpainting / editing tools**
+- The user wants **character consistency** (Soul ID)
+- A browser is already open and authenticated on Higgsfield
+
+**Automatic model selection for Higgsfield:**
+
+| Task | Best Model | URL Slug |
+|------|-----------|----------|
+| Photo-realistic people, fashion, lifestyle | Seedream 5.0 | `seedream_5` |
+| General purpose, fast turnaround | Nano Banana 2.5 | `nano_banana_2` |
+| Creative editing, reference images, object swaps | Nano Banana Pro | `nano_banana_pro` |
+| Text rendered inside images (logos, signs, posters) | FLUX.2 Pro / Max | `flux_2_pro` / `flux_2_max` |
+| Anime, illustration, stylized art | WAN 2.5 or Reve | `wan_2_5` / `reve` |
+| Concept art, mixed media, strict prompt accuracy | Reve | `reve` |
+| Character consistency across multiple images | Soul 2.0 | `soul_2` |
+| Context-aware generation, consistent characters | FLUX Kontext | `flux_kontext` |
+| Highest possible photorealism, complex composition | Seedream 5.0 or GPT Image | `seedream_5` / `gpt_image` |
+
+When using Higgsfield, follow the full `higgsfield` skill workflow (browser navigation, settings, prompt entry, generation, download).
+
+### Route 3: Native `generate_image` Tool (Fallback)
+If neither the CLI nor a browser is available, use your environment's native `generate_image` tool as a last resort.
+
+### Routing Decision
+Apply this priority:
+1. If the user names a specific model (e.g. "use Seedream" or "use Nano Banana Pro") → **Higgsfield**
+2. If the task matches a specialist model (text-in-image, character consistency, anime) → **Higgsfield**
+3. If the user wants video → **CLI only** (Higgsfield doesn't support video)
+4. If speed matters and no specific model is needed → **CLI**
+5. If nothing else is available → **Native tool fallback**
+
