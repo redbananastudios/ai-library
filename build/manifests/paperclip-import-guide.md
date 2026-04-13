@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-13T13:24:39.058832
+Generated: 2026-04-13T14:35:45.376409
 
 ## Steps
 
