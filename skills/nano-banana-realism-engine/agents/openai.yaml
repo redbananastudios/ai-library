@@ -1,0 +1,5 @@
+interface:
+  display_name: Nano Banana Realism Engine
+  short_description: Photorealistic prompt and ad-creative engine for agents
+  icon: camera
+  color: "#8B5CF6"

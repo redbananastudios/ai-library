@@ -1,0 +1,20 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - heading "Analyzing Your Backlinks" [level=1] [ref=e9]
+    - paragraph [ref=e10]: example.com vs ahrefs.com
+    - generic [ref=e14]: Scanning directories...
+    - generic [ref=e15]:
+      - paragraph [ref=e16]: "What we're checking:"
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e21]: 50+ business directories
+        - generic [ref=e22]:
+          - img [ref=e23]
+          - generic [ref=e25]: Competitor backlinks & mentions
+        - generic [ref=e26]:
+          - img [ref=e27]
+          - generic [ref=e29]: Social media presence
+  - contentinfo [ref=e30]:
+    - link "Terms & Privacy" [ref=e31] [cursor=pointer]:
+      - /url: /terms

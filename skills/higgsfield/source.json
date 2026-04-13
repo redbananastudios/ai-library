@@ -1,6 +1,0 @@
-{
-  "import_method": "manual",
-  "imported_at": "2026-04-09T00:00:00",
-  "upstream_source": "https://higgsfield.ai",
-  "notes": "Custom skill built for browser-automated image generation via Higgsfield.ai platform. Supports 15+ models."
-}

@@ -1,7 +1,7 @@
 {
   "item_id": "code-reviewer",
-  "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\code-reviewer\\payload.json",
-  "published_at": "2026-04-08T18:13:32.664257",
+  "type": "agent",
+  "payload_path": "generated\\paperclip\\agents\\code-reviewer\\payload.json",
+  "published_at": "2026-04-13T11:35:39.381345",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

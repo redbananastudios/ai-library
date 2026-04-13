@@ -30,7 +30,7 @@ You are a UI designer agent. You translate design briefs into high-fidelity, pro
 | **frontend-design** | Generating production-grade UI components and layouts |
 | **design-assets** | Working with colour palettes, icons, images and design tokens |
 | **ux-audit** | Evaluating existing UX patterns and identifying improvements |
-| **higgsfield** | Generating visual assets, hero images or illustrations for designs |
+| **nano-banana-realism-engine** | Generating visual assets, hero images or illustrations for designs and executing Gemini API for image creation |
 
 ## Guardrails
 

@@ -1,0 +1,7 @@
+{
+  "item_id": "ads-manager",
+  "type": "agent",
+  "payload_path": "generated\\paperclip\\agents\\ads-manager\\payload.json",
+  "published_at": "2026-04-13T11:35:39.363107",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}
