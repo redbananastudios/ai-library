@@ -23,9 +23,9 @@ def main():
             if ok:
                 path = ""
                 if item_type in ("agent", "subagent"):
-                    path = str((CLAUDE_AGENTS_TARGET / f"{item_id}.md").relative_to(PROJECT_ROOT))
+                    path = str((CLAUDE_AGENTS_TARGET / f"{item_id}.md").as_posix())
                 else:
-                    path = str((CLAUDE_SKILLS_TARGET / item_id).relative_to(PROJECT_ROOT))
+                    path = str((CLAUDE_SKILLS_TARGET / item_id).as_posix())
                 upsert_registry({"id": item_id, "published_claude_path": path})
                 print(f"  OK    {item_id} -> {path}")
                 success += 1

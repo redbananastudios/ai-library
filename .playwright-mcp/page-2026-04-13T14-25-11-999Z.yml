@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Seedance 2.0 Unlimited Expires in 09h 34m 47s UNLIMITED SEEDANCE 2.0 & SEEDANCE 2.0 FAST. UP TO 70% OFF Upgrade" [ref=e4] [cursor=pointer]:
+        - /url: /pricing?type=private
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - paragraph [ref=e7]:
+              - generic [ref=e8]:
+                - img [ref=e9]
+                - text: Seedance 2.0 Unlimited
+            - paragraph [ref=e15]:
+              - generic [ref=e16]:
+                - img [ref=e17]
+                - generic [ref=e19]: Expires in
+                - text: 09h 34m 47s
+          - paragraph [ref=e20]: UNLIMITED SEEDANCE 2.0 & SEEDANCE 2.0 FAST. UP TO 70% OFF
+          - generic [ref=e21]:
+            - generic [ref=e22]: Upgrade
+            - img [ref=e23]
+      - button [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+  - banner [ref=e28]:
+    - navigation "primary navigation" [ref=e29]:
+      - link "Higgsfield AI – AI Video & Image Generation Platform" [ref=e30] [cursor=pointer]:
+        - /url: /
+        - img [ref=e31]
+      - generic [ref=e34]:
+        - link "Explore" [ref=e35] [cursor=pointer]:
+          - /url: /
+        - button "Image" [ref=e37] [cursor=pointer]
+        - button "Video" [ref=e39] [cursor=pointer]
+        - button "Audio" [ref=e41] [cursor=pointer]
+        - link "Chat New" [ref=e42] [cursor=pointer]:
+          - /url: /generate
+          - text: Chat
+          - generic [ref=e43]: New
+        - button "Edit" [ref=e45] [cursor=pointer]
+        - button "Character" [ref=e47] [cursor=pointer]
+        - link "Moodboard" [ref=e48] [cursor=pointer]:
+          - /url: /moodboard
+        - link "Cinema Studio 3.0" [ref=e49] [cursor=pointer]:
+          - /url: /cinema-studio
+          - text: Cinema Studio
+          - generic [ref=e50]: "3.0"
+        - link "Original Series New" [ref=e51] [cursor=pointer]:
+          - /url: /original-series
+          - text: Original Series
+          - generic [ref=e52]: New
+        - link "Apps" [ref=e53] [cursor=pointer]:
+          - /url: /apps
+        - link "Assist" [ref=e54] [cursor=pointer]:
+          - /url: /chat
+        - button "Gallery" [ref=e56] [cursor=pointer]
+      - generic [ref=e58]:
+        - link "Pricing 70% OFF" [ref=e59] [cursor=pointer]:
+          - /url: /pricing
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - text: Pricing
+            - generic [ref=e63]: 70% OFF
+        - separator [ref=e64]
+        - generic [ref=e65]:
+          - link "Login" [ref=e66] [cursor=pointer]:
+            - /url: "#"
+          - link "Sign up" [ref=e67] [cursor=pointer]:
+            - /url: "#"
+  - main [ref=e68]:
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - tablist [ref=e74]:
+            - tab "History" [selected] [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+              - text: History
+            - tab "Community" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - text: Community
+          - slider [ref=e86]
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: Start creating with
+            - paragraph [ref=e121]: Nano Banana Pro
+          - paragraph [ref=e122]: Describe a scene, character, mood, or style — and watch it come to life
+      - group [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - button [ref=e128] [cursor=pointer]:
+              - img [ref=e129]
+            - generic [ref=e131]:
+              - textbox [ref=e132]
+              - generic: Describe the scene you imagine
+          - generic [ref=e133]:
+            - group [ref=e135]:
+              - button [ref=e137] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - img [ref=e141]
+                  - generic [ref=e143]: Nano Banana Pro
+                - img [ref=e144]
+            - generic [ref=e147]:
+              - button "3:4" [ref=e149] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - text: 3:4
+                  - img [ref=e154]
+              - combobox [ref=e158]
+            - group [ref=e159]:
+              - generic [ref=e161]:
+                - button "1K" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e166]:
+                    - text: 1K
+                    - img [ref=e168]
+                - combobox [ref=e172]
+            - button "Decrement 1/4 Increment" [ref=e173] [cursor=pointer]:
+              - generic [ref=e174]:
+                - button "Decrement" [disabled] [ref=e175]:
+                  - img [ref=e176]
+                - generic [ref=e178]: 1/4
+                - button "Increment" [ref=e179]:
+                  - img [ref=e180]
+            - button [ref=e182] [cursor=pointer]:
+              - img [ref=e183]
+            - generic [ref=e185]:
+              - generic [ref=e186]: Extra free gens
+              - switch [checked] [ref=e187] [cursor=pointer]
+            - generic [ref=e188] [cursor=pointer]:
+              - img [ref=e189]
+              - text: Draw
+        - complementary [ref=e191]:
+          - button "Generate 2" [ref=e192] [cursor=pointer]:
+            - generic [ref=e194]:
+              - text: Generate
+              - generic [ref=e195]:
+                - img [ref=e196]
+                - generic [ref=e199]: "2"
+  - region "Notifications Alt+T"
+  - alert [ref=e200]

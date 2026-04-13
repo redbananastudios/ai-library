@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - main [ref=e68]:
+    - generic [ref=e711]:
+      - generic [ref=e713]:
+        - generic [ref=e714]:
+          - img [ref=e716]
+          - heading "Welcome to Higgsfield" [level=1] [ref=e719]
+          - heading "Sign in and continue creating" [level=1] [ref=e720]
+        - generic [ref=e721]:
+          - button "Continue with Google" [ref=e722] [cursor=pointer]:
+            - img [ref=e723]
+            - text: Continue with Google
+          - button "Continue with Apple" [ref=e728] [cursor=pointer]:
+            - img [ref=e729]
+            - text: Continue with Apple
+          - button "Continue with Microsoft" [ref=e731] [cursor=pointer]:
+            - img [ref=e732]
+            - text: Continue with Microsoft
+          - generic [ref=e739]: OR
+          - link "Continue with Email" [ref=e740] [cursor=pointer]:
+            - /url: /auth/email/sign-in?rp=%2Fimage%2Fseedream_v5_lite
+            - img [ref=e741]
+            - text: Continue with Email
+        - generic [ref=e744]:
+          - img [ref=e745]
+          - paragraph [ref=e747]:
+            - text: SSO available on
+            - link "Business and Enterprise plans" [ref=e748] [cursor=pointer]:
+              - /url: /auth/sso
+            - text: plans?
+      - paragraph [ref=e749]:
+        - text: By continuing, I acknowledge the
+        - link "Privacy Policy" [ref=e750] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: and agree to the
+        - link "Terms of Use" [ref=e751] [cursor=pointer]:
+          - /url: /terms-of-use-agreement
+        - text: . I also confirm that I am at least 18 years old
+  - region "Notifications Alt+T"
+  - alert [ref=e200]: Sign In

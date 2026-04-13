@@ -30,10 +30,10 @@ REGISTRY_MD = BUILD_DIR / "library-registry.md"
 SCRIPTS_DIR = ROOT / "scripts"
 
 # Publish targets (project-level Claude paths)
-# These are relative to the project root that contains .claude/
+# These usually live in the user's home directory.
 PROJECT_ROOT = ROOT.parent  # O:/ in this case
-CLAUDE_SKILLS_TARGET = PROJECT_ROOT / ".claude" / "skills"
-CLAUDE_AGENTS_TARGET = PROJECT_ROOT / ".claude" / "agents"
+CLAUDE_SKILLS_TARGET = Path.home() / ".claude" / "skills"
+CLAUDE_AGENTS_TARGET = Path.home() / ".claude" / "agents"
 
 
 def log(msg: str, level: str = "INFO"):
