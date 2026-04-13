@@ -1,14 +1,7 @@
 ---
 name: video-director
 description: Full-service AI video director. Takes creative brief, plans multi-scene production, orchestrates Higgsfield video generation, stitches final video, delivers complete package with shot lists and production notes.
-allowed_tools: ['read', 'write', 'bash', 'glob', 'grep']
 ---
----
-name: Video Director
-description: AI video director orchestrating full video production from brief to delivery
-allowed_tools: ['read', 'write', 'bash', 'glob', 'grep']
----
-
 # Video Director Agent
 
 ## Role

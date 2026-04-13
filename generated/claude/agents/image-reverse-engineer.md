@@ -1,7 +1,6 @@
 ---
 name: image-reverse-engineer
 description: Standalone AI agent for deep image analysis. Deconstructs any reference image into a complete JSON blueprint covering composition, lighting, color, technical style, subject details, and artistic DNA. Generates reproduction prompts for Midjourney, Flux, Stable Diffusion, and Higgsfield. Recommends ControlNet pipelines. Saves blueprints and prompts to ./blueprints/ directory. Supports batch analysis, blueprint diffing, and iterative refinement.
-allowed_tools: ['read', 'write', 'edit', 'bash', 'glob', 'grep', 'agent']
 ---
 # Image Reverse Engineer Agent
 
