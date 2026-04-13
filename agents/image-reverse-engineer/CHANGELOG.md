@@ -1,5 +1,49 @@
 # Changelog - image-reverse-engineer
 
+## [2.0.0] - 2026-04-13
+
+### Changed (Major Rebuild)
+- **Architectural redesign**: Agent now fully standalone with no external skill dependencies
+  - Previous: Invoked image-blueprint skill for vision analysis (not supported in Claude Code)
+  - Now: Embedded complete 7-dimension vision analysis directly in agent using Claude's multimodal capabilities
+- **Tool configuration moved to spec.yaml**: Correct spec.yaml for allowed_tools definition (was in prompt.md frontmatter)
+  - `allowed_tools: ['read', 'write', 'edit', 'bash', 'glob', 'grep', 'agent']`
+  - Enables: file persistence, batch processing, blueprint diffing via parallel agents
+- **No YAML frontmatter in prompt.md**: Removed duplicate header block (build script now provides from spec.yaml)
+
+### Added (New Capabilities)
+- **File persistence**: Saves 3 files per image to `./blueprints/{image-name}-*`
+  - `-blueprint.json`: Full 10-section analysis
+  - `-prompts.json`: 4 platform-native reproduction prompts
+  - `-controlnet.json`: ControlNet recommendations
+- **Batch processing**: Accept multiple images; analyze in parallel via `agent` tool for concurrent generation
+- **Blueprint diffing**: Compare two existing blueprints to identify visual differences
+- **Iterative refinement**: Modify blueprint fields and regenerate prompts without re-analyzing image
+- **Comprehensive error handling**: Image validation (accessible, format, quality); JSON validation; prompt syntax checking; recovery logic
+- **7-dimension embedded analysis**: Complete workflow for composition, lighting, color, technical style, subject details, artistic DNA
+  - Full forensic depth (Layer 1–6 methodology for artistic DNA)
+  - Structured output fields for each dimension
+  - Reference materials (nano-banana-realism-engine, higgsfield) used as knowledge base, not skill invocation
+
+### Improved
+- **JSON Blueprint Schema**: Fully documented 10-section template with all field definitions
+- **ControlNet Decision Matrix**: Comprehensive recommendation logic by image type with synergistic combinations
+- **Reproduction Prompts**: Platform-native generation with detailed templates and validation
+- **Recovery & Validation**: Explicit handling for inaccessible images, invalid JSON, incomplete analysis
+- **Documentation**: Expanded guardrails, FAQ, interaction patterns, workflow examples
+
+### Fixed
+- **Bug: allowed_tools in wrong location** → Now correctly in spec.yaml (build pipeline reads from here)
+- **Bug: Double YAML frontmatter** → Removed from prompt.md; build script provides single header
+- **Architectural limitation: No skill invocation** → All analysis now embedded; no external dependencies
+
+### Removed
+- Dependency on `image-blueprint` skill (no longer needed; analysis embedded)
+- Dependency on skill invocation pattern (not supported in Claude Code agents)
+- YAML frontmatter from prompt.md (build script handles)
+
+---
+
 ## [1.0.0] - 2026-04-13
 
 ### Added
