@@ -1,0 +1,12 @@
+id: image-reverse-engineer
+name: Image Reverse Engineer
+type: agent
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation — image deconstruction orchestrator producing JSON blueprints and reproduction prompts
+requirements: ['image-blueprint', 'nano-banana-realism-engine', 'higgsfield']
+status: active
+description: Deconstruct any reference image into a complete JSON blueprint. Generates reproduction prompts for Midjourney, Flux, Stable Diffusion, and Higgsfield. Recommends ControlNet pipelines. Optionally executes reproduction via Higgsfield.
+trigger: ""
