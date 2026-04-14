@@ -1,7 +1,7 @@
 {
   "item_id": "social-card-gen",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\social-card-gen\\payload.json",
-  "published_at": "2026-04-13T17:32:19.040381",
+  "payload_path": "generated/paperclip/skills/social-card-gen/payload.json",
+  "published_at": "2026-04-14T01:03:17.129247",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

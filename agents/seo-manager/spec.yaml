@@ -1,13 +1,22 @@
 id: seo-manager
 name: SEO Manager
 type: agent
-version: 0.2.0
+version: 0.3.0
 source_url: ""
 source_kind: custom
 compatible_targets: ['claude', 'paperclip']
-changelog_summary: Rebuilt with full workflow, skill references and tool guidance
-requirements: ['claude-seo', 'seo-audit', 'seo-geo-optimizer', 'ai-seo', 'ai-discoverability-audit']
+changelog_summary: Add measurement stack ownership (GSC, GA4, GTM) and growth tracker cadence; new skill wiring and delegation table
+requirements:
+- claude-seo
+- seo-audit
+- seo-geo-optimizer
+- ai-seo
+- ai-discoverability-audit
+- google-search-console
+- google-analytics
+- google-tag-manager
+- seo-growth-tracker
 status: active
-description: Coordinates all SEO efforts by orchestrating skills for technical audits, keyword research, content optimisation, local SEO, programmatic SEO and AI search optimisation.
+description: Coordinates all SEO efforts by orchestrating skills for technical audits, keyword research, content optimisation, local SEO, programmatic SEO, AI search optimisation and the measurement stack (GSC, GA4, GTM). Owns the weekly and monthly growth reporting cadence.
 trigger: ""
 imported_from_pack: ""

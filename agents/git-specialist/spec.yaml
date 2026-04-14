@@ -1,0 +1,20 @@
+id: git-specialist
+name: Git Specialist
+type: agent
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets:
+- claude
+- paperclip
+changelog_summary: Initial creation - git expert specialised in conflict resolution, rebasing, history cleanup and recovery
+requirements:
+- investigate
+- engineering-standards
+status: active
+description: Expert git operator specialising in merge conflict resolution, complex
+  rebases, history cleanup, repository recovery and advanced git workflows. First
+  point of call for any conflict, lost commit, broken branch or ambiguous merge scenario.
+  Ensures git history stays clean, accurate and recoverable.
+trigger: ''
+imported_from_pack: ''

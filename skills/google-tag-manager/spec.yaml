@@ -1,0 +1,13 @@
+id: google-tag-manager
+name: Google Tag Manager
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - GTM API and dataLayer best practices for tag/trigger/variable management
+requirements: ['googleapis']
+status: active
+description: Manage Google Tag Manager containers via the API and build robust dataLayer + trigger + variable configurations. Use for deploying GA4 events, conversion tracking, Meta/LinkedIn/TikTok pixels, custom events, and managing versioned workspaces safely.
+trigger: "gtm, tag manager, google tag manager, datalayer, tag, trigger, variable, pixel, conversion tracking, deploy tracking, tracking setup"
+imported_from_pack: ""

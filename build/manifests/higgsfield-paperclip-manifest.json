@@ -1,7 +1,7 @@
 {
   "item_id": "higgsfield",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\higgsfield\\payload.json",
-  "published_at": "2026-04-13T17:32:18.934402",
+  "payload_path": "generated/paperclip/skills/higgsfield/payload.json",
+  "published_at": "2026-04-14T01:03:16.940091",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

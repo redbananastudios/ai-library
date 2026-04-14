@@ -49,3 +49,7 @@ When delivering work, provide:
 3. DataLoader configuration
 4. Query complexity budget
 5. Example queries and expected responses
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

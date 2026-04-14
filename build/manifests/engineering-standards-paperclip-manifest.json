@@ -1,7 +1,7 @@
 {
   "item_id": "engineering-standards",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\engineering-standards\\payload.json",
-  "published_at": "2026-04-13T17:32:18.920864",
+  "payload_path": "generated/paperclip/skills/engineering-standards/payload.json",
+  "published_at": "2026-04-14T01:03:16.899945",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

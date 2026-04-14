@@ -51,3 +51,7 @@ When delivering work, provide:
 3. OpenAPI spec or GraphQL SDL
 4. Error code reference table
 5. Migration notes if this changes an existing API
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

@@ -60,3 +60,7 @@ When delivering a review, provide:
 3. Suggestions (should fix, improves quality)
 4. Nits (optional, minor improvements)
 5. Positive callouts (good patterns worth noting)
+
+## Engineering Standards
+
+ALWAYS strictly enforce the **engineering-standards** skill requirements on every single file and commit. They are mandatory constraints, not suggestions.

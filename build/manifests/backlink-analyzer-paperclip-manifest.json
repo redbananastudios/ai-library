@@ -1,7 +1,7 @@
 {
   "item_id": "backlink-analyzer",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\backlink-analyzer\\payload.json",
-  "published_at": "2026-04-13T17:32:18.879421",
+  "payload_path": "generated/paperclip/skills/backlink-analyzer/payload.json",
+  "published_at": "2026-04-14T01:03:16.813842",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }
