@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish a single item to Claude and/or Paperclip targets."""
+"""Publish a single item to Claude, Paperclip and/or Codex targets."""
 
 import sys
 from pathlib import Path
@@ -9,11 +9,11 @@ from lib import *
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python publish-item.py <item-id> [--target=claude|paperclip|both]")
+        print("Usage: python publish-item.py <item-id> [--target=claude|paperclip|codex|both|all]")
         sys.exit(1)
 
     item_id = sys.argv[1]
-    target = "both"
+    target = "all"
     for arg in sys.argv[2:]:
         if arg.startswith("--target="):
             target = arg.split("=", 1)[1]
@@ -33,19 +33,25 @@ def main():
 
     published_claude = ""
     published_paperclip = "not_published"
+    published_codex = ""
 
-    if target in ("claude", "both"):
+    # "both" kept for backwards-compat — means claude + paperclip.
+    claude_requested = target in ("claude", "both", "all")
+    paperclip_requested = target in ("paperclip", "both", "all")
+    codex_requested = target in ("codex", "all")
+
+    if claude_requested:
         ok = publish_to_claude(item_id, item_type)
         if ok:
             if item_type in ("agent", "subagent"):
-                published_claude = str((CLAUDE_AGENTS_TARGET / f"{item_id}.md").relative_to(PROJECT_ROOT))
+                published_claude = str((CLAUDE_AGENTS_TARGET / f"{item_id}.md").as_posix())
             else:
-                published_claude = str((CLAUDE_SKILLS_TARGET / item_id).relative_to(PROJECT_ROOT))
+                published_claude = str((CLAUDE_SKILLS_TARGET / item_id).as_posix())
             print(f"  Published to Claude: {published_claude}")
         else:
             print(f"  FAILED to publish to Claude")
 
-    if target in ("paperclip", "both"):
+    if paperclip_requested:
         # Paperclip: generate manifest for manual import
         if item_type in ("agent", "subagent"):
             payload_path = GEN_PAPERCLIP_AGENTS / item_id / "payload.json"
@@ -67,12 +73,27 @@ def main():
         else:
             print(f"  Paperclip payload not built for {item_id}")
 
-    # Update registry
-    upsert_registry({
-        "id": item_id,
-        "published_claude_path": published_claude,
-        "published_paperclip_status": published_paperclip,
-    })
+    if codex_requested:
+        ok = publish_to_codex(item_id, item_type)
+        if ok:
+            if item_type in ("agent", "subagent"):
+                published_codex = str((CODEX_AGENTS_TARGET / f"{item_id}.toml").as_posix())
+            else:
+                published_codex = str((CODEX_SKILLS_TARGET / item_id).as_posix())
+            print(f"  Published to Codex: {published_codex}")
+        else:
+            print(f"  FAILED to publish to Codex (or codex not built for {item_id})")
+
+    # Update registry with only the fields we actually touched so we don't
+    # clobber unrelated ones.
+    registry_update = {"id": item_id}
+    if claude_requested:
+        registry_update["published_claude_path"] = published_claude
+    if paperclip_requested:
+        registry_update["published_paperclip_status"] = published_paperclip
+    if codex_requested:
+        registry_update["published_codex_path"] = published_codex
+    upsert_registry(registry_update)
 
 
 if __name__ == "__main__":

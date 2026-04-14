@@ -2,6 +2,6 @@
   "item_id": "qa-engineer",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/qa-engineer/payload.json",
-  "published_at": "2026-04-14T01:03:17.259100",
+  "published_at": "2026-04-14T22:56:49.078900",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

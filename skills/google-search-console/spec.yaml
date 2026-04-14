@@ -4,7 +4,7 @@ type: skill
 version: 0.1.0
 source_url: ""
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Initial creation - GSC API integration for SEO metrics, indexing, and sitemap management
 requirements: ['googleapis']
 status: active

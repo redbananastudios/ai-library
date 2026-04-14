@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-14T01:03:17.292272
+Generated: 2026-04-14T22:56:49.113417
 
 ## Steps
 
@@ -12,6 +12,7 @@ Generated: 2026-04-14T01:03:17.292272
 
 - **ai-discoverability-audit** (skill): `generated/paperclip/skills/ai-discoverability-audit/payload.json`
 - **ai-seo** (skill): `generated/paperclip/skills/ai-seo/payload.json`
+- **anti-impossibility-validator** (skill): `generated/paperclip/skills/anti-impossibility-validator/payload.json`
 - **awesome-agent-skills** (metadata): `generated/paperclip/skills/awesome-agent-skills/payload.json`
 - **awesome-claude-code-subagents** (metadata): `generated/paperclip/skills/awesome-claude-code-subagents/payload.json`
 - **backlink-analyzer** (skill): `generated/paperclip/skills/backlink-analyzer/payload.json`

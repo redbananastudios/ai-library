@@ -4,7 +4,7 @@ type: agent
 version: 0.3.0
 source_url: ""
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Add measurement stack ownership (GSC, GA4, GTM) and growth tracker cadence; new skill wiring and delegation table
 requirements:
 - claude-seo

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish all items to both Claude and Paperclip targets."""
+"""Publish all items to Claude, Paperclip and Codex targets."""
 
 import sys
 import subprocess
@@ -10,7 +10,7 @@ from lib import *
 
 def main():
     print("=" * 50)
-    print("PUBLISH ALL - Claude + Paperclip")
+    print("PUBLISH ALL - Claude + Paperclip + Codex")
     print("=" * 50)
 
     scripts = Path(__file__).parent
@@ -20,6 +20,9 @@ def main():
 
     print("\n--- Publishing to Paperclip ---\n")
     subprocess.run([sys.executable, str(scripts / "publish-paperclip.py")], check=False)
+
+    print("\n--- Publishing to Codex ---\n")
+    subprocess.run([sys.executable, str(scripts / "publish-codex.py")], check=False)
 
     print("\n" + "=" * 50)
     print("Publish all complete.")

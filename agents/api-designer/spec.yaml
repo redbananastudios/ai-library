@@ -7,6 +7,7 @@ source_kind: custom
 compatible_targets:
 - claude
 - paperclip
+- codex
 changelog_summary: Rebuilt with full workflow and tool guidance
 requirements:
 - engineering-standards

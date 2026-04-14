@@ -13,7 +13,8 @@
     "source_kind": "custom",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Initial creation - comprehensive video generation for UGC, social, and cinematic production"
   }

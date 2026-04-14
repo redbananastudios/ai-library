@@ -2,6 +2,6 @@
   "item_id": "wordpress-agent",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/wordpress-agent/payload.json",
-  "published_at": "2026-04-14T01:03:17.154875",
+  "published_at": "2026-04-14T22:56:48.958527",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

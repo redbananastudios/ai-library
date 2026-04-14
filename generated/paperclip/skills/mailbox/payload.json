@@ -16,7 +16,8 @@
     "source_kind": "custom",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Added IMAP/SMTP support for IONOS and other email providers via imapflow and nodemailer"
   }

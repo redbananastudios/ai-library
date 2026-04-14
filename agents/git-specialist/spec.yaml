@@ -7,6 +7,7 @@ source_kind: custom
 compatible_targets:
 - claude
 - paperclip
+- codex
 changelog_summary: Initial creation - git expert specialised in conflict resolution, rebasing, history cleanup and recovery
 requirements:
 - investigate

@@ -2,6 +2,6 @@
   "item_id": "shopify-hydrogen",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/shopify-hydrogen/payload.json",
-  "published_at": "2026-04-14T01:03:17.083026",
+  "published_at": "2026-04-14T22:56:48.872207",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

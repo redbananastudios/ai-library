@@ -11,7 +11,8 @@
     "source_kind": "custom",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Initial creation - longitudinal SEO growth tracking combining GSC, GA4 and rank data"
   }
