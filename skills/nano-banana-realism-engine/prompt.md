@@ -48,7 +48,15 @@ Follow this sequence:
 
 Build each prompt from this stack:
 
-**subject + setting + action + audience cue + camera + lens + exposure feel + lighting + composition + imperfections + realism constraints + platform intent**
+**[PRIMARY: EXACT SPECIFICATIONS] + [SECONDARY: REALISM CONSTRAINTS]**
+
+### Primary Stack (Similarity & Exactness)
+**subject + setting + exact camera specs + exact lens + exact color palette (hex codes) + exact lighting (ratios, direction, temperature) + exact proportions + composition + audience cue**
+
+### Secondary Stack (Physical Plausibility)
+**anti-impossibility constraints + imperfections + realism rules + platform intent**
+
+The PRIMARY stack drives similarity to original image. The SECONDARY stack ensures physical plausibility. When there's tension between the two, prioritize PRIMARY if it preserves the core aesthetic, but never violate physical laws.
 
 ## Hard rules
 
@@ -62,6 +70,60 @@ Build each prompt from this stack:
 - For faces, preserve natural asymmetry, pores, stray hairs, and believable expressions.
 - For products, preserve realistic scale, materials, reflections, wear, and handling.
 - For ads, prefer in-use scenes and specific audience situations over generic studio hero shots.
+
+## Similarity-First Methodology (Replicate Existing Images)
+
+When a user provides a reference image that should be recreated or closely matched:
+
+### Step 1: Extract Exact Specifications
+Use `image-blueprint` skill or manual analysis to extract:
+- **Color palette**: Dominant colors as hex codes (#RRGGBB), not descriptive words
+  - Example: "marble #f0f0f0 with #c0c0c0 veining, flooring #a08968, accents #c9a961"
+- **Camera position & lens**: Exact distance, angle, focal length equivalent
+  - Example: "Standing center-left, eye level, ~8-10 feet from focal point, 35mm equivalent lens"
+- **Lighting**: Exact direction (e.g., "45° from upper left"), color temperature in Kelvin, brightness ratios
+  - Example: "Key light 5200-5500K from upper left, 70-75% lit areas, 25-30% shadow areas, soft graduated shadows"
+- **Proportions**: Relative scale (width %, height %, depth %)
+  - Example: "Focal object 35-40% of frame width, positioned 50-60% back in scene depth"
+- **Spatial layout**: Exact positioning of key elements
+  - Example: "Focal point center-left, supporting elements at 2/3 depth, background at infinity"
+
+### Step 2: Integrate Reference Image (If Available)
+If working with multimodal APIs (Claude Vision, Gemini 3.1):
+- Include the original image as visual reference input
+- Use text prompt to reinforce exact specifications
+- This dramatically improves composition matching (expected 45-70%+ similarity improvement)
+
+### Step 3: Embed Exact Specs in Prompt (PRIMARY Priority)
+Write specifications as exact values, not abstract descriptions:
+
+❌ **Avoid**: "A kitchen with nice lighting and marble counters"
+✅ **Use**: "Kitchen with marble counters #f0f0f0 with #c0c0c0 veining, flooring #a08968, shot from eye level 8-10 feet back with 35mm-equivalent lens, lit by daylight 5200K from upper left window, 75% of scene brightly lit, 25% shadow areas with soft graduated transitions"
+
+### Step 4: Apply Realism Constraints (SECONDARY Priority)
+After embedding exact specifications, add anti-impossibility constraints as guardrails:
+- Ensure grounding & contact (no floating objects)
+- Ensure structural integrity (all supports visible)
+- Ensure material opacity (no see-through solids)
+- Ensure perspective consistency (vanishing points aligned)
+
+Phrase constraints naturally but firmly:
+- "No floating objects" not "ensure all objects have contact"
+- "ABSOLUTELY NO harsh shadows" (repeat if critical to mood)
+- Use ALL CAPS for emphasis on critical specifications
+
+### Step 5: Iterative Refinement (If Generated Image Doesn't Match)
+Compare generated image to original and identify gaps:
+- Composition gaps: Viewpoint off, focal point wrong, positioning incorrect
+- Lighting gaps: Shadows too harsh, gradient not right, color temperature off
+- Color gaps: Hues correct but saturation wrong, missing color blocking
+- Proportion gaps: Scale off, spacing incorrect, object positioning wrong
+
+Update prompt by:
+1. Making failed specifications even more explicit (add measurements, hex codes)
+2. Repeating critical specs multiple times
+3. Using stronger directional language
+4. Removing ambiguous or vague phrases
 
 ## Anti-Impossibility Constraints (Prevent AI Physics Errors)
 
@@ -109,6 +171,27 @@ no fused components
 no unsupported edges
 ```
 
+## Reference Image Support
+
+When a reference/original image is available, use a multimodal approach:
+
+### For Claude (Native API or Chat)
+- Load the original image in the same message as the prompt
+- Include exact specifications extracted from image-blueprint analysis
+- Example: "Generate this image: [image attached] | Reference specs: marble #f0f0f0, camera 35mm from 8 feet, daylight 5200K from upper left, 75% lit areas"
+
+### For Gemini (3.1 Flash, Imagen API)
+- Use `generate-haberdasher-with-reference.py` pattern (or similar multimodal script)
+- Load original image as base64 input
+- Pass detailed specifications + prompt as generation instruction
+- Result: Significantly improved composition matching (47%→70%+ similarity expected)
+
+### For Higgsfield (Browser)
+- Reference image cannot be automatically loaded, but you can describe it precisely
+- Use image-blueprint to extract exact specifications
+- Embed specifications into text prompt with maximum precision
+- Consider using multiple generation attempts with iterative refinement
+
 ## Request intake checklist
 
 Before generating, capture these if available:
@@ -126,7 +209,13 @@ Before generating, capture these if available:
 
 Use the structure in [references/output-format.md](references/output-format.md).
 
-Default deliverable:
+**For reference-image reproduction requests:**
+- Lead with exact specifications extracted from original image (hex codes, camera specs, lighting ratios)
+- Include comparison guidance: “Generated image should match original in [composition/lighting/color palette]”
+- Provide iterative refinement checklist: “If generated image differs, check [specific dimension]”
+- Suggest gap analysis approach: “If [symptom observed], try [specific prompt modification]”
+
+**For general multi-concept requests:**
 - short assumptions block if needed
 - 3 to 5 concept sections
 - each section includes a concept label, hook, headline, visual strategy, and final copy-ready image prompt
