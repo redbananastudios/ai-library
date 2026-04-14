@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-13T23:46:23.134830
+Generated: 2026-04-14T01:03:17.292272
 
 ## Steps
 
@@ -33,7 +33,10 @@ Generated: 2026-04-13T23:46:23.134830
 - **facebook-ads-optimizer** (skill): `generated/paperclip/skills/facebook-ads-optimizer/payload.json`
 - **firecrawl** (skill): `generated/paperclip/skills/firecrawl/payload.json`
 - **frontend-design** (skill): `generated/paperclip/skills/frontend-design/payload.json`
+- **google-analytics** (skill): `generated/paperclip/skills/google-analytics/payload.json`
 - **google-business-profile-optimizer** (skill): `generated/paperclip/skills/google-business-profile-optimizer/payload.json`
+- **google-search-console** (skill): `generated/paperclip/skills/google-search-console/payload.json`
+- **google-tag-manager** (skill): `generated/paperclip/skills/google-tag-manager/payload.json`
 - **higgsfield** (skill): `generated/paperclip/skills/higgsfield/payload.json`
 - **higgsfield-video** (skill): `generated/paperclip/skills/higgsfield-video/payload.json`
 - **humanizer** (skill): `generated/paperclip/skills/humanizer/payload.json`
@@ -57,6 +60,7 @@ Generated: 2026-04-13T23:46:23.134830
 - **review** (skill): `generated/paperclip/skills/review/payload.json`
 - **seo-audit** (skill): `generated/paperclip/skills/seo-audit/payload.json`
 - **seo-geo-optimizer** (skill): `generated/paperclip/skills/seo-geo-optimizer/payload.json`
+- **seo-growth-tracker** (skill): `generated/paperclip/skills/seo-growth-tracker/payload.json`
 - **shopify-app-development** (skill): `generated/paperclip/skills/shopify-app-development/payload.json`
 - **shopify-checkout** (skill): `generated/paperclip/skills/shopify-checkout/payload.json`
 - **shopify-cli** (skill): `generated/paperclip/skills/shopify-cli/payload.json`

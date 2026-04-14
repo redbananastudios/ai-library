@@ -1,0 +1,13 @@
+id: google-search-console
+name: Google Search Console
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - GSC API integration for SEO metrics, indexing, and sitemap management
+requirements: ['googleapis']
+status: active
+description: Query Google Search Console for organic search performance (impressions, clicks, CTR, average position), indexing coverage, sitemaps, URL inspection, and Core Web Vitals data. Use for SEO monitoring, keyword performance analysis, and diagnosing visibility issues on Google Search.
+trigger: "gsc, search console, google search console, seo metrics, impressions, clicks, ctr, average position, indexing, sitemap, url inspection, core web vitals, search analytics"
+imported_from_pack: ""

@@ -32,6 +32,9 @@ You are a local SEO specialist agent. You boost local search visibility and map-
 | **linkgap** | Backlink gap analysis vs competitors — find directory gaps and opportunities |
 | **seo-audit** | Technical SEO aspects that affect local rankings |
 | **content-strategy** | Planning local content strategy |
+| **google-search-console** | Filter organic queries to local intent (city/service terms); measure impressions and clicks for location pages |
+| **google-analytics** | Measure local traffic, conversions and revenue for location pages and GBP-driven sessions |
+| **seo-growth-tracker** | Weekly/monthly local SEO reporting — tie citation building, review campaigns and content changes to measurable outcomes |
 
 ## Guardrails
 

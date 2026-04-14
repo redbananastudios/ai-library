@@ -1,0 +1,5 @@
+{
+  "source_url": "",
+  "source_kind": "custom",
+  "notes": "Custom skill wrapping the Google Analytics 4 Data API (v1beta) and Admin API."
+}

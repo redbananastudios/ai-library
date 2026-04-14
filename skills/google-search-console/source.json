@@ -1,0 +1,5 @@
+{
+  "source_url": "",
+  "source_kind": "custom",
+  "notes": "Custom skill wrapping the Google Search Console API (Webmasters v3 / Search Analytics / URL Inspection / Sitemaps)."
+}
