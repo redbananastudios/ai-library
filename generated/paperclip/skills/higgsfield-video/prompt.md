@@ -266,6 +266,64 @@ subtle rim light catching cup edge for separation, warm cinematic color grade"
 
 ---
 
+## Anti-Impossibility Constraints for Video (Prevent AI Physics Errors)
+
+Video models frequently render physically impossible geometry — floating furniture, disconnected structures, see-through solid objects, broken perspective, impossible anatomy. Add these constraints to EVERY scene prompt:
+
+**1. Grounding & Contact**
+- All objects meant to touch ground/surfaces must have visible, continuous contact
+- No floating furniture, levitating people, hovering structures
+- Add to prompt: `"[object] sitting firmly on [surface] with no gap at base"`
+
+**2. Structural Integrity**
+- All load-bearing structures must have visible support — no floating edges, impossible cantilevers
+- Multi-part objects must have complete, connected bases
+- Add to prompt: `"structurally believable [object] with solid joinery and full support, no floating edges"`
+
+**3. Material Opacity**
+- Solid opaque objects cannot show other objects through them
+- Surfaces cannot penetrate each other
+- Add to prompt: `"opaque [material] with no visible [surface] showing through or beneath it"`
+
+**4. Perspective Consistency**
+- Vanishing points consistent throughout scene
+- Parallel lines remain parallel or converge correctly
+- Depth and shadow fall from single, consistent light source
+
+**5. Anatomical Correctness**
+- People must have correct anatomy: 2 visible hands, proper limb connection, realistic proportions
+- Fixtures must have all distinct parts (taps with correct number of spouts, handles separate, not fused)
+- No merged or disconnected components
+
+**Anti-Pattern Language (Always Include One):**
+```
+Pattern A: "[object] grounded firmly on [surface] with complete, visible support and solid joinery"
+Pattern B: "opaque [material] making full contact with supporting surface, no gaps or penetration"
+Pattern C: "structurally believable geometry with all load-bearing visible and no impossible angles"
+```
+
+**Negative Constraints (Add to Any Prompt with Physics Risk):**
+```
+no floating [object]
+no see-through solid surfaces
+no impossible geometry
+no disconnected structures
+no fused components
+no unsupported edges
+no intersecting surfaces
+```
+
+**Pre-Generation Validation Checklist:**
+- [ ] Do all grounded objects have full contact with surface? Any floating elements?
+- [ ] Are all solid objects actually opaque, or can I see through them?
+- [ ] Do all load-bearing structures have visible support?
+- [ ] Do multi-part objects have distinct, separate components?
+- [ ] Is perspective consistent? Any impossible angles?
+
+If ANY fail, add anti-impossibility constraints to the prompt before generating.
+
+---
+
 ## Platform-Specific Guidance
 
 | Platform | Aspect | Duration | Model | Notes |

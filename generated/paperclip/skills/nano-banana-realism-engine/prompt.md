@@ -63,6 +63,52 @@ Build each prompt from this stack:
 - For products, preserve realistic scale, materials, reflections, wear, and handling.
 - For ads, prefer in-use scenes and specific audience situations over generic studio hero shots.
 
+## Anti-Impossibility Constraints (Prevent AI Physics Errors)
+
+AI models frequently violate physical laws — floating furniture, impossible geometry, disconnected structures, see-through solid objects, broken perspective. Before generating any prompt, validate these constraints:
+
+**1. Grounding & Contact**
+- All objects meant to be grounded (furniture, people standing, structures) must have visible, continuous contact with their supporting surface
+- No floating, hovering, or levitating objects
+- Example: Kitchen cabinetry sits flush against floor with solid plinth, no visible gap between base and floor
+
+**2. Structural Integrity**
+- Visible support for all load-bearing structures (no floating tops, unsupported cantilevers)
+- Multi-part objects must have complete, connected bases — not fragmented or transparent at contact points
+- Example: Worktop supported along full length, no floating edges
+
+**3. Material Opacity**
+- Solid opaque objects cannot have other objects visible through or beneath them
+- Surfaces cannot penetrate each other (floor doesn't show through cabinetry, walls don't intersect furniture)
+- Example: Opaque cabinet bases with no visible floor beneath or behind units
+
+**4. Perspective Consistency**
+- Vanishing points must be consistent throughout frame
+- Parallel lines remain parallel or converge correctly
+- Depth cues align (shadows, overlap, scale)
+
+**5. Anatomical & Functional Correctness**
+- Objects with standard forms (fixtures, furniture) must match real-world specifications
+- No fused components (taps with 2 spouts rendered as 1, furniture legs merged, handles fused)
+- All expected parts present and distinct
+
+**Prompt Integration — When Writing Final Prompts, Add These Patterns:**
+
+- For furniture: `"[object] sitting flush against [surface] with solid plinth/base, no gap between cabinets and floor"`
+- For fixtures: `"distinct separate spouts/handles with visible mechanical joints, no fused components"`
+- For worktops: `"supported along full length, no unsupported overhang or floating edges"`
+- For people: `"standing firmly on [surface], feet making full contact"`
+
+**Negative Constraints to Always Include (Naturally Phrased):**
+```
+no floating [object]
+no visible [surface] beneath [object]
+no impossible geometry
+no disconnected parts
+no fused components
+no unsupported edges
+```
+
 ## Request intake checklist
 
 Before generating, capture these if available:
