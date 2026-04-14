@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a single skill for both Claude and Paperclip targets."""
+"""Build a single skill for Claude, Paperclip and Codex targets."""
 
 import sys
 from pathlib import Path
@@ -20,7 +20,7 @@ def main():
         sys.exit(1)
 
     spec = load_spec(item_dir)
-    targets = spec.get("compatible_targets", ["claude", "paperclip"])
+    targets = spec.get("compatible_targets", ["claude", "paperclip", "codex"])
     if isinstance(targets, str):
         targets = [t.strip() for t in targets.split(",")]
 
@@ -28,6 +28,8 @@ def main():
         build_claude_skill(item_dir)
     if "paperclip" in targets:
         build_paperclip_item(item_dir)
+    if "codex" in targets:
+        build_codex_skill(item_dir)
 
     log(f"Build complete for skill: {skill_id}")
 

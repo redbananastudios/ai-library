@@ -2,6 +2,6 @@
   "item_id": "code-reviewer",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/code-reviewer/payload.json",
-  "published_at": "2026-04-14T01:03:17.210898",
+  "published_at": "2026-04-14T22:56:49.021774",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

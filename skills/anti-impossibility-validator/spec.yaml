@@ -4,7 +4,7 @@ type: skill
 version: 1.0.0
 source_url: ""
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 description: Validate generated images and videos against 5 core physical law constraints to catch AI geometry errors before expensive regeneration. Fast QA gating using Claude Haiku.
 status: active
 trigger: ""

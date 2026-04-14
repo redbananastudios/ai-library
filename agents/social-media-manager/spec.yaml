@@ -4,7 +4,7 @@ type: agent
 version: 0.2.0
 source_url: ""
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Rebuilt with full workflow, skill references and tool guidance
 requirements: ['social-content', 'social-card-gen', 'upload-post']
 status: active

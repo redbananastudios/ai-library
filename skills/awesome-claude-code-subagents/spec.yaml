@@ -4,7 +4,7 @@ type: metadata
 version: 0.1.0
 source_url: "https://github.com/AiDA-Agents/awesome-claude-code-subagents"
 source_kind: github
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Initial import
 requirements: []
 status: imported

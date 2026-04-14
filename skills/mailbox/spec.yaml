@@ -4,7 +4,7 @@ type: skill
 version: 0.2.0
 source_url: "https://gmail.google.com"
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Added IMAP/SMTP support for IONOS and other email providers via imapflow and nodemailer
 requirements: ['gmail-mcp', 'imapflow', 'nodemailer', 'mailparser']
 status: active

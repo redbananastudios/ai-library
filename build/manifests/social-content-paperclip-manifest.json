@@ -2,6 +2,6 @@
   "item_id": "social-content",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/social-content/payload.json",
-  "published_at": "2026-04-14T01:03:17.133374",
+  "published_at": "2026-04-14T22:56:48.933323",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

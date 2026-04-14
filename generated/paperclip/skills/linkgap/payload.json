@@ -13,7 +13,8 @@
     "source_kind": "custom",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Initial creation - browser-automated backlink gap analysis via linkgap.io"
   }

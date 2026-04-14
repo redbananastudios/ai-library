@@ -11,7 +11,8 @@
     "source_kind": "github",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Imported from blader/humanizer - removes AI writing patterns based on Wikipedia's Signs of AI writing guide"
   }

@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-14T01:03:17
+Updated: 2026-04-14T22:56:50
 
-Total items: 105
+Total items: 106
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -10,6 +10,7 @@ Total items: 105
 | ai-discoverability-audit | AI Discoverability Audit | skill | 0.1.0 | imported | yes | manifest_generated |
 | ai-seo | AI SEO | skill | 0.1.0 | imported | yes | manifest_generated |
 | amazon-fba-assistant | Amazon FBA Assistant | agent | 0.2.0 | active | yes | manifest_generated |
+| anti-impossibility-validator | Anti-Impossibility Validator | skill | 1.0.0 | active | yes | manifest_generated |
 | api-designer | API Designer | agent | 0.2.0 | active | yes | manifest_generated |
 | awesome-agent-skills | Awesome Agent Skills Directory | metadata | 0.1.0 | imported | yes | manifest_generated |
 | awesome-claude-code-subagents | Awesome Claude Code Subagents Directory | metadata | 0.1.0 | imported | yes | manifest_generated |

@@ -2,6 +2,6 @@
   "item_id": "google-analytics",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/google-analytics/payload.json",
-  "published_at": "2026-04-14T01:03:16.920718",
+  "published_at": "2026-04-14T22:56:48.694254",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

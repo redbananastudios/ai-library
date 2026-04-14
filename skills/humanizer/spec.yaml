@@ -4,7 +4,7 @@ type: skill
 version: 2.5.1
 source_url: "https://github.com/blader/humanizer"
 source_kind: github
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Imported from blader/humanizer - removes AI writing patterns based on Wikipedia's Signs of AI writing guide
 requirements: []
 status: active

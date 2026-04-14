@@ -16,7 +16,8 @@
     "source_kind": "custom-derived",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Delegate git conflicts and history surgery to git-specialist agent"
   }

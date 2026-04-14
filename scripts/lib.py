@@ -21,6 +21,8 @@ GEN_CLAUDE_SKILLS = ROOT / "generated" / "claude" / "skills"
 GEN_CLAUDE_AGENTS = ROOT / "generated" / "claude" / "agents"
 GEN_PAPERCLIP_SKILLS = ROOT / "generated" / "paperclip" / "skills"
 GEN_PAPERCLIP_AGENTS = ROOT / "generated" / "paperclip" / "agents"
+GEN_CODEX_SKILLS = ROOT / "generated" / "codex" / "skills"
+GEN_CODEX_AGENTS = ROOT / "generated" / "codex" / "agents"
 BUILD_DIR = ROOT / "build"
 LOGS_DIR = BUILD_DIR / "logs"
 MANIFESTS_DIR = BUILD_DIR / "manifests"
@@ -34,6 +36,11 @@ SCRIPTS_DIR = ROOT / "scripts"
 PROJECT_ROOT = ROOT.parent  # O:/ in this case
 CLAUDE_SKILLS_TARGET = Path.home() / ".claude" / "skills"
 CLAUDE_AGENTS_TARGET = Path.home() / ".claude" / "agents"
+
+# Codex publish targets. CODEX_HOME env var overrides the default location.
+_CODEX_HOME = Path(os.environ.get("CODEX_HOME", str(Path.home() / ".codex")))
+CODEX_SKILLS_TARGET = _CODEX_HOME / "skills"
+CODEX_AGENTS_TARGET = _CODEX_HOME / "agents"
 
 
 def log(msg: str, level: str = "INFO"):
@@ -386,6 +393,144 @@ def build_paperclip_item(item_dir: Path) -> Path:
     return out_dir
 
 
+# --- Codex build helpers ---
+
+def _strip_leading_frontmatter(text: str) -> str:
+    """Remove a leading YAML frontmatter block (--- ... ---) from a markdown string.
+
+    Many prompt.md files ship with Claude-style frontmatter. Codex's SKILL.md
+    format allows only five frontmatter keys, so we strip any existing
+    frontmatter and prepend our own clean block.
+    """
+    if not text.lstrip().startswith("---"):
+        return text
+    # Accept leading whitespace/newlines before the first ---
+    stripped = text.lstrip("\n\r ")
+    if not stripped.startswith("---"):
+        return text
+    # Find closing --- on its own line
+    lines = stripped.split("\n")
+    if lines[0].strip() != "---":
+        return text
+    for idx in range(1, len(lines)):
+        if lines[idx].strip() == "---":
+            # Return everything after the closing delimiter
+            remainder = "\n".join(lines[idx + 1:])
+            return remainder.lstrip("\n")
+    return text
+
+
+def _sanitise_description(description: str) -> str:
+    """Collapse a description to a single line safe for YAML/TOML."""
+    return " ".join(str(description).split()).strip()
+
+
+def _escape_toml_multiline(text: str) -> str:
+    """Escape a string for use inside TOML triple-quoted basic strings.
+
+    Backslashes must be doubled, and any literal ``\"\"\"`` sequence must be
+    broken up so it does not close the string. We escape each quote as ``\\"``
+    so the content parses back to the original triple-quote characters.
+    """
+    text = text.replace("\\", "\\\\")
+    # Break up sequences that would close the string.
+    text = text.replace('"""', '\\"\\"\\"')
+    return text
+
+
+def build_codex_skill(item_dir: Path) -> Path:
+    """Build a Codex Skill (SKILL.md) from a source-of-truth item.
+
+    Codex only allows these frontmatter keys: name, description, license,
+    allowed-tools, metadata. We emit name and description by default.
+    """
+    spec = load_spec(item_dir)
+    item_id = spec.get("id", item_dir.name)
+    item_type = spec.get("type", "skill")
+
+    if item_type in ("agent", "subagent"):
+        return build_codex_agent(item_dir)
+
+    out_dir = GEN_CODEX_SKILLS / item_id
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    prompt_path = item_dir / "prompt.md"
+    body = (
+        read_text(prompt_path)
+        if prompt_path.exists()
+        else f"# {spec.get('name', item_id)}\n\nPlaceholder skill.\n"
+    )
+    body = _strip_leading_frontmatter(body)
+    description = _sanitise_description(
+        spec.get("description", spec.get("name", item_id))
+    )
+
+    fm_lines = [
+        "---",
+        f"name: {item_id}",
+        f"description: {description}",
+        "---",
+        "",
+    ]
+    write_text(out_dir / "SKILL.md", "\n".join(fm_lines) + body)
+
+    # Copy references / templates / scripts through so relative links still work.
+    for subdir in ("references", "templates", "scripts"):
+        src = item_dir / subdir
+        dst = out_dir / subdir
+        if src.exists() and any(src.iterdir()):
+            if dst.exists():
+                shutil.rmtree(dst)
+            shutil.copytree(src, dst)
+
+    log(f"Built Codex skill: {item_id}")
+    return out_dir
+
+
+def build_codex_agent(item_dir: Path) -> Path:
+    """Build a Codex subagent (TOML) from a source-of-truth item.
+
+    Codex subagents live at ``~/.codex/agents/<name>.toml`` and use an
+    ``[instructions]`` block with a ``text`` field containing the prompt.
+    """
+    spec = load_spec(item_dir)
+    item_id = spec.get("id", item_dir.name)
+
+    out_dir = GEN_CODEX_AGENTS
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    prompt_path = item_dir / "prompt.md"
+    body = (
+        read_text(prompt_path)
+        if prompt_path.exists()
+        else f"# {spec.get('name', item_id)}\n\nPlaceholder agent.\n"
+    )
+    body = _strip_leading_frontmatter(body).strip()
+    description = _sanitise_description(
+        spec.get("description", spec.get("name", item_id))
+    )
+
+    # Use JSON dumps for the description to escape quotes/newlines safely —
+    # JSON strings are valid TOML basic strings.
+    desc_toml = json.dumps(description, ensure_ascii=False)
+
+    toml_lines = [
+        f"name = \"{item_id}\"",
+        f"description = {desc_toml}",
+        "",
+        "[instructions]",
+        'text = """',
+        _escape_toml_multiline(body),
+        '"""',
+        "",
+    ]
+    out_path = out_dir / f"{item_id}.toml"
+    write_text(out_path, "\n".join(toml_lines))
+
+    log(f"Built Codex agent: {item_id}")
+    return out_path
+
+
 # --- Publish helpers ---
 
 def publish_to_claude(item_id: str, item_type: str = "skill") -> bool:
@@ -419,6 +564,42 @@ def publish_to_claude(item_id: str, item_type: str = "skill") -> bool:
         shutil.copytree(src_dir, dst_dir)
 
     log(f"Published to Claude: {item_id}")
+    return True
+
+
+def publish_to_codex(item_id: str, item_type: str = "skill") -> bool:
+    """Copy generated Codex artifact to the active CODEX_HOME target.
+
+    Skills publish to ``~/.codex/skills/<id>/`` (folder).
+    Agents publish to ``~/.codex/agents/<id>.toml`` (file).
+    """
+    if item_type in ("agent", "subagent"):
+        src = GEN_CODEX_AGENTS / f"{item_id}.toml"
+        dst = CODEX_AGENTS_TARGET / f"{item_id}.toml"
+        if not src.exists():
+            log(f"Codex agent not built: {item_id}", "ERROR")
+            return False
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        if dst.exists():
+            backup = dst.with_suffix(f".toml.bak.{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}")
+            shutil.copy2(dst, backup)
+            log(f"Backed up existing: {dst} -> {backup}")
+        shutil.copy2(src, dst)
+    else:
+        src_dir = GEN_CODEX_SKILLS / item_id
+        dst_dir = CODEX_SKILLS_TARGET / item_id
+        if not src_dir.exists():
+            log(f"Codex skill not built: {item_id}", "ERROR")
+            return False
+        dst_dir.parent.mkdir(parents=True, exist_ok=True)
+        if dst_dir.exists():
+            backup = dst_dir.with_name(f"{item_id}.bak.{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}")
+            shutil.copytree(dst_dir, backup)
+            shutil.rmtree(dst_dir)
+            log(f"Backed up existing: {dst_dir} -> {backup}")
+        shutil.copytree(src_dir, dst_dir)
+
+    log(f"Published to Codex: {item_id}")
     return True
 
 

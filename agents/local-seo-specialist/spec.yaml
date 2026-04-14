@@ -4,7 +4,7 @@ type: agent
 version: 0.3.0
 source_url: ""
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Add GSC, GA4 and seo-growth-tracker for local SEO measurement and reporting
 requirements: ['localrank-agent', 'local-visibility', 'google-business-profile-optimizer', 'linkgap', 'google-search-console', 'google-analytics', 'seo-growth-tracker']
 status: active

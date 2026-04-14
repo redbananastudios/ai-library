@@ -3,7 +3,7 @@
 ## What This Is
 
 A centralized library of reusable AI skills and agents with an automated build/publish pipeline.
-Skills and agents are authored once, then built into artifacts for Claude and Paperclip targets.
+Skills and agents are authored once, then built into artifacts for Claude, Paperclip and Codex targets.
 
 ## Architecture
 
@@ -61,7 +61,7 @@ type: skill              # skill | agent | metadata
 version: 0.1.0
 source_url: ""           # upstream repo URL
 source_kind: github      # github | community | custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 description: What this does
 status: imported         # imported | active | placeholder | clone_failed
 trigger: ""              # auto-activation trigger phrase
@@ -70,14 +70,15 @@ requirements: []
 
 ## Build Targets
 
-- **Claude**: Generates `SKILL.md` (skills) or `<id>.md` (agents) with YAML frontmatter, publishes to `.claude/skills/` and `.claude/agents/`
+- **Claude**: Generates `SKILL.md` (skills) or `<id>.md` (agents) with YAML frontmatter, publishes to `~/.claude/skills/` and `~/.claude/agents/`
 - **Paperclip**: Generates `payload.json` manifests in `build/manifests/`
+- **Codex** (OpenAI Codex CLI): Generates `SKILL.md` (skills, strict 5-key frontmatter: `name`, `description`, `license`, `allowed-tools`, `metadata`) or `<id>.toml` (agents, with `[instructions].text` block). Publishes to `~/.codex/skills/` and `~/.codex/agents/`. Respects `CODEX_HOME` env var.
 
 ## Pipeline Code
 
 All scripts are in `scripts/` and share `lib.py` as core utilities.
-Key paths are defined in `lib.py`: ROOT, SKILLS_DIR, AGENTS_DIR, GEN_CLAUDE_*, BUILD_DIR, etc.
-The publish target for Claude is the parent directory's `.claude/` folder (PROJECT_ROOT = ROOT.parent).
+Key paths are defined in `lib.py`: ROOT, SKILLS_DIR, AGENTS_DIR, GEN_CLAUDE_*, GEN_CODEX_*, BUILD_DIR, etc.
+The publish target for Claude is the user's home `~/.claude/`. Codex publishes to `~/.codex/` (or `$CODEX_HOME`).
 
 ## Current Inventory
 

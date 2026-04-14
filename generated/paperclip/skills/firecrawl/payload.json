@@ -13,7 +13,8 @@
     "source_kind": "github",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Initial creation - web scraping, crawling, and structured data extraction via Firecrawl SDK"
   }

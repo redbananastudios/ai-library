@@ -4,7 +4,7 @@ type: agent
 version: 1.0.0
 source_url: ""
 source_kind: custom
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 description: Full-service AI video director. Takes creative brief, plans multi-scene production, orchestrates Higgsfield video generation, stitches final video, delivers complete package with shot lists and production notes.
 status: active
 trigger: ""

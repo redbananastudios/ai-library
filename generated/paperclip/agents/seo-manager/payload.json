@@ -21,7 +21,8 @@
     "source_kind": "custom",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Add measurement stack ownership (GSC, GA4, GTM) and growth tracker cadence; new skill wiring and delegation table"
   }

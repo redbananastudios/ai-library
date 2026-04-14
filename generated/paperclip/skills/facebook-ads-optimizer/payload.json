@@ -11,7 +11,8 @@
     "source_kind": "placeholder",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Initial import"
   }

@@ -17,7 +17,8 @@
     "source_kind": "custom",
     "compatible_targets": [
       "claude",
-      "paperclip"
+      "paperclip",
+      "codex"
     ],
     "changelog_summary": "Add GTM (conversion tracking) and GA4 (attribution); mandate Consent Mode v2 for EU traffic"
   }

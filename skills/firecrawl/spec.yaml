@@ -4,7 +4,7 @@ type: skill
 version: 0.1.0
 source_url: "https://github.com/mendableai/firecrawl"
 source_kind: github
-compatible_targets: ['claude', 'paperclip']
+compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Initial creation - web scraping, crawling, and structured data extraction via Firecrawl SDK
 requirements: ['@mendable/firecrawl-js']
 status: active
