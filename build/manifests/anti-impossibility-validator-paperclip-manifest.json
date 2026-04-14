@@ -1,0 +1,7 @@
+{
+  "item_id": "anti-impossibility-validator",
+  "type": "skill",
+  "payload_path": "generated/paperclip/skills/anti-impossibility-validator/payload.json",
+  "published_at": "2026-04-14T21:33:28.926395",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}

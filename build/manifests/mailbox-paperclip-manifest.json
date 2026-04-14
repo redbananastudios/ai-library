@@ -2,6 +2,6 @@
   "item_id": "mailbox",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/mailbox/payload.json",
-  "published_at": "2026-04-14T01:03:16.986528",
+  "published_at": "2026-04-14T21:33:29.122065",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

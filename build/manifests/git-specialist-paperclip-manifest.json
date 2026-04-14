@@ -2,6 +2,6 @@
   "item_id": "git-specialist",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/git-specialist/payload.json",
-  "published_at": "2026-04-14T01:03:17.228387",
+  "published_at": "2026-04-14T21:33:29.404099",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

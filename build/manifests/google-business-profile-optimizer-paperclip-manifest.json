@@ -2,6 +2,6 @@
   "item_id": "google-business-profile-optimizer",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/google-business-profile-optimizer/payload.json",
-  "published_at": "2026-04-14T01:03:16.925094",
+  "published_at": "2026-04-14T21:33:29.051108",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

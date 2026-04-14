@@ -2,6 +2,6 @@
   "item_id": "amazon-fba-assistant",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/amazon-fba-assistant/payload.json",
-  "published_at": "2026-04-14T01:03:17.182529",
+  "published_at": "2026-04-14T21:33:29.351012",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

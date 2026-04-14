@@ -2,6 +2,6 @@
   "item_id": "bug-investigator",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/bug-investigator/payload.json",
-  "published_at": "2026-04-14T01:03:17.206472",
+  "published_at": "2026-04-14T21:33:29.377856",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

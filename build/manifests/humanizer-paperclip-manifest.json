@@ -2,6 +2,6 @@
   "item_id": "humanizer",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/humanizer/payload.json",
-  "published_at": "2026-04-14T01:03:16.949610",
+  "published_at": "2026-04-14T21:33:29.078387",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

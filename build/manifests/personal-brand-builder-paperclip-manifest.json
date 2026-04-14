@@ -2,6 +2,6 @@
   "item_id": "personal-brand-builder",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/personal-brand-builder/payload.json",
-  "published_at": "2026-04-14T01:03:17.005661",
+  "published_at": "2026-04-14T21:33:29.143028",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }
