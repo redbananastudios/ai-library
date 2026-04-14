@@ -1,0 +1,5 @@
+{
+  "source_url": "",
+  "source_kind": "custom",
+  "notes": "Custom orchestration skill that combines google-search-console, google-analytics and optional rank-tracking data into weekly/monthly growth reports with anomaly detection and content-change correlation."
+}

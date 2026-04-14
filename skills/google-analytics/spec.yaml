@@ -1,0 +1,13 @@
+id: google-analytics
+name: Google Analytics 4
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - GA4 Data API for traffic, conversions, audiences, attribution
+requirements: ['googleapis', '@google-analytics/data']
+status: active
+description: Query Google Analytics 4 via the Data API for traffic, sessions, users, engagement, conversions, attribution and audience insights. Use for measuring site growth, user behaviour, funnel performance, revenue and conversion tracking across channels.
+trigger: "ga4, google analytics, analytics, traffic, sessions, users, conversions, attribution, audience, bounce rate, engagement, revenue tracking, utm, channel performance"
+imported_from_pack: ""

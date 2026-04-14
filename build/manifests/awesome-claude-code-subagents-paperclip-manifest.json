@@ -2,6 +2,6 @@
   "item_id": "awesome-claude-code-subagents",
   "type": "metadata",
   "payload_path": "generated/paperclip/skills/awesome-claude-code-subagents/payload.json",
-  "published_at": "2026-04-13T23:46:22.532499",
+  "published_at": "2026-04-14T01:03:16.809425",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

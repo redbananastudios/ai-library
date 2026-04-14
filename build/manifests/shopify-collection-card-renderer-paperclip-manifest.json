@@ -2,6 +2,6 @@
   "item_id": "shopify-collection-card-renderer",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/shopify-collection-card-renderer/payload.json",
-  "published_at": "2026-04-13T23:46:22.838650",
+  "published_at": "2026-04-14T01:03:17.065480",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

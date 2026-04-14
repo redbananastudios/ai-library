@@ -1,12 +1,12 @@
 # AI Library Registry
 
-Updated: 2026-04-13T23:46:23
+Updated: 2026-04-14T01:03:17
 
-Total items: 101
+Total items: 105
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
-| ads-manager | Ads Manager | agent | 0.2.0 | active | yes | manifest_generated |
+| ads-manager | Ads Manager | agent | 0.3.0 | active | yes | manifest_generated |
 | ai-discoverability-audit | AI Discoverability Audit | skill | 0.1.0 | imported | yes | manifest_generated |
 | ai-seo | AI SEO | skill | 0.1.0 | imported | yes | manifest_generated |
 | amazon-fba-assistant | Amazon FBA Assistant | agent | 0.2.0 | active | yes | manifest_generated |
@@ -40,7 +40,10 @@ Total items: 101
 | frontend-developer | Frontend Developer | agent | 0.4.0 | active | yes | manifest_generated |
 | fullstack-developer | Fullstack Developer | agent | 0.4.0 | active | yes | manifest_generated |
 | git-specialist | Git Specialist | agent | 0.1.0 | active | yes | manifest_generated |
+| google-analytics | Google Analytics 4 | skill | 0.1.0 | active | yes | manifest_generated |
 | google-business-profile-optimizer | Google Business Profile Optimizer | skill | 0.1.0 | active | yes | manifest_generated |
+| google-search-console | Google Search Console | skill | 0.1.0 | active | yes | manifest_generated |
+| google-tag-manager | Google Tag Manager | skill | 0.1.0 | active | yes | manifest_generated |
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | manifest_generated |
 | higgsfield | Higgsfield | skill | 1.0.0 | active | yes | manifest_generated |
 | higgsfield-video | Higgsfield Video Generator | skill | 1.0.0 | active | yes | manifest_generated |
@@ -52,7 +55,7 @@ Total items: 101
 | last30days | Last 30 Days | skill | 0.1.0 | imported | yes | manifest_generated |
 | linkedin-authority-builder | LinkedIn Authority Builder | skill | 0.1.0 | imported | yes | manifest_generated |
 | linkgap | LinkGap Backlink Gap Analyzer | skill | 0.1.0 | active | yes | manifest_generated |
-| local-seo-specialist | Local SEO Specialist | agent | 0.2.0 | active | yes | manifest_generated |
+| local-seo-specialist | Local SEO Specialist | agent | 0.3.0 | active | yes | manifest_generated |
 | local-visibility | Local Visibility | skill | 0.1.0 | imported | yes | manifest_generated |
 | localrank-agent | LocalRank Agent | skill | 0.1.0 | imported | yes | manifest_generated |
 | mailbox | AI Mailbox Assistant | skill | 0.2.0 | active | yes | manifest_generated |
@@ -74,7 +77,8 @@ Total items: 101
 | review | Review | skill | 0.1.0 | imported | yes | manifest_generated |
 | seo-audit | SEO Audit | skill | 0.1.0 | imported | yes | manifest_generated |
 | seo-geo-optimizer | SEO GEO Optimizer | skill | 0.1.0 | imported | yes | manifest_generated |
-| seo-manager | SEO Manager | agent | 0.2.0 | active | yes | manifest_generated |
+| seo-growth-tracker | SEO Growth Tracker | skill | 0.1.0 | active | yes | manifest_generated |
+| seo-manager | SEO Manager | agent | 0.3.0 | active | yes | manifest_generated |
 | shopify-app-development | Shopify App Development | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-checkout | Shopify Checkout | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-cli | Shopify CLI | skill | 0.1.0 | imported | yes | manifest_generated |

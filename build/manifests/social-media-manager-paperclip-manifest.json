@@ -2,6 +2,6 @@
   "item_id": "social-media-manager",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/social-media-manager/payload.json",
-  "published_at": "2026-04-13T23:46:23.120996",
+  "published_at": "2026-04-14T01:03:17.277589",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

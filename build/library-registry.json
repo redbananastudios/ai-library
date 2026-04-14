@@ -1376,7 +1376,7 @@
       "id": "ads-manager",
       "name": "Ads Manager",
       "type": "agent",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
@@ -1393,7 +1393,9 @@
       "requirements": [
         "claude-ads",
         "facebook-ads-optimizer",
-        "paid-ads"
+        "paid-ads",
+        "google-tag-manager",
+        "google-analytics"
       ],
       "notes": ""
     },
@@ -1598,7 +1600,7 @@
       "id": "local-seo-specialist",
       "name": "Local SEO Specialist",
       "type": "agent",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
@@ -1616,7 +1618,10 @@
         "localrank-agent",
         "local-visibility",
         "google-business-profile-optimizer",
-        "linkgap"
+        "linkgap",
+        "google-search-console",
+        "google-analytics",
+        "seo-growth-tracker"
       ],
       "notes": ""
     },
@@ -1722,7 +1727,7 @@
       "id": "seo-manager",
       "name": "SEO Manager",
       "type": "agent",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
@@ -1741,7 +1746,11 @@
         "seo-audit",
         "seo-geo-optimizer",
         "ai-seo",
-        "ai-discoverability-audit"
+        "ai-discoverability-audit",
+        "google-search-console",
+        "google-analytics",
+        "google-tag-manager",
+        "seo-growth-tracker"
       ],
       "notes": ""
     },
@@ -2251,7 +2260,98 @@
         "engineering-standards"
       ],
       "notes": ""
+    },
+    {
+      "id": "google-analytics",
+      "name": "Google Analytics 4",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills/google-analytics",
+      "generated_claude_path": "generated/claude/skills/google-analytics",
+      "generated_paperclip_path": "generated/paperclip/skills/google-analytics",
+      "published_claude_path": "/root/.claude/skills/google-analytics",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "googleapis",
+        "@google-analytics/data"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "google-search-console",
+      "name": "Google Search Console",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills/google-search-console",
+      "generated_claude_path": "generated/claude/skills/google-search-console",
+      "generated_paperclip_path": "generated/paperclip/skills/google-search-console",
+      "published_claude_path": "/root/.claude/skills/google-search-console",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "googleapis"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills/google-tag-manager",
+      "generated_claude_path": "generated/claude/skills/google-tag-manager",
+      "generated_paperclip_path": "generated/paperclip/skills/google-tag-manager",
+      "published_claude_path": "/root/.claude/skills/google-tag-manager",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "googleapis"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "seo-growth-tracker",
+      "name": "SEO Growth Tracker",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip"
+      ],
+      "source_path": "skills/seo-growth-tracker",
+      "generated_claude_path": "generated/claude/skills/seo-growth-tracker",
+      "generated_paperclip_path": "generated/paperclip/skills/seo-growth-tracker",
+      "published_claude_path": "/root/.claude/skills/seo-growth-tracker",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
     }
   ],
-  "updated": "2026-04-13T23:46:23.131850"
+  "updated": "2026-04-14T01:03:17.288901"
 }

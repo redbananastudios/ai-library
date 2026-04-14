@@ -1,0 +1,13 @@
+id: seo-growth-tracker
+name: SEO Growth Tracker
+type: skill
+version: 0.1.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip']
+changelog_summary: Initial creation - longitudinal SEO growth tracking combining GSC, GA4 and rank data
+requirements: []
+status: active
+description: Track SEO growth over time by combining Google Search Console, Google Analytics 4 and optional rank tracking data. Produces weekly and monthly reports, detects anomalies, ties content changes to outcome deltas, and surfaces the next best actions.
+trigger: "seo growth, track seo, seo report, weekly seo, monthly seo, seo progress, seo dashboard, traffic growth, rank tracking, content impact"
+imported_from_pack: ""

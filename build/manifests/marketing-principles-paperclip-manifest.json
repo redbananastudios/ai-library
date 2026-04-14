@@ -2,6 +2,6 @@
   "item_id": "marketing-principles",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/marketing-principles/payload.json",
-  "published_at": "2026-04-13T23:46:22.749408",
+  "published_at": "2026-04-14T01:03:16.991089",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

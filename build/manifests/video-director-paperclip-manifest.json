@@ -2,6 +2,6 @@
   "item_id": "video-director",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/video-director/payload.json",
-  "published_at": "2026-04-13T23:46:23.130650",
+  "published_at": "2026-04-14T01:03:17.287057",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }
