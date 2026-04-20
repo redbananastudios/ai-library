@@ -1,0 +1,19 @@
+{
+  "id": "reject-output",
+  "name": "Reject Output",
+  "type": "skill",
+  "version": "1.0.0",
+  "description": "Mark generated image outputs as rejected. Records failure reasons to memory, identifies whether the issue was provider, workflow, LoRA, prompt, or dataset.",
+  "prompt": "---\nname: Reject Output\ndescription: Mark image outputs as rejected and record what failed\ntrigger: when user rejects generated images or requests changes\n---\n\n# Reject Output\n\nMark generated images as rejected. Records what went wrong so the system avoids repeating mistakes.\n\n## Input\n\n- Job ID or output path\n- Reason for rejection (from user or inferred)\n- Failure category (ask user if unclear)\n\n## Failure Categories\n\nClassify every rejection into one of:\n\n| Category | Examples |\n|----------|----------|\n| `prompt` | Wrong subject, missing details, prompt misunderstood |\n| `workflow` | Wrong composition, bad framing, template mismatch |\n| `provider` | Artifacts, glitches, model limitations |\n| `lora` | LoRA too strong/weak, wrong style applied |\n| `dataset` | LoRA was trained on bad data |\n| `quality` | Blurry, low-res, color issues |\n| `composition` | Bad layout, wrong aspect ratio, cluttered |\n\n## Actions\n\n### 1. Update metadata.json\n\nSet `approval_status` to `\"rejected\"`.\nAdd `rejection_reason` and `failure_category`.\n\n### 2. Write Failed Patterns\n\nAppend to `./ai-image-system/memory/failed-patterns.md`:\n\n```markdown\n## {date} — {job_id}\n\n**Request**: {request_summary}\n**Category**: {category}\n**Provider**: {provider}\n**Workflow**: {workflow_template}\n**LoRAs**: {loras_used or \"none\"}\n**Prompt**: {positive_prompt}\n**Failure category**: {failure_category}\n**What failed**: {rejection_reason}\n**Suggested fix**: {what to try differently}\n\n---\n```\n\n### 3. Revoke Candidate LoRA (if applicable)\n\nIf the job used a candidate LoRA and the failure is LoRA-related:\n- Update status to `rejected` in lora-registry.json\n- Do NOT delete the LoRA files (keep for reference)\n- Note why it failed\n\n### 4. Move Job to Failed\n\nMove job from `jobs/completed/` or `jobs/active/` to `jobs/failed/`.\n\n### 5. Suggest Retry\n\nBased on failure category, suggest:\n\n| Failure | Suggestion |\n|---------|-----------|\n| prompt | Rewrite prompt with more specifics |\n| workflow | Try different workflow template |\n| provider | Try different provider or model |\n| lora | Remove LoRA or try different weight |\n| quality | Increase steps, try higher quality tier |\n| composition | Adjust dimensions or reframe |\n\n## Output\n\nConfirm to user:\n- Rejection recorded\n- What was identified as the issue\n- Suggested next action for retry\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip",
+      "codex"
+    ],
+    "changelog_summary": ""
+  }
+}

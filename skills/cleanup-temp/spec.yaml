@@ -1,0 +1,11 @@
+id: cleanup-temp
+name: Cleanup Temp
+type: skill
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Safely remove temporary files and failed job artifacts from the ai-image-system project folder. Preserves approved outputs and registered LoRAs.
+status: active
+trigger: clean up images, remove temp files, free space
+requirements: []

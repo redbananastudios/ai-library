@@ -1,0 +1,11 @@
+id: select-lora
+name: Select LoRA
+type: skill
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Match the best existing LoRA(s) from the project registry for a generation request. Considers subject type, brand, category, and approval history.
+status: placeholder
+trigger: find lora, match lora, which lora to use
+requirements: []

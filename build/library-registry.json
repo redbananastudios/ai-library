@@ -2251,7 +2251,214 @@
         "engineering-standards"
       ],
       "notes": ""
+    },
+    {
+      "id": "ai-image-system",
+      "name": "AI Image System",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/ai-image-system",
+      "generated_claude_path": "generated/claude/skills/ai-image-system",
+      "generated_paperclip_path": "generated/paperclip/skills/ai-image-system",
+      "published_claude_path": "/root/.claude/skills/ai-image-system",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "image-router",
+        "generate-image",
+        "approve-output",
+        "reject-output"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "approve-output",
+      "name": "Approve Output",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/approve-output",
+      "generated_claude_path": "generated/claude/skills/approve-output",
+      "generated_paperclip_path": "generated/paperclip/skills/approve-output",
+      "published_claude_path": "/root/.claude/skills/approve-output",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "cleanup-temp",
+      "name": "Cleanup Temp",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/cleanup-temp",
+      "generated_claude_path": "generated/claude/skills/cleanup-temp",
+      "generated_paperclip_path": "generated/paperclip/skills/cleanup-temp",
+      "published_claude_path": "/root/.claude/skills/cleanup-temp",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "generate-image",
+      "name": "Generate Image",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/generate-image",
+      "generated_claude_path": "generated/claude/skills/generate-image",
+      "generated_paperclip_path": "generated/paperclip/skills/generate-image",
+      "published_claude_path": "/root/.claude/skills/generate-image",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "image-router"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "image-router",
+      "name": "Image Router",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/image-router",
+      "generated_claude_path": "generated/claude/skills/image-router",
+      "generated_paperclip_path": "generated/paperclip/skills/image-router",
+      "published_claude_path": "/root/.claude/skills/image-router",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "reject-output",
+      "name": "Reject Output",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/reject-output",
+      "generated_claude_path": "generated/claude/skills/reject-output",
+      "generated_paperclip_path": "generated/paperclip/skills/reject-output",
+      "published_claude_path": "/root/.claude/skills/reject-output",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "select-lora",
+      "name": "Select LoRA",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "placeholder",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/select-lora",
+      "generated_claude_path": "generated/claude/skills/select-lora",
+      "generated_paperclip_path": "generated/paperclip/skills/select-lora",
+      "published_claude_path": "/root/.claude/skills/select-lora",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "train-lora",
+      "name": "Train LoRA",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "placeholder",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/train-lora",
+      "generated_claude_path": "generated/claude/skills/train-lora",
+      "generated_paperclip_path": "generated/paperclip/skills/train-lora",
+      "published_claude_path": "/root/.claude/skills/train-lora",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "validate-training-set"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "validate-training-set",
+      "name": "Validate Training Set",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "placeholder",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/validate-training-set",
+      "generated_claude_path": "generated/claude/skills/validate-training-set",
+      "generated_paperclip_path": "generated/paperclip/skills/validate-training-set",
+      "published_claude_path": "/root/.claude/skills/validate-training-set",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
     }
   ],
-  "updated": "2026-04-13T23:46:23.131850"
+  "updated": "2026-04-20T22:32:49.445502"
 }

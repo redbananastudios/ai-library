@@ -1,0 +1,11 @@
+id: reject-output
+name: Reject Output
+type: skill
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Mark generated image outputs as rejected. Records failure reasons to memory, identifies whether the issue was provider, workflow, LoRA, prompt, or dataset.
+status: active
+trigger: reject image, bad output, image not right, redo
+requirements: []

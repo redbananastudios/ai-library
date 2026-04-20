@@ -1,16 +1,18 @@
 # AI Library Registry
 
-Updated: 2026-04-13T23:46:23
+Updated: 2026-04-20T22:32:49
 
-Total items: 101
+Total items: 110
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
 | ads-manager | Ads Manager | agent | 0.2.0 | active | yes | manifest_generated |
 | ai-discoverability-audit | AI Discoverability Audit | skill | 0.1.0 | imported | yes | manifest_generated |
+| ai-image-system | AI Image System | skill | 1.0.0 | active | yes | manifest_generated |
 | ai-seo | AI SEO | skill | 0.1.0 | imported | yes | manifest_generated |
 | amazon-fba-assistant | Amazon FBA Assistant | agent | 0.2.0 | active | yes | manifest_generated |
 | api-designer | API Designer | agent | 0.2.0 | active | yes | manifest_generated |
+| approve-output | Approve Output | skill | 1.0.0 | active | yes | manifest_generated |
 | awesome-agent-skills | Awesome Agent Skills Directory | metadata | 0.1.0 | imported | yes | manifest_generated |
 | awesome-claude-code-subagents | Awesome Claude Code Subagents Directory | metadata | 0.1.0 | imported | yes | manifest_generated |
 | backend-developer | Backend Developer | agent | 0.3.0 | active | yes | manifest_generated |
@@ -23,6 +25,7 @@ Total items: 101
 | bug-investigator | Bug Investigator | agent | 0.2.0 | active | yes | manifest_generated |
 | claude-ads | Claude Ads Pack | skill | 0.1.0 | imported | yes | manifest_generated |
 | claude-seo | Claude SEO Pack | skill | 0.1.0 | imported | yes | manifest_generated |
+| cleanup-temp | Cleanup Temp | skill | 1.0.0 | active | yes | manifest_generated |
 | code-reviewer | Code Reviewer | agent | 0.2.0 | active | yes | manifest_generated |
 | competitor-alternatives | Competitor Alternatives | skill | 0.1.0 | imported | yes | manifest_generated |
 | content-idea-generator | Content Idea Generator | skill | 0.1.0 | imported | yes | manifest_generated |
@@ -39,6 +42,7 @@ Total items: 101
 | frontend-design | Frontend Design | skill | 0.1.0 | imported | yes | manifest_generated |
 | frontend-developer | Frontend Developer | agent | 0.4.0 | active | yes | manifest_generated |
 | fullstack-developer | Fullstack Developer | agent | 0.4.0 | active | yes | manifest_generated |
+| generate-image | Generate Image | skill | 1.0.0 | active | yes | manifest_generated |
 | git-specialist | Git Specialist | agent | 0.1.0 | active | yes | manifest_generated |
 | google-business-profile-optimizer | Google Business Profile Optimizer | skill | 0.1.0 | active | yes | manifest_generated |
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | manifest_generated |
@@ -48,6 +52,7 @@ Total items: 101
 | image-blueprint | Image Blueprint | skill | 1.0.0 | active | yes | manifest_generated |
 | image-generator | Image Generator | agent | 0.2.0 | active | yes | manifest_generated |
 | image-reverse-engineer | Image Reverse Engineer | agent | 2.0.0 | active | yes | manifest_generated |
+| image-router | Image Router | skill | 1.0.0 | active | yes | manifest_generated |
 | investigate | Investigate | skill | 0.1.0 | imported | yes | manifest_generated |
 | last30days | Last 30 Days | skill | 0.1.0 | imported | yes | manifest_generated |
 | linkedin-authority-builder | LinkedIn Authority Builder | skill | 0.1.0 | imported | yes | manifest_generated |
@@ -70,8 +75,10 @@ Total items: 101
 | qa-engineer | QA Engineer | agent | 0.2.0 | active | yes | manifest_generated |
 | qa-only | QA Only | skill | 0.1.0 | imported | yes | manifest_generated |
 | reddit-insights | Reddit Insights | skill | 0.1.0 | imported | yes | manifest_generated |
+| reject-output | Reject Output | skill | 1.0.0 | active | yes | manifest_generated |
 | research-assistant | Research Assistant | agent | 0.2.0 | active | yes | manifest_generated |
 | review | Review | skill | 0.1.0 | imported | yes | manifest_generated |
+| select-lora | Select LoRA | skill | 0.1.0 | placeholder | yes | manifest_generated |
 | seo-audit | SEO Audit | skill | 0.1.0 | imported | yes | manifest_generated |
 | seo-geo-optimizer | SEO GEO Optimizer | skill | 0.1.0 | imported | yes | manifest_generated |
 | seo-manager | SEO Manager | agent | 0.2.0 | active | yes | manifest_generated |
@@ -97,9 +104,11 @@ Total items: 101
 | social-content | Social Content | skill | 0.1.0 | imported | yes | manifest_generated |
 | social-media-manager | Social Media Manager | agent | 0.2.0 | active | yes | manifest_generated |
 | stitch | Google Stitch AI UI Designer | skill | 0.1.0 | active | yes | manifest_generated |
+| train-lora | Train LoRA | skill | 0.1.0 | placeholder | yes | manifest_generated |
 | ui-designer | UI Designer | agent | 0.2.0 | active | yes | manifest_generated |
 | upload-post | Upload Post | skill | 0.1.0 | imported | yes | manifest_generated |
 | ux-audit | UX Audit | skill | 0.1.0 | imported | yes | manifest_generated |
+| validate-training-set | Validate Training Set | skill | 0.1.0 | placeholder | yes | manifest_generated |
 | video-director | Video Director | agent | 1.0.0 | active | yes | manifest_generated |
 | voice-extractor | Voice Extractor | skill | 0.1.0 | imported | yes | manifest_generated |
 | wordpress-agent | WordPress Agent | skill | 0.1.0 | imported | yes | manifest_generated |

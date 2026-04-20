@@ -1,0 +1,77 @@
+{
+  "name": "full-body",
+  "description": "Full body lifestyle — fashion, lifestyle, editorial",
+  "version": "1.0.0",
+  "category": "full-body",
+  "base_model": "juggernaut_xl",
+  "workflow": {
+    "3": {
+      "class_type": "KSampler",
+      "inputs": {
+        "seed": "{{seed}}",
+        "steps": "{{steps}}",
+        "cfg": "{{cfg_scale}}",
+        "sampler_name": "{{sampler}}",
+        "scheduler": "normal",
+        "denoise": 1.0,
+        "model": ["4", 0],
+        "positive": ["6", 0],
+        "negative": ["7", 0],
+        "latent_image": ["5", 0]
+      }
+    },
+    "4": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "{{base_model}}.safetensors"
+      }
+    },
+    "5": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": "{{width}}",
+        "height": "{{height}}",
+        "batch_size": "{{batch_size}}"
+      }
+    },
+    "6": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "{{positive_prompt}}",
+        "clip": ["4", 1]
+      }
+    },
+    "7": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "{{negative_prompt}}",
+        "clip": ["4", 1]
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": ["3", 0],
+        "vae": ["4", 2]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "filename_prefix": "fullbody",
+        "images": ["8", 0]
+      }
+    }
+  },
+  "defaults": {
+    "width": 768,
+    "height": 1152,
+    "steps": 30,
+    "cfg_scale": 7.0,
+    "sampler": "euler_ancestral",
+    "batch_size": 4,
+    "negative_prompt": "blurry, low quality, distorted, deformed, watermark, bad anatomy, extra limbs, mutated hands, poorly drawn face"
+  },
+  "prompt_template": "{subject}, full body shot, lifestyle photography, natural pose, editorial style, natural lighting, high detail, fashion magazine quality",
+  "notes": "Phase 2. Best with character LoRA for identity consistency."
+}

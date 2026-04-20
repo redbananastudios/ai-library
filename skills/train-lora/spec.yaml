@@ -1,0 +1,12 @@
+id: train-lora
+name: Train LoRA
+type: skill
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Train a candidate LoRA using kohya_ss on Runpod Serverless. Manages the full lifecycle from validated dataset to candidate model ready for testing.
+status: placeholder
+trigger: train lora, create lora, fine-tune model
+requirements:
+  - validate-training-set

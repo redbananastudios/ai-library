@@ -1,0 +1,19 @@
+{
+  "id": "validate-training-set",
+  "name": "Validate Training Set",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Validate a LoRA training dataset for quality, consistency, resolution, and suitability before training begins. Rejects weak datasets with clear reasons.",
+  "prompt": "---\nname: Validate Training Set\ndescription: Check a LoRA training dataset for quality and suitability\ntrigger: when user provides images for LoRA training\n---\n\n# Validate Training Set\n\nCheck a training dataset meets minimum quality standards before LoRA training begins.\n\n## Input\n\n- Path to training set folder (e.g., `./ai-image-system/inputs/training-sets/{name}/`)\n- Target LoRA class (character, product, style)\n- Target subject description\n\n## Validation Rules\n\n### Minimum Image Count\n\n| Class | Minimum | Recommended |\n|-------|---------|-------------|\n| character | 10 | 15–25 |\n| product | 8 | 12–20 |\n| style | 15 | 20–30 |\n\n### Quality Checks\n\n1. **Resolution**: All images must be at least 512x512. Recommended 768+ for SDXL training.\n2. **Format**: PNG or JPG. No corrupt files.\n3. **Subject consistency**: All images should contain the same subject/concept. Flag outliers.\n4. **Duplication**: No more than 20% near-duplicates. Flag exact duplicates.\n5. **Cropping**: No images where the subject is cut off badly (< 70% of subject visible).\n6. **Mixed concepts**: Reject if images contain unrelated subjects mixed together.\n7. **Lighting/quality**: Flag images that are severely over/underexposed, motion-blurred, or very low quality.\n\n### Metadata Check\n\n- Each image should ideally have a caption/tag file (`.txt` with same name)\n- If no captions exist, flag as warning (not blocking — auto-captioning can be applied)\n\n## Output\n\n```json\n{\n  \"status\": \"pass\" | \"fail\" | \"warning\",\n  \"image_count\": 18,\n  \"valid_images\": 16,\n  \"rejected_images\": 2,\n  \"issues\": [\n    {\"file\": \"img_04.jpg\", \"reason\": \"Resolution too low (320x240)\"},\n    {\"file\": \"img_12.jpg\", \"reason\": \"Subject not visible / bad crop\"}\n  ],\n  \"warnings\": [\n    \"No caption files found — auto-captioning recommended\",\n    \"2 images are near-duplicates (img_07.jpg, img_08.jpg)\"\n  ],\n  \"recommendation\": \"Dataset passes minimum requirements. Remove 2 flagged images and proceed with training.\",\n  \"ready_for_training\": true\n}\n```\n\n## Decision\n\n- If `status: pass` → ready for train-lora\n- If `status: warning` → inform user of issues, proceed if they confirm\n- If `status: fail` → reject dataset, explain what needs fixing, ask for improved set\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip",
+      "codex"
+    ],
+    "changelog_summary": ""
+  }
+}

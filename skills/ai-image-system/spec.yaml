@@ -1,0 +1,15 @@
+id: ai-image-system
+name: AI Image System
+type: skill
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Production-ready multi-provider image generation pipeline with LoRA support, project-local storage, and self-improving memory. Orchestrates image-router, generate-image, approve-output, reject-output, and training skills.
+status: active
+trigger: image generation, product photos, create images, generate visuals
+requirements:
+  - image-router
+  - generate-image
+  - approve-output
+  - reject-output

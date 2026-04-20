@@ -1,0 +1,12 @@
+id: generate-image
+name: Generate Image
+type: skill
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Execute image generation via Runpod Serverless + ComfyUI. Sends workflow JSON with injected parameters, polls for completion, downloads and saves outputs with full metadata.
+status: active
+trigger: generate image, create product photo, run image job
+requirements:
+  - image-router

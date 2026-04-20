@@ -1,0 +1,19 @@
+{
+  "id": "select-lora",
+  "name": "Select LoRA",
+  "type": "skill",
+  "version": "0.1.0",
+  "description": "Match the best existing LoRA(s) from the project registry for a generation request. Considers subject type, brand, category, and approval history.",
+  "prompt": "---\nname: Select LoRA\ndescription: Match best existing LoRA(s) from project registry for a generation request\ntrigger: when image-router needs to check for applicable LoRAs\n---\n\n# Select LoRA\n\nFind the best matching LoRA(s) from `./ai-image-system/memory/lora-registry.json` for a generation request.\n\n## Registry Format\n\n```json\n{\n  \"loras\": [\n    {\n      \"id\": \"willow-weir-taps-v1\",\n      \"class\": \"product\",\n      \"brand\": \"willow-weir\",\n      \"subjects\": [\"taps\", \"faucets\", \"chrome fixtures\"],\n      \"base_model\": \"juggernaut_xl\",\n      \"file_path\": \"./ai-image-system/models/loras/product/willow-weir-taps-v1.safetensors\",\n      \"status\": \"approved\",\n      \"default_weight\": 0.7,\n      \"trained_date\": \"2026-04-20\",\n      \"approved_date\": \"2026-04-21\",\n      \"approved_job_id\": \"job-20260421-...\",\n      \"notes\": \"Good for isolated chrome taps, slight over-saturation at weight > 0.8\"\n    }\n  ]\n}\n```\n\n## Selection Logic\n\n1. Filter by `status == \"approved\"` only\n2. Filter by `base_model` compatibility with current job\n3. Score by relevance:\n   - Subject keyword match (+3 per match)\n   - Brand match (+5)\n   - Class match (+2)\n   - Recent approval (+1 if < 30 days)\n4. Return top match(es) with suggested weights\n\n## Output\n\n```json\n{\n  \"selected_loras\": [\n    {\n      \"id\": \"willow-weir-taps-v1\",\n      \"weight\": 0.7,\n      \"reason\": \"Brand match + subject match (taps)\"\n    }\n  ],\n  \"lora_recommended\": false,\n  \"notes\": \"\"\n}\n```\n\nIf no match found: return empty `selected_loras` and set `lora_recommended: true` if subject consistency would benefit from one.\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip",
+      "codex"
+    ],
+    "changelog_summary": ""
+  }
+}

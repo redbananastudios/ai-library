@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-13T23:46:23.134830
+Generated: 2026-04-20T22:32:49.448638
 
 ## Steps
 
@@ -11,7 +11,9 @@ Generated: 2026-04-13T23:46:23.134830
 ## Items
 
 - **ai-discoverability-audit** (skill): `generated/paperclip/skills/ai-discoverability-audit/payload.json`
+- **ai-image-system** (skill): `generated/paperclip/skills/ai-image-system/payload.json`
 - **ai-seo** (skill): `generated/paperclip/skills/ai-seo/payload.json`
+- **approve-output** (skill): `generated/paperclip/skills/approve-output/payload.json`
 - **awesome-agent-skills** (metadata): `generated/paperclip/skills/awesome-agent-skills/payload.json`
 - **awesome-claude-code-subagents** (metadata): `generated/paperclip/skills/awesome-claude-code-subagents/payload.json`
 - **backlink-analyzer** (skill): `generated/paperclip/skills/backlink-analyzer/payload.json`
@@ -20,6 +22,7 @@ Generated: 2026-04-13T23:46:23.134830
 - **browser-use** (skill): `generated/paperclip/skills/browser-use/payload.json`
 - **claude-ads** (skill): `generated/paperclip/skills/claude-ads/payload.json`
 - **claude-seo** (skill): `generated/paperclip/skills/claude-seo/payload.json`
+- **cleanup-temp** (skill): `generated/paperclip/skills/cleanup-temp/payload.json`
 - **code-reviewer** (skill): `generated/paperclip/skills/code-reviewer/payload.json`
 - **competitor-alternatives** (skill): `generated/paperclip/skills/competitor-alternatives/payload.json`
 - **content-idea-generator** (skill): `generated/paperclip/skills/content-idea-generator/payload.json`
@@ -33,11 +36,13 @@ Generated: 2026-04-13T23:46:23.134830
 - **facebook-ads-optimizer** (skill): `generated/paperclip/skills/facebook-ads-optimizer/payload.json`
 - **firecrawl** (skill): `generated/paperclip/skills/firecrawl/payload.json`
 - **frontend-design** (skill): `generated/paperclip/skills/frontend-design/payload.json`
+- **generate-image** (skill): `generated/paperclip/skills/generate-image/payload.json`
 - **google-business-profile-optimizer** (skill): `generated/paperclip/skills/google-business-profile-optimizer/payload.json`
 - **higgsfield** (skill): `generated/paperclip/skills/higgsfield/payload.json`
 - **higgsfield-video** (skill): `generated/paperclip/skills/higgsfield-video/payload.json`
 - **humanizer** (skill): `generated/paperclip/skills/humanizer/payload.json`
 - **image-blueprint** (skill): `generated/paperclip/skills/image-blueprint/payload.json`
+- **image-router** (skill): `generated/paperclip/skills/image-router/payload.json`
 - **investigate** (skill): `generated/paperclip/skills/investigate/payload.json`
 - **last30days** (skill): `generated/paperclip/skills/last30days/payload.json`
 - **linkedin-authority-builder** (skill): `generated/paperclip/skills/linkedin-authority-builder/payload.json`
@@ -54,7 +59,9 @@ Generated: 2026-04-13T23:46:23.134830
 - **qa** (skill): `generated/paperclip/skills/qa/payload.json`
 - **qa-only** (skill): `generated/paperclip/skills/qa-only/payload.json`
 - **reddit-insights** (skill): `generated/paperclip/skills/reddit-insights/payload.json`
+- **reject-output** (skill): `generated/paperclip/skills/reject-output/payload.json`
 - **review** (skill): `generated/paperclip/skills/review/payload.json`
+- **select-lora** (skill): `generated/paperclip/skills/select-lora/payload.json`
 - **seo-audit** (skill): `generated/paperclip/skills/seo-audit/payload.json`
 - **seo-geo-optimizer** (skill): `generated/paperclip/skills/seo-geo-optimizer/payload.json`
 - **shopify-app-development** (skill): `generated/paperclip/skills/shopify-app-development/payload.json`
@@ -77,8 +84,10 @@ Generated: 2026-04-13T23:46:23.134830
 - **social-card-gen** (skill): `generated/paperclip/skills/social-card-gen/payload.json`
 - **social-content** (skill): `generated/paperclip/skills/social-content/payload.json`
 - **stitch** (skill): `generated/paperclip/skills/stitch/payload.json`
+- **train-lora** (skill): `generated/paperclip/skills/train-lora/payload.json`
 - **upload-post** (skill): `generated/paperclip/skills/upload-post/payload.json`
 - **ux-audit** (skill): `generated/paperclip/skills/ux-audit/payload.json`
+- **validate-training-set** (skill): `generated/paperclip/skills/validate-training-set/payload.json`
 - **voice-extractor** (skill): `generated/paperclip/skills/voice-extractor/payload.json`
 - **wordpress-agent** (skill): `generated/paperclip/skills/wordpress-agent/payload.json`
 - **wordpress-content** (skill): `generated/paperclip/skills/wordpress-content/payload.json`
