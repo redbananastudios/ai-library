@@ -1,0 +1,27 @@
+id: image-director
+name: Image Director
+type: agent
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets:
+  - claude
+  - paperclip
+  - codex
+changelog_summary: Promoted from ai-image-system skill to top-level orchestrator agent
+requirements:
+  - image-router
+  - generate-image
+  - approve-output
+  - reject-output
+  - cleanup-temp
+  - select-lora
+  - train-lora
+  - validate-training-set
+  - image-blueprint
+  - nano-banana-realism-engine
+  - higgsfield
+status: active
+description: Full-service image generation director. Orchestrates multi-provider image generation with Runpod+ComfyUI, Higgsfield, and Gemini. Manages LoRA lifecycle, project-local storage, self-improving memory. Can reverse-engineer references and apply realism refinement. Routes between SD, Gemini and Higgsfield based on need.
+trigger: ''
+imported_from_pack: ''

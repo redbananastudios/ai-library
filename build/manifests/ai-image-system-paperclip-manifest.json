@@ -1,7 +1,0 @@
-{
-  "item_id": "ai-image-system",
-  "type": "skill",
-  "payload_path": "generated/paperclip/skills/ai-image-system/payload.json",
-  "published_at": "2026-04-20T22:32:48.954069",
-  "instructions": "Import payload.json into Paperclip via API or dashboard."
-}

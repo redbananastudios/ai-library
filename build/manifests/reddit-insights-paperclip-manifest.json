@@ -2,6 +2,6 @@
   "item_id": "reddit-insights",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/reddit-insights/payload.json",
-  "published_at": "2026-04-20T22:32:49.167236",
+  "published_at": "2026-04-20T23:23:01.949961",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

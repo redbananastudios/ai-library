@@ -2,6 +2,6 @@
   "item_id": "brand-builder",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/brand-builder/payload.json",
-  "published_at": "2026-04-20T22:32:49.359678",
+  "published_at": "2026-04-20T23:23:02.136437",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

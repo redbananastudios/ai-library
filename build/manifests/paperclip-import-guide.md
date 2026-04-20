@@ -1,6 +1,6 @@
 # Paperclip Import Guide
 
-Generated: 2026-04-20T22:32:49.448638
+Generated: 2026-04-20T23:23:02.226305
 
 ## Steps
 
@@ -11,8 +11,6 @@ Generated: 2026-04-20T22:32:49.448638
 ## Items
 
 - **ai-discoverability-audit** (skill): `generated/paperclip/skills/ai-discoverability-audit/payload.json`
-- **ai-image-system** (skill): `generated/paperclip/skills/ai-image-system/payload.json`
-- **ai-seo** (skill): `generated/paperclip/skills/ai-seo/payload.json`
 - **approve-output** (skill): `generated/paperclip/skills/approve-output/payload.json`
 - **awesome-agent-skills** (metadata): `generated/paperclip/skills/awesome-agent-skills/payload.json`
 - **awesome-claude-code-subagents** (metadata): `generated/paperclip/skills/awesome-claude-code-subagents/payload.json`
@@ -21,15 +19,12 @@ Generated: 2026-04-20T22:32:49.448638
 - **boilerplate-generator** (skill): `generated/paperclip/skills/boilerplate-generator/payload.json`
 - **browser-use** (skill): `generated/paperclip/skills/browser-use/payload.json`
 - **claude-ads** (skill): `generated/paperclip/skills/claude-ads/payload.json`
-- **claude-seo** (skill): `generated/paperclip/skills/claude-seo/payload.json`
 - **cleanup-temp** (skill): `generated/paperclip/skills/cleanup-temp/payload.json`
-- **code-reviewer** (skill): `generated/paperclip/skills/code-reviewer/payload.json`
 - **competitor-alternatives** (skill): `generated/paperclip/skills/competitor-alternatives/payload.json`
 - **content-idea-generator** (skill): `generated/paperclip/skills/content-idea-generator/payload.json`
 - **content-strategy** (skill): `generated/paperclip/skills/content-strategy/payload.json`
 - **copywriter** (skill): `generated/paperclip/skills/copywriter/payload.json`
 - **creative-director** (skill): `generated/paperclip/skills/creative-director/payload.json`
-- **de-ai-ify** (skill): `generated/paperclip/skills/de-ai-ify/payload.json`
 - **deep-research** (skill): `generated/paperclip/skills/deep-research/payload.json`
 - **design-assets** (skill): `generated/paperclip/skills/design-assets/payload.json`
 - **engineering-standards** (skill): `generated/paperclip/skills/engineering-standards/payload.json`
@@ -63,7 +58,7 @@ Generated: 2026-04-20T22:32:49.448638
 - **review** (skill): `generated/paperclip/skills/review/payload.json`
 - **select-lora** (skill): `generated/paperclip/skills/select-lora/payload.json`
 - **seo-audit** (skill): `generated/paperclip/skills/seo-audit/payload.json`
-- **seo-geo-optimizer** (skill): `generated/paperclip/skills/seo-geo-optimizer/payload.json`
+- **seo-optimizer** (skill): `generated/paperclip/skills/seo-optimizer/payload.json`
 - **shopify-app-development** (skill): `generated/paperclip/skills/shopify-app-development/payload.json`
 - **shopify-checkout** (skill): `generated/paperclip/skills/shopify-checkout/payload.json`
 - **shopify-cli** (skill): `generated/paperclip/skills/shopify-cli/payload.json`
@@ -107,7 +102,7 @@ Generated: 2026-04-20T22:32:49.448638
 - **fullstack-developer** (agent): `generated/paperclip/agents/fullstack-developer/payload.json`
 - **git-specialist** (agent): `generated/paperclip/agents/git-specialist/payload.json`
 - **graphql-architect** (agent): `generated/paperclip/agents/graphql-architect/payload.json`
-- **image-generator** (agent): `generated/paperclip/agents/image-generator/payload.json`
+- **image-director** (agent): `generated/paperclip/agents/image-director/payload.json`
 - **image-reverse-engineer** (agent): `generated/paperclip/agents/image-reverse-engineer/payload.json`
 - **local-seo-specialist** (agent): `generated/paperclip/agents/local-seo-specialist/payload.json`
 - **microservices-architect** (agent): `generated/paperclip/agents/microservices-architect/payload.json`
@@ -119,3 +114,4 @@ Generated: 2026-04-20T22:32:49.448638
 - **social-media-manager** (agent): `generated/paperclip/agents/social-media-manager/payload.json`
 - **ui-designer** (agent): `generated/paperclip/agents/ui-designer/payload.json`
 - **video-director** (agent): `generated/paperclip/agents/video-director/payload.json`
+- **wordpress-developer** (agent): `generated/paperclip/agents/wordpress-developer/payload.json`

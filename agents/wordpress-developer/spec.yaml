@@ -1,0 +1,22 @@
+id: wordpress-developer
+name: WordPress Developer
+type: agent
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets:
+  - claude
+  - paperclip
+  - codex
+changelog_summary: Initial creation - orchestrates wordpress-setup, wordpress-content, wordpress-elementor, wordpress-agent skills
+requirements:
+  - wordpress-setup
+  - wordpress-content
+  - wordpress-elementor
+  - wordpress-agent
+  - engineering-standards
+  - browser-use
+status: active
+description: Builds and manages WordPress sites. Handles setup, theme customization, Elementor page building, content management, plugin configuration, and performance optimization. Orchestrates all WordPress skills.
+trigger: ''
+imported_from_pack: ''

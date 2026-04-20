@@ -1722,7 +1722,7 @@
       "id": "seo-manager",
       "name": "SEO Manager",
       "type": "agent",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
@@ -1737,11 +1737,13 @@
       "published_claude_path": "/root/.claude/agents/seo-manager.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
-        "claude-seo",
+        "seo-optimizer",
         "seo-audit",
-        "seo-geo-optimizer",
-        "ai-seo",
-        "ai-discoverability-audit"
+        "ai-discoverability-audit",
+        "google-search-console",
+        "google-analytics",
+        "google-tag-manager",
+        "seo-growth-tracker"
       ],
       "notes": ""
     },
@@ -1908,14 +1910,15 @@
       "published_paperclip_status": "manifest_generated",
       "name": "Humanizer",
       "type": "skill",
-      "version": "2.5.1",
+      "version": "3.0.0",
       "status": "active",
       "upstream_repo_or_source": "https://github.com/blader/humanizer",
       "source_url": "https://github.com/blader/humanizer",
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip"
+        "paperclip",
+        "codex"
       ],
       "source_path": "skills/humanizer",
       "generated_claude_path": "generated/claude/skills/humanizer",
@@ -2458,7 +2461,92 @@
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": ""
+    },
+    {
+      "id": "seo-optimizer",
+      "name": "SEO Optimizer",
+      "type": "skill",
+      "version": "2.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "https://github.com/AgriciDaniel/claude-seo",
+      "source_url": "https://github.com/AgriciDaniel/claude-seo",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/seo-optimizer",
+      "generated_claude_path": "generated/claude/skills/seo-optimizer",
+      "generated_paperclip_path": "generated/paperclip/skills/seo-optimizer",
+      "published_claude_path": "/root/.claude/skills/seo-optimizer",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "image-director",
+      "name": "Image Director",
+      "type": "agent",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "agents/image-director",
+      "generated_claude_path": "generated/claude/agents/image-director.md",
+      "generated_paperclip_path": "generated/paperclip/agents/image-director",
+      "published_claude_path": "/root/.claude/agents/image-director.md",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "image-router",
+        "generate-image",
+        "approve-output",
+        "reject-output",
+        "cleanup-temp",
+        "select-lora",
+        "train-lora",
+        "validate-training-set",
+        "image-blueprint",
+        "nano-banana-realism-engine",
+        "higgsfield"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wordpress-developer",
+      "name": "WordPress Developer",
+      "type": "agent",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "agents/wordpress-developer",
+      "generated_claude_path": "generated/claude/agents/wordpress-developer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/wordpress-developer",
+      "published_claude_path": "/root/.claude/agents/wordpress-developer.md",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "wordpress-setup",
+        "wordpress-content",
+        "wordpress-elementor",
+        "wordpress-agent",
+        "engineering-standards",
+        "browser-use"
+      ],
+      "notes": ""
     }
   ],
-  "updated": "2026-04-20T22:32:49.445502"
+  "updated": "2026-04-20T23:23:02.223054"
 }

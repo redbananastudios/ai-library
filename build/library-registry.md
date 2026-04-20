@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-20T22:32:49
+Updated: 2026-04-20T23:23:02
 
-Total items: 110
+Total items: 113
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -48,8 +48,9 @@ Total items: 110
 | graphql-architect | GraphQL Architect | agent | 0.2.0 | active | yes | manifest_generated |
 | higgsfield | Higgsfield | skill | 1.0.0 | active | yes | manifest_generated |
 | higgsfield-video | Higgsfield Video Generator | skill | 1.0.0 | active | yes | manifest_generated |
-| humanizer | Humanizer | skill | 2.5.1 | active | yes | manifest_generated |
+| humanizer | Humanizer | skill | 3.0.0 | active | yes | manifest_generated |
 | image-blueprint | Image Blueprint | skill | 1.0.0 | active | yes | manifest_generated |
+| image-director | Image Director | agent | 1.0.0 | active | yes | manifest_generated |
 | image-generator | Image Generator | agent | 0.2.0 | active | yes | manifest_generated |
 | image-reverse-engineer | Image Reverse Engineer | agent | 2.0.0 | active | yes | manifest_generated |
 | image-router | Image Router | skill | 1.0.0 | active | yes | manifest_generated |
@@ -81,7 +82,8 @@ Total items: 110
 | select-lora | Select LoRA | skill | 0.1.0 | placeholder | yes | manifest_generated |
 | seo-audit | SEO Audit | skill | 0.1.0 | imported | yes | manifest_generated |
 | seo-geo-optimizer | SEO GEO Optimizer | skill | 0.1.0 | imported | yes | manifest_generated |
-| seo-manager | SEO Manager | agent | 0.2.0 | active | yes | manifest_generated |
+| seo-manager | SEO Manager | agent | 0.3.0 | active | yes | manifest_generated |
+| seo-optimizer | SEO Optimizer | skill | 2.0.0 | active | yes | manifest_generated |
 | shopify-app-development | Shopify App Development | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-checkout | Shopify Checkout | skill | 0.1.0 | imported | yes | manifest_generated |
 | shopify-cli | Shopify CLI | skill | 0.1.0 | imported | yes | manifest_generated |
@@ -113,6 +115,7 @@ Total items: 110
 | voice-extractor | Voice Extractor | skill | 0.1.0 | imported | yes | manifest_generated |
 | wordpress-agent | WordPress Agent | skill | 0.1.0 | imported | yes | manifest_generated |
 | wordpress-content | WordPress Content | skill | 0.1.0 | imported | yes | manifest_generated |
+| wordpress-developer | WordPress Developer | agent | 1.0.0 | active | yes | manifest_generated |
 | wordpress-elementor | WordPress Elementor | skill | 0.1.0 | imported | yes | manifest_generated |
 | wordpress-setup | WordPress Setup | skill | 0.1.0 | imported | yes | manifest_generated |
 | youtube-summarizer | YouTube Summarizer | skill | 0.1.0 | imported | yes | manifest_generated |
