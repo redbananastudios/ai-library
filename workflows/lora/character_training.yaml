@@ -1,0 +1,105 @@
+# LoRA Character Training Workflow
+#
+# Generic, reusable LoRA training pipeline. Despite the filename, this workflow
+# handles every lora_class (character | product | style | pose | environment) —
+# the class is passed in as input. "character" is in the name because it is the
+# most common intake case.
+#
+# No hardcoded paths, no project assumptions. Every path, name, and backend
+# decision is supplied by the caller.
+
+name: character_training
+description: Generic LoRA training pipeline — prepare → caption → train → evaluate → version
+version: 0.1.0
+
+input:
+  - name: dataset_path
+    required: true
+    description: Absolute path to a folder of training images
+  - name: output_path
+    required: true
+    description: Absolute folder where the trained model, metadata, and evaluation land
+  - name: model_name
+    required: true
+    description: Base name for the output model (e.g. "willow-taps")
+  - name: subject
+    required: true
+    description: Free-text description of the concept being trained
+  - name: lora_class
+    required: true
+    description: character | product | style | pose | environment
+  - name: trigger_token
+    required: false
+    description: Explicit trigger token for captions. If omitted, derived from model_name.
+  - name: registry_path
+    required: true
+    description: Absolute path to the LoRA registry JSON the caller maintains
+  - name: config
+    required: false
+    description: Optional overrides — { budget_tier, backend, base_model, captioner, version_strategy, eval_prompts, weights, thresholds }
+
+steps:
+  - id: validate_dataset
+    skill: lora-prepare-dataset
+    description: Qualify the dataset (count, resolution, duplicates, cropping, caption coverage). Gates the pipeline.
+    input:
+      dataset_path: $input.dataset_path
+      lora_class: $input.lora_class
+      subject: $input.subject
+      output_path: $input.output_path
+    output: prepare_report
+
+  - id: caption_dataset
+    skill: lora-caption-dataset
+    description: Generate or normalise captions, enforce trigger-token usage and class-specific template. Derives trigger_token from model_name if not supplied.
+    input:
+      dataset_path: $input.dataset_path
+      model_name: $input.model_name
+      trigger_token: $input.trigger_token
+      lora_class: $input.lora_class
+      subject: $input.subject
+      captioner: $input.config.captioner
+    output: caption_report
+
+  - id: train_model
+    skill: lora-train
+    description: Run the LoRA training job against the prepared and captioned dataset.
+    input:
+      dataset_path: $input.dataset_path
+      output_path: $input.output_path
+      model_name: $input.model_name
+      trigger_token: $steps.caption_dataset.output.trigger_token
+      lora_class: $input.lora_class
+      base_model: $input.config.base_model
+      backend: $input.config.backend
+      budget_tier: $input.config.budget_tier
+      config: $input.config
+    output: train_result
+
+  - id: evaluate_model
+    skill: lora-evaluate
+    description: Generate a test grid and score consistency, fidelity, overfitting, artefacts.
+    input:
+      model_path: $steps.train_model.output.model_path
+      run_metadata_path: $steps.train_model.output.run_metadata_path
+      output_path: $input.output_path
+      eval_prompts: $input.config.eval_prompts
+      weights: $input.config.weights
+      thresholds: $input.config.thresholds
+    output: evaluation_results
+
+  - id: version_output
+    skill: lora-version
+    description: Resolve the final model id, write a registry entry, assemble a consolidated run report.
+    input:
+      model_path: $steps.train_model.output.model_path
+      run_metadata_path: $steps.train_model.output.run_metadata_path
+      evaluation_path: $steps.evaluate_model.output.evaluation_path
+      registry_path: $input.registry_path
+      version_strategy: $input.config.version_strategy
+    output: run_metadata
+
+outputs:
+  - model_path
+  - evaluation_results
+  - run_metadata

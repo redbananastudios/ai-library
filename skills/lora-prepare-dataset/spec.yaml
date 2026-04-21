@@ -1,0 +1,11 @@
+id: lora-prepare-dataset
+name: LoRA Prepare Dataset
+type: skill
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Validate and prepare a LoRA training dataset — check image quality, count, resolution, consistency, duplicates, and produce a ready-for-training verdict. First step of the LoRA training pipeline.
+status: active
+trigger: prepare lora dataset, validate training images, check dataset for lora training
+requirements: []

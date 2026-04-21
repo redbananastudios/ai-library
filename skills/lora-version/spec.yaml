@@ -1,0 +1,13 @@
+id: lora-version
+name: LoRA Version
+type: skill
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Version a trained and evaluated LoRA — resolve the final model name, write a registry entry, and assemble full run metadata (dataset + config + evaluation + lineage). Final step of the LoRA training pipeline.
+status: active
+trigger: version lora, register lora, save lora run metadata
+requirements:
+  - lora-train
+  - lora-evaluate

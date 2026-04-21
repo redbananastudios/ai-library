@@ -1,0 +1,7 @@
+{
+  "item_id": "lora-caption-dataset",
+  "type": "skill",
+  "payload_path": "O:\\red-banana-studio\\ai-library\\.claude\\worktrees\\optimistic-ardinghelli-eb325d\\generated\\paperclip\\skills\\lora-caption-dataset\\payload.json",
+  "published_at": "2026-04-21T22:08:34.987561",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}

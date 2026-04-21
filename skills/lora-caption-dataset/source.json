@@ -1,0 +1,6 @@
+{
+  "source": "custom",
+  "author": "Red Banana Studios",
+  "created": "2026-04-21",
+  "notes": "LoRA training pipeline — captioning step. Captioner-agnostic (BLIP2, Florence-2, LLaVA, manual, keep-existing). Trigger token enforcement + class-specific templates."
+}

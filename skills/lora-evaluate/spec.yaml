@@ -1,0 +1,13 @@
+id: lora-evaluate
+name: LoRA Evaluate
+type: skill
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Evaluate a trained LoRA by generating a test grid and scoring it for subject consistency, prompt fidelity, overfitting, and visual artefacts. Produces a pass/fail verdict with evidence.
+status: active
+trigger: evaluate lora, test lora, check lora quality
+requirements:
+  - lora-train
+  - generate-image

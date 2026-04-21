@@ -1,0 +1,6 @@
+{
+  "source": "custom",
+  "author": "Red Banana Studios",
+  "created": "2026-04-21",
+  "notes": "LoRA training pipeline — dataset validation step. Generic, path-driven, backend-agnostic. Absorbs the prior validate-training-set skill."
+}

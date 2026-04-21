@@ -1,0 +1,7 @@
+{
+  "item_id": "lora-train",
+  "type": "skill",
+  "payload_path": "O:\\red-banana-studio\\ai-library\\.claude\\worktrees\\optimistic-ardinghelli-eb325d\\generated\\paperclip\\skills\\lora-train\\payload.json",
+  "published_at": "2026-04-21T22:08:35.059071",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}
