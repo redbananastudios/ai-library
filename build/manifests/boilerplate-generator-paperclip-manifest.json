@@ -2,6 +2,10 @@
   "item_id": "boilerplate-generator",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/boilerplate-generator/payload.json",
+<<<<<<< HEAD
   "published_at": "2026-04-14T22:56:48.608365",
+=======
+  "published_at": "2026-04-20T23:23:01.774820",
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

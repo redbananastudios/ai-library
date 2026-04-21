@@ -2,6 +2,10 @@
   "item_id": "awesome-agent-skills",
   "type": "metadata",
   "payload_path": "generated/paperclip/skills/awesome-agent-skills/payload.json",
+<<<<<<< HEAD
   "published_at": "2026-04-14T22:56:48.585971",
+=======
+  "published_at": "2026-04-20T23:23:01.756567",
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

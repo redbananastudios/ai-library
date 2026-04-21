@@ -1,0 +1,19 @@
+{
+  "id": "approve-output",
+  "name": "Approve Output",
+  "type": "skill",
+  "version": "1.0.0",
+  "description": "Mark generated image outputs as approved. Promotes candidate LoRAs, writes winning patterns to memory, and copies approved images to selected folder.",
+  "prompt": "---\nname: Approve Output\ndescription: Mark image outputs as approved and update project memory\ntrigger: when user approves generated images\n---\n\n# Approve Output\n\nMark generated images as approved. This updates memory so the system learns what works.\n\n## Input\n\n- Job ID or output path\n- Which specific images are approved (by number or \"all\")\n- Optional notes from user about what they liked\n\n## Actions\n\n### 1. Update metadata.json\n\nSet `approval_status` to `\"approved\"` in the job's metadata.json.\nAdd user notes if provided.\n\n### 2. Copy to Selected\n\nCopy approved images from `all/` to `selected/` within the job output folder.\n\n### 3. Write Winning Patterns\n\nAppend to `./ai-image-system/memory/winning-patterns.md`:\n\n```markdown\n## {date} — {job_id}\n\n**Request**: {request_summary}\n**Category**: {category}\n**Provider**: {provider}\n**Workflow**: {workflow_template}\n**Base Model**: {base_model}\n**LoRAs**: {loras_used or \"none\"}\n**Prompt**: {positive_prompt}\n**What worked**: {user_notes or \"User approved without specific notes\"}\n**Seeds**: {approved_seeds}\n\n---\n```\n\n### 4. Promote Candidate LoRA (if applicable)\n\nIf the job used a candidate LoRA (status: `candidate` in lora-registry.json):\n- Update its status to `approved`\n- Set `approved_date` and `approved_job_id`\n- The LoRA is now available for automatic selection in future jobs\n\n### 5. Update Workflow Registry\n\nAppend success record to `./ai-image-system/memory/workflow-registry.json`:\n```json\n{\n  \"workflow\": \"product-packshot\",\n  \"category\": \"product-packshot\",\n  \"success_count\": +1,\n  \"last_success\": \"2026-04-20\",\n  \"avg_approval_rate\": 0.75\n}\n```\n\n## Output\n\nConfirm to user:\n- Which images were approved\n- Where selected images are saved\n- What was learned (brief summary)\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip",
+      "codex"
+    ],
+    "changelog_summary": ""
+  }
+}

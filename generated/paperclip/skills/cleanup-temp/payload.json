@@ -1,0 +1,19 @@
+{
+  "id": "cleanup-temp",
+  "name": "Cleanup Temp",
+  "type": "skill",
+  "version": "1.0.0",
+  "description": "Safely remove temporary files and failed job artifacts from the ai-image-system project folder. Preserves approved outputs and registered LoRAs.",
+  "prompt": "---\nname: Cleanup Temp\ndescription: Safely remove temporary and failed artifacts from ai-image-system\ntrigger: when user wants to clean up temp files or free disk space\n---\n\n# Cleanup Temp\n\nSafely remove temporary files from the ai-image-system project folder. Never deletes approved outputs or registered LoRAs.\n\n## Safe to Delete\n\n- `./ai-image-system/temp/*` — always safe\n- `./ai-image-system/jobs/failed/*` — safe after confirmation\n- Rejected job outputs older than 7 days — safe after confirmation\n- Orphaned files in `jobs/active/` older than 24 hours — likely stale\n\n## Never Delete\n\n- `./ai-image-system/outputs/*/selected/*` — approved images\n- `./ai-image-system/memory/*` — learning data\n- `./ai-image-system/models/loras/` with status `approved` — registered LoRAs\n- `./ai-image-system/workflows/*` — workflow templates\n- Any `metadata.json` or `prompt.txt` in completed jobs\n\n## Procedure\n\n1. Scan `temp/` and report size\n2. Scan `jobs/failed/` and report count + size\n3. Scan `jobs/active/` for stale jobs (>24h) and report\n4. Scan rejected outputs older than 7 days\n5. Present summary to user with totals\n6. Ask for confirmation before deleting anything\n7. Delete confirmed items\n8. Report freed space\n\n## Output\n\n```\nCleanup Summary:\n- temp/: {size} — {action}\n- failed jobs: {count} ({size}) — {action}\n- stale active jobs: {count} — {action}\n- old rejected outputs: {count} ({size}) — {action}\nTotal freed: {total_size}\n```\n",
+  "source_url": "",
+  "requirements": [],
+  "metadata": {
+    "source_kind": "custom",
+    "compatible_targets": [
+      "claude",
+      "paperclip",
+      "codex"
+    ],
+    "changelog_summary": ""
+  }
+}

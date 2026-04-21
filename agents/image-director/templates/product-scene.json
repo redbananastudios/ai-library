@@ -1,0 +1,77 @@
+{
+  "name": "product-scene",
+  "description": "Product in natural environment — kitchen, bathroom, showroom context",
+  "version": "1.0.0",
+  "category": "product-scene",
+  "base_model": "juggernaut_xl",
+  "workflow": {
+    "3": {
+      "class_type": "KSampler",
+      "inputs": {
+        "seed": "{{seed}}",
+        "steps": "{{steps}}",
+        "cfg": "{{cfg_scale}}",
+        "sampler_name": "{{sampler}}",
+        "scheduler": "normal",
+        "denoise": 1.0,
+        "model": ["4", 0],
+        "positive": ["6", 0],
+        "negative": ["7", 0],
+        "latent_image": ["5", 0]
+      }
+    },
+    "4": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "{{base_model}}.safetensors"
+      }
+    },
+    "5": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": "{{width}}",
+        "height": "{{height}}",
+        "batch_size": "{{batch_size}}"
+      }
+    },
+    "6": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "{{positive_prompt}}",
+        "clip": ["4", 1]
+      }
+    },
+    "7": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "{{negative_prompt}}",
+        "clip": ["4", 1]
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": ["3", 0],
+        "vae": ["4", 2]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "filename_prefix": "scene",
+        "images": ["8", 0]
+      }
+    }
+  },
+  "defaults": {
+    "width": 1024,
+    "height": 768,
+    "steps": 30,
+    "cfg_scale": 7.0,
+    "sampler": "euler_ancestral",
+    "batch_size": 4,
+    "negative_prompt": "blurry, low quality, distorted, deformed, watermark, text overlay, oversaturated, artificial lighting artifacts, cluttered, messy"
+  },
+  "prompt_template": "{subject} in {scene_context}, interior photography, natural lighting, editorial style, sharp focus, realistic materials, high detail, architectural digest quality",
+  "notes": "For Willow & Weir products shown installed in kitchens/bathrooms. Use with product LoRA when available."
+}

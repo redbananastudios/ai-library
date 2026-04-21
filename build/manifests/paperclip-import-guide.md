@@ -1,6 +1,10 @@
 # Paperclip Import Guide
 
+<<<<<<< HEAD
 Generated: 2026-04-14T22:56:49.113417
+=======
+Generated: 2026-04-20T23:23:02.226305
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
 
 ## Steps
 
@@ -11,8 +15,12 @@ Generated: 2026-04-14T22:56:49.113417
 ## Items
 
 - **ai-discoverability-audit** (skill): `generated/paperclip/skills/ai-discoverability-audit/payload.json`
+<<<<<<< HEAD
 - **ai-seo** (skill): `generated/paperclip/skills/ai-seo/payload.json`
 - **anti-impossibility-validator** (skill): `generated/paperclip/skills/anti-impossibility-validator/payload.json`
+=======
+- **approve-output** (skill): `generated/paperclip/skills/approve-output/payload.json`
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
 - **awesome-agent-skills** (metadata): `generated/paperclip/skills/awesome-agent-skills/payload.json`
 - **awesome-claude-code-subagents** (metadata): `generated/paperclip/skills/awesome-claude-code-subagents/payload.json`
 - **backlink-analyzer** (skill): `generated/paperclip/skills/backlink-analyzer/payload.json`
@@ -20,21 +28,23 @@ Generated: 2026-04-14T22:56:49.113417
 - **boilerplate-generator** (skill): `generated/paperclip/skills/boilerplate-generator/payload.json`
 - **browser-use** (skill): `generated/paperclip/skills/browser-use/payload.json`
 - **claude-ads** (skill): `generated/paperclip/skills/claude-ads/payload.json`
-- **claude-seo** (skill): `generated/paperclip/skills/claude-seo/payload.json`
-- **code-reviewer** (skill): `generated/paperclip/skills/code-reviewer/payload.json`
+- **cleanup-temp** (skill): `generated/paperclip/skills/cleanup-temp/payload.json`
 - **competitor-alternatives** (skill): `generated/paperclip/skills/competitor-alternatives/payload.json`
 - **content-idea-generator** (skill): `generated/paperclip/skills/content-idea-generator/payload.json`
 - **content-strategy** (skill): `generated/paperclip/skills/content-strategy/payload.json`
 - **copywriter** (skill): `generated/paperclip/skills/copywriter/payload.json`
 - **creative-director** (skill): `generated/paperclip/skills/creative-director/payload.json`
-- **de-ai-ify** (skill): `generated/paperclip/skills/de-ai-ify/payload.json`
 - **deep-research** (skill): `generated/paperclip/skills/deep-research/payload.json`
 - **design-assets** (skill): `generated/paperclip/skills/design-assets/payload.json`
 - **engineering-standards** (skill): `generated/paperclip/skills/engineering-standards/payload.json`
 - **facebook-ads-optimizer** (skill): `generated/paperclip/skills/facebook-ads-optimizer/payload.json`
 - **firecrawl** (skill): `generated/paperclip/skills/firecrawl/payload.json`
 - **frontend-design** (skill): `generated/paperclip/skills/frontend-design/payload.json`
+<<<<<<< HEAD
 - **google-analytics** (skill): `generated/paperclip/skills/google-analytics/payload.json`
+=======
+- **generate-image** (skill): `generated/paperclip/skills/generate-image/payload.json`
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
 - **google-business-profile-optimizer** (skill): `generated/paperclip/skills/google-business-profile-optimizer/payload.json`
 - **google-search-console** (skill): `generated/paperclip/skills/google-search-console/payload.json`
 - **google-tag-manager** (skill): `generated/paperclip/skills/google-tag-manager/payload.json`
@@ -42,6 +52,7 @@ Generated: 2026-04-14T22:56:49.113417
 - **higgsfield-video** (skill): `generated/paperclip/skills/higgsfield-video/payload.json`
 - **humanizer** (skill): `generated/paperclip/skills/humanizer/payload.json`
 - **image-blueprint** (skill): `generated/paperclip/skills/image-blueprint/payload.json`
+- **image-router** (skill): `generated/paperclip/skills/image-router/payload.json`
 - **investigate** (skill): `generated/paperclip/skills/investigate/payload.json`
 - **last30days** (skill): `generated/paperclip/skills/last30days/payload.json`
 - **linkedin-authority-builder** (skill): `generated/paperclip/skills/linkedin-authority-builder/payload.json`
@@ -58,10 +69,16 @@ Generated: 2026-04-14T22:56:49.113417
 - **qa** (skill): `generated/paperclip/skills/qa/payload.json`
 - **qa-only** (skill): `generated/paperclip/skills/qa-only/payload.json`
 - **reddit-insights** (skill): `generated/paperclip/skills/reddit-insights/payload.json`
+- **reject-output** (skill): `generated/paperclip/skills/reject-output/payload.json`
 - **review** (skill): `generated/paperclip/skills/review/payload.json`
+- **select-lora** (skill): `generated/paperclip/skills/select-lora/payload.json`
 - **seo-audit** (skill): `generated/paperclip/skills/seo-audit/payload.json`
+<<<<<<< HEAD
 - **seo-geo-optimizer** (skill): `generated/paperclip/skills/seo-geo-optimizer/payload.json`
 - **seo-growth-tracker** (skill): `generated/paperclip/skills/seo-growth-tracker/payload.json`
+=======
+- **seo-optimizer** (skill): `generated/paperclip/skills/seo-optimizer/payload.json`
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
 - **shopify-app-development** (skill): `generated/paperclip/skills/shopify-app-development/payload.json`
 - **shopify-checkout** (skill): `generated/paperclip/skills/shopify-checkout/payload.json`
 - **shopify-cli** (skill): `generated/paperclip/skills/shopify-cli/payload.json`
@@ -82,8 +99,10 @@ Generated: 2026-04-14T22:56:49.113417
 - **social-card-gen** (skill): `generated/paperclip/skills/social-card-gen/payload.json`
 - **social-content** (skill): `generated/paperclip/skills/social-content/payload.json`
 - **stitch** (skill): `generated/paperclip/skills/stitch/payload.json`
+- **train-lora** (skill): `generated/paperclip/skills/train-lora/payload.json`
 - **upload-post** (skill): `generated/paperclip/skills/upload-post/payload.json`
 - **ux-audit** (skill): `generated/paperclip/skills/ux-audit/payload.json`
+- **validate-training-set** (skill): `generated/paperclip/skills/validate-training-set/payload.json`
 - **voice-extractor** (skill): `generated/paperclip/skills/voice-extractor/payload.json`
 - **wordpress-agent** (skill): `generated/paperclip/skills/wordpress-agent/payload.json`
 - **wordpress-content** (skill): `generated/paperclip/skills/wordpress-content/payload.json`
@@ -103,7 +122,7 @@ Generated: 2026-04-14T22:56:49.113417
 - **fullstack-developer** (agent): `generated/paperclip/agents/fullstack-developer/payload.json`
 - **git-specialist** (agent): `generated/paperclip/agents/git-specialist/payload.json`
 - **graphql-architect** (agent): `generated/paperclip/agents/graphql-architect/payload.json`
-- **image-generator** (agent): `generated/paperclip/agents/image-generator/payload.json`
+- **image-director** (agent): `generated/paperclip/agents/image-director/payload.json`
 - **image-reverse-engineer** (agent): `generated/paperclip/agents/image-reverse-engineer/payload.json`
 - **local-seo-specialist** (agent): `generated/paperclip/agents/local-seo-specialist/payload.json`
 - **microservices-architect** (agent): `generated/paperclip/agents/microservices-architect/payload.json`
@@ -115,3 +134,4 @@ Generated: 2026-04-14T22:56:49.113417
 - **social-media-manager** (agent): `generated/paperclip/agents/social-media-manager/payload.json`
 - **ui-designer** (agent): `generated/paperclip/agents/ui-designer/payload.json`
 - **video-director** (agent): `generated/paperclip/agents/video-director/payload.json`
+- **wordpress-developer** (agent): `generated/paperclip/agents/wordpress-developer/payload.json`

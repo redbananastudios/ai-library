@@ -1,0 +1,13 @@
+id: seo-optimizer
+name: SEO Optimizer
+type: skill
+version: 2.0.0
+source_url: "https://github.com/AgriciDaniel/claude-seo"
+source_kind: github
+compatible_targets: ['claude', 'paperclip', 'codex']
+changelog_summary: Merged claude-seo + ai-seo + seo-geo-optimizer into unified SEO optimizer
+requirements: []
+status: active
+description: Comprehensive SEO optimization covering technical SEO, content quality (E-E-A-T), schema markup, Core Web Vitals, AI search optimization (GEO for AI Overviews, ChatGPT, Perplexity), programmatic SEO, local SEO, and backlink analysis. 16 sub-skills, industry detection, and PDF reporting.
+trigger: "seo, audit, schema, core web vitals, sitemap, e-e-a-t, ai overviews, geo, technical seo, content quality, page speed, structured data, ai seo, optimize for chatgpt, optimize for perplexity"
+imported_from_pack: ""

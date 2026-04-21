@@ -1,0 +1,6 @@
+{
+  "source": "custom",
+  "author": "Red Banana Studios",
+  "created": "2026-04-20",
+  "notes": "Safe cleanup for ai-image-system temp files and failed jobs."
+}

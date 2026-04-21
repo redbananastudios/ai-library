@@ -2,6 +2,10 @@
   "item_id": "shopify-content",
   "type": "skill",
   "payload_path": "generated/paperclip/skills/shopify-content/payload.json",
+<<<<<<< HEAD
   "published_at": "2026-04-14T22:56:48.857230",
+=======
+  "published_at": "2026-04-20T23:23:01.998105",
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

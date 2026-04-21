@@ -1,0 +1,11 @@
+id: image-router
+name: Image Router
+type: skill
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Routes image generation requests to the optimal provider, selects workflow template, checks LoRA registry, and determines generation parameters.
+status: active
+trigger: route image request, choose image provider, select workflow
+requirements: []

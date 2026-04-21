@@ -2,6 +2,10 @@
   "item_id": "video-director",
   "type": "agent",
   "payload_path": "generated/paperclip/agents/video-director/payload.json",
+<<<<<<< HEAD
   "published_at": "2026-04-14T22:56:49.108414",
+=======
+  "published_at": "2026-04-20T23:23:02.216809",
+>>>>>>> claude/deploy-latest-skills-agents-hkqsH
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

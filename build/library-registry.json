@@ -11,8 +11,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/ai-discoverability-audit",
       "generated_claude_path": "generated/claude/skills/ai-discoverability-audit",
@@ -20,9 +19,7 @@
       "published_claude_path": "/root/.claude/skills/ai-discoverability-audit",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/ai-discoverability-audit",
-      "published_codex_path": "/root/.codex/skills/ai-discoverability-audit"
+      "notes": ""
     },
     {
       "id": "ai-seo",
@@ -35,8 +32,7 @@
       "imported_from_pack": "marketingskills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/ai-seo",
       "generated_claude_path": "generated/claude/skills/ai-seo",
@@ -44,9 +40,7 @@
       "published_claude_path": "/root/.claude/skills/ai-seo",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/ai-seo",
-      "published_codex_path": "/root/.codex/skills/ai-seo"
+      "notes": ""
     },
     {
       "id": "awesome-agent-skills",
@@ -59,8 +53,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/awesome-agent-skills",
       "generated_claude_path": "generated/claude/skills/awesome-agent-skills",
@@ -68,9 +61,7 @@
       "published_claude_path": "/root/.claude/skills/awesome-agent-skills",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/awesome-agent-skills",
-      "published_codex_path": "/root/.codex/skills/awesome-agent-skills"
+      "notes": ""
     },
     {
       "id": "awesome-claude-code-subagents",
@@ -83,8 +74,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/awesome-claude-code-subagents",
       "generated_claude_path": "generated/claude/skills/awesome-claude-code-subagents",
@@ -92,9 +82,7 @@
       "published_claude_path": "/root/.claude/skills/awesome-claude-code-subagents",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/awesome-claude-code-subagents",
-      "published_codex_path": "/root/.codex/skills/awesome-claude-code-subagents"
+      "notes": ""
     },
     {
       "id": "backlink-analyzer",
@@ -107,8 +95,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/backlink-analyzer",
       "generated_claude_path": "generated/claude/skills/backlink-analyzer",
@@ -116,9 +103,7 @@
       "published_claude_path": "/root/.claude/skills/backlink-analyzer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/backlink-analyzer",
-      "published_codex_path": "/root/.codex/skills/backlink-analyzer"
+      "notes": ""
     },
     {
       "id": "backlink-outreach",
@@ -131,8 +116,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/backlink-outreach",
       "generated_claude_path": "generated/claude/skills/backlink-outreach",
@@ -140,9 +124,7 @@
       "published_claude_path": "/root/.claude/skills/backlink-outreach",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/backlink-outreach",
-      "published_codex_path": "/root/.codex/skills/backlink-outreach"
+      "notes": ""
     },
     {
       "id": "browser-use",
@@ -155,8 +137,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/browser-use",
       "generated_claude_path": "generated/claude/skills/browser-use",
@@ -164,9 +145,7 @@
       "published_claude_path": "/root/.claude/skills/browser-use",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/browser-use",
-      "published_codex_path": "/root/.codex/skills/browser-use"
+      "notes": ""
     },
     {
       "id": "claude-ads",
@@ -179,8 +158,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/claude-ads",
       "generated_claude_path": "generated/claude/skills/claude-ads",
@@ -188,9 +166,7 @@
       "published_claude_path": "/root/.claude/skills/claude-ads",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/claude-ads",
-      "published_codex_path": "/root/.codex/skills/claude-ads"
+      "notes": ""
     },
     {
       "id": "claude-seo",
@@ -203,8 +179,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/claude-seo",
       "generated_claude_path": "generated/claude/skills/claude-seo",
@@ -212,9 +187,7 @@
       "published_claude_path": "/root/.claude/skills/claude-seo",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/claude-seo",
-      "published_codex_path": "/root/.codex/skills/claude-seo"
+      "notes": ""
     },
     {
       "id": "code-reviewer",
@@ -227,8 +200,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/code-reviewer",
       "generated_claude_path": "generated/claude/agents/code-reviewer.md",
@@ -241,9 +213,7 @@
         "review",
         "engineering-standards"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/code-reviewer.toml",
-      "published_codex_path": "/root/.codex/agents/code-reviewer.toml"
+      "notes": ""
     },
     {
       "id": "competitor-alternatives",
@@ -256,8 +226,7 @@
       "imported_from_pack": "marketingskills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/competitor-alternatives",
       "generated_claude_path": "generated/claude/skills/competitor-alternatives",
@@ -265,9 +234,7 @@
       "published_claude_path": "/root/.claude/skills/competitor-alternatives",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/competitor-alternatives",
-      "published_codex_path": "/root/.codex/skills/competitor-alternatives"
+      "notes": ""
     },
     {
       "id": "content-idea-generator",
@@ -280,8 +247,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/content-idea-generator",
       "generated_claude_path": "generated/claude/skills/content-idea-generator",
@@ -289,9 +255,7 @@
       "published_claude_path": "/root/.claude/skills/content-idea-generator",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/content-idea-generator",
-      "published_codex_path": "/root/.codex/skills/content-idea-generator"
+      "notes": ""
     },
     {
       "id": "content-strategy",
@@ -304,8 +268,7 @@
       "imported_from_pack": "marketingskills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/content-strategy",
       "generated_claude_path": "generated/claude/skills/content-strategy",
@@ -313,9 +276,7 @@
       "published_claude_path": "/root/.claude/skills/content-strategy",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/content-strategy",
-      "published_codex_path": "/root/.codex/skills/content-strategy"
+      "notes": ""
     },
     {
       "id": "copywriter",
@@ -328,8 +289,7 @@
       "imported_from_pack": "marketingskills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/copywriter",
       "generated_claude_path": "generated/claude/skills/copywriter",
@@ -337,9 +297,7 @@
       "published_claude_path": "/root/.claude/skills/copywriter",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/copywriter",
-      "published_codex_path": "/root/.codex/skills/copywriter"
+      "notes": ""
     },
     {
       "id": "creative-director",
@@ -352,8 +310,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/creative-director",
       "generated_claude_path": "generated/claude/skills/creative-director",
@@ -361,9 +318,7 @@
       "published_claude_path": "/root/.claude/skills/creative-director",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/creative-director",
-      "published_codex_path": "/root/.codex/skills/creative-director"
+      "notes": ""
     },
     {
       "id": "de-ai-ify",
@@ -376,8 +331,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/de-ai-ify",
       "generated_claude_path": "generated/claude/skills/de-ai-ify",
@@ -385,9 +339,7 @@
       "published_claude_path": "/root/.claude/skills/de-ai-ify",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/de-ai-ify",
-      "published_codex_path": "/root/.codex/skills/de-ai-ify"
+      "notes": ""
     },
     {
       "id": "deep-research",
@@ -400,8 +352,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/deep-research",
       "generated_claude_path": "generated/claude/skills/deep-research",
@@ -409,9 +360,7 @@
       "published_claude_path": "/root/.claude/skills/deep-research",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/deep-research",
-      "published_codex_path": "/root/.codex/skills/deep-research"
+      "notes": ""
     },
     {
       "id": "design-assets",
@@ -424,8 +373,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/design-assets",
       "generated_claude_path": "generated/claude/skills/design-assets",
@@ -433,9 +381,7 @@
       "published_claude_path": "/root/.claude/skills/design-assets",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/design-assets",
-      "published_codex_path": "/root/.codex/skills/design-assets"
+      "notes": ""
     },
     {
       "id": "facebook-ads-optimizer",
@@ -448,8 +394,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/facebook-ads-optimizer",
       "generated_claude_path": "generated/claude/skills/facebook-ads-optimizer",
@@ -457,9 +402,7 @@
       "published_claude_path": "/root/.claude/skills/facebook-ads-optimizer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/facebook-ads-optimizer",
-      "published_codex_path": "/root/.codex/skills/facebook-ads-optimizer"
+      "notes": ""
     },
     {
       "id": "frontend-design",
@@ -472,8 +415,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/frontend-design",
       "generated_claude_path": "generated/claude/skills/frontend-design",
@@ -481,9 +423,7 @@
       "published_claude_path": "/root/.claude/skills/frontend-design",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/frontend-design",
-      "published_codex_path": "/root/.codex/skills/frontend-design"
+      "notes": ""
     },
     {
       "id": "investigate",
@@ -496,8 +436,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/investigate",
       "generated_claude_path": "generated/claude/skills/investigate",
@@ -505,9 +444,7 @@
       "published_claude_path": "/root/.claude/skills/investigate",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/investigate",
-      "published_codex_path": "/root/.codex/skills/investigate"
+      "notes": ""
     },
     {
       "id": "last30days",
@@ -520,8 +457,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/last30days",
       "generated_claude_path": "generated/claude/skills/last30days",
@@ -529,9 +465,7 @@
       "published_claude_path": "/root/.claude/skills/last30days",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/last30days",
-      "published_codex_path": "/root/.codex/skills/last30days"
+      "notes": ""
     },
     {
       "id": "linkedin-authority-builder",
@@ -544,8 +478,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/linkedin-authority-builder",
       "generated_claude_path": "generated/claude/skills/linkedin-authority-builder",
@@ -553,9 +486,7 @@
       "published_claude_path": "/root/.claude/skills/linkedin-authority-builder",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/linkedin-authority-builder",
-      "published_codex_path": "/root/.codex/skills/linkedin-authority-builder"
+      "notes": ""
     },
     {
       "id": "local-visibility",
@@ -568,8 +499,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/local-visibility",
       "generated_claude_path": "generated/claude/skills/local-visibility",
@@ -577,9 +507,7 @@
       "published_claude_path": "/root/.claude/skills/local-visibility",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/local-visibility",
-      "published_codex_path": "/root/.codex/skills/local-visibility"
+      "notes": ""
     },
     {
       "id": "localrank-agent",
@@ -592,8 +520,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/localrank-agent",
       "generated_claude_path": "generated/claude/skills/localrank-agent",
@@ -601,9 +528,7 @@
       "published_claude_path": "/root/.claude/skills/localrank-agent",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/localrank-agent",
-      "published_codex_path": "/root/.codex/skills/localrank-agent"
+      "notes": ""
     },
     {
       "id": "marketing-principles",
@@ -616,8 +541,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/marketing-principles",
       "generated_claude_path": "generated/claude/skills/marketing-principles",
@@ -625,9 +549,7 @@
       "published_claude_path": "/root/.claude/skills/marketing-principles",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/marketing-principles",
-      "published_codex_path": "/root/.codex/skills/marketing-principles"
+      "notes": ""
     },
     {
       "id": "nano-banana-ppt",
@@ -682,8 +604,7 @@
       "imported_from_pack": "marketingskills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/paid-ads",
       "generated_claude_path": "generated/claude/skills/paid-ads",
@@ -691,9 +612,7 @@
       "published_claude_path": "/root/.claude/skills/paid-ads",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/paid-ads",
-      "published_codex_path": "/root/.codex/skills/paid-ads"
+      "notes": ""
     },
     {
       "id": "personal-brand-builder",
@@ -706,8 +625,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/personal-brand-builder",
       "generated_claude_path": "generated/claude/skills/personal-brand-builder",
@@ -715,9 +633,7 @@
       "published_claude_path": "/root/.claude/skills/personal-brand-builder",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/personal-brand-builder",
-      "published_codex_path": "/root/.codex/skills/personal-brand-builder"
+      "notes": ""
     },
     {
       "id": "positioning-basics",
@@ -730,8 +646,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/positioning-basics",
       "generated_claude_path": "generated/claude/skills/positioning-basics",
@@ -739,9 +654,7 @@
       "published_claude_path": "/root/.claude/skills/positioning-basics",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/positioning-basics",
-      "published_codex_path": "/root/.codex/skills/positioning-basics"
+      "notes": ""
     },
     {
       "id": "project-health",
@@ -754,8 +667,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/project-health",
       "generated_claude_path": "generated/claude/skills/project-health",
@@ -763,9 +675,7 @@
       "published_claude_path": "/root/.claude/skills/project-health",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/project-health",
-      "published_codex_path": "/root/.codex/skills/project-health"
+      "notes": ""
     },
     {
       "id": "qa",
@@ -778,8 +688,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/qa",
       "generated_claude_path": "generated/claude/skills/qa",
@@ -787,9 +696,7 @@
       "published_claude_path": "/root/.claude/skills/qa",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/qa",
-      "published_codex_path": "/root/.codex/skills/qa"
+      "notes": ""
     },
     {
       "id": "qa-only",
@@ -802,8 +709,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/qa-only",
       "generated_claude_path": "generated/claude/skills/qa-only",
@@ -811,9 +717,7 @@
       "published_claude_path": "/root/.claude/skills/qa-only",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/qa-only",
-      "published_codex_path": "/root/.codex/skills/qa-only"
+      "notes": ""
     },
     {
       "id": "reddit-insights",
@@ -826,8 +730,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/reddit-insights",
       "generated_claude_path": "generated/claude/skills/reddit-insights",
@@ -835,9 +738,7 @@
       "published_claude_path": "/root/.claude/skills/reddit-insights",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/reddit-insights",
-      "published_codex_path": "/root/.codex/skills/reddit-insights"
+      "notes": ""
     },
     {
       "id": "review",
@@ -850,8 +751,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/review",
       "generated_claude_path": "generated/claude/skills/review",
@@ -859,9 +759,7 @@
       "published_claude_path": "/root/.claude/skills/review",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/review",
-      "published_codex_path": "/root/.codex/skills/review"
+      "notes": ""
     },
     {
       "id": "seo-audit",
@@ -874,8 +772,7 @@
       "imported_from_pack": "marketingskills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/seo-audit",
       "generated_claude_path": "generated/claude/skills/seo-audit",
@@ -883,9 +780,7 @@
       "published_claude_path": "/root/.claude/skills/seo-audit",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/seo-audit",
-      "published_codex_path": "/root/.codex/skills/seo-audit"
+      "notes": ""
     },
     {
       "id": "seo-geo-optimizer",
@@ -898,8 +793,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/seo-geo-optimizer",
       "generated_claude_path": "generated/claude/skills/seo-geo-optimizer",
@@ -907,9 +801,7 @@
       "published_claude_path": "/root/.claude/skills/seo-geo-optimizer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/seo-geo-optimizer",
-      "published_codex_path": "/root/.codex/skills/seo-geo-optimizer"
+      "notes": ""
     },
     {
       "id": "shopify-app-development",
@@ -922,8 +814,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-app-development",
       "generated_claude_path": "generated/claude/skills/shopify-app-development",
@@ -931,9 +822,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-app-development",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-app-development",
-      "published_codex_path": "/root/.codex/skills/shopify-app-development"
+      "notes": ""
     },
     {
       "id": "shopify-checkout",
@@ -946,8 +835,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-checkout",
       "generated_claude_path": "generated/claude/skills/shopify-checkout",
@@ -955,9 +843,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-checkout",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-checkout",
-      "published_codex_path": "/root/.codex/skills/shopify-checkout"
+      "notes": ""
     },
     {
       "id": "shopify-cli",
@@ -970,8 +856,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-cli",
       "generated_claude_path": "generated/claude/skills/shopify-cli",
@@ -979,9 +864,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-cli",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-cli",
-      "published_codex_path": "/root/.codex/skills/shopify-cli"
+      "notes": ""
     },
     {
       "id": "shopify-content",
@@ -994,8 +877,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-content",
       "generated_claude_path": "generated/claude/skills/shopify-content",
@@ -1003,9 +885,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-content",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-content",
-      "published_codex_path": "/root/.codex/skills/shopify-content"
+      "notes": ""
     },
     {
       "id": "shopify-functions",
@@ -1018,8 +898,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-functions",
       "generated_claude_path": "generated/claude/skills/shopify-functions",
@@ -1027,9 +906,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-functions",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-functions",
-      "published_codex_path": "/root/.codex/skills/shopify-functions"
+      "notes": ""
     },
     {
       "id": "shopify-graphql",
@@ -1042,8 +919,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-graphql",
       "generated_claude_path": "generated/claude/skills/shopify-graphql",
@@ -1051,9 +927,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-graphql",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-graphql",
-      "published_codex_path": "/root/.codex/skills/shopify-graphql"
+      "notes": ""
     },
     {
       "id": "shopify-hydrogen",
@@ -1066,8 +940,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-hydrogen",
       "generated_claude_path": "generated/claude/skills/shopify-hydrogen",
@@ -1075,9 +948,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-hydrogen",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-hydrogen",
-      "published_codex_path": "/root/.codex/skills/shopify-hydrogen"
+      "notes": ""
     },
     {
       "id": "shopify-liquid-templating",
@@ -1090,8 +961,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-liquid-templating",
       "generated_claude_path": "generated/claude/skills/shopify-liquid-templating",
@@ -1099,9 +969,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-liquid-templating",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-liquid-templating",
-      "published_codex_path": "/root/.codex/skills/shopify-liquid-templating"
+      "notes": ""
     },
     {
       "id": "shopify-products",
@@ -1114,8 +982,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-products",
       "generated_claude_path": "generated/claude/skills/shopify-products",
@@ -1123,9 +990,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-products",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-products",
-      "published_codex_path": "/root/.codex/skills/shopify-products"
+      "notes": ""
     },
     {
       "id": "shopify-setup",
@@ -1138,8 +1003,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-setup",
       "generated_claude_path": "generated/claude/skills/shopify-setup",
@@ -1147,9 +1011,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-setup",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-setup",
-      "published_codex_path": "/root/.codex/skills/shopify-setup"
+      "notes": ""
     },
     {
       "id": "shopify-theme-development",
@@ -1162,8 +1024,7 @@
       "imported_from_pack": "shopify-agent-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-theme-development",
       "generated_claude_path": "generated/claude/skills/shopify-theme-development",
@@ -1171,9 +1032,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-theme-development",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-theme-development",
-      "published_codex_path": "/root/.codex/skills/shopify-theme-development"
+      "notes": ""
     },
     {
       "id": "simplify",
@@ -1186,8 +1045,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/simplify",
       "generated_claude_path": "generated/claude/skills/simplify",
@@ -1195,9 +1053,7 @@
       "published_claude_path": "/root/.claude/skills/simplify",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/simplify",
-      "published_codex_path": "/root/.codex/skills/simplify"
+      "notes": ""
     },
     {
       "id": "social-card-gen",
@@ -1210,8 +1066,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/social-card-gen",
       "generated_claude_path": "generated/claude/skills/social-card-gen",
@@ -1219,9 +1074,7 @@
       "published_claude_path": "/root/.claude/skills/social-card-gen",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/social-card-gen",
-      "published_codex_path": "/root/.codex/skills/social-card-gen"
+      "notes": ""
     },
     {
       "id": "social-content",
@@ -1234,8 +1087,7 @@
       "imported_from_pack": "marketingskills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/social-content",
       "generated_claude_path": "generated/claude/skills/social-content",
@@ -1243,9 +1095,7 @@
       "published_claude_path": "/root/.claude/skills/social-content",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/social-content",
-      "published_codex_path": "/root/.codex/skills/social-content"
+      "notes": ""
     },
     {
       "id": "upload-post",
@@ -1258,8 +1108,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/upload-post",
       "generated_claude_path": "generated/claude/skills/upload-post",
@@ -1267,9 +1116,7 @@
       "published_claude_path": "/root/.claude/skills/upload-post",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/upload-post",
-      "published_codex_path": "/root/.codex/skills/upload-post"
+      "notes": ""
     },
     {
       "id": "ux-audit",
@@ -1282,8 +1129,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/ux-audit",
       "generated_claude_path": "generated/claude/skills/ux-audit",
@@ -1291,9 +1137,7 @@
       "published_claude_path": "/root/.claude/skills/ux-audit",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/ux-audit",
-      "published_codex_path": "/root/.codex/skills/ux-audit"
+      "notes": ""
     },
     {
       "id": "voice-extractor",
@@ -1306,8 +1150,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/voice-extractor",
       "generated_claude_path": "generated/claude/skills/voice-extractor",
@@ -1315,9 +1158,7 @@
       "published_claude_path": "/root/.claude/skills/voice-extractor",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/voice-extractor",
-      "published_codex_path": "/root/.codex/skills/voice-extractor"
+      "notes": ""
     },
     {
       "id": "wordpress-agent",
@@ -1330,8 +1171,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/wordpress-agent",
       "generated_claude_path": "generated/claude/skills/wordpress-agent",
@@ -1339,9 +1179,7 @@
       "published_claude_path": "/root/.claude/skills/wordpress-agent",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/wordpress-agent",
-      "published_codex_path": "/root/.codex/skills/wordpress-agent"
+      "notes": ""
     },
     {
       "id": "wordpress-content",
@@ -1354,8 +1192,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/wordpress-content",
       "generated_claude_path": "generated/claude/skills/wordpress-content",
@@ -1363,9 +1200,7 @@
       "published_claude_path": "/root/.claude/skills/wordpress-content",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/wordpress-content",
-      "published_codex_path": "/root/.codex/skills/wordpress-content"
+      "notes": ""
     },
     {
       "id": "wordpress-elementor",
@@ -1378,8 +1213,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/wordpress-elementor",
       "generated_claude_path": "generated/claude/skills/wordpress-elementor",
@@ -1387,9 +1221,7 @@
       "published_claude_path": "/root/.claude/skills/wordpress-elementor",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/wordpress-elementor",
-      "published_codex_path": "/root/.codex/skills/wordpress-elementor"
+      "notes": ""
     },
     {
       "id": "wordpress-setup",
@@ -1402,8 +1234,7 @@
       "imported_from_pack": "jezweb-claude-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/wordpress-setup",
       "generated_claude_path": "generated/claude/skills/wordpress-setup",
@@ -1411,9 +1242,7 @@
       "published_claude_path": "/root/.claude/skills/wordpress-setup",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/wordpress-setup",
-      "published_codex_path": "/root/.codex/skills/wordpress-setup"
+      "notes": ""
     },
     {
       "id": "youtube-summarizer",
@@ -1426,8 +1255,7 @@
       "imported_from_pack": "ai-marketing-claude-code-skills",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/youtube-summarizer",
       "generated_claude_path": "generated/claude/skills/youtube-summarizer",
@@ -1435,9 +1263,7 @@
       "published_claude_path": "/root/.claude/skills/youtube-summarizer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/youtube-summarizer",
-      "published_codex_path": "/root/.codex/skills/youtube-summarizer"
+      "notes": ""
     },
     {
       "id": "backend-developer",
@@ -1450,8 +1276,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/backend-developer",
       "generated_claude_path": "generated/claude/agents/backend-developer.md",
@@ -1464,9 +1289,7 @@
         "qa",
         "code-reviewer"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/backend-developer.toml",
-      "published_codex_path": "/root/.codex/agents/backend-developer.toml"
+      "notes": ""
     },
     {
       "id": "frontend-developer",
@@ -1479,8 +1302,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/frontend-developer",
       "generated_claude_path": "generated/claude/agents/frontend-developer.md",
@@ -1496,9 +1318,7 @@
         "qa",
         "code-reviewer"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/frontend-developer.toml",
-      "published_codex_path": "/root/.codex/agents/frontend-developer.toml"
+      "notes": ""
     },
     {
       "id": "fullstack-developer",
@@ -1511,8 +1331,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/fullstack-developer",
       "generated_claude_path": "generated/claude/agents/fullstack-developer.md",
@@ -1527,9 +1346,7 @@
         "engineering-standards",
         "boilerplate-generator"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/fullstack-developer.toml",
-      "published_codex_path": "/root/.codex/agents/fullstack-developer.toml"
+      "notes": ""
     },
     {
       "id": "higgsfield",
@@ -1542,8 +1359,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/higgsfield",
       "generated_claude_path": "generated/claude/skills/higgsfield",
@@ -1554,23 +1370,20 @@
         "browser-use",
         "nano-banana-realism-engine"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/higgsfield",
-      "published_codex_path": "/root/.codex/skills/higgsfield"
+      "notes": ""
     },
     {
       "id": "ads-manager",
       "name": "Ads Manager",
       "type": "agent",
-      "version": "0.3.0",
+      "version": "0.2.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/ads-manager",
       "generated_claude_path": "generated/claude/agents/ads-manager.md",
@@ -1580,13 +1393,9 @@
       "requirements": [
         "claude-ads",
         "facebook-ads-optimizer",
-        "paid-ads",
-        "google-tag-manager",
-        "google-analytics"
+        "paid-ads"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/ads-manager.toml",
-      "published_codex_path": "/root/.codex/agents/ads-manager.toml"
+      "notes": ""
     },
     {
       "id": "amazon-fba-assistant",
@@ -1599,8 +1408,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/amazon-fba-assistant",
       "generated_claude_path": "generated/claude/agents/amazon-fba-assistant.md",
@@ -1611,9 +1419,7 @@
         "deep-research",
         "competitor-alternatives"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/amazon-fba-assistant.toml",
-      "published_codex_path": "/root/.codex/agents/amazon-fba-assistant.toml"
+      "notes": ""
     },
     {
       "id": "api-designer",
@@ -1626,8 +1432,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/api-designer",
       "generated_claude_path": "generated/claude/agents/api-designer.md",
@@ -1637,9 +1442,7 @@
       "requirements": [
         "engineering-standards"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/api-designer.toml",
-      "published_codex_path": "/root/.codex/agents/api-designer.toml"
+      "notes": ""
     },
     {
       "id": "backlink-builder",
@@ -1652,8 +1455,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/backlink-builder",
       "generated_claude_path": "generated/claude/agents/backlink-builder.md",
@@ -1666,9 +1468,7 @@
         "linkgap",
         "humanizer"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/backlink-builder.toml",
-      "published_codex_path": "/root/.codex/agents/backlink-builder.toml"
+      "notes": ""
     },
     {
       "id": "brand-builder",
@@ -1681,8 +1481,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/brand-builder",
       "generated_claude_path": "generated/claude/agents/brand-builder.md",
@@ -1695,9 +1494,7 @@
         "creative-director",
         "positioning-basics"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/brand-builder.toml",
-      "published_codex_path": "/root/.codex/agents/brand-builder.toml"
+      "notes": ""
     },
     {
       "id": "bug-investigator",
@@ -1710,8 +1507,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/bug-investigator",
       "generated_claude_path": "generated/claude/agents/bug-investigator.md",
@@ -1723,9 +1519,7 @@
         "browser-use",
         "engineering-standards"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/bug-investigator.toml",
-      "published_codex_path": "/root/.codex/agents/bug-investigator.toml"
+      "notes": ""
     },
     {
       "id": "design-bridge",
@@ -1738,8 +1532,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/design-bridge",
       "generated_claude_path": "generated/claude/agents/design-bridge.md",
@@ -1750,9 +1543,7 @@
         "frontend-design",
         "design-assets"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/design-bridge.toml",
-      "published_codex_path": "/root/.codex/agents/design-bridge.toml"
+      "notes": ""
     },
     {
       "id": "graphql-architect",
@@ -1765,8 +1556,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/graphql-architect",
       "generated_claude_path": "generated/claude/agents/graphql-architect.md",
@@ -1777,9 +1567,7 @@
         "shopify-graphql",
         "engineering-standards"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/graphql-architect.toml",
-      "published_codex_path": "/root/.codex/agents/graphql-architect.toml"
+      "notes": ""
     },
     {
       "id": "image-generator",
@@ -1792,8 +1580,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/image-generator",
       "generated_claude_path": "generated/claude/agents/image-generator.md",
@@ -1805,23 +1592,20 @@
         "design-assets",
         "social-card-gen"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/image-generator.toml",
-      "published_codex_path": "/root/.codex/agents/image-generator.toml"
+      "notes": ""
     },
     {
       "id": "local-seo-specialist",
       "name": "Local SEO Specialist",
       "type": "agent",
-      "version": "0.3.0",
+      "version": "0.2.0",
       "status": "active",
       "upstream_repo_or_source": "",
       "source_url": "",
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/local-seo-specialist",
       "generated_claude_path": "generated/claude/agents/local-seo-specialist.md",
@@ -1832,14 +1616,9 @@
         "localrank-agent",
         "local-visibility",
         "google-business-profile-optimizer",
-        "linkgap",
-        "google-search-console",
-        "google-analytics",
-        "seo-growth-tracker"
+        "linkgap"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/local-seo-specialist.toml",
-      "published_codex_path": "/root/.codex/agents/local-seo-specialist.toml"
+      "notes": ""
     },
     {
       "id": "microservices-architect",
@@ -1852,8 +1631,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/microservices-architect",
       "generated_claude_path": "generated/claude/agents/microservices-architect.md",
@@ -1864,9 +1642,7 @@
         "engineering-standards",
         "boilerplate-generator"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/microservices-architect.toml",
-      "published_codex_path": "/root/.codex/agents/microservices-architect.toml"
+      "notes": ""
     },
     {
       "id": "product-researcher",
@@ -1879,8 +1655,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/product-researcher",
       "generated_claude_path": "generated/claude/agents/product-researcher.md",
@@ -1892,9 +1667,7 @@
         "competitor-alternatives",
         "reddit-insights"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/product-researcher.toml",
-      "published_codex_path": "/root/.codex/agents/product-researcher.toml"
+      "notes": ""
     },
     {
       "id": "qa-engineer",
@@ -1907,8 +1680,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/qa-engineer",
       "generated_claude_path": "generated/claude/agents/qa-engineer.md",
@@ -1920,9 +1692,7 @@
         "qa-only",
         "browser-use"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/qa-engineer.toml",
-      "published_codex_path": "/root/.codex/agents/qa-engineer.toml"
+      "notes": ""
     },
     {
       "id": "research-assistant",
@@ -1935,8 +1705,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/research-assistant",
       "generated_claude_path": "generated/claude/agents/research-assistant.md",
@@ -1947,9 +1716,7 @@
         "deep-research",
         "youtube-summarizer"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/research-assistant.toml",
-      "published_codex_path": "/root/.codex/agents/research-assistant.toml"
+      "notes": ""
     },
     {
       "id": "seo-manager",
@@ -1962,8 +1729,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/seo-manager",
       "generated_claude_path": "generated/claude/agents/seo-manager.md",
@@ -1971,19 +1737,15 @@
       "published_claude_path": "/root/.claude/agents/seo-manager.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
-        "claude-seo",
+        "seo-optimizer",
         "seo-audit",
-        "seo-geo-optimizer",
-        "ai-seo",
         "ai-discoverability-audit",
         "google-search-console",
         "google-analytics",
         "google-tag-manager",
         "seo-growth-tracker"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/seo-manager.toml",
-      "published_codex_path": "/root/.codex/agents/seo-manager.toml"
+      "notes": ""
     },
     {
       "id": "shopify-developer",
@@ -1996,8 +1758,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/shopify-developer",
       "generated_claude_path": "generated/claude/agents/shopify-developer.md",
@@ -2019,9 +1780,7 @@
         "engineering-standards",
         "boilerplate-generator"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/shopify-developer.toml",
-      "published_codex_path": "/root/.codex/agents/shopify-developer.toml"
+      "notes": ""
     },
     {
       "id": "social-media-manager",
@@ -2034,8 +1793,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/social-media-manager",
       "generated_claude_path": "generated/claude/agents/social-media-manager.md",
@@ -2047,9 +1805,7 @@
         "social-card-gen",
         "upload-post"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/social-media-manager.toml",
-      "published_codex_path": "/root/.codex/agents/social-media-manager.toml"
+      "notes": ""
     },
     {
       "id": "ui-designer",
@@ -2062,8 +1818,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/ui-designer",
       "generated_claude_path": "generated/claude/agents/ui-designer.md",
@@ -2075,9 +1830,7 @@
         "design-assets",
         "ux-audit"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/ui-designer.toml",
-      "published_codex_path": "/root/.codex/agents/ui-designer.toml"
+      "notes": ""
     },
     {
       "id": "firecrawl",
@@ -2092,8 +1845,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/firecrawl",
       "generated_claude_path": "generated/claude/skills/firecrawl",
@@ -2101,9 +1853,7 @@
       "requirements": [
         "@mendable/firecrawl-js"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/firecrawl",
-      "published_codex_path": "/root/.codex/skills/firecrawl"
+      "notes": ""
     },
     {
       "id": "stitch",
@@ -2118,8 +1868,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/stitch",
       "generated_claude_path": "generated/claude/skills/stitch",
@@ -2127,9 +1876,7 @@
       "requirements": [
         "@_davideast/stitch-mcp"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/stitch",
-      "published_codex_path": "/root/.codex/skills/stitch"
+      "notes": ""
     },
     {
       "id": "mailbox",
@@ -2144,8 +1891,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/mailbox",
       "generated_claude_path": "generated/claude/skills/mailbox",
@@ -2156,9 +1902,7 @@
         "nodemailer",
         "mailparser"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/mailbox",
-      "published_codex_path": "/root/.codex/skills/mailbox"
+      "notes": ""
     },
     {
       "id": "humanizer",
@@ -2166,7 +1910,7 @@
       "published_paperclip_status": "manifest_generated",
       "name": "Humanizer",
       "type": "skill",
-      "version": "2.5.1",
+      "version": "3.0.0",
       "status": "active",
       "upstream_repo_or_source": "https://github.com/blader/humanizer",
       "source_url": "https://github.com/blader/humanizer",
@@ -2180,9 +1924,7 @@
       "generated_claude_path": "generated/claude/skills/humanizer",
       "generated_paperclip_path": "generated/paperclip/skills/humanizer",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/humanizer",
-      "published_codex_path": "/root/.codex/skills/humanizer"
+      "notes": ""
     },
     {
       "id": "google-business-profile-optimizer",
@@ -2195,8 +1937,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/google-business-profile-optimizer",
       "generated_claude_path": "generated/claude/skills/google-business-profile-optimizer",
@@ -2206,9 +1947,7 @@
       "requirements": [
         "browser-use"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/google-business-profile-optimizer",
-      "published_codex_path": "/root/.codex/skills/google-business-profile-optimizer"
+      "notes": ""
     },
     {
       "id": "linkgap",
@@ -2221,8 +1960,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/linkgap",
       "generated_claude_path": "generated/claude/skills/linkgap",
@@ -2232,9 +1970,7 @@
       "requirements": [
         "browser-use"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/linkgap",
-      "published_codex_path": "/root/.codex/skills/linkgap"
+      "notes": ""
     },
     {
       "id": "nano-banana-realism-engine",
@@ -2247,8 +1983,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/nano-banana-realism-engine",
       "generated_claude_path": "generated/claude/skills/nano-banana-realism-engine",
@@ -2256,9 +1991,7 @@
       "published_claude_path": "/root/.claude/skills/nano-banana-realism-engine",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/nano-banana-realism-engine",
-      "published_codex_path": "/root/.codex/skills/nano-banana-realism-engine"
+      "notes": ""
     },
     {
       "id": "shopify-collection-card-renderer",
@@ -2271,8 +2004,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-collection-card-renderer",
       "generated_claude_path": "generated/claude/skills/shopify-collection-card-renderer",
@@ -2280,9 +2012,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-collection-card-renderer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-collection-card-renderer",
-      "published_codex_path": "/root/.codex/skills/shopify-collection-card-renderer"
+      "notes": ""
     },
     {
       "id": "shopify-pdp-designer",
@@ -2295,8 +2025,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-pdp-designer",
       "generated_claude_path": "generated/claude/skills/shopify-pdp-designer",
@@ -2304,9 +2033,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-pdp-designer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-pdp-designer",
-      "published_codex_path": "/root/.codex/skills/shopify-pdp-designer"
+      "notes": ""
     },
     {
       "id": "shopify-product-enrich",
@@ -2319,8 +2046,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-product-enrich",
       "generated_claude_path": "generated/claude/skills/shopify-product-enrich",
@@ -2328,9 +2054,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-product-enrich",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-product-enrich",
-      "published_codex_path": "/root/.codex/skills/shopify-product-enrich"
+      "notes": ""
     },
     {
       "id": "shopify-supplier-extract",
@@ -2343,8 +2067,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-supplier-extract",
       "generated_claude_path": "generated/claude/skills/shopify-supplier-extract",
@@ -2352,9 +2075,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-supplier-extract",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-supplier-extract",
-      "published_codex_path": "/root/.codex/skills/shopify-supplier-extract"
+      "notes": ""
     },
     {
       "id": "shopify-sync",
@@ -2367,8 +2088,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/shopify-sync",
       "generated_claude_path": "generated/claude/skills/shopify-sync",
@@ -2376,9 +2096,7 @@
       "published_claude_path": "/root/.claude/skills/shopify-sync",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/shopify-sync",
-      "published_codex_path": "/root/.codex/skills/shopify-sync"
+      "notes": ""
     },
     {
       "id": "engineering-standards",
@@ -2391,8 +2109,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/engineering-standards",
       "generated_claude_path": "generated/claude/skills/engineering-standards",
@@ -2400,9 +2117,7 @@
       "published_claude_path": "/root/.claude/skills/engineering-standards",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/engineering-standards",
-      "published_codex_path": "/root/.codex/skills/engineering-standards"
+      "notes": ""
     },
     {
       "id": "boilerplate-generator",
@@ -2415,8 +2130,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/boilerplate-generator",
       "generated_claude_path": "generated/claude/skills/boilerplate-generator",
@@ -2424,9 +2138,7 @@
       "published_claude_path": "/root/.claude/skills/boilerplate-generator",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/boilerplate-generator",
-      "published_codex_path": "/root/.codex/skills/boilerplate-generator"
+      "notes": ""
     },
     {
       "id": "higgsfield-video",
@@ -2439,8 +2151,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/higgsfield-video",
       "generated_claude_path": "generated/claude/skills/higgsfield-video",
@@ -2450,9 +2161,7 @@
       "requirements": [
         "nano-banana-realism-engine"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/higgsfield-video",
-      "published_codex_path": "/root/.codex/skills/higgsfield-video"
+      "notes": ""
     },
     {
       "id": "image-blueprint",
@@ -2465,8 +2174,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "skills/image-blueprint",
       "generated_claude_path": "generated/claude/skills/image-blueprint",
@@ -2476,9 +2184,7 @@
       "requirements": [
         "nano-banana-realism-engine"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/image-blueprint",
-      "published_codex_path": "/root/.codex/skills/image-blueprint"
+      "notes": ""
     },
     {
       "id": "image-reverse-engineer",
@@ -2491,8 +2197,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/image-reverse-engineer",
       "generated_claude_path": "generated/claude/agents/image-reverse-engineer.md",
@@ -2500,9 +2205,7 @@
       "published_claude_path": "/root/.claude/agents/image-reverse-engineer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/image-reverse-engineer.toml",
-      "published_codex_path": "/root/.codex/agents/image-reverse-engineer.toml"
+      "notes": ""
     },
     {
       "id": "video-director",
@@ -2515,8 +2218,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/video-director",
       "generated_claude_path": "generated/claude/agents/video-director.md",
@@ -2527,9 +2229,7 @@
         "higgsfield-video",
         "nano-banana-realism-engine"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/video-director.toml",
-      "published_codex_path": "/root/.codex/agents/video-director.toml"
+      "notes": ""
     },
     {
       "id": "git-specialist",
@@ -2542,8 +2242,7 @@
       "imported_from_pack": "",
       "compatible_targets": [
         "claude",
-        "paperclip",
-        "codex"
+        "paperclip"
       ],
       "source_path": "agents/git-specialist",
       "generated_claude_path": "generated/claude/agents/git-specialist.md",
@@ -2554,116 +2253,11 @@
         "investigate",
         "engineering-standards"
       ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/agents/git-specialist.toml",
-      "published_codex_path": "/root/.codex/agents/git-specialist.toml"
+      "notes": ""
     },
     {
-      "id": "google-analytics",
-      "name": "Google Analytics 4",
-      "type": "skill",
-      "version": "0.1.0",
-      "status": "active",
-      "upstream_repo_or_source": "",
-      "source_url": "",
-      "imported_from_pack": "",
-      "compatible_targets": [
-        "claude",
-        "paperclip",
-        "codex"
-      ],
-      "source_path": "skills/google-analytics",
-      "generated_claude_path": "generated/claude/skills/google-analytics",
-      "generated_paperclip_path": "generated/paperclip/skills/google-analytics",
-      "published_claude_path": "/root/.claude/skills/google-analytics",
-      "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "googleapis",
-        "@google-analytics/data"
-      ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/google-analytics",
-      "published_codex_path": "/root/.codex/skills/google-analytics"
-    },
-    {
-      "id": "google-search-console",
-      "name": "Google Search Console",
-      "type": "skill",
-      "version": "0.1.0",
-      "status": "active",
-      "upstream_repo_or_source": "",
-      "source_url": "",
-      "imported_from_pack": "",
-      "compatible_targets": [
-        "claude",
-        "paperclip",
-        "codex"
-      ],
-      "source_path": "skills/google-search-console",
-      "generated_claude_path": "generated/claude/skills/google-search-console",
-      "generated_paperclip_path": "generated/paperclip/skills/google-search-console",
-      "published_claude_path": "/root/.claude/skills/google-search-console",
-      "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "googleapis"
-      ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/google-search-console",
-      "published_codex_path": "/root/.codex/skills/google-search-console"
-    },
-    {
-      "id": "google-tag-manager",
-      "name": "Google Tag Manager",
-      "type": "skill",
-      "version": "0.1.0",
-      "status": "active",
-      "upstream_repo_or_source": "",
-      "source_url": "",
-      "imported_from_pack": "",
-      "compatible_targets": [
-        "claude",
-        "paperclip",
-        "codex"
-      ],
-      "source_path": "skills/google-tag-manager",
-      "generated_claude_path": "generated/claude/skills/google-tag-manager",
-      "generated_paperclip_path": "generated/paperclip/skills/google-tag-manager",
-      "published_claude_path": "/root/.claude/skills/google-tag-manager",
-      "published_paperclip_status": "manifest_generated",
-      "requirements": [
-        "googleapis"
-      ],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/google-tag-manager",
-      "published_codex_path": "/root/.codex/skills/google-tag-manager"
-    },
-    {
-      "id": "seo-growth-tracker",
-      "name": "SEO Growth Tracker",
-      "type": "skill",
-      "version": "0.1.0",
-      "status": "active",
-      "upstream_repo_or_source": "",
-      "source_url": "",
-      "imported_from_pack": "",
-      "compatible_targets": [
-        "claude",
-        "paperclip",
-        "codex"
-      ],
-      "source_path": "skills/seo-growth-tracker",
-      "generated_claude_path": "generated/claude/skills/seo-growth-tracker",
-      "generated_paperclip_path": "generated/paperclip/skills/seo-growth-tracker",
-      "published_claude_path": "/root/.claude/skills/seo-growth-tracker",
-      "published_paperclip_status": "manifest_generated",
-      "requirements": [],
-      "notes": "",
-      "generated_codex_path": "generated/codex/skills/seo-growth-tracker",
-      "published_codex_path": "/root/.codex/skills/seo-growth-tracker"
-    },
-    {
-      "id": "anti-impossibility-validator",
-      "name": "Anti-Impossibility Validator",
+      "id": "ai-image-system",
+      "name": "AI Image System",
       "type": "skill",
       "version": "1.0.0",
       "status": "active",
@@ -2675,16 +2269,284 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills/anti-impossibility-validator",
-      "generated_claude_path": "generated/claude/skills/anti-impossibility-validator",
-      "generated_paperclip_path": "generated/paperclip/skills/anti-impossibility-validator",
-      "generated_codex_path": "generated/codex/skills/anti-impossibility-validator",
-      "published_claude_path": "/root/.claude/skills/anti-impossibility-validator",
+      "source_path": "skills/ai-image-system",
+      "generated_claude_path": "generated/claude/skills/ai-image-system",
+      "generated_paperclip_path": "generated/paperclip/skills/ai-image-system",
+      "published_claude_path": "/root/.claude/skills/ai-image-system",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "/root/.codex/skills/anti-impossibility-validator",
+      "requirements": [
+        "image-router",
+        "generate-image",
+        "approve-output",
+        "reject-output"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "approve-output",
+      "name": "Approve Output",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/approve-output",
+      "generated_claude_path": "generated/claude/skills/approve-output",
+      "generated_paperclip_path": "generated/paperclip/skills/approve-output",
+      "published_claude_path": "/root/.claude/skills/approve-output",
+      "published_paperclip_status": "manifest_generated",
       "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "cleanup-temp",
+      "name": "Cleanup Temp",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/cleanup-temp",
+      "generated_claude_path": "generated/claude/skills/cleanup-temp",
+      "generated_paperclip_path": "generated/paperclip/skills/cleanup-temp",
+      "published_claude_path": "/root/.claude/skills/cleanup-temp",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "generate-image",
+      "name": "Generate Image",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/generate-image",
+      "generated_claude_path": "generated/claude/skills/generate-image",
+      "generated_paperclip_path": "generated/paperclip/skills/generate-image",
+      "published_claude_path": "/root/.claude/skills/generate-image",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "image-router"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "image-router",
+      "name": "Image Router",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/image-router",
+      "generated_claude_path": "generated/claude/skills/image-router",
+      "generated_paperclip_path": "generated/paperclip/skills/image-router",
+      "published_claude_path": "/root/.claude/skills/image-router",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "reject-output",
+      "name": "Reject Output",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/reject-output",
+      "generated_claude_path": "generated/claude/skills/reject-output",
+      "generated_paperclip_path": "generated/paperclip/skills/reject-output",
+      "published_claude_path": "/root/.claude/skills/reject-output",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "select-lora",
+      "name": "Select LoRA",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "placeholder",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/select-lora",
+      "generated_claude_path": "generated/claude/skills/select-lora",
+      "generated_paperclip_path": "generated/paperclip/skills/select-lora",
+      "published_claude_path": "/root/.claude/skills/select-lora",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "train-lora",
+      "name": "Train LoRA",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "placeholder",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/train-lora",
+      "generated_claude_path": "generated/claude/skills/train-lora",
+      "generated_paperclip_path": "generated/paperclip/skills/train-lora",
+      "published_claude_path": "/root/.claude/skills/train-lora",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "validate-training-set"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "validate-training-set",
+      "name": "Validate Training Set",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "placeholder",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/validate-training-set",
+      "generated_claude_path": "generated/claude/skills/validate-training-set",
+      "generated_paperclip_path": "generated/paperclip/skills/validate-training-set",
+      "published_claude_path": "/root/.claude/skills/validate-training-set",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "seo-optimizer",
+      "name": "SEO Optimizer",
+      "type": "skill",
+      "version": "2.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "https://github.com/AgriciDaniel/claude-seo",
+      "source_url": "https://github.com/AgriciDaniel/claude-seo",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/seo-optimizer",
+      "generated_claude_path": "generated/claude/skills/seo-optimizer",
+      "generated_paperclip_path": "generated/paperclip/skills/seo-optimizer",
+      "published_claude_path": "/root/.claude/skills/seo-optimizer",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [],
+      "notes": ""
+    },
+    {
+      "id": "image-director",
+      "name": "Image Director",
+      "type": "agent",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "agents/image-director",
+      "generated_claude_path": "generated/claude/agents/image-director.md",
+      "generated_paperclip_path": "generated/paperclip/agents/image-director",
+      "published_claude_path": "/root/.claude/agents/image-director.md",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "image-router",
+        "generate-image",
+        "approve-output",
+        "reject-output",
+        "cleanup-temp",
+        "select-lora",
+        "train-lora",
+        "validate-training-set",
+        "image-blueprint",
+        "nano-banana-realism-engine",
+        "higgsfield"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wordpress-developer",
+      "name": "WordPress Developer",
+      "type": "agent",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "agents/wordpress-developer",
+      "generated_claude_path": "generated/claude/agents/wordpress-developer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/wordpress-developer",
+      "published_claude_path": "/root/.claude/agents/wordpress-developer.md",
+      "published_paperclip_status": "manifest_generated",
+      "requirements": [
+        "wordpress-setup",
+        "wordpress-content",
+        "wordpress-elementor",
+        "wordpress-agent",
+        "engineering-standards",
+        "browser-use"
+      ],
       "notes": ""
     }
   ],
-  "updated": "2026-04-14T22:56:50.153859"
+  "updated": "2026-04-20T23:23:02.223054"
 }
