@@ -1,0 +1,13 @@
+id: lora-train
+name: LoRA Train
+type: skill
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Run a LoRA training job against a prepared and captioned dataset. Backend-agnostic (kohya_ss, sd-scripts, OneTrainer). Accepts config inputs, produces a candidate model file and run metadata.
+status: active
+trigger: train lora, run lora training, fine-tune lora
+requirements:
+  - lora-prepare-dataset
+  - lora-caption-dataset

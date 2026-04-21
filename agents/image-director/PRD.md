@@ -189,8 +189,11 @@ Every generation job must:
 | reject-output | Mark rejected, write failure notes | 1 |
 | cleanup-temp | Remove temporary files safely | 1 |
 | select-lora | Match best existing LoRA(s) | 2 |
-| train-lora | Train candidate LoRA via kohya_ss on Runpod | 3 |
-| validate-training-set | Check dataset quality before training | 3 |
+| lora-prepare-dataset | Validate/prep a LoRA training dataset | 3 |
+| lora-caption-dataset | Generate or normalise captions with a trigger token | 3 |
+| lora-train | Run LoRA training (backend-agnostic) | 3 |
+| lora-evaluate | Generate test grid and score the candidate LoRA | 3 |
+| lora-version | Version the candidate, write registry entry and run report | 3 |
 
 ## Workflow Templates
 

@@ -1,0 +1,6 @@
+{
+  "source": "custom",
+  "author": "Red Banana Studios",
+  "created": "2026-04-21",
+  "notes": "LoRA training pipeline — evaluation step. Generates a test grid (identity / flexibility / style-neutrality / negative-control) at multiple weights, scores four axes (consistency / fidelity / overfitting / artefacts), produces a pass/review/fail verdict."
+}

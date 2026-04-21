@@ -1,0 +1,12 @@
+id: lora-caption-dataset
+name: LoRA Caption Dataset
+type: skill
+version: 0.1.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Generate or validate captions for a LoRA training dataset. Enforces trigger-token usage and a consistent caption format so downstream training is reproducible.
+status: active
+trigger: caption lora dataset, tag training images, add trigger token
+requirements:
+  - lora-prepare-dataset

@@ -2977,7 +2977,37 @@
       "published_codex_path": "C:/Users/peter/.codex/skills/seo-growth-tracker",
       "requirements": [],
       "notes": ""
+    },
+    {
+      "id": "lora-prepare-dataset",
+      "published_claude_path": "C:/Users/peter/.claude/skills/lora-prepare-dataset",
+      "published_paperclip_status": "manifest_generated",
+      "published_codex_path": "C:/Users/peter/.codex/skills/lora-prepare-dataset"
+    },
+    {
+      "id": "lora-caption-dataset",
+      "published_claude_path": "C:/Users/peter/.claude/skills/lora-caption-dataset",
+      "published_paperclip_status": "manifest_generated",
+      "published_codex_path": "C:/Users/peter/.codex/skills/lora-caption-dataset"
+    },
+    {
+      "id": "lora-train",
+      "published_claude_path": "C:/Users/peter/.claude/skills/lora-train",
+      "published_paperclip_status": "manifest_generated",
+      "published_codex_path": "C:/Users/peter/.codex/skills/lora-train"
+    },
+    {
+      "id": "lora-evaluate",
+      "published_claude_path": "C:/Users/peter/.claude/skills/lora-evaluate",
+      "published_paperclip_status": "manifest_generated",
+      "published_codex_path": "C:/Users/peter/.codex/skills/lora-evaluate"
+    },
+    {
+      "id": "lora-version",
+      "published_claude_path": "C:/Users/peter/.claude/skills/lora-version",
+      "published_paperclip_status": "manifest_generated",
+      "published_codex_path": "C:/Users/peter/.codex/skills/lora-version"
     }
   ],
-  "updated": "2026-04-21T11:35:49.343458"
+  "updated": "2026-04-21T22:08:35.131234"
 }

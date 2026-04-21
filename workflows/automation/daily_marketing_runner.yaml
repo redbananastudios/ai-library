@@ -1,0 +1,149 @@
+# Daily Marketing Runner
+# ======================
+# High-level meta-workflow that coordinates the marketing engine end-to-end
+# each day: it reviews recent performance, decides what to make today, runs
+# the relevant content workflows, assembles a daily package, and tags the
+# output with a review status.
+#
+# V1: designed for manual invocation. A human or agent triggers this and
+# works through the output.
+#
+# Future: schedulable via Claude Code `/schedule`, GitHub Actions, or
+# external cron. The workflow definition stays the same — only the trigger
+# changes.
+#
+# Notes on step semantics:
+# - Uses `workflow:` step references (not just `skill:`) to invoke child
+#   workflows. See ../README.md for reference conventions.
+# - `decide_channel_mix` returns a list of channels (e.g. ["social", "blog"]).
+#   The three dispatch_* steps are each invoked by the runtime; if the step's
+#   corresponding channel is not in the mix, its output is null and
+#   `collect_outputs` tolerates that. Keeps v1 schema free of conditionals.
+
+name: daily_marketing_runner
+description: Daily autonomous marketing runner — review, decide, produce, package, tag
+version: 0.1.0
+
+input:
+  - name: brand
+    required: true
+    description: Brand identifier for today's run
+  - name: today
+    required: true
+    description: Today's date, ISO 8601
+  - name: overrides
+    required: false
+    description: "Manual overrides (e.g. force a specific channel or goal)"
+
+steps:
+  - id: select_brand_context
+    type: manual
+    description: Load brand voice, audience, active channels, publishing calendar, and compute the review date_range (last 7 days)
+    input:
+      brand: $input.brand
+      today: $input.today
+    output: brand_context
+
+  - id: review_recent_performance
+    workflow: performance_review
+    description: Pull last 7 days of analytics across active channels
+    input:
+      brand: $input.brand
+      date_range: $steps.select_brand_context.output.date_range
+      channels: $steps.select_brand_context.output.active_channels
+    output: recent_performance
+
+  - id: decide_daily_goal
+    skill: creative-director
+    description: Choose today's highest-leverage content goal given performance + calendar
+    input:
+      brand_context: $steps.select_brand_context.output
+      performance: $steps.review_recent_performance.output
+      overrides: $input.overrides
+    output: daily_goal
+
+  - id: decide_channel_mix
+    type: manual
+    description: Decide which channels to produce for today (list from ["social", "blog", "ads"])
+    input:
+      daily_goal: $steps.decide_daily_goal.output
+      brand_context: $steps.select_brand_context.output
+      performance: $steps.review_recent_performance.output
+      overrides: $input.overrides
+    output: channel_mix
+
+  # Dispatch steps: the runtime invokes each below, but only produces output
+  # for channels present in channel_mix. Others resolve to null and
+  # collect_outputs handles the absence.
+  - id: dispatch_social
+    workflow: social_post
+    description: Produce today's social post (active only if "social" in channel_mix)
+    input:
+      brand: $input.brand
+      platform: $steps.decide_channel_mix.output.social_platform
+      objective: $steps.decide_daily_goal.output.objective
+      audience: $steps.select_brand_context.output.audience
+    output: social_output
+
+  - id: dispatch_blog
+    workflow: blog_post
+    description: Produce today's blog article (active only if "blog" in channel_mix)
+    input:
+      brand: $input.brand
+      topic_seed: $steps.decide_daily_goal.output.topic_seed
+    output: blog_output
+
+  - id: dispatch_ads
+    workflow: ad_variants
+    description: Produce today's ad variants (active only if "ads" in channel_mix)
+    input:
+      brand: $input.brand
+      campaign_goal: $steps.decide_daily_goal.output.campaign_goal
+      platform: $steps.decide_channel_mix.output.ads_platform
+      audience: $steps.select_brand_context.output.audience
+    output: ads_output
+
+  - id: collect_outputs
+    type: manual
+    description: Combine all child workflow outputs into one daily package (tolerates null outputs for skipped channels)
+    input:
+      social: $steps.dispatch_social.output
+      blog: $steps.dispatch_blog.output
+      ads: $steps.dispatch_ads.output
+      daily_goal: $steps.decide_daily_goal.output
+      channel_mix: $steps.decide_channel_mix.output
+    output: daily_package
+
+  - id: produce_review_summary
+    type: manual
+    description: Produce a human-readable summary of what was made today and why
+    input:
+      daily_package: $steps.collect_outputs.output
+      performance: $steps.review_recent_performance.output
+      daily_goal: $steps.decide_daily_goal.output
+    output: review_summary
+
+  - id: tag_status
+    type: manual
+    description: Tag the package as draft | review | ready-to-publish based on review rules
+    input:
+      daily_package: $steps.collect_outputs.output
+      review_summary: $steps.produce_review_summary.output
+    output: status
+
+  - id: store_for_feedback_loop
+    type: manual
+    description: Persist the package + goal + performance baseline for future analytics attribution
+    input:
+      daily_package: $steps.collect_outputs.output
+      status: $steps.tag_status.output
+      daily_goal: $steps.decide_daily_goal.output
+      performance_baseline: $steps.review_recent_performance.output
+      date: $input.today
+    output: stored_record
+
+outputs:
+  - daily_package
+  - review_summary
+  - status
+  - stored_record

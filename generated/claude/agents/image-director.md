@@ -90,10 +90,14 @@ Show outputs to the user. Ask for approval or feedback.
 If a subject needs consistent identity (character, product, brand style) and no suitable LoRA exists:
 
 1. Ask user for a training image set
-2. Use **validate-training-set** skill to QA the dataset
-3. If validated → use **train-lora** skill (kohya_ss on Runpod)
-4. Use candidate LoRA in generation
-5. Only on approved output → LoRA is promoted via **approve-output** skill
+2. Run the **`workflows/lora/character_training.yaml`** pipeline, which calls:
+   - **lora-prepare-dataset** — QA the dataset (count, resolution, duplicates, consistency)
+   - **lora-caption-dataset** — generate/normalise captions with a trigger token
+   - **lora-train** — execute the training run (backend-agnostic: kohya_ss, sd-scripts, OneTrainer)
+   - **lora-evaluate** — generate a test grid and score the candidate
+   - **lora-version** — write registry entry and consolidated run report
+3. Use the resulting candidate LoRA in generation
+4. Only on approved output → LoRA is promoted via **approve-output** skill
 
 **NEVER auto-train LoRAs.** Only when clearly needed or explicitly asked.
 
@@ -111,8 +115,11 @@ Periodically or on request, use the **cleanup-temp** skill to remove temp files 
 | **higgsfield** | Premium models, quick prototypes, fallback when SD fails |
 | **image-blueprint** | Reverse-engineer reference images into structured prompts |
 | **select-lora** | Match best existing LoRA from registry (Phase 2) |
-| **validate-training-set** | QA a dataset before training (Phase 3) |
-| **train-lora** | Train candidate LoRA via kohya_ss on Runpod (Phase 3) |
+| **lora-prepare-dataset** | Validate/prep a training dataset (Phase 3) |
+| **lora-caption-dataset** | Generate or normalise captions with a trigger token (Phase 3) |
+| **lora-train** | Run the LoRA training job — backend-agnostic (Phase 3) |
+| **lora-evaluate** | Generate a test grid and score the candidate LoRA (Phase 3) |
+| **lora-version** | Version the candidate, write registry entry and run report (Phase 3) |
 | **approve-output** | Mark output approved, write winning patterns, promote LoRA |
 | **reject-output** | Mark output rejected, classify failure, write failed patterns |
 | **cleanup-temp** | Safely remove temp files |

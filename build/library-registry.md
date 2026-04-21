@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-21T11:35:49
+Updated: 2026-04-21T22:08:35
 
-Total items: 118
+Total items: 123
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -65,6 +65,11 @@ Total items: 118
 | local-seo-specialist | Local SEO Specialist | agent | 0.3.0 | active | yes | manifest_generated |
 | local-visibility | Local Visibility | skill | 0.1.0 | imported | yes | manifest_generated |
 | localrank-agent | LocalRank Agent | skill | 0.1.0 | imported | yes | manifest_generated |
+| lora-caption-dataset |  |  |  |  | no | manifest_generated |
+| lora-evaluate |  |  |  |  | no | manifest_generated |
+| lora-prepare-dataset |  |  |  |  | no | manifest_generated |
+| lora-train |  |  |  |  | no | manifest_generated |
+| lora-version |  |  |  |  | no | manifest_generated |
 | mailbox | AI Mailbox Assistant | skill | 0.2.0 | active | yes | manifest_generated |
 | marketing-principles | Marketing Principles | skill | 0.1.0 | imported | yes | manifest_generated |
 | microservices-architect | Microservices Architect | agent | 0.2.0 | active | yes | manifest_generated |

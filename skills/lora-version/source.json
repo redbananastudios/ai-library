@@ -1,0 +1,6 @@
+{
+  "source": "custom",
+  "author": "Red Banana Studios",
+  "created": "2026-04-21",
+  "notes": "LoRA training pipeline — versioning step. Registry-path-driven (no hardcoded registry location). Three version strategies (semver / date / increment). Writes consolidated run report. Preserves the candidate default; never auto-promotes."
+}

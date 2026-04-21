@@ -1,0 +1,6 @@
+{
+  "source": "custom",
+  "author": "Red Banana Studios",
+  "created": "2026-04-21",
+  "notes": "LoRA training pipeline — training step. Replaces the legacy train-lora skill with a backend-agnostic, path-driven version. Preserves the candidate→approved safety pattern and the budget-tier presets; removes hardcoded Runpod/kohya assumptions from the skill body."
+}

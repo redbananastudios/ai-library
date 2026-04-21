@@ -16,8 +16,11 @@ requirements:
   - reject-output
   - cleanup-temp
   - select-lora
-  - train-lora
-  - validate-training-set
+  - lora-prepare-dataset
+  - lora-caption-dataset
+  - lora-train
+  - lora-evaluate
+  - lora-version
   - image-blueprint
   - nano-banana-realism-engine
   - higgsfield
