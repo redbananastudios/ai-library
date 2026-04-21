@@ -1,0 +1,70 @@
+# Performance Review Workflow
+# Pulls content + campaign analytics, analyses them, and produces actionable
+# optimisation recommendations. Designed so it can consume any future data
+# source (social metrics, blog rankings, ad CTR, conversion events) via the
+# same shape.
+
+name: performance_review
+description: Aggregate analytics, surface performance signals, and recommend optimisations
+version: 0.1.0
+
+input:
+  - name: brand
+    required: true
+    description: Brand identifier
+  - name: date_range
+    required: true
+    description: "Start and end dates, ISO 8601 (e.g. {start: '2026-04-01', end: '2026-04-21'})"
+  - name: channels
+    required: true
+    description: "List of channels to review (e.g. ['blog', 'social', 'ads'])"
+
+steps:
+  - id: pull_search_analytics
+    skill: google-search-console
+    description: Pull rankings, impressions, clicks, CTR for the date range
+    input:
+      brand: $input.brand
+      date_range: $input.date_range
+    output: search_analytics
+
+  - id: pull_site_analytics
+    skill: google-analytics
+    description: Pull sessions, conversions, bounce rate, engagement metrics
+    input:
+      brand: $input.brand
+      date_range: $input.date_range
+      channels: $input.channels
+    output: site_analytics
+
+  - id: analyze_metrics
+    type: manual
+    description: Normalise across sources, then rank content by performance (top and weak performers)
+    input:
+      search: $steps.pull_search_analytics.output
+      site: $steps.pull_site_analytics.output
+      channels: $input.channels
+    output: performance_ranking
+
+  - id: generate_insights
+    type: manual
+    description: Synthesise qualitative insights from the ranked performance data
+    input:
+      ranking: $steps.analyze_metrics.output
+      date_range: $input.date_range
+      brand: $input.brand
+    output: insights
+
+  - id: recommend_optimisations
+    skill: seo-growth-tracker
+    description: Translate insights into specific, actionable next-step recommendations
+    input:
+      insights: $steps.generate_insights.output
+      ranking: $steps.analyze_metrics.output
+      brand: $input.brand
+    output: recommendations
+
+outputs:
+  - performance_ranking
+  - insights
+  - recommendations

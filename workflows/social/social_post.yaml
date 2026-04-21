@@ -1,0 +1,90 @@
+# Social Post Workflow
+# Produces a coherent social media post where the image, caption, and CTA all
+# derive from the same creative concept. Ensures visual and copy alignment
+# instead of generating image and text independently.
+
+name: social_post
+description: Generate a single social post (image + caption + CTA) from one shared concept
+version: 0.1.0
+
+input:
+  - name: brand
+    required: true
+    description: Brand identifier (e.g. "Red Banana Studios")
+  - name: platform
+    required: true
+    description: Target platform (e.g. "linkedin", "instagram", "facebook")
+  - name: objective
+    required: true
+    description: What this post should achieve (awareness, engagement, click-through, etc.)
+  - name: audience
+    required: false
+    description: Target audience descriptor (defaults to brand's primary audience)
+  - name: tone
+    required: false
+    description: Override the brand voice for this post
+
+steps:
+  - id: generate_concept
+    skill: content-idea-generator
+    description: Produce a single creative concept (angle, emotion, hook, audience, objective)
+    input:
+      brand: $input.brand
+      platform: $input.platform
+      objective: $input.objective
+      audience: $input.audience
+    output: concept
+
+  - id: build_image_prompt
+    skill: image-blueprint
+    description: Translate the concept into a detailed image generation prompt
+    input:
+      concept: $steps.generate_concept.output
+      brand: $input.brand
+      platform: $input.platform
+    output: image_prompt
+
+  - id: generate_image
+    skill: generate-image
+    description: Produce the visual asset for the post
+    input:
+      prompt: $steps.build_image_prompt.output
+      aspect_ratio: "platform_default"
+    output: image_url
+
+  - id: write_caption
+    skill: social-content
+    description: Write platform-native caption rooted in the same concept
+    input:
+      concept: $steps.generate_concept.output
+      platform: $input.platform
+      brand: $input.brand
+      tone: $input.tone
+    output: caption
+
+  - id: write_cta
+    skill: copywriter
+    description: Produce a punchy CTA aligned with the concept objective
+    input:
+      concept: $steps.generate_concept.output
+      objective: $input.objective
+      platform: $input.platform
+    output: cta
+
+  - id: assemble_post
+    type: manual
+    description: Combine outputs into the final post object
+    input:
+      image_url: $steps.generate_image.output
+      caption: $steps.write_caption.output
+      cta: $steps.write_cta.output
+      platform: $input.platform
+      concept: $steps.generate_concept.output
+    output: post
+
+outputs:
+  - image_url
+  - caption
+  - cta
+  - concept
+  - post

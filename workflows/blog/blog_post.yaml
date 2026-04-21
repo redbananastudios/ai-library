@@ -1,0 +1,85 @@
+# Blog Post Workflow
+# SEO-focused blog content pipeline. Starts with keyword research, selects a
+# topic, outlines, drafts, refines for SEO, and proposes internal links. The
+# final package is ready for a CMS handoff.
+
+name: blog_post
+description: Produce an SEO-focused blog article with keyword grounding and internal linking
+version: 0.1.0
+
+input:
+  - name: brand
+    required: true
+    description: Brand identifier
+  - name: topic_seed
+    required: true
+    description: Starting topic, keyword, or question (e.g. "AI marketing automation")
+  - name: target_length
+    required: false
+    description: Word count target (default 1500)
+
+steps:
+  - id: keyword_research
+    skill: seo-optimizer
+    description: Expand topic_seed into a primary keyword + related terms + search intent
+    input:
+      seed: $input.topic_seed
+      brand: $input.brand
+    output: keyword_set
+
+  - id: topic_selection
+    skill: content-idea-generator
+    description: Pick the single most promising angle from the keyword set
+    input:
+      keyword_set: $steps.keyword_research.output
+      brand: $input.brand
+    output: topic
+
+  - id: outline
+    skill: copywriter
+    description: Produce a structured H2/H3 outline with intent per section
+    input:
+      topic: $steps.topic_selection.output
+      keyword_set: $steps.keyword_research.output
+      target_length: $input.target_length
+    output: outline
+
+  - id: draft
+    skill: copywriter
+    description: Draft the full article from the outline
+    input:
+      outline: $steps.outline.output
+      keyword_set: $steps.keyword_research.output
+      brand: $input.brand
+      target_length: $input.target_length
+    output: draft
+
+  - id: seo_refine
+    skill: seo-optimizer
+    description: On-page SEO pass — returns seo_package with title, slug, meta_description, heading revisions
+    input:
+      draft: $steps.draft.output
+      keyword_set: $steps.keyword_research.output
+    output: seo_package
+
+  - id: internal_linking
+    type: manual
+    description: Suggest internal links to related content on the same site (no dedicated skill yet)
+    input:
+      draft: $steps.draft.output
+      topic: $steps.topic_selection.output
+      brand: $input.brand
+    output: internal_links
+
+  - id: assemble_package
+    type: manual
+    description: Combine draft + SEO metadata + internal links into final blog package
+    input:
+      seo_package: $steps.seo_refine.output
+      body_markdown: $steps.draft.output
+      internal_links: $steps.internal_linking.output
+      keyword_set: $steps.keyword_research.output
+    output: blog_package
+
+outputs:
+  - blog_package

@@ -1,0 +1,82 @@
+# Ad Variants Workflow
+# Produces N structured ad variants ready for A/B testing. Each variant has
+# its own concept, image, headline, body, and CTA — concepts diverge
+# deliberately so the test surfaces real performance differences.
+#
+# Designed to prepare the system for future A/B testing and performance
+# tagging. Variant IDs should be preserved downstream so performance data
+# can be attributed back to the originating concept.
+
+name: ad_variants
+description: Generate multiple ad creative variants (concept + image + copy + CTA) for A/B testing
+version: 0.1.0
+
+input:
+  - name: brand
+    required: true
+    description: Brand identifier
+  - name: campaign_goal
+    required: true
+    description: What the campaign should achieve (e.g. "lead gen", "purchase conversion")
+  - name: platform
+    required: true
+    description: Ad platform ("meta", "google", "linkedin", "tiktok")
+  - name: variant_count
+    required: false
+    description: Number of variants to produce (default 3)
+  - name: audience
+    required: false
+    description: Target audience descriptor
+
+steps:
+  - id: generate_concepts
+    skill: creative-director
+    description: Produce N deliberately-divergent concepts for A/B testing
+    input:
+      brand: $input.brand
+      campaign_goal: $input.campaign_goal
+      platform: $input.platform
+      audience: $input.audience
+      count: $input.variant_count
+    output: concepts
+
+  - id: build_image_prompts
+    skill: image-blueprint
+    description: Translate each concept into an image prompt (one per variant)
+    input:
+      concepts: $steps.generate_concepts.output
+      brand: $input.brand
+      platform: $input.platform
+    output: image_prompts
+
+  - id: generate_images
+    skill: generate-image
+    description: Produce one image per variant
+    input:
+      prompts: $steps.build_image_prompts.output
+      aspect_ratio: "platform_default"
+    output: image_urls
+
+  - id: write_ad_copy
+    skill: claude-ads
+    description: Write headline + body + CTA for each variant, rooted in its concept
+    input:
+      concepts: $steps.generate_concepts.output
+      platform: $input.platform
+      brand: $input.brand
+      campaign_goal: $input.campaign_goal
+    output: ad_copy
+
+  - id: assemble_variants
+    type: manual
+    description: Zip concepts + images + copy into structured variant records
+    input:
+      concepts: $steps.generate_concepts.output
+      image_urls: $steps.generate_images.output
+      ad_copy: $steps.write_ad_copy.output
+      platform: $input.platform
+      campaign_goal: $input.campaign_goal
+    output: variants
+
+outputs:
+  - variants
