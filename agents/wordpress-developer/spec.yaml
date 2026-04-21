@@ -18,5 +18,5 @@ requirements:
   - browser-use
 status: active
 description: Builds and manages WordPress sites. Handles setup, theme customization, Elementor page building, content management, plugin configuration, and performance optimization. Orchestrates all WordPress skills.
-trigger: ''
+trigger: "build wordpress site, wordpress developer, manage wordpress"
 imported_from_pack: ''

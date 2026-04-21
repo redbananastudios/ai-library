@@ -1,6 +1,6 @@
 ---
-name: claude-seo
-description: SEO skill pack - comprehensive SEO capabilities
+name: seo-optimizer
+description: Comprehensive SEO optimization covering technical SEO, content quality (E-E-A-T), schema markup, Core Web Vitals, AI search optimization (GEO for AI Overviews, ChatGPT, Perplexity), programmatic SEO, local SEO, and backlink analysis. 16 sub-skills, industry detection, and PDF reporting.
 ---
 # SEO: Universal SEO Analysis Skill
 
@@ -156,3 +156,34 @@ For parallel analysis during audits:
 | URL unreachable | Report the error and suggest the user verify the URL. Do not attempt to guess site content. |
 | Sub-skill fails during audit | Report partial results from successful sub-skills. Clearly note which sub-skill failed and why. Suggest re-running the failed sub-skill individually. |
 | Ambiguous business type detection | Present the top two detected types with supporting signals. Ask the user to confirm before proceeding with industry-specific recommendations. |
+
+## AI Search Optimization (merged from ai-seo)
+
+For AI-specific SEO (also called AEO, GEO, LLMO), use when optimizing content for AI search engines, getting cited by LLMs, or appearing in AI-generated answers.
+
+### AI Search Landscape
+
+| Platform | How It Works | Source Selection |
+|----------|-------------|----------------|
+| **Google AI Overviews** | Summarizes top-ranking pages | Strong correlation with traditional rankings |
+| **ChatGPT (with search)** | Searches web, cites sources | Draws from wider range, not just top-ranked |
+| **Perplexity** | Always cites sources with links | Favors authoritative, recent, well-structured content |
+| **Gemini** | Google's AI assistant | Pulls from Google index + Knowledge Graph |
+| **Claude** | Anthropic's AI assistant | Trained on quality web content, direct attribution |
+
+### AI Citation Framework
+
+1. **Structure** — Use clear headings, FAQ blocks, definition lists. AI extracts structured content first.
+2. **Authority** — E-E-A-T signals matter even more. Author bios, credentials, citations.
+3. **Freshness** — Keep content updated. AI platforms weight recency.
+4. **Specificity** — Answer specific questions directly. AI prefers concrete answers over vague overviews.
+5. **Schema** — Implement FAQ, HowTo (where valid), Article, Organization schema for machine readability.
+6. **Comparison** — "X vs Y" and comparison content gets cited heavily by AI systems.
+
+### AI Visibility Audit
+
+When auditing for AI visibility:
+1. Check if the brand appears in ChatGPT, Perplexity, Gemini responses for key queries
+2. Identify which competitors ARE getting cited
+3. Analyze content structure differences between cited and non-cited pages
+4. Recommend structural changes to improve extractability

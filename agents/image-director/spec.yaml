@@ -23,5 +23,5 @@ requirements:
   - higgsfield
 status: active
 description: Full-service image generation director. Orchestrates multi-provider image generation with Runpod+ComfyUI, Higgsfield, and Gemini. Manages LoRA lifecycle, project-local storage, self-improving memory. Can reverse-engineer references and apply realism refinement. Routes between SD, Gemini and Higgsfield based on need.
-trigger: ''
+trigger: "direct image project, orchestrate image generation, image director"
 imported_from_pack: ''

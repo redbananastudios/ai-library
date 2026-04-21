@@ -257,7 +257,7 @@ When delivering a report, provide:
 - **google-search-console** — primary data source
 - **google-analytics** — primary data source
 - **google-tag-manager** — if new tracking is needed to close measurement gaps
-- **seo-audit** / **ai-seo** / **claude-seo** — for acting on findings
+- **seo-audit** / **seo-optimizer** — for acting on findings
 - **wordpress-content** — for implementing content changes
 - **seo-manager** agent — orchestrates the full weekly/monthly cycle
 - **local-seo-specialist** agent — for local-specific growth (GBP, map pack)

@@ -1,7 +1,7 @@
 {
   "item_id": "seo-optimizer",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/seo-optimizer/payload.json",
-  "published_at": "2026-04-20T23:23:01.973515",
+  "payload_path": "generated\\paperclip\\skills\\seo-optimizer\\payload.json",
+  "published_at": "2026-04-21T11:17:47.805510",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

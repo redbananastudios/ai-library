@@ -250,4 +250,4 @@ When delivering reports, include:
 
 - Pair with **google-analytics** for traffic-to-conversion correlation
 - Pair with **seo-growth-tracker** for longitudinal tracking and weekly/monthly reports
-- Pair with **wordpress-content** / **ai-seo** / **seo-audit** for acting on the findings
+- Pair with **wordpress-content** / **seo-optimizer** / **seo-audit** for acting on the findings

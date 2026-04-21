@@ -1,7 +1,7 @@
 ---
 name: seo-optimizer
 description: Comprehensive SEO optimization covering technical SEO, content quality (E-E-A-T), schema markup, Core Web Vitals, AI search optimization (GEO for AI Overviews, ChatGPT, Perplexity), programmatic SEO, local SEO, and backlink analysis. 16 sub-skills, industry detection, and PDF reporting.
-trigger: seo, audit, schema, core web vitals, sitemap, e-e-a-t, ai overviews, geo, technical seo, content quality, page speed, structured data, ai seo, optimize for chatgpt, optimize for perplexity
+trigger: seo audit, full seo analysis, comprehensive seo, seo check
 ---
 ---
 name: seo-optimizer

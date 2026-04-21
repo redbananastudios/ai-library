@@ -10,7 +10,6 @@ compatible_targets:
 - codex
 changelog_summary: Rebuilt with full workflow, skill references and tool guidance
 requirements:
-- code-reviewer
 - simplify
 - review
 - engineering-standards

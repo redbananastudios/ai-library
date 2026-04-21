@@ -1,11 +1,7 @@
 {
   "item_id": "facebook-ads-optimizer",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/facebook-ads-optimizer/payload.json",
-<<<<<<< HEAD
-  "published_at": "2026-04-14T22:56:48.679607",
-=======
-  "published_at": "2026-04-20T23:23:01.828267",
->>>>>>> claude/deploy-latest-skills-agents-hkqsH
+  "payload_path": "generated\\paperclip\\skills\\facebook-ads-optimizer\\payload.json",
+  "published_at": "2026-04-21T11:17:47.701877",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

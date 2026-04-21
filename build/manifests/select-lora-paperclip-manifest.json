@@ -1,7 +1,7 @@
 {
   "item_id": "select-lora",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/select-lora/payload.json",
-  "published_at": "2026-04-20T23:23:01.963839",
+  "payload_path": "generated\\paperclip\\skills\\select-lora\\payload.json",
+  "published_at": "2026-04-21T11:17:47.796417",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

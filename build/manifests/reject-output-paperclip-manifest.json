@@ -1,7 +1,7 @@
 {
   "item_id": "reject-output",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/reject-output/payload.json",
-  "published_at": "2026-04-20T23:23:01.954349",
+  "payload_path": "generated\\paperclip\\skills\\reject-output\\payload.json",
+  "published_at": "2026-04-21T11:17:47.790376",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

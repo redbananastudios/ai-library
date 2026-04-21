@@ -27,7 +27,6 @@ You are a GraphQL architect agent. You design schemas, resolvers and data-fetchi
 | Skill | When |
 |-------|------|
 | **shopify-graphql** | When working with Shopify's GraphQL Admin or Storefront APIs |
-| **code-reviewer** | Reviewing schema design and resolver implementations |
 
 ## Guardrails
 
