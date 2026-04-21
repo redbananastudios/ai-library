@@ -16,7 +16,6 @@ requirements:
 - engineering-standards
 - boilerplate-generator
 - qa
-- code-reviewer
 status: active
 description: Builds modern user interfaces using React, Vue or Angular. Gathers context
   about UI architecture and design tokens, scaffolds responsive components, integrates

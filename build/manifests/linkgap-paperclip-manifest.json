@@ -1,11 +1,7 @@
 {
   "item_id": "linkgap",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/linkgap/payload.json",
-<<<<<<< HEAD
-  "published_at": "2026-04-14T22:56:48.751440",
-=======
-  "published_at": "2026-04-20T23:23:01.886921",
->>>>>>> claude/deploy-latest-skills-agents-hkqsH
+  "payload_path": "generated\\paperclip\\skills\\linkgap\\payload.json",
+  "published_at": "2026-04-21T11:17:47.750541",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

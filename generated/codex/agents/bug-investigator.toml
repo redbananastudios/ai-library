@@ -32,7 +32,6 @@ You are a bug investigator agent. You find root causes of software defects throu
 |-------|------|
 | **investigate** | Systematic debugging and root-cause analysis workflow |
 | **browser-use** | Reproducing UI bugs, checking network requests, visual verification |
-| **code-reviewer** | Reviewing proposed fixes before committing |
 
 ## Guardrails
 

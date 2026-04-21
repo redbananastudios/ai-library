@@ -1,7 +1,7 @@
 {
   "item_id": "wordpress-developer",
   "type": "agent",
-  "payload_path": "generated/paperclip/agents/wordpress-developer/payload.json",
-  "published_at": "2026-04-20T23:23:02.221495",
+  "payload_path": "generated\\paperclip\\agents\\wordpress-developer\\payload.json",
+  "published_at": "2026-04-21T11:17:47.982416",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

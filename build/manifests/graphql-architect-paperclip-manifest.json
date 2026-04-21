@@ -1,11 +1,7 @@
 {
   "item_id": "graphql-architect",
   "type": "agent",
-  "payload_path": "generated/paperclip/agents/graphql-architect/payload.json",
-<<<<<<< HEAD
-  "published_at": "2026-04-14T22:56:49.047250",
-=======
-  "published_at": "2026-04-20T23:23:02.165573",
->>>>>>> claude/deploy-latest-skills-agents-hkqsH
+  "payload_path": "generated\\paperclip\\agents\\graphql-architect\\payload.json",
+  "published_at": "2026-04-21T11:17:47.942160",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

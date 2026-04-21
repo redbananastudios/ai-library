@@ -1,11 +1,7 @@
 {
   "item_id": "wordpress-setup",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/wordpress-setup/payload.json",
-<<<<<<< HEAD
-  "published_at": "2026-04-14T22:56:48.973623",
-=======
-  "published_at": "2026-04-20T23:23:02.106715",
->>>>>>> claude/deploy-latest-skills-agents-hkqsH
+  "payload_path": "generated\\paperclip\\skills\\wordpress-setup\\payload.json",
+  "published_at": "2026-04-21T11:17:47.899239",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

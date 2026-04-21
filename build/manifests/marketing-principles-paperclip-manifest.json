@@ -1,11 +1,7 @@
 {
   "item_id": "marketing-principles",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/marketing-principles/payload.json",
-<<<<<<< HEAD
-  "published_at": "2026-04-14T22:56:48.772635",
-=======
-  "published_at": "2026-04-20T23:23:01.910105",
->>>>>>> claude/deploy-latest-skills-agents-hkqsH
+  "payload_path": "generated\\paperclip\\skills\\marketing-principles\\payload.json",
+  "published_at": "2026-04-21T11:17:47.762749",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

@@ -31,7 +31,7 @@ You are a social media manager agent. You plan, create and publish social conten
 | **content-idea-generator** | Generating fresh content ideas when the calendar is thin |
 | **nano-banana-realism-engine** | Creating complex, photorealistic visual assets for posts via Gemini API |
 | **copywriter** | Polishing captions and long-form social content |
-| **de-ai-ify** | Removing AI-sounding patterns from content before publishing |
+| **humanizer** | Removing AI-sounding patterns from content before publishing |
 
 ## Guardrails
 

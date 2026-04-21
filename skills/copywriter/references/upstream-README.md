@@ -31,7 +31,7 @@ Skills reference each other and build on shared context. The `product-marketing-
 │ Content  │ │          │ │   Copy   │ │Measurement │ │Retention │ │    GTM      │ │           │
 ├──────────┤ ├──────────┤ ├──────────┤ ├────────────┤ ├──────────┤ ├─────────────┤ ├───────────┤
 │seo-audit │ │page-cro  │ │copywritng│ │paid-ads    │ │referral  │ │revops       │ │mktg-ideas │
-│ai-seo    │ │signup-cro│ │copy-edit │ │ad-creative │ │free-tool │ │sales-enable │ │mktg-psych │
+│seo-optmzr│ │signup-cro│ │copy-edit │ │ad-creative │ │free-tool │ │sales-enable │ │mktg-psych │
 │site-arch │ │onboard   │ │cold-email│ │ab-test     │ │churn-    │ │launch       │ │customer-  │
 │programm  │ │form-cro  │ │email-seq │ │analytics   │ │ prevent  │ │pricing      │ │research   │
 │schema    │ │popup-cro │ │social    │ │            │ │          │ │competitor   │ │           │
@@ -43,7 +43,7 @@ Skills reference each other and build on shared context. The `product-marketing-
          Skills cross-reference each other:
            copywriting ↔ page-cro ↔ ab-test-setup
            revops ↔ sales-enablement ↔ cold-email
-           seo-audit ↔ schema-markup ↔ ai-seo
+           seo-audit ↔ schema-markup ↔ seo-optimizer
            customer-research → copywriting, page-cro, competitor-alternatives
 ```
 
@@ -56,7 +56,7 @@ See each skill's **Related Skills** section for the full dependency map.
 |-------|-------------|
 | [ab-test-setup](skills/ab-test-setup/) | When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.... |
 | [ad-creative](skills/ad-creative/) | When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad... |
-| [ai-seo](skills/ai-seo/) | When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers.... |
+| [seo-optimizer](skills/seo-optimizer/) | When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers.... |
 | [analytics-tracking](skills/analytics-tracking/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
 | [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
@@ -218,7 +218,7 @@ You can also invoke skills directly:
 
 ### SEO & Discovery
 - `seo-audit` - Technical and on-page SEO
-- `ai-seo` - AI search optimization (AEO, GEO, LLMO)
+- `seo-optimizer` - AI search optimization (AEO, GEO, LLMO)
 - `programmatic-seo` - Scaled page generation
 - `site-architecture` - Page hierarchy, navigation, URL structure
 - `competitor-alternatives` - Comparison and alternative pages

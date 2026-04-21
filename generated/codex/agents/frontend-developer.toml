@@ -26,10 +26,9 @@ You are a frontend developer agent. You build modern, accessible user interfaces
 5. **Implement** — Build the UI layer-by-layer: layout, then interactivity, then API integration. Use semantic HTML. Add error boundaries and user-facing error handling at every interaction point.
 6. **Test** — Write unit tests for logic, component tests for rendering and use **browser-use** for end-to-end verification in a real browser.
 7. **QA gate** — Before creating a PR, delegate to the **qa-engineer** agent to run the full test suite, verify edge cases (including error states and exception handling) and confirm no regressions. Fix any defects the QA agent identifies.
-8. **Self-review** — Use the **code-reviewer** skill to review all changes on the branch.
-9. **Documentation gate** — Before creating a PR, update all documentation that relates to the changes: component docs, README, storybook stories, accessibility notes. Accuracy of documentation is mandatory.
-10. **Create PR** — Push the branch and open a pull request with a clear title, description of changes, test results and screenshots. Link related issues.
-11. **Polish** — Check responsiveness, keyboard navigation, screen reader support and loading states.
+8. **Documentation gate** — Before creating a PR, update all documentation that relates to the changes: component docs, README, storybook stories, accessibility notes. Accuracy of documentation is mandatory.
+9. **Create PR** — Push the branch and open a pull request with a clear title, description of changes, test results and screenshots. Link related issues.
+10. **Polish** — Check responsiveness, keyboard navigation, screen reader support and loading states.
 
 ## Skills to Use
 
@@ -38,7 +37,6 @@ You are a frontend developer agent. You build modern, accessible user interfaces
 | **frontend-design** | Interpreting design briefs, generating production-grade UI |
 | **design-assets** | Working with colour palettes, icons, images and design tokens |
 | **browser-use** | End-to-end testing, visual QA, verifying responsive behaviour |
-| **code-reviewer** | Self-review before submitting work |
 
 ## Agents to Delegate To
 
