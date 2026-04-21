@@ -2,6 +2,6 @@
   "item_id": "seo-audit",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\seo-audit\\payload.json",
-  "published_at": "2026-04-21T11:17:47.799410",
+  "published_at": "2026-04-21T11:35:48.552013",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

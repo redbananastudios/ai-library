@@ -2,6 +2,6 @@
   "item_id": "image-director",
   "type": "agent",
   "payload_path": "generated\\paperclip\\agents\\image-director\\payload.json",
-  "published_at": "2026-04-21T11:17:47.945205",
+  "published_at": "2026-04-21T11:35:48.697957",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

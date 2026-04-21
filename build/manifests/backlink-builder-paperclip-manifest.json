@@ -2,6 +2,6 @@
   "item_id": "backlink-builder",
   "type": "agent",
   "payload_path": "generated\\paperclip\\agents\\backlink-builder\\payload.json",
-  "published_at": "2026-04-21T11:17:47.917591",
+  "published_at": "2026-04-21T11:35:48.669444",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

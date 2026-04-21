@@ -67,13 +67,13 @@ Based on category and quality tier:
 
 | Category | Size | Steps | CFG | Sampler |
 |----------|------|-------|-----|---------|
-| product-packshot | 1024x1024 | 30 | 7.0 | euler_ancestral |
-| product-scene | 1024x768 | 30 | 7.0 | euler_ancestral |
-| face-avatar | 768x1024 | 35 | 7.5 | dpmpp_2m |
-| full-body | 768x1152 | 30 | 7.0 | euler_ancestral |
-| vehicle-scene | 1024x768 | 30 | 7.0 | euler_ancestral |
-| interior-scene | 1024x768 | 30 | 7.0 | euler_ancestral |
-| facebook-ugc | 1080x1080 | 25 | 6.5 | euler_ancestral |
+| product-packshot | 1024x1024 | 20 | 1 | euler |
+| product-scene | 1024x768 | 20 | 1 | euler |
+| face-avatar | 768x1024 | 25 | 1 | euler |
+| full-body | 768x1152 | 20 | 1 | euler |
+| vehicle-scene | 1024x768 | 20 | 1 | euler |
+| interior-scene | 1024x768 | 20 | 1 | euler |
+| facebook-ugc | 1080x1080 | 15 | 1 | euler |
 
 Quality tier adjustments:
 - `draft`: steps × 0.5, batch_size = 2
@@ -101,16 +101,27 @@ Return a routing decision as structured data:
   "provider": "runpod",
   "category": "product-packshot",
   "workflow_template": "product-packshot",
-  "base_model": "juggernaut_xl",
+  "base_model": "flux1-dev-fp8",
   "loras": [],
   "lora_recommended": false,
   "width": 1024,
   "height": 1024,
-  "steps": 30,
-  "cfg_scale": 7.0,
-  "sampler": "euler_ancestral",
+  "steps": 20,
+  "cfg_scale": 1,
+  "sampler": "euler",
   "batch_size": 4,
   "negative_prompt": "blurry, low quality, distorted...",
   "notes": ""
 }
 ```
+
+## Endpoint Configuration
+
+Current Runpod endpoint runs **Flux 1 Dev FP8** (`flux1-dev-fp8.safetensors`).
+
+Flux-specific settings:
+- CFG scale: always 1 (Flux uses internal guidance, ignores high CFG)
+- Scheduler: `simple` (not `normal`)
+- Sampler: `euler` (best results with Flux)
+- Steps: 15-25 range (Flux converges faster than SDXL)
+- Negative prompts: included for compatibility but Flux largely ignores them

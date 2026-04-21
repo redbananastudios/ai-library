@@ -2,6 +2,6 @@
   "item_id": "google-tag-manager",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\google-tag-manager\\payload.json",
-  "published_at": "2026-04-21T11:17:47.723211",
+  "published_at": "2026-04-21T11:35:48.473592",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

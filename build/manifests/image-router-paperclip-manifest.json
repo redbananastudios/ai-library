@@ -2,6 +2,6 @@
   "item_id": "image-router",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\image-router\\payload.json",
-  "published_at": "2026-04-21T11:17:47.738439",
+  "published_at": "2026-04-21T11:35:48.488719",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

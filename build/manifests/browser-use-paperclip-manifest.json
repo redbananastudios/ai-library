@@ -2,6 +2,6 @@
   "item_id": "browser-use",
   "type": "skill",
   "payload_path": "generated\\paperclip\\skills\\browser-use\\payload.json",
-  "published_at": "2026-04-21T11:17:47.668880",
+  "published_at": "2026-04-21T11:35:48.417412",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

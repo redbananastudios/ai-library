@@ -3,7 +3,7 @@
   "description": "Isolated product on clean background — e-commerce/catalog style",
   "version": "1.0.0",
   "category": "product-packshot",
-  "base_model": "juggernaut_xl",
+  "base_model": "flux1-dev-fp8",
   "workflow": {
     "3": {
       "class_type": "KSampler",
@@ -12,7 +12,7 @@
         "steps": "{{steps}}",
         "cfg": "{{cfg_scale}}",
         "sampler_name": "{{sampler}}",
-        "scheduler": "normal",
+        "scheduler": "simple",
         "denoise": 1.0,
         "model": ["4", 0],
         "positive": ["6", 0],
@@ -66,12 +66,12 @@
   "defaults": {
     "width": 1024,
     "height": 1024,
-    "steps": 30,
-    "cfg_scale": 7.0,
-    "sampler": "euler_ancestral",
+    "steps": 20,
+    "cfg_scale": 1,
+    "sampler": "euler",
     "batch_size": 4,
     "negative_prompt": "blurry, low quality, distorted, deformed, watermark, text overlay, oversaturated, artificial lighting artifacts, human hands, fingers, people, distracting background elements"
   },
   "prompt_template": "{subject}, professional product photography, studio lighting, clean white background, sharp focus, high detail, 8k quality, centered composition, soft shadows",
-  "notes": "Phase 1 priority workflow. Designed for Willow & Weir products (taps, sinks, fixtures). Works without LoRA for generic products."
+  "notes": "Phase 1 priority workflow. Designed for Willow & Weir products (taps, sinks, fixtures). Works without LoRA for generic products. Updated for Flux 1 Dev FP8 (cfg=1, euler sampler, simple scheduler, 20 steps)."
 }
