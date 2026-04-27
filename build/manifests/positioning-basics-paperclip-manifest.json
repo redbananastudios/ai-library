@@ -1,7 +1,7 @@
 {
   "item_id": "positioning-basics",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\positioning-basics\\payload.json",
-  "published_at": "2026-04-21T11:35:48.525874",
+  "payload_path": "generated/paperclip/skills/positioning-basics/payload.json",
+  "published_at": "2026-04-27T09:22:21.931568",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

@@ -1,6 +1,6 @@
 # AI Library Registry
 
-Updated: 2026-04-21T22:08:35
+Updated: 2026-04-27T09:22:24
 
 Total items: 123
 
@@ -65,11 +65,11 @@ Total items: 123
 | local-seo-specialist | Local SEO Specialist | agent | 0.3.0 | active | yes | manifest_generated |
 | local-visibility | Local Visibility | skill | 0.1.0 | imported | yes | manifest_generated |
 | localrank-agent | LocalRank Agent | skill | 0.1.0 | imported | yes | manifest_generated |
-| lora-caption-dataset |  |  |  |  | no | manifest_generated |
-| lora-evaluate |  |  |  |  | no | manifest_generated |
-| lora-prepare-dataset |  |  |  |  | no | manifest_generated |
-| lora-train |  |  |  |  | no | manifest_generated |
-| lora-version |  |  |  |  | no | manifest_generated |
+| lora-caption-dataset | LoRA Caption Dataset | skill | 0.1.0 | active | yes | manifest_generated |
+| lora-evaluate | LoRA Evaluate | skill | 0.1.0 | active | yes | manifest_generated |
+| lora-prepare-dataset | LoRA Prepare Dataset | skill | 0.1.0 | active | yes | manifest_generated |
+| lora-train | LoRA Train | skill | 0.1.0 | active | yes | manifest_generated |
+| lora-version | LoRA Version | skill | 0.1.0 | active | yes | manifest_generated |
 | mailbox | AI Mailbox Assistant | skill | 0.2.0 | active | yes | manifest_generated |
 | marketing-principles | Marketing Principles | skill | 0.1.0 | imported | yes | manifest_generated |
 | microservices-architect | Microservices Architect | agent | 0.2.0 | active | yes | manifest_generated |

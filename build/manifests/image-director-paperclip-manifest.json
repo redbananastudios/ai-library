@@ -1,7 +1,7 @@
 {
   "item_id": "image-director",
   "type": "agent",
-  "payload_path": "O:\\red-banana-studio\\ai-library\\.claude\\worktrees\\optimistic-ardinghelli-eb325d\\generated\\paperclip\\agents\\image-director\\payload.json",
-  "published_at": "2026-04-21T22:04:22.068117",
+  "payload_path": "generated/paperclip/agents/image-director/payload.json",
+  "published_at": "2026-04-27T09:22:22.390386",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

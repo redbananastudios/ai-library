@@ -1,7 +1,7 @@
 {
   "item_id": "simplify",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\simplify\\payload.json",
-  "published_at": "2026-04-21T11:35:48.614877",
+  "payload_path": "generated/paperclip/skills/simplify/payload.json",
+  "published_at": "2026-04-27T09:22:22.181646",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

@@ -1,7 +1,7 @@
 {
   "item_id": "shopify-supplier-extract",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\shopify-supplier-extract\\payload.json",
-  "published_at": "2026-04-21T11:35:48.605992",
+  "payload_path": "generated/paperclip/skills/shopify-supplier-extract/payload.json",
+  "published_at": "2026-04-27T09:22:22.155769",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

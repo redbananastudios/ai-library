@@ -1,7 +1,7 @@
 {
   "item_id": "seo-growth-tracker",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\seo-growth-tracker\\payload.json",
-  "published_at": "2026-04-21T11:35:48.555751",
+  "payload_path": "generated/paperclip/skills/seo-growth-tracker/payload.json",
+  "published_at": "2026-04-27T09:22:22.013628",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

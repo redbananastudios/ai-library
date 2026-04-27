@@ -1,7 +1,7 @@
 {
   "item_id": "linkgap",
   "type": "skill",
-  "payload_path": "generated\\paperclip\\skills\\linkgap\\payload.json",
-  "published_at": "2026-04-21T11:35:48.501004",
+  "payload_path": "generated/paperclip/skills/linkgap/payload.json",
+  "published_at": "2026-04-27T09:22:21.801035",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

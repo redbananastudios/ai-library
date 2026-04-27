@@ -14,15 +14,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\ai-discoverability-audit",
-      "generated_claude_path": "generated\\claude\\skills\\ai-discoverability-audit",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\ai-discoverability-audit",
-      "published_claude_path": "C:/Users/peter/.claude/skills/ai-discoverability-audit",
+      "source_path": "skills/ai-discoverability-audit",
+      "generated_claude_path": "generated/claude/skills/ai-discoverability-audit",
+      "generated_paperclip_path": "generated/paperclip/skills/ai-discoverability-audit",
+      "published_claude_path": "/root/.claude/skills/ai-discoverability-audit",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\ai-discoverability-audit",
-      "published_codex_path": "C:/Users/peter/.codex/skills/ai-discoverability-audit"
+      "generated_codex_path": "generated/codex/skills/ai-discoverability-audit",
+      "published_codex_path": "/root/.codex/skills/ai-discoverability-audit"
     },
     {
       "id": "ai-seo",
@@ -59,15 +59,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\awesome-agent-skills",
-      "generated_claude_path": "generated\\claude\\skills\\awesome-agent-skills",
+      "source_path": "skills/awesome-agent-skills",
+      "generated_claude_path": "generated/claude/skills/awesome-agent-skills",
       "generated_paperclip_path": "",
-      "published_claude_path": "C:/Users/peter/.claude/skills/awesome-agent-skills",
+      "published_claude_path": "/root/.claude/skills/awesome-agent-skills",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\awesome-agent-skills",
-      "published_codex_path": "C:/Users/peter/.codex/skills/awesome-agent-skills"
+      "generated_codex_path": "generated/codex/skills/awesome-agent-skills",
+      "published_codex_path": "/root/.codex/skills/awesome-agent-skills"
     },
     {
       "id": "awesome-claude-code-subagents",
@@ -83,15 +83,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\awesome-claude-code-subagents",
-      "generated_claude_path": "generated\\claude\\skills\\awesome-claude-code-subagents",
+      "source_path": "skills/awesome-claude-code-subagents",
+      "generated_claude_path": "generated/claude/skills/awesome-claude-code-subagents",
       "generated_paperclip_path": "",
-      "published_claude_path": "C:/Users/peter/.claude/skills/awesome-claude-code-subagents",
+      "published_claude_path": "/root/.claude/skills/awesome-claude-code-subagents",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\awesome-claude-code-subagents",
-      "published_codex_path": "C:/Users/peter/.codex/skills/awesome-claude-code-subagents"
+      "generated_codex_path": "generated/codex/skills/awesome-claude-code-subagents",
+      "published_codex_path": "/root/.codex/skills/awesome-claude-code-subagents"
     },
     {
       "id": "backlink-analyzer",
@@ -107,15 +107,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\backlink-analyzer",
-      "generated_claude_path": "generated\\claude\\skills\\backlink-analyzer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\backlink-analyzer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/backlink-analyzer",
+      "source_path": "skills/backlink-analyzer",
+      "generated_claude_path": "generated/claude/skills/backlink-analyzer",
+      "generated_paperclip_path": "generated/paperclip/skills/backlink-analyzer",
+      "published_claude_path": "/root/.claude/skills/backlink-analyzer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\backlink-analyzer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/backlink-analyzer"
+      "generated_codex_path": "generated/codex/skills/backlink-analyzer",
+      "published_codex_path": "/root/.codex/skills/backlink-analyzer"
     },
     {
       "id": "backlink-outreach",
@@ -131,15 +131,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\backlink-outreach",
-      "generated_claude_path": "generated\\claude\\skills\\backlink-outreach",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\backlink-outreach",
-      "published_claude_path": "C:/Users/peter/.claude/skills/backlink-outreach",
+      "source_path": "skills/backlink-outreach",
+      "generated_claude_path": "generated/claude/skills/backlink-outreach",
+      "generated_paperclip_path": "generated/paperclip/skills/backlink-outreach",
+      "published_claude_path": "/root/.claude/skills/backlink-outreach",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\backlink-outreach",
-      "published_codex_path": "C:/Users/peter/.codex/skills/backlink-outreach"
+      "generated_codex_path": "generated/codex/skills/backlink-outreach",
+      "published_codex_path": "/root/.codex/skills/backlink-outreach"
     },
     {
       "id": "browser-use",
@@ -155,15 +155,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\browser-use",
-      "generated_claude_path": "generated\\claude\\skills\\browser-use",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\browser-use",
-      "published_claude_path": "C:/Users/peter/.claude/skills/browser-use",
+      "source_path": "skills/browser-use",
+      "generated_claude_path": "generated/claude/skills/browser-use",
+      "generated_paperclip_path": "generated/paperclip/skills/browser-use",
+      "published_claude_path": "/root/.claude/skills/browser-use",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\browser-use",
-      "published_codex_path": "C:/Users/peter/.codex/skills/browser-use"
+      "generated_codex_path": "generated/codex/skills/browser-use",
+      "published_codex_path": "/root/.codex/skills/browser-use"
     },
     {
       "id": "claude-ads",
@@ -179,15 +179,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\claude-ads",
-      "generated_claude_path": "generated\\claude\\skills\\claude-ads",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\claude-ads",
-      "published_claude_path": "C:/Users/peter/.claude/skills/claude-ads",
+      "source_path": "skills/claude-ads",
+      "generated_claude_path": "generated/claude/skills/claude-ads",
+      "generated_paperclip_path": "generated/paperclip/skills/claude-ads",
+      "published_claude_path": "/root/.claude/skills/claude-ads",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\claude-ads",
-      "published_codex_path": "C:/Users/peter/.codex/skills/claude-ads"
+      "generated_codex_path": "generated/codex/skills/claude-ads",
+      "published_codex_path": "/root/.codex/skills/claude-ads"
     },
     {
       "id": "claude-seo",
@@ -224,10 +224,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\code-reviewer",
-      "generated_claude_path": "generated\\claude\\agents\\code-reviewer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\code-reviewer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/code-reviewer.md",
+      "source_path": "agents/code-reviewer",
+      "generated_claude_path": "generated/claude/agents/code-reviewer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/code-reviewer",
+      "published_claude_path": "/root/.claude/agents/code-reviewer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "simplify",
@@ -235,8 +235,8 @@
         "engineering-standards"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\code-reviewer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/code-reviewer.toml"
+      "generated_codex_path": "generated/codex/agents/code-reviewer.toml",
+      "published_codex_path": "/root/.codex/agents/code-reviewer.toml"
     },
     {
       "id": "competitor-alternatives",
@@ -252,15 +252,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\competitor-alternatives",
-      "generated_claude_path": "generated\\claude\\skills\\competitor-alternatives",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\competitor-alternatives",
-      "published_claude_path": "C:/Users/peter/.claude/skills/competitor-alternatives",
+      "source_path": "skills/competitor-alternatives",
+      "generated_claude_path": "generated/claude/skills/competitor-alternatives",
+      "generated_paperclip_path": "generated/paperclip/skills/competitor-alternatives",
+      "published_claude_path": "/root/.claude/skills/competitor-alternatives",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\competitor-alternatives",
-      "published_codex_path": "C:/Users/peter/.codex/skills/competitor-alternatives"
+      "generated_codex_path": "generated/codex/skills/competitor-alternatives",
+      "published_codex_path": "/root/.codex/skills/competitor-alternatives"
     },
     {
       "id": "content-idea-generator",
@@ -276,15 +276,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\content-idea-generator",
-      "generated_claude_path": "generated\\claude\\skills\\content-idea-generator",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\content-idea-generator",
-      "published_claude_path": "C:/Users/peter/.claude/skills/content-idea-generator",
+      "source_path": "skills/content-idea-generator",
+      "generated_claude_path": "generated/claude/skills/content-idea-generator",
+      "generated_paperclip_path": "generated/paperclip/skills/content-idea-generator",
+      "published_claude_path": "/root/.claude/skills/content-idea-generator",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\content-idea-generator",
-      "published_codex_path": "C:/Users/peter/.codex/skills/content-idea-generator"
+      "generated_codex_path": "generated/codex/skills/content-idea-generator",
+      "published_codex_path": "/root/.codex/skills/content-idea-generator"
     },
     {
       "id": "content-strategy",
@@ -300,15 +300,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\content-strategy",
-      "generated_claude_path": "generated\\claude\\skills\\content-strategy",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\content-strategy",
-      "published_claude_path": "C:/Users/peter/.claude/skills/content-strategy",
+      "source_path": "skills/content-strategy",
+      "generated_claude_path": "generated/claude/skills/content-strategy",
+      "generated_paperclip_path": "generated/paperclip/skills/content-strategy",
+      "published_claude_path": "/root/.claude/skills/content-strategy",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\content-strategy",
-      "published_codex_path": "C:/Users/peter/.codex/skills/content-strategy"
+      "generated_codex_path": "generated/codex/skills/content-strategy",
+      "published_codex_path": "/root/.codex/skills/content-strategy"
     },
     {
       "id": "copywriter",
@@ -324,15 +324,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\copywriter",
-      "generated_claude_path": "generated\\claude\\skills\\copywriter",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\copywriter",
-      "published_claude_path": "C:/Users/peter/.claude/skills/copywriter",
+      "source_path": "skills/copywriter",
+      "generated_claude_path": "generated/claude/skills/copywriter",
+      "generated_paperclip_path": "generated/paperclip/skills/copywriter",
+      "published_claude_path": "/root/.claude/skills/copywriter",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\copywriter",
-      "published_codex_path": "C:/Users/peter/.codex/skills/copywriter"
+      "generated_codex_path": "generated/codex/skills/copywriter",
+      "published_codex_path": "/root/.codex/skills/copywriter"
     },
     {
       "id": "creative-director",
@@ -348,15 +348,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\creative-director",
-      "generated_claude_path": "generated\\claude\\skills\\creative-director",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\creative-director",
-      "published_claude_path": "C:/Users/peter/.claude/skills/creative-director",
+      "source_path": "skills/creative-director",
+      "generated_claude_path": "generated/claude/skills/creative-director",
+      "generated_paperclip_path": "generated/paperclip/skills/creative-director",
+      "published_claude_path": "/root/.claude/skills/creative-director",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\creative-director",
-      "published_codex_path": "C:/Users/peter/.codex/skills/creative-director"
+      "generated_codex_path": "generated/codex/skills/creative-director",
+      "published_codex_path": "/root/.codex/skills/creative-director"
     },
     {
       "id": "de-ai-ify",
@@ -393,15 +393,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\deep-research",
-      "generated_claude_path": "generated\\claude\\skills\\deep-research",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\deep-research",
-      "published_claude_path": "C:/Users/peter/.claude/skills/deep-research",
+      "source_path": "skills/deep-research",
+      "generated_claude_path": "generated/claude/skills/deep-research",
+      "generated_paperclip_path": "generated/paperclip/skills/deep-research",
+      "published_claude_path": "/root/.claude/skills/deep-research",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\deep-research",
-      "published_codex_path": "C:/Users/peter/.codex/skills/deep-research"
+      "generated_codex_path": "generated/codex/skills/deep-research",
+      "published_codex_path": "/root/.codex/skills/deep-research"
     },
     {
       "id": "design-assets",
@@ -417,15 +417,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\design-assets",
-      "generated_claude_path": "generated\\claude\\skills\\design-assets",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\design-assets",
-      "published_claude_path": "C:/Users/peter/.claude/skills/design-assets",
+      "source_path": "skills/design-assets",
+      "generated_claude_path": "generated/claude/skills/design-assets",
+      "generated_paperclip_path": "generated/paperclip/skills/design-assets",
+      "published_claude_path": "/root/.claude/skills/design-assets",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\design-assets",
-      "published_codex_path": "C:/Users/peter/.codex/skills/design-assets"
+      "generated_codex_path": "generated/codex/skills/design-assets",
+      "published_codex_path": "/root/.codex/skills/design-assets"
     },
     {
       "id": "facebook-ads-optimizer",
@@ -441,15 +441,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\facebook-ads-optimizer",
-      "generated_claude_path": "generated\\claude\\skills\\facebook-ads-optimizer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\facebook-ads-optimizer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/facebook-ads-optimizer",
+      "source_path": "skills/facebook-ads-optimizer",
+      "generated_claude_path": "generated/claude/skills/facebook-ads-optimizer",
+      "generated_paperclip_path": "generated/paperclip/skills/facebook-ads-optimizer",
+      "published_claude_path": "/root/.claude/skills/facebook-ads-optimizer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\facebook-ads-optimizer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/facebook-ads-optimizer"
+      "generated_codex_path": "generated/codex/skills/facebook-ads-optimizer",
+      "published_codex_path": "/root/.codex/skills/facebook-ads-optimizer"
     },
     {
       "id": "frontend-design",
@@ -465,15 +465,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\frontend-design",
-      "generated_claude_path": "generated\\claude\\skills\\frontend-design",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\frontend-design",
-      "published_claude_path": "C:/Users/peter/.claude/skills/frontend-design",
+      "source_path": "skills/frontend-design",
+      "generated_claude_path": "generated/claude/skills/frontend-design",
+      "generated_paperclip_path": "generated/paperclip/skills/frontend-design",
+      "published_claude_path": "/root/.claude/skills/frontend-design",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\frontend-design",
-      "published_codex_path": "C:/Users/peter/.codex/skills/frontend-design"
+      "generated_codex_path": "generated/codex/skills/frontend-design",
+      "published_codex_path": "/root/.codex/skills/frontend-design"
     },
     {
       "id": "investigate",
@@ -489,15 +489,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\investigate",
-      "generated_claude_path": "generated\\claude\\skills\\investigate",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\investigate",
-      "published_claude_path": "C:/Users/peter/.claude/skills/investigate",
+      "source_path": "skills/investigate",
+      "generated_claude_path": "generated/claude/skills/investigate",
+      "generated_paperclip_path": "generated/paperclip/skills/investigate",
+      "published_claude_path": "/root/.claude/skills/investigate",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\investigate",
-      "published_codex_path": "C:/Users/peter/.codex/skills/investigate"
+      "generated_codex_path": "generated/codex/skills/investigate",
+      "published_codex_path": "/root/.codex/skills/investigate"
     },
     {
       "id": "last30days",
@@ -513,15 +513,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\last30days",
-      "generated_claude_path": "generated\\claude\\skills\\last30days",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\last30days",
-      "published_claude_path": "C:/Users/peter/.claude/skills/last30days",
+      "source_path": "skills/last30days",
+      "generated_claude_path": "generated/claude/skills/last30days",
+      "generated_paperclip_path": "generated/paperclip/skills/last30days",
+      "published_claude_path": "/root/.claude/skills/last30days",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\last30days",
-      "published_codex_path": "C:/Users/peter/.codex/skills/last30days"
+      "generated_codex_path": "generated/codex/skills/last30days",
+      "published_codex_path": "/root/.codex/skills/last30days"
     },
     {
       "id": "linkedin-authority-builder",
@@ -537,15 +537,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\linkedin-authority-builder",
-      "generated_claude_path": "generated\\claude\\skills\\linkedin-authority-builder",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\linkedin-authority-builder",
-      "published_claude_path": "C:/Users/peter/.claude/skills/linkedin-authority-builder",
+      "source_path": "skills/linkedin-authority-builder",
+      "generated_claude_path": "generated/claude/skills/linkedin-authority-builder",
+      "generated_paperclip_path": "generated/paperclip/skills/linkedin-authority-builder",
+      "published_claude_path": "/root/.claude/skills/linkedin-authority-builder",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\linkedin-authority-builder",
-      "published_codex_path": "C:/Users/peter/.codex/skills/linkedin-authority-builder"
+      "generated_codex_path": "generated/codex/skills/linkedin-authority-builder",
+      "published_codex_path": "/root/.codex/skills/linkedin-authority-builder"
     },
     {
       "id": "local-visibility",
@@ -561,15 +561,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\local-visibility",
-      "generated_claude_path": "generated\\claude\\skills\\local-visibility",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\local-visibility",
-      "published_claude_path": "C:/Users/peter/.claude/skills/local-visibility",
+      "source_path": "skills/local-visibility",
+      "generated_claude_path": "generated/claude/skills/local-visibility",
+      "generated_paperclip_path": "generated/paperclip/skills/local-visibility",
+      "published_claude_path": "/root/.claude/skills/local-visibility",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\local-visibility",
-      "published_codex_path": "C:/Users/peter/.codex/skills/local-visibility"
+      "generated_codex_path": "generated/codex/skills/local-visibility",
+      "published_codex_path": "/root/.codex/skills/local-visibility"
     },
     {
       "id": "localrank-agent",
@@ -585,15 +585,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\localrank-agent",
-      "generated_claude_path": "generated\\claude\\skills\\localrank-agent",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\localrank-agent",
-      "published_claude_path": "C:/Users/peter/.claude/skills/localrank-agent",
+      "source_path": "skills/localrank-agent",
+      "generated_claude_path": "generated/claude/skills/localrank-agent",
+      "generated_paperclip_path": "generated/paperclip/skills/localrank-agent",
+      "published_claude_path": "/root/.claude/skills/localrank-agent",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\localrank-agent",
-      "published_codex_path": "C:/Users/peter/.codex/skills/localrank-agent"
+      "generated_codex_path": "generated/codex/skills/localrank-agent",
+      "published_codex_path": "/root/.codex/skills/localrank-agent"
     },
     {
       "id": "marketing-principles",
@@ -609,15 +609,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\marketing-principles",
-      "generated_claude_path": "generated\\claude\\skills\\marketing-principles",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\marketing-principles",
-      "published_claude_path": "C:/Users/peter/.claude/skills/marketing-principles",
+      "source_path": "skills/marketing-principles",
+      "generated_claude_path": "generated/claude/skills/marketing-principles",
+      "generated_paperclip_path": "generated/paperclip/skills/marketing-principles",
+      "published_claude_path": "/root/.claude/skills/marketing-principles",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\marketing-principles",
-      "published_codex_path": "C:/Users/peter/.codex/skills/marketing-principles"
+      "generated_codex_path": "generated/codex/skills/marketing-principles",
+      "published_codex_path": "/root/.codex/skills/marketing-principles"
     },
     {
       "id": "nano-banana-ppt",
@@ -675,15 +675,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\paid-ads",
-      "generated_claude_path": "generated\\claude\\skills\\paid-ads",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\paid-ads",
-      "published_claude_path": "C:/Users/peter/.claude/skills/paid-ads",
+      "source_path": "skills/paid-ads",
+      "generated_claude_path": "generated/claude/skills/paid-ads",
+      "generated_paperclip_path": "generated/paperclip/skills/paid-ads",
+      "published_claude_path": "/root/.claude/skills/paid-ads",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\paid-ads",
-      "published_codex_path": "C:/Users/peter/.codex/skills/paid-ads"
+      "generated_codex_path": "generated/codex/skills/paid-ads",
+      "published_codex_path": "/root/.codex/skills/paid-ads"
     },
     {
       "id": "personal-brand-builder",
@@ -699,15 +699,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\personal-brand-builder",
-      "generated_claude_path": "generated\\claude\\skills\\personal-brand-builder",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\personal-brand-builder",
-      "published_claude_path": "C:/Users/peter/.claude/skills/personal-brand-builder",
+      "source_path": "skills/personal-brand-builder",
+      "generated_claude_path": "generated/claude/skills/personal-brand-builder",
+      "generated_paperclip_path": "generated/paperclip/skills/personal-brand-builder",
+      "published_claude_path": "/root/.claude/skills/personal-brand-builder",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\personal-brand-builder",
-      "published_codex_path": "C:/Users/peter/.codex/skills/personal-brand-builder"
+      "generated_codex_path": "generated/codex/skills/personal-brand-builder",
+      "published_codex_path": "/root/.codex/skills/personal-brand-builder"
     },
     {
       "id": "positioning-basics",
@@ -723,15 +723,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\positioning-basics",
-      "generated_claude_path": "generated\\claude\\skills\\positioning-basics",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\positioning-basics",
-      "published_claude_path": "C:/Users/peter/.claude/skills/positioning-basics",
+      "source_path": "skills/positioning-basics",
+      "generated_claude_path": "generated/claude/skills/positioning-basics",
+      "generated_paperclip_path": "generated/paperclip/skills/positioning-basics",
+      "published_claude_path": "/root/.claude/skills/positioning-basics",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\positioning-basics",
-      "published_codex_path": "C:/Users/peter/.codex/skills/positioning-basics"
+      "generated_codex_path": "generated/codex/skills/positioning-basics",
+      "published_codex_path": "/root/.codex/skills/positioning-basics"
     },
     {
       "id": "project-health",
@@ -747,15 +747,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\project-health",
-      "generated_claude_path": "generated\\claude\\skills\\project-health",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\project-health",
-      "published_claude_path": "C:/Users/peter/.claude/skills/project-health",
+      "source_path": "skills/project-health",
+      "generated_claude_path": "generated/claude/skills/project-health",
+      "generated_paperclip_path": "generated/paperclip/skills/project-health",
+      "published_claude_path": "/root/.claude/skills/project-health",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\project-health",
-      "published_codex_path": "C:/Users/peter/.codex/skills/project-health"
+      "generated_codex_path": "generated/codex/skills/project-health",
+      "published_codex_path": "/root/.codex/skills/project-health"
     },
     {
       "id": "qa",
@@ -771,15 +771,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\qa",
-      "generated_claude_path": "generated\\claude\\skills\\qa",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\qa",
-      "published_claude_path": "C:/Users/peter/.claude/skills/qa",
+      "source_path": "skills/qa",
+      "generated_claude_path": "generated/claude/skills/qa",
+      "generated_paperclip_path": "generated/paperclip/skills/qa",
+      "published_claude_path": "/root/.claude/skills/qa",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\qa",
-      "published_codex_path": "C:/Users/peter/.codex/skills/qa"
+      "generated_codex_path": "generated/codex/skills/qa",
+      "published_codex_path": "/root/.codex/skills/qa"
     },
     {
       "id": "qa-only",
@@ -795,15 +795,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\qa-only",
-      "generated_claude_path": "generated\\claude\\skills\\qa-only",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\qa-only",
-      "published_claude_path": "C:/Users/peter/.claude/skills/qa-only",
+      "source_path": "skills/qa-only",
+      "generated_claude_path": "generated/claude/skills/qa-only",
+      "generated_paperclip_path": "generated/paperclip/skills/qa-only",
+      "published_claude_path": "/root/.claude/skills/qa-only",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\qa-only",
-      "published_codex_path": "C:/Users/peter/.codex/skills/qa-only"
+      "generated_codex_path": "generated/codex/skills/qa-only",
+      "published_codex_path": "/root/.codex/skills/qa-only"
     },
     {
       "id": "reddit-insights",
@@ -819,15 +819,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\reddit-insights",
-      "generated_claude_path": "generated\\claude\\skills\\reddit-insights",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\reddit-insights",
-      "published_claude_path": "C:/Users/peter/.claude/skills/reddit-insights",
+      "source_path": "skills/reddit-insights",
+      "generated_claude_path": "generated/claude/skills/reddit-insights",
+      "generated_paperclip_path": "generated/paperclip/skills/reddit-insights",
+      "published_claude_path": "/root/.claude/skills/reddit-insights",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\reddit-insights",
-      "published_codex_path": "C:/Users/peter/.codex/skills/reddit-insights"
+      "generated_codex_path": "generated/codex/skills/reddit-insights",
+      "published_codex_path": "/root/.codex/skills/reddit-insights"
     },
     {
       "id": "review",
@@ -843,15 +843,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\review",
-      "generated_claude_path": "generated\\claude\\skills\\review",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\review",
-      "published_claude_path": "C:/Users/peter/.claude/skills/review",
+      "source_path": "skills/review",
+      "generated_claude_path": "generated/claude/skills/review",
+      "generated_paperclip_path": "generated/paperclip/skills/review",
+      "published_claude_path": "/root/.claude/skills/review",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\review",
-      "published_codex_path": "C:/Users/peter/.codex/skills/review"
+      "generated_codex_path": "generated/codex/skills/review",
+      "published_codex_path": "/root/.codex/skills/review"
     },
     {
       "id": "seo-audit",
@@ -867,15 +867,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\seo-audit",
-      "generated_claude_path": "generated\\claude\\skills\\seo-audit",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\seo-audit",
-      "published_claude_path": "C:/Users/peter/.claude/skills/seo-audit",
+      "source_path": "skills/seo-audit",
+      "generated_claude_path": "generated/claude/skills/seo-audit",
+      "generated_paperclip_path": "generated/paperclip/skills/seo-audit",
+      "published_claude_path": "/root/.claude/skills/seo-audit",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\seo-audit",
-      "published_codex_path": "C:/Users/peter/.codex/skills/seo-audit"
+      "generated_codex_path": "generated/codex/skills/seo-audit",
+      "published_codex_path": "/root/.codex/skills/seo-audit"
     },
     {
       "id": "seo-geo-optimizer",
@@ -912,15 +912,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-app-development",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-app-development",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-app-development",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-app-development",
+      "source_path": "skills/shopify-app-development",
+      "generated_claude_path": "generated/claude/skills/shopify-app-development",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-app-development",
+      "published_claude_path": "/root/.claude/skills/shopify-app-development",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-app-development",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-app-development"
+      "generated_codex_path": "generated/codex/skills/shopify-app-development",
+      "published_codex_path": "/root/.codex/skills/shopify-app-development"
     },
     {
       "id": "shopify-checkout",
@@ -936,15 +936,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-checkout",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-checkout",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-checkout",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-checkout",
+      "source_path": "skills/shopify-checkout",
+      "generated_claude_path": "generated/claude/skills/shopify-checkout",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-checkout",
+      "published_claude_path": "/root/.claude/skills/shopify-checkout",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-checkout",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-checkout"
+      "generated_codex_path": "generated/codex/skills/shopify-checkout",
+      "published_codex_path": "/root/.codex/skills/shopify-checkout"
     },
     {
       "id": "shopify-cli",
@@ -960,15 +960,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-cli",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-cli",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-cli",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-cli",
+      "source_path": "skills/shopify-cli",
+      "generated_claude_path": "generated/claude/skills/shopify-cli",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-cli",
+      "published_claude_path": "/root/.claude/skills/shopify-cli",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-cli",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-cli"
+      "generated_codex_path": "generated/codex/skills/shopify-cli",
+      "published_codex_path": "/root/.codex/skills/shopify-cli"
     },
     {
       "id": "shopify-content",
@@ -984,15 +984,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-content",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-content",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-content",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-content",
+      "source_path": "skills/shopify-content",
+      "generated_claude_path": "generated/claude/skills/shopify-content",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-content",
+      "published_claude_path": "/root/.claude/skills/shopify-content",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-content",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-content"
+      "generated_codex_path": "generated/codex/skills/shopify-content",
+      "published_codex_path": "/root/.codex/skills/shopify-content"
     },
     {
       "id": "shopify-functions",
@@ -1008,15 +1008,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-functions",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-functions",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-functions",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-functions",
+      "source_path": "skills/shopify-functions",
+      "generated_claude_path": "generated/claude/skills/shopify-functions",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-functions",
+      "published_claude_path": "/root/.claude/skills/shopify-functions",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-functions",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-functions"
+      "generated_codex_path": "generated/codex/skills/shopify-functions",
+      "published_codex_path": "/root/.codex/skills/shopify-functions"
     },
     {
       "id": "shopify-graphql",
@@ -1032,15 +1032,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-graphql",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-graphql",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-graphql",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-graphql",
+      "source_path": "skills/shopify-graphql",
+      "generated_claude_path": "generated/claude/skills/shopify-graphql",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-graphql",
+      "published_claude_path": "/root/.claude/skills/shopify-graphql",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-graphql",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-graphql"
+      "generated_codex_path": "generated/codex/skills/shopify-graphql",
+      "published_codex_path": "/root/.codex/skills/shopify-graphql"
     },
     {
       "id": "shopify-hydrogen",
@@ -1056,15 +1056,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-hydrogen",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-hydrogen",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-hydrogen",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-hydrogen",
+      "source_path": "skills/shopify-hydrogen",
+      "generated_claude_path": "generated/claude/skills/shopify-hydrogen",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-hydrogen",
+      "published_claude_path": "/root/.claude/skills/shopify-hydrogen",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-hydrogen",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-hydrogen"
+      "generated_codex_path": "generated/codex/skills/shopify-hydrogen",
+      "published_codex_path": "/root/.codex/skills/shopify-hydrogen"
     },
     {
       "id": "shopify-liquid-templating",
@@ -1080,15 +1080,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-liquid-templating",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-liquid-templating",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-liquid-templating",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-liquid-templating",
+      "source_path": "skills/shopify-liquid-templating",
+      "generated_claude_path": "generated/claude/skills/shopify-liquid-templating",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-liquid-templating",
+      "published_claude_path": "/root/.claude/skills/shopify-liquid-templating",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-liquid-templating",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-liquid-templating"
+      "generated_codex_path": "generated/codex/skills/shopify-liquid-templating",
+      "published_codex_path": "/root/.codex/skills/shopify-liquid-templating"
     },
     {
       "id": "shopify-products",
@@ -1104,15 +1104,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-products",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-products",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-products",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-products",
+      "source_path": "skills/shopify-products",
+      "generated_claude_path": "generated/claude/skills/shopify-products",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-products",
+      "published_claude_path": "/root/.claude/skills/shopify-products",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-products",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-products"
+      "generated_codex_path": "generated/codex/skills/shopify-products",
+      "published_codex_path": "/root/.codex/skills/shopify-products"
     },
     {
       "id": "shopify-setup",
@@ -1128,15 +1128,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-setup",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-setup",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-setup",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-setup",
+      "source_path": "skills/shopify-setup",
+      "generated_claude_path": "generated/claude/skills/shopify-setup",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-setup",
+      "published_claude_path": "/root/.claude/skills/shopify-setup",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-setup",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-setup"
+      "generated_codex_path": "generated/codex/skills/shopify-setup",
+      "published_codex_path": "/root/.codex/skills/shopify-setup"
     },
     {
       "id": "shopify-theme-development",
@@ -1152,15 +1152,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-theme-development",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-theme-development",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-theme-development",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-theme-development",
+      "source_path": "skills/shopify-theme-development",
+      "generated_claude_path": "generated/claude/skills/shopify-theme-development",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-theme-development",
+      "published_claude_path": "/root/.claude/skills/shopify-theme-development",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-theme-development",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-theme-development"
+      "generated_codex_path": "generated/codex/skills/shopify-theme-development",
+      "published_codex_path": "/root/.codex/skills/shopify-theme-development"
     },
     {
       "id": "simplify",
@@ -1176,15 +1176,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\simplify",
-      "generated_claude_path": "generated\\claude\\skills\\simplify",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\simplify",
-      "published_claude_path": "C:/Users/peter/.claude/skills/simplify",
+      "source_path": "skills/simplify",
+      "generated_claude_path": "generated/claude/skills/simplify",
+      "generated_paperclip_path": "generated/paperclip/skills/simplify",
+      "published_claude_path": "/root/.claude/skills/simplify",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\simplify",
-      "published_codex_path": "C:/Users/peter/.codex/skills/simplify"
+      "generated_codex_path": "generated/codex/skills/simplify",
+      "published_codex_path": "/root/.codex/skills/simplify"
     },
     {
       "id": "social-card-gen",
@@ -1200,15 +1200,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\social-card-gen",
-      "generated_claude_path": "generated\\claude\\skills\\social-card-gen",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\social-card-gen",
-      "published_claude_path": "C:/Users/peter/.claude/skills/social-card-gen",
+      "source_path": "skills/social-card-gen",
+      "generated_claude_path": "generated/claude/skills/social-card-gen",
+      "generated_paperclip_path": "generated/paperclip/skills/social-card-gen",
+      "published_claude_path": "/root/.claude/skills/social-card-gen",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\social-card-gen",
-      "published_codex_path": "C:/Users/peter/.codex/skills/social-card-gen"
+      "generated_codex_path": "generated/codex/skills/social-card-gen",
+      "published_codex_path": "/root/.codex/skills/social-card-gen"
     },
     {
       "id": "social-content",
@@ -1224,15 +1224,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\social-content",
-      "generated_claude_path": "generated\\claude\\skills\\social-content",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\social-content",
-      "published_claude_path": "C:/Users/peter/.claude/skills/social-content",
+      "source_path": "skills/social-content",
+      "generated_claude_path": "generated/claude/skills/social-content",
+      "generated_paperclip_path": "generated/paperclip/skills/social-content",
+      "published_claude_path": "/root/.claude/skills/social-content",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\social-content",
-      "published_codex_path": "C:/Users/peter/.codex/skills/social-content"
+      "generated_codex_path": "generated/codex/skills/social-content",
+      "published_codex_path": "/root/.codex/skills/social-content"
     },
     {
       "id": "upload-post",
@@ -1248,15 +1248,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\upload-post",
-      "generated_claude_path": "generated\\claude\\skills\\upload-post",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\upload-post",
-      "published_claude_path": "C:/Users/peter/.claude/skills/upload-post",
+      "source_path": "skills/upload-post",
+      "generated_claude_path": "generated/claude/skills/upload-post",
+      "generated_paperclip_path": "generated/paperclip/skills/upload-post",
+      "published_claude_path": "/root/.claude/skills/upload-post",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\upload-post",
-      "published_codex_path": "C:/Users/peter/.codex/skills/upload-post"
+      "generated_codex_path": "generated/codex/skills/upload-post",
+      "published_codex_path": "/root/.codex/skills/upload-post"
     },
     {
       "id": "ux-audit",
@@ -1272,15 +1272,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\ux-audit",
-      "generated_claude_path": "generated\\claude\\skills\\ux-audit",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\ux-audit",
-      "published_claude_path": "C:/Users/peter/.claude/skills/ux-audit",
+      "source_path": "skills/ux-audit",
+      "generated_claude_path": "generated/claude/skills/ux-audit",
+      "generated_paperclip_path": "generated/paperclip/skills/ux-audit",
+      "published_claude_path": "/root/.claude/skills/ux-audit",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\ux-audit",
-      "published_codex_path": "C:/Users/peter/.codex/skills/ux-audit"
+      "generated_codex_path": "generated/codex/skills/ux-audit",
+      "published_codex_path": "/root/.codex/skills/ux-audit"
     },
     {
       "id": "voice-extractor",
@@ -1296,15 +1296,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\voice-extractor",
-      "generated_claude_path": "generated\\claude\\skills\\voice-extractor",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\voice-extractor",
-      "published_claude_path": "C:/Users/peter/.claude/skills/voice-extractor",
+      "source_path": "skills/voice-extractor",
+      "generated_claude_path": "generated/claude/skills/voice-extractor",
+      "generated_paperclip_path": "generated/paperclip/skills/voice-extractor",
+      "published_claude_path": "/root/.claude/skills/voice-extractor",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\voice-extractor",
-      "published_codex_path": "C:/Users/peter/.codex/skills/voice-extractor"
+      "generated_codex_path": "generated/codex/skills/voice-extractor",
+      "published_codex_path": "/root/.codex/skills/voice-extractor"
     },
     {
       "id": "wordpress-agent",
@@ -1320,15 +1320,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\wordpress-agent",
-      "generated_claude_path": "generated\\claude\\skills\\wordpress-agent",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\wordpress-agent",
-      "published_claude_path": "C:/Users/peter/.claude/skills/wordpress-agent",
+      "source_path": "skills/wordpress-agent",
+      "generated_claude_path": "generated/claude/skills/wordpress-agent",
+      "generated_paperclip_path": "generated/paperclip/skills/wordpress-agent",
+      "published_claude_path": "/root/.claude/skills/wordpress-agent",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\wordpress-agent",
-      "published_codex_path": "C:/Users/peter/.codex/skills/wordpress-agent"
+      "generated_codex_path": "generated/codex/skills/wordpress-agent",
+      "published_codex_path": "/root/.codex/skills/wordpress-agent"
     },
     {
       "id": "wordpress-content",
@@ -1344,15 +1344,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\wordpress-content",
-      "generated_claude_path": "generated\\claude\\skills\\wordpress-content",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\wordpress-content",
-      "published_claude_path": "C:/Users/peter/.claude/skills/wordpress-content",
+      "source_path": "skills/wordpress-content",
+      "generated_claude_path": "generated/claude/skills/wordpress-content",
+      "generated_paperclip_path": "generated/paperclip/skills/wordpress-content",
+      "published_claude_path": "/root/.claude/skills/wordpress-content",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\wordpress-content",
-      "published_codex_path": "C:/Users/peter/.codex/skills/wordpress-content"
+      "generated_codex_path": "generated/codex/skills/wordpress-content",
+      "published_codex_path": "/root/.codex/skills/wordpress-content"
     },
     {
       "id": "wordpress-elementor",
@@ -1368,15 +1368,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\wordpress-elementor",
-      "generated_claude_path": "generated\\claude\\skills\\wordpress-elementor",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\wordpress-elementor",
-      "published_claude_path": "C:/Users/peter/.claude/skills/wordpress-elementor",
+      "source_path": "skills/wordpress-elementor",
+      "generated_claude_path": "generated/claude/skills/wordpress-elementor",
+      "generated_paperclip_path": "generated/paperclip/skills/wordpress-elementor",
+      "published_claude_path": "/root/.claude/skills/wordpress-elementor",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\wordpress-elementor",
-      "published_codex_path": "C:/Users/peter/.codex/skills/wordpress-elementor"
+      "generated_codex_path": "generated/codex/skills/wordpress-elementor",
+      "published_codex_path": "/root/.codex/skills/wordpress-elementor"
     },
     {
       "id": "wordpress-setup",
@@ -1392,15 +1392,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\wordpress-setup",
-      "generated_claude_path": "generated\\claude\\skills\\wordpress-setup",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\wordpress-setup",
-      "published_claude_path": "C:/Users/peter/.claude/skills/wordpress-setup",
+      "source_path": "skills/wordpress-setup",
+      "generated_claude_path": "generated/claude/skills/wordpress-setup",
+      "generated_paperclip_path": "generated/paperclip/skills/wordpress-setup",
+      "published_claude_path": "/root/.claude/skills/wordpress-setup",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\wordpress-setup",
-      "published_codex_path": "C:/Users/peter/.codex/skills/wordpress-setup"
+      "generated_codex_path": "generated/codex/skills/wordpress-setup",
+      "published_codex_path": "/root/.codex/skills/wordpress-setup"
     },
     {
       "id": "youtube-summarizer",
@@ -1416,15 +1416,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\youtube-summarizer",
-      "generated_claude_path": "generated\\claude\\skills\\youtube-summarizer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\youtube-summarizer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/youtube-summarizer",
+      "source_path": "skills/youtube-summarizer",
+      "generated_claude_path": "generated/claude/skills/youtube-summarizer",
+      "generated_paperclip_path": "generated/paperclip/skills/youtube-summarizer",
+      "published_claude_path": "/root/.claude/skills/youtube-summarizer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\youtube-summarizer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/youtube-summarizer"
+      "generated_codex_path": "generated/codex/skills/youtube-summarizer",
+      "published_codex_path": "/root/.codex/skills/youtube-summarizer"
     },
     {
       "id": "backend-developer",
@@ -1440,10 +1440,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\backend-developer",
-      "generated_claude_path": "generated\\claude\\agents\\backend-developer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\backend-developer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/backend-developer.md",
+      "source_path": "agents/backend-developer",
+      "generated_claude_path": "generated/claude/agents/backend-developer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/backend-developer",
+      "published_claude_path": "/root/.claude/agents/backend-developer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "engineering-standards",
@@ -1451,8 +1451,8 @@
         "qa"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\backend-developer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/backend-developer.toml"
+      "generated_codex_path": "generated/codex/agents/backend-developer.toml",
+      "published_codex_path": "/root/.codex/agents/backend-developer.toml"
     },
     {
       "id": "frontend-developer",
@@ -1468,10 +1468,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\frontend-developer",
-      "generated_claude_path": "generated\\claude\\agents\\frontend-developer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\frontend-developer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/frontend-developer.md",
+      "source_path": "agents/frontend-developer",
+      "generated_claude_path": "generated/claude/agents/frontend-developer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/frontend-developer",
+      "published_claude_path": "/root/.claude/agents/frontend-developer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "frontend-design",
@@ -1482,8 +1482,8 @@
         "qa"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\frontend-developer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/frontend-developer.toml"
+      "generated_codex_path": "generated/codex/agents/frontend-developer.toml",
+      "published_codex_path": "/root/.codex/agents/frontend-developer.toml"
     },
     {
       "id": "fullstack-developer",
@@ -1499,10 +1499,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\fullstack-developer",
-      "generated_claude_path": "generated\\claude\\agents\\fullstack-developer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\fullstack-developer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/fullstack-developer.md",
+      "source_path": "agents/fullstack-developer",
+      "generated_claude_path": "generated/claude/agents/fullstack-developer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/fullstack-developer",
+      "published_claude_path": "/root/.claude/agents/fullstack-developer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "frontend-design",
@@ -1512,8 +1512,8 @@
         "boilerplate-generator"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\fullstack-developer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/fullstack-developer.toml"
+      "generated_codex_path": "generated/codex/agents/fullstack-developer.toml",
+      "published_codex_path": "/root/.codex/agents/fullstack-developer.toml"
     },
     {
       "id": "higgsfield",
@@ -1529,18 +1529,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\higgsfield",
-      "generated_claude_path": "generated\\claude\\skills\\higgsfield",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\higgsfield",
-      "published_claude_path": "C:/Users/peter/.claude/skills/higgsfield",
+      "source_path": "skills/higgsfield",
+      "generated_claude_path": "generated/claude/skills/higgsfield",
+      "generated_paperclip_path": "generated/paperclip/skills/higgsfield",
+      "published_claude_path": "/root/.claude/skills/higgsfield",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "browser-use",
         "nano-banana-realism-engine"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\higgsfield",
-      "published_codex_path": "C:/Users/peter/.codex/skills/higgsfield"
+      "generated_codex_path": "generated/codex/skills/higgsfield",
+      "published_codex_path": "/root/.codex/skills/higgsfield"
     },
     {
       "id": "ads-manager",
@@ -1556,10 +1556,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\ads-manager",
-      "generated_claude_path": "generated\\claude\\agents\\ads-manager.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\ads-manager",
-      "published_claude_path": "C:/Users/peter/.claude/agents/ads-manager.md",
+      "source_path": "agents/ads-manager",
+      "generated_claude_path": "generated/claude/agents/ads-manager.md",
+      "generated_paperclip_path": "generated/paperclip/agents/ads-manager",
+      "published_claude_path": "/root/.claude/agents/ads-manager.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "claude-ads",
@@ -1569,8 +1569,8 @@
         "google-analytics"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\ads-manager.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/ads-manager.toml"
+      "generated_codex_path": "generated/codex/agents/ads-manager.toml",
+      "published_codex_path": "/root/.codex/agents/ads-manager.toml"
     },
     {
       "id": "amazon-fba-assistant",
@@ -1586,18 +1586,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\amazon-fba-assistant",
-      "generated_claude_path": "generated\\claude\\agents\\amazon-fba-assistant.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\amazon-fba-assistant",
-      "published_claude_path": "C:/Users/peter/.claude/agents/amazon-fba-assistant.md",
+      "source_path": "agents/amazon-fba-assistant",
+      "generated_claude_path": "generated/claude/agents/amazon-fba-assistant.md",
+      "generated_paperclip_path": "generated/paperclip/agents/amazon-fba-assistant",
+      "published_claude_path": "/root/.claude/agents/amazon-fba-assistant.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "deep-research",
         "competitor-alternatives"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\amazon-fba-assistant.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/amazon-fba-assistant.toml"
+      "generated_codex_path": "generated/codex/agents/amazon-fba-assistant.toml",
+      "published_codex_path": "/root/.codex/agents/amazon-fba-assistant.toml"
     },
     {
       "id": "api-designer",
@@ -1613,17 +1613,17 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\api-designer",
-      "generated_claude_path": "generated\\claude\\agents\\api-designer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\api-designer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/api-designer.md",
+      "source_path": "agents/api-designer",
+      "generated_claude_path": "generated/claude/agents/api-designer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/api-designer",
+      "published_claude_path": "/root/.claude/agents/api-designer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "engineering-standards"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\api-designer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/api-designer.toml"
+      "generated_codex_path": "generated/codex/agents/api-designer.toml",
+      "published_codex_path": "/root/.codex/agents/api-designer.toml"
     },
     {
       "id": "backlink-builder",
@@ -1639,10 +1639,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\backlink-builder",
-      "generated_claude_path": "generated\\claude\\agents\\backlink-builder.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\backlink-builder",
-      "published_claude_path": "C:/Users/peter/.claude/agents/backlink-builder.md",
+      "source_path": "agents/backlink-builder",
+      "generated_claude_path": "generated/claude/agents/backlink-builder.md",
+      "generated_paperclip_path": "generated/paperclip/agents/backlink-builder",
+      "published_claude_path": "/root/.claude/agents/backlink-builder.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "backlink-analyzer",
@@ -1651,8 +1651,8 @@
         "humanizer"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\backlink-builder.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/backlink-builder.toml"
+      "generated_codex_path": "generated/codex/agents/backlink-builder.toml",
+      "published_codex_path": "/root/.codex/agents/backlink-builder.toml"
     },
     {
       "id": "brand-builder",
@@ -1668,10 +1668,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\brand-builder",
-      "generated_claude_path": "generated\\claude\\agents\\brand-builder.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\brand-builder",
-      "published_claude_path": "C:/Users/peter/.claude/agents/brand-builder.md",
+      "source_path": "agents/brand-builder",
+      "generated_claude_path": "generated/claude/agents/brand-builder.md",
+      "generated_paperclip_path": "generated/paperclip/agents/brand-builder",
+      "published_claude_path": "/root/.claude/agents/brand-builder.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "personal-brand-builder",
@@ -1680,8 +1680,8 @@
         "positioning-basics"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\brand-builder.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/brand-builder.toml"
+      "generated_codex_path": "generated/codex/agents/brand-builder.toml",
+      "published_codex_path": "/root/.codex/agents/brand-builder.toml"
     },
     {
       "id": "bug-investigator",
@@ -1697,10 +1697,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\bug-investigator",
-      "generated_claude_path": "generated\\claude\\agents\\bug-investigator.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\bug-investigator",
-      "published_claude_path": "C:/Users/peter/.claude/agents/bug-investigator.md",
+      "source_path": "agents/bug-investigator",
+      "generated_claude_path": "generated/claude/agents/bug-investigator.md",
+      "generated_paperclip_path": "generated/paperclip/agents/bug-investigator",
+      "published_claude_path": "/root/.claude/agents/bug-investigator.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "investigate",
@@ -1708,8 +1708,8 @@
         "engineering-standards"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\bug-investigator.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/bug-investigator.toml"
+      "generated_codex_path": "generated/codex/agents/bug-investigator.toml",
+      "published_codex_path": "/root/.codex/agents/bug-investigator.toml"
     },
     {
       "id": "design-bridge",
@@ -1725,18 +1725,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\design-bridge",
-      "generated_claude_path": "generated\\claude\\agents\\design-bridge.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\design-bridge",
-      "published_claude_path": "C:/Users/peter/.claude/agents/design-bridge.md",
+      "source_path": "agents/design-bridge",
+      "generated_claude_path": "generated/claude/agents/design-bridge.md",
+      "generated_paperclip_path": "generated/paperclip/agents/design-bridge",
+      "published_claude_path": "/root/.claude/agents/design-bridge.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "frontend-design",
         "design-assets"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\design-bridge.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/design-bridge.toml"
+      "generated_codex_path": "generated/codex/agents/design-bridge.toml",
+      "published_codex_path": "/root/.codex/agents/design-bridge.toml"
     },
     {
       "id": "graphql-architect",
@@ -1752,18 +1752,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\graphql-architect",
-      "generated_claude_path": "generated\\claude\\agents\\graphql-architect.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\graphql-architect",
-      "published_claude_path": "C:/Users/peter/.claude/agents/graphql-architect.md",
+      "source_path": "agents/graphql-architect",
+      "generated_claude_path": "generated/claude/agents/graphql-architect.md",
+      "generated_paperclip_path": "generated/paperclip/agents/graphql-architect",
+      "published_claude_path": "/root/.claude/agents/graphql-architect.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "shopify-graphql",
         "engineering-standards"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\graphql-architect.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/graphql-architect.toml"
+      "generated_codex_path": "generated/codex/agents/graphql-architect.toml",
+      "published_codex_path": "/root/.codex/agents/graphql-architect.toml"
     },
     {
       "id": "image-generator",
@@ -1804,10 +1804,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\local-seo-specialist",
-      "generated_claude_path": "generated\\claude\\agents\\local-seo-specialist.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\local-seo-specialist",
-      "published_claude_path": "C:/Users/peter/.claude/agents/local-seo-specialist.md",
+      "source_path": "agents/local-seo-specialist",
+      "generated_claude_path": "generated/claude/agents/local-seo-specialist.md",
+      "generated_paperclip_path": "generated/paperclip/agents/local-seo-specialist",
+      "published_claude_path": "/root/.claude/agents/local-seo-specialist.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "localrank-agent",
@@ -1819,8 +1819,8 @@
         "seo-growth-tracker"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\local-seo-specialist.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/local-seo-specialist.toml"
+      "generated_codex_path": "generated/codex/agents/local-seo-specialist.toml",
+      "published_codex_path": "/root/.codex/agents/local-seo-specialist.toml"
     },
     {
       "id": "microservices-architect",
@@ -1836,18 +1836,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\microservices-architect",
-      "generated_claude_path": "generated\\claude\\agents\\microservices-architect.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\microservices-architect",
-      "published_claude_path": "C:/Users/peter/.claude/agents/microservices-architect.md",
+      "source_path": "agents/microservices-architect",
+      "generated_claude_path": "generated/claude/agents/microservices-architect.md",
+      "generated_paperclip_path": "generated/paperclip/agents/microservices-architect",
+      "published_claude_path": "/root/.claude/agents/microservices-architect.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "engineering-standards",
         "boilerplate-generator"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\microservices-architect.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/microservices-architect.toml"
+      "generated_codex_path": "generated/codex/agents/microservices-architect.toml",
+      "published_codex_path": "/root/.codex/agents/microservices-architect.toml"
     },
     {
       "id": "product-researcher",
@@ -1863,10 +1863,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\product-researcher",
-      "generated_claude_path": "generated\\claude\\agents\\product-researcher.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\product-researcher",
-      "published_claude_path": "C:/Users/peter/.claude/agents/product-researcher.md",
+      "source_path": "agents/product-researcher",
+      "generated_claude_path": "generated/claude/agents/product-researcher.md",
+      "generated_paperclip_path": "generated/paperclip/agents/product-researcher",
+      "published_claude_path": "/root/.claude/agents/product-researcher.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "deep-research",
@@ -1874,8 +1874,8 @@
         "reddit-insights"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\product-researcher.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/product-researcher.toml"
+      "generated_codex_path": "generated/codex/agents/product-researcher.toml",
+      "published_codex_path": "/root/.codex/agents/product-researcher.toml"
     },
     {
       "id": "qa-engineer",
@@ -1891,10 +1891,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\qa-engineer",
-      "generated_claude_path": "generated\\claude\\agents\\qa-engineer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\qa-engineer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/qa-engineer.md",
+      "source_path": "agents/qa-engineer",
+      "generated_claude_path": "generated/claude/agents/qa-engineer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/qa-engineer",
+      "published_claude_path": "/root/.claude/agents/qa-engineer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "qa",
@@ -1902,8 +1902,8 @@
         "browser-use"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\qa-engineer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/qa-engineer.toml"
+      "generated_codex_path": "generated/codex/agents/qa-engineer.toml",
+      "published_codex_path": "/root/.codex/agents/qa-engineer.toml"
     },
     {
       "id": "research-assistant",
@@ -1919,18 +1919,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\research-assistant",
-      "generated_claude_path": "generated\\claude\\agents\\research-assistant.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\research-assistant",
-      "published_claude_path": "C:/Users/peter/.claude/agents/research-assistant.md",
+      "source_path": "agents/research-assistant",
+      "generated_claude_path": "generated/claude/agents/research-assistant.md",
+      "generated_paperclip_path": "generated/paperclip/agents/research-assistant",
+      "published_claude_path": "/root/.claude/agents/research-assistant.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "deep-research",
         "youtube-summarizer"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\research-assistant.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/research-assistant.toml"
+      "generated_codex_path": "generated/codex/agents/research-assistant.toml",
+      "published_codex_path": "/root/.codex/agents/research-assistant.toml"
     },
     {
       "id": "seo-manager",
@@ -1946,10 +1946,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\seo-manager",
-      "generated_claude_path": "generated\\claude\\agents\\seo-manager.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\seo-manager",
-      "published_claude_path": "C:/Users/peter/.claude/agents/seo-manager.md",
+      "source_path": "agents/seo-manager",
+      "generated_claude_path": "generated/claude/agents/seo-manager.md",
+      "generated_paperclip_path": "generated/paperclip/agents/seo-manager",
+      "published_claude_path": "/root/.claude/agents/seo-manager.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "seo-optimizer",
@@ -1961,8 +1961,8 @@
         "seo-growth-tracker"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\seo-manager.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/seo-manager.toml"
+      "generated_codex_path": "generated/codex/agents/seo-manager.toml",
+      "published_codex_path": "/root/.codex/agents/seo-manager.toml"
     },
     {
       "id": "shopify-developer",
@@ -1978,10 +1978,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\shopify-developer",
-      "generated_claude_path": "generated\\claude\\agents\\shopify-developer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\shopify-developer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/shopify-developer.md",
+      "source_path": "agents/shopify-developer",
+      "generated_claude_path": "generated/claude/agents/shopify-developer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/shopify-developer",
+      "published_claude_path": "/root/.claude/agents/shopify-developer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "shopify-setup",
@@ -1999,8 +1999,8 @@
         "boilerplate-generator"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\shopify-developer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/shopify-developer.toml"
+      "generated_codex_path": "generated/codex/agents/shopify-developer.toml",
+      "published_codex_path": "/root/.codex/agents/shopify-developer.toml"
     },
     {
       "id": "social-media-manager",
@@ -2016,10 +2016,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\social-media-manager",
-      "generated_claude_path": "generated\\claude\\agents\\social-media-manager.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\social-media-manager",
-      "published_claude_path": "C:/Users/peter/.claude/agents/social-media-manager.md",
+      "source_path": "agents/social-media-manager",
+      "generated_claude_path": "generated/claude/agents/social-media-manager.md",
+      "generated_paperclip_path": "generated/paperclip/agents/social-media-manager",
+      "published_claude_path": "/root/.claude/agents/social-media-manager.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "social-content",
@@ -2027,8 +2027,8 @@
         "upload-post"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\social-media-manager.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/social-media-manager.toml"
+      "generated_codex_path": "generated/codex/agents/social-media-manager.toml",
+      "published_codex_path": "/root/.codex/agents/social-media-manager.toml"
     },
     {
       "id": "ui-designer",
@@ -2044,10 +2044,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\ui-designer",
-      "generated_claude_path": "generated\\claude\\agents\\ui-designer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\ui-designer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/ui-designer.md",
+      "source_path": "agents/ui-designer",
+      "generated_claude_path": "generated/claude/agents/ui-designer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/ui-designer",
+      "published_claude_path": "/root/.claude/agents/ui-designer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "frontend-design",
@@ -2055,12 +2055,12 @@
         "ux-audit"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\ui-designer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/ui-designer.toml"
+      "generated_codex_path": "generated/codex/agents/ui-designer.toml",
+      "published_codex_path": "/root/.codex/agents/ui-designer.toml"
     },
     {
       "id": "firecrawl",
-      "published_claude_path": "C:/Users/peter/.claude/skills/firecrawl",
+      "published_claude_path": "/root/.claude/skills/firecrawl",
       "published_paperclip_status": "manifest_generated",
       "name": "Firecrawl Web Scraper",
       "type": "skill",
@@ -2074,19 +2074,19 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\firecrawl",
-      "generated_claude_path": "generated\\claude\\skills\\firecrawl",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\firecrawl",
+      "source_path": "skills/firecrawl",
+      "generated_claude_path": "generated/claude/skills/firecrawl",
+      "generated_paperclip_path": "generated/paperclip/skills/firecrawl",
       "requirements": [
         "@mendable/firecrawl-js"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\firecrawl",
-      "published_codex_path": "C:/Users/peter/.codex/skills/firecrawl"
+      "generated_codex_path": "generated/codex/skills/firecrawl",
+      "published_codex_path": "/root/.codex/skills/firecrawl"
     },
     {
       "id": "stitch",
-      "published_claude_path": "C:/Users/peter/.claude/skills/stitch",
+      "published_claude_path": "/root/.claude/skills/stitch",
       "published_paperclip_status": "manifest_generated",
       "name": "Google Stitch AI UI Designer",
       "type": "skill",
@@ -2100,19 +2100,19 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\stitch",
-      "generated_claude_path": "generated\\claude\\skills\\stitch",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\stitch",
+      "source_path": "skills/stitch",
+      "generated_claude_path": "generated/claude/skills/stitch",
+      "generated_paperclip_path": "generated/paperclip/skills/stitch",
       "requirements": [
         "@_davideast/stitch-mcp"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\stitch",
-      "published_codex_path": "C:/Users/peter/.codex/skills/stitch"
+      "generated_codex_path": "generated/codex/skills/stitch",
+      "published_codex_path": "/root/.codex/skills/stitch"
     },
     {
       "id": "mailbox",
-      "published_claude_path": "C:/Users/peter/.claude/skills/mailbox",
+      "published_claude_path": "/root/.claude/skills/mailbox",
       "published_paperclip_status": "manifest_generated",
       "name": "AI Mailbox Assistant",
       "type": "skill",
@@ -2126,9 +2126,9 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\mailbox",
-      "generated_claude_path": "generated\\claude\\skills\\mailbox",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\mailbox",
+      "source_path": "skills/mailbox",
+      "generated_claude_path": "generated/claude/skills/mailbox",
+      "generated_paperclip_path": "generated/paperclip/skills/mailbox",
       "requirements": [
         "gmail-mcp",
         "imapflow",
@@ -2136,12 +2136,12 @@
         "mailparser"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\mailbox",
-      "published_codex_path": "C:/Users/peter/.codex/skills/mailbox"
+      "generated_codex_path": "generated/codex/skills/mailbox",
+      "published_codex_path": "/root/.codex/skills/mailbox"
     },
     {
       "id": "humanizer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/humanizer",
+      "published_claude_path": "/root/.claude/skills/humanizer",
       "published_paperclip_status": "manifest_generated",
       "name": "Humanizer",
       "type": "skill",
@@ -2155,13 +2155,13 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\humanizer",
-      "generated_claude_path": "generated\\claude\\skills\\humanizer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\humanizer",
+      "source_path": "skills/humanizer",
+      "generated_claude_path": "generated/claude/skills/humanizer",
+      "generated_paperclip_path": "generated/paperclip/skills/humanizer",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\humanizer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/humanizer"
+      "generated_codex_path": "generated/codex/skills/humanizer",
+      "published_codex_path": "/root/.codex/skills/humanizer"
     },
     {
       "id": "google-business-profile-optimizer",
@@ -2177,17 +2177,17 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\google-business-profile-optimizer",
-      "generated_claude_path": "generated\\claude\\skills\\google-business-profile-optimizer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\google-business-profile-optimizer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/google-business-profile-optimizer",
+      "source_path": "skills/google-business-profile-optimizer",
+      "generated_claude_path": "generated/claude/skills/google-business-profile-optimizer",
+      "generated_paperclip_path": "generated/paperclip/skills/google-business-profile-optimizer",
+      "published_claude_path": "/root/.claude/skills/google-business-profile-optimizer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "browser-use"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\google-business-profile-optimizer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/google-business-profile-optimizer"
+      "generated_codex_path": "generated/codex/skills/google-business-profile-optimizer",
+      "published_codex_path": "/root/.codex/skills/google-business-profile-optimizer"
     },
     {
       "id": "linkgap",
@@ -2203,17 +2203,17 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\linkgap",
-      "generated_claude_path": "generated\\claude\\skills\\linkgap",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\linkgap",
-      "published_claude_path": "C:/Users/peter/.claude/skills/linkgap",
+      "source_path": "skills/linkgap",
+      "generated_claude_path": "generated/claude/skills/linkgap",
+      "generated_paperclip_path": "generated/paperclip/skills/linkgap",
+      "published_claude_path": "/root/.claude/skills/linkgap",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "browser-use"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\linkgap",
-      "published_codex_path": "C:/Users/peter/.codex/skills/linkgap"
+      "generated_codex_path": "generated/codex/skills/linkgap",
+      "published_codex_path": "/root/.codex/skills/linkgap"
     },
     {
       "id": "nano-banana-realism-engine",
@@ -2229,15 +2229,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\nano-banana-realism-engine",
-      "generated_claude_path": "generated\\claude\\skills\\nano-banana-realism-engine",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\nano-banana-realism-engine",
-      "published_claude_path": "C:/Users/peter/.claude/skills/nano-banana-realism-engine",
+      "source_path": "skills/nano-banana-realism-engine",
+      "generated_claude_path": "generated/claude/skills/nano-banana-realism-engine",
+      "generated_paperclip_path": "generated/paperclip/skills/nano-banana-realism-engine",
+      "published_claude_path": "/root/.claude/skills/nano-banana-realism-engine",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\nano-banana-realism-engine",
-      "published_codex_path": "C:/Users/peter/.codex/skills/nano-banana-realism-engine"
+      "generated_codex_path": "generated/codex/skills/nano-banana-realism-engine",
+      "published_codex_path": "/root/.codex/skills/nano-banana-realism-engine"
     },
     {
       "id": "shopify-collection-card-renderer",
@@ -2253,15 +2253,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-collection-card-renderer",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-collection-card-renderer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-collection-card-renderer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-collection-card-renderer",
+      "source_path": "skills/shopify-collection-card-renderer",
+      "generated_claude_path": "generated/claude/skills/shopify-collection-card-renderer",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-collection-card-renderer",
+      "published_claude_path": "/root/.claude/skills/shopify-collection-card-renderer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-collection-card-renderer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-collection-card-renderer"
+      "generated_codex_path": "generated/codex/skills/shopify-collection-card-renderer",
+      "published_codex_path": "/root/.codex/skills/shopify-collection-card-renderer"
     },
     {
       "id": "shopify-pdp-designer",
@@ -2277,15 +2277,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-pdp-designer",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-pdp-designer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-pdp-designer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-pdp-designer",
+      "source_path": "skills/shopify-pdp-designer",
+      "generated_claude_path": "generated/claude/skills/shopify-pdp-designer",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-pdp-designer",
+      "published_claude_path": "/root/.claude/skills/shopify-pdp-designer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-pdp-designer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-pdp-designer"
+      "generated_codex_path": "generated/codex/skills/shopify-pdp-designer",
+      "published_codex_path": "/root/.codex/skills/shopify-pdp-designer"
     },
     {
       "id": "shopify-product-enrich",
@@ -2301,15 +2301,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-product-enrich",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-product-enrich",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-product-enrich",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-product-enrich",
+      "source_path": "skills/shopify-product-enrich",
+      "generated_claude_path": "generated/claude/skills/shopify-product-enrich",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-product-enrich",
+      "published_claude_path": "/root/.claude/skills/shopify-product-enrich",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-product-enrich",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-product-enrich"
+      "generated_codex_path": "generated/codex/skills/shopify-product-enrich",
+      "published_codex_path": "/root/.codex/skills/shopify-product-enrich"
     },
     {
       "id": "shopify-supplier-extract",
@@ -2325,15 +2325,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-supplier-extract",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-supplier-extract",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-supplier-extract",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-supplier-extract",
+      "source_path": "skills/shopify-supplier-extract",
+      "generated_claude_path": "generated/claude/skills/shopify-supplier-extract",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-supplier-extract",
+      "published_claude_path": "/root/.claude/skills/shopify-supplier-extract",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-supplier-extract",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-supplier-extract"
+      "generated_codex_path": "generated/codex/skills/shopify-supplier-extract",
+      "published_codex_path": "/root/.codex/skills/shopify-supplier-extract"
     },
     {
       "id": "shopify-sync",
@@ -2349,15 +2349,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\shopify-sync",
-      "generated_claude_path": "generated\\claude\\skills\\shopify-sync",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\shopify-sync",
-      "published_claude_path": "C:/Users/peter/.claude/skills/shopify-sync",
+      "source_path": "skills/shopify-sync",
+      "generated_claude_path": "generated/claude/skills/shopify-sync",
+      "generated_paperclip_path": "generated/paperclip/skills/shopify-sync",
+      "published_claude_path": "/root/.claude/skills/shopify-sync",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\shopify-sync",
-      "published_codex_path": "C:/Users/peter/.codex/skills/shopify-sync"
+      "generated_codex_path": "generated/codex/skills/shopify-sync",
+      "published_codex_path": "/root/.codex/skills/shopify-sync"
     },
     {
       "id": "engineering-standards",
@@ -2373,15 +2373,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\engineering-standards",
-      "generated_claude_path": "generated\\claude\\skills\\engineering-standards",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\engineering-standards",
-      "published_claude_path": "C:/Users/peter/.claude/skills/engineering-standards",
+      "source_path": "skills/engineering-standards",
+      "generated_claude_path": "generated/claude/skills/engineering-standards",
+      "generated_paperclip_path": "generated/paperclip/skills/engineering-standards",
+      "published_claude_path": "/root/.claude/skills/engineering-standards",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\engineering-standards",
-      "published_codex_path": "C:/Users/peter/.codex/skills/engineering-standards"
+      "generated_codex_path": "generated/codex/skills/engineering-standards",
+      "published_codex_path": "/root/.codex/skills/engineering-standards"
     },
     {
       "id": "boilerplate-generator",
@@ -2397,15 +2397,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\boilerplate-generator",
-      "generated_claude_path": "generated\\claude\\skills\\boilerplate-generator",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\boilerplate-generator",
-      "published_claude_path": "C:/Users/peter/.claude/skills/boilerplate-generator",
+      "source_path": "skills/boilerplate-generator",
+      "generated_claude_path": "generated/claude/skills/boilerplate-generator",
+      "generated_paperclip_path": "generated/paperclip/skills/boilerplate-generator",
+      "published_claude_path": "/root/.claude/skills/boilerplate-generator",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\boilerplate-generator",
-      "published_codex_path": "C:/Users/peter/.codex/skills/boilerplate-generator"
+      "generated_codex_path": "generated/codex/skills/boilerplate-generator",
+      "published_codex_path": "/root/.codex/skills/boilerplate-generator"
     },
     {
       "id": "higgsfield-video",
@@ -2421,17 +2421,17 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\higgsfield-video",
-      "generated_claude_path": "generated\\claude\\skills\\higgsfield-video",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\higgsfield-video",
-      "published_claude_path": "C:/Users/peter/.claude/skills/higgsfield-video",
+      "source_path": "skills/higgsfield-video",
+      "generated_claude_path": "generated/claude/skills/higgsfield-video",
+      "generated_paperclip_path": "generated/paperclip/skills/higgsfield-video",
+      "published_claude_path": "/root/.claude/skills/higgsfield-video",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "nano-banana-realism-engine"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\higgsfield-video",
-      "published_codex_path": "C:/Users/peter/.codex/skills/higgsfield-video"
+      "generated_codex_path": "generated/codex/skills/higgsfield-video",
+      "published_codex_path": "/root/.codex/skills/higgsfield-video"
     },
     {
       "id": "image-blueprint",
@@ -2447,17 +2447,17 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\image-blueprint",
-      "generated_claude_path": "generated\\claude\\skills\\image-blueprint",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\image-blueprint",
-      "published_claude_path": "C:/Users/peter/.claude/skills/image-blueprint",
+      "source_path": "skills/image-blueprint",
+      "generated_claude_path": "generated/claude/skills/image-blueprint",
+      "generated_paperclip_path": "generated/paperclip/skills/image-blueprint",
+      "published_claude_path": "/root/.claude/skills/image-blueprint",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "nano-banana-realism-engine"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\image-blueprint",
-      "published_codex_path": "C:/Users/peter/.codex/skills/image-blueprint"
+      "generated_codex_path": "generated/codex/skills/image-blueprint",
+      "published_codex_path": "/root/.codex/skills/image-blueprint"
     },
     {
       "id": "image-reverse-engineer",
@@ -2473,15 +2473,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\image-reverse-engineer",
-      "generated_claude_path": "generated\\claude\\agents\\image-reverse-engineer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\image-reverse-engineer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/image-reverse-engineer.md",
+      "source_path": "agents/image-reverse-engineer",
+      "generated_claude_path": "generated/claude/agents/image-reverse-engineer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/image-reverse-engineer",
+      "published_claude_path": "/root/.claude/agents/image-reverse-engineer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\image-reverse-engineer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/image-reverse-engineer.toml"
+      "generated_codex_path": "generated/codex/agents/image-reverse-engineer.toml",
+      "published_codex_path": "/root/.codex/agents/image-reverse-engineer.toml"
     },
     {
       "id": "video-director",
@@ -2497,18 +2497,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\video-director",
-      "generated_claude_path": "generated\\claude\\agents\\video-director.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\video-director",
-      "published_claude_path": "C:/Users/peter/.claude/agents/video-director.md",
+      "source_path": "agents/video-director",
+      "generated_claude_path": "generated/claude/agents/video-director.md",
+      "generated_paperclip_path": "generated/paperclip/agents/video-director",
+      "published_claude_path": "/root/.claude/agents/video-director.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "higgsfield-video",
         "nano-banana-realism-engine"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\video-director.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/video-director.toml"
+      "generated_codex_path": "generated/codex/agents/video-director.toml",
+      "published_codex_path": "/root/.codex/agents/video-director.toml"
     },
     {
       "id": "git-specialist",
@@ -2524,18 +2524,18 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\git-specialist",
-      "generated_claude_path": "generated\\claude\\agents\\git-specialist.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\git-specialist",
-      "published_claude_path": "C:/Users/peter/.claude/agents/git-specialist.md",
+      "source_path": "agents/git-specialist",
+      "generated_claude_path": "generated/claude/agents/git-specialist.md",
+      "generated_paperclip_path": "generated/paperclip/agents/git-specialist",
+      "published_claude_path": "/root/.claude/agents/git-specialist.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "investigate",
         "engineering-standards"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\git-specialist.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/git-specialist.toml"
+      "generated_codex_path": "generated/codex/agents/git-specialist.toml",
+      "published_codex_path": "/root/.codex/agents/git-specialist.toml"
     },
     {
       "id": "ai-image-system",
@@ -2578,15 +2578,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\approve-output",
-      "generated_claude_path": "generated\\claude\\skills\\approve-output",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\approve-output",
-      "published_claude_path": "C:/Users/peter/.claude/skills/approve-output",
+      "source_path": "skills/approve-output",
+      "generated_claude_path": "generated/claude/skills/approve-output",
+      "generated_paperclip_path": "generated/paperclip/skills/approve-output",
+      "published_claude_path": "/root/.claude/skills/approve-output",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\approve-output",
-      "published_codex_path": "C:/Users/peter/.codex/skills/approve-output"
+      "generated_codex_path": "generated/codex/skills/approve-output",
+      "published_codex_path": "/root/.codex/skills/approve-output"
     },
     {
       "id": "cleanup-temp",
@@ -2602,15 +2602,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\cleanup-temp",
-      "generated_claude_path": "generated\\claude\\skills\\cleanup-temp",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\cleanup-temp",
-      "published_claude_path": "C:/Users/peter/.claude/skills/cleanup-temp",
+      "source_path": "skills/cleanup-temp",
+      "generated_claude_path": "generated/claude/skills/cleanup-temp",
+      "generated_paperclip_path": "generated/paperclip/skills/cleanup-temp",
+      "published_claude_path": "/root/.claude/skills/cleanup-temp",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\cleanup-temp",
-      "published_codex_path": "C:/Users/peter/.codex/skills/cleanup-temp"
+      "generated_codex_path": "generated/codex/skills/cleanup-temp",
+      "published_codex_path": "/root/.codex/skills/cleanup-temp"
     },
     {
       "id": "generate-image",
@@ -2626,17 +2626,17 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\generate-image",
-      "generated_claude_path": "generated\\claude\\skills\\generate-image",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\generate-image",
-      "published_claude_path": "C:/Users/peter/.claude/skills/generate-image",
+      "source_path": "skills/generate-image",
+      "generated_claude_path": "generated/claude/skills/generate-image",
+      "generated_paperclip_path": "generated/paperclip/skills/generate-image",
+      "published_claude_path": "/root/.claude/skills/generate-image",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "image-router"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\generate-image",
-      "published_codex_path": "C:/Users/peter/.codex/skills/generate-image"
+      "generated_codex_path": "generated/codex/skills/generate-image",
+      "published_codex_path": "/root/.codex/skills/generate-image"
     },
     {
       "id": "image-router",
@@ -2652,15 +2652,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\image-router",
-      "generated_claude_path": "generated\\claude\\skills\\image-router",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\image-router",
-      "published_claude_path": "C:/Users/peter/.claude/skills/image-router",
+      "source_path": "skills/image-router",
+      "generated_claude_path": "generated/claude/skills/image-router",
+      "generated_paperclip_path": "generated/paperclip/skills/image-router",
+      "published_claude_path": "/root/.claude/skills/image-router",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\image-router",
-      "published_codex_path": "C:/Users/peter/.codex/skills/image-router"
+      "generated_codex_path": "generated/codex/skills/image-router",
+      "published_codex_path": "/root/.codex/skills/image-router"
     },
     {
       "id": "reject-output",
@@ -2676,15 +2676,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\reject-output",
-      "generated_claude_path": "generated\\claude\\skills\\reject-output",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\reject-output",
-      "published_claude_path": "C:/Users/peter/.claude/skills/reject-output",
+      "source_path": "skills/reject-output",
+      "generated_claude_path": "generated/claude/skills/reject-output",
+      "generated_paperclip_path": "generated/paperclip/skills/reject-output",
+      "published_claude_path": "/root/.claude/skills/reject-output",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\reject-output",
-      "published_codex_path": "C:/Users/peter/.codex/skills/reject-output"
+      "generated_codex_path": "generated/codex/skills/reject-output",
+      "published_codex_path": "/root/.codex/skills/reject-output"
     },
     {
       "id": "select-lora",
@@ -2700,15 +2700,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\select-lora",
-      "generated_claude_path": "generated\\claude\\skills\\select-lora",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\select-lora",
-      "published_claude_path": "C:/Users/peter/.claude/skills/select-lora",
+      "source_path": "skills/select-lora",
+      "generated_claude_path": "generated/claude/skills/select-lora",
+      "generated_paperclip_path": "generated/paperclip/skills/select-lora",
+      "published_claude_path": "/root/.claude/skills/select-lora",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\select-lora",
-      "published_codex_path": "C:/Users/peter/.codex/skills/select-lora"
+      "generated_codex_path": "generated/codex/skills/select-lora",
+      "published_codex_path": "/root/.codex/skills/select-lora"
     },
     {
       "id": "train-lora",
@@ -2774,15 +2774,15 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\seo-optimizer",
-      "generated_claude_path": "generated\\claude\\skills\\seo-optimizer",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\seo-optimizer",
-      "published_claude_path": "C:/Users/peter/.claude/skills/seo-optimizer",
+      "source_path": "skills/seo-optimizer",
+      "generated_claude_path": "generated/claude/skills/seo-optimizer",
+      "generated_paperclip_path": "generated/paperclip/skills/seo-optimizer",
+      "published_claude_path": "/root/.claude/skills/seo-optimizer",
       "published_paperclip_status": "manifest_generated",
       "requirements": [],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\skills\\seo-optimizer",
-      "published_codex_path": "C:/Users/peter/.codex/skills/seo-optimizer"
+      "generated_codex_path": "generated/codex/skills/seo-optimizer",
+      "published_codex_path": "/root/.codex/skills/seo-optimizer"
     },
     {
       "id": "image-director",
@@ -2798,10 +2798,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\image-director",
-      "generated_claude_path": "generated\\claude\\agents\\image-director.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\image-director",
-      "published_claude_path": "C:/Users/peter/.claude/agents/image-director.md",
+      "source_path": "agents/image-director",
+      "generated_claude_path": "generated/claude/agents/image-director.md",
+      "generated_paperclip_path": "generated/paperclip/agents/image-director",
+      "published_claude_path": "/root/.claude/agents/image-director.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "image-router",
@@ -2810,15 +2810,18 @@
         "reject-output",
         "cleanup-temp",
         "select-lora",
-        "train-lora",
-        "validate-training-set",
+        "lora-prepare-dataset",
+        "lora-caption-dataset",
+        "lora-train",
+        "lora-evaluate",
+        "lora-version",
         "image-blueprint",
         "nano-banana-realism-engine",
         "higgsfield"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\image-director.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/image-director.toml"
+      "generated_codex_path": "generated/codex/agents/image-director.toml",
+      "published_codex_path": "/root/.codex/agents/image-director.toml"
     },
     {
       "id": "wordpress-developer",
@@ -2834,10 +2837,10 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "agents\\wordpress-developer",
-      "generated_claude_path": "generated\\claude\\agents\\wordpress-developer.md",
-      "generated_paperclip_path": "generated\\paperclip\\agents\\wordpress-developer",
-      "published_claude_path": "C:/Users/peter/.claude/agents/wordpress-developer.md",
+      "source_path": "agents/wordpress-developer",
+      "generated_claude_path": "generated/claude/agents/wordpress-developer.md",
+      "generated_paperclip_path": "generated/paperclip/agents/wordpress-developer",
+      "published_claude_path": "/root/.claude/agents/wordpress-developer.md",
       "published_paperclip_status": "manifest_generated",
       "requirements": [
         "wordpress-setup",
@@ -2848,8 +2851,8 @@
         "browser-use"
       ],
       "notes": "",
-      "generated_codex_path": "generated\\codex\\agents\\wordpress-developer.toml",
-      "published_codex_path": "C:/Users/peter/.codex/agents/wordpress-developer.toml"
+      "generated_codex_path": "generated/codex/agents/wordpress-developer.toml",
+      "published_codex_path": "/root/.codex/agents/wordpress-developer.toml"
     },
     {
       "id": "anti-impossibility-validator",
@@ -2865,13 +2868,13 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\anti-impossibility-validator",
-      "generated_claude_path": "generated\\claude\\skills\\anti-impossibility-validator",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\anti-impossibility-validator",
-      "generated_codex_path": "generated\\codex\\skills\\anti-impossibility-validator",
-      "published_claude_path": "C:/Users/peter/.claude/skills/anti-impossibility-validator",
+      "source_path": "skills/anti-impossibility-validator",
+      "generated_claude_path": "generated/claude/skills/anti-impossibility-validator",
+      "generated_paperclip_path": "generated/paperclip/skills/anti-impossibility-validator",
+      "generated_codex_path": "generated/codex/skills/anti-impossibility-validator",
+      "published_claude_path": "/root/.claude/skills/anti-impossibility-validator",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/anti-impossibility-validator",
+      "published_codex_path": "/root/.codex/skills/anti-impossibility-validator",
       "requirements": [],
       "notes": ""
     },
@@ -2889,13 +2892,13 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\google-analytics",
-      "generated_claude_path": "generated\\claude\\skills\\google-analytics",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\google-analytics",
-      "generated_codex_path": "generated\\codex\\skills\\google-analytics",
-      "published_claude_path": "C:/Users/peter/.claude/skills/google-analytics",
+      "source_path": "skills/google-analytics",
+      "generated_claude_path": "generated/claude/skills/google-analytics",
+      "generated_paperclip_path": "generated/paperclip/skills/google-analytics",
+      "generated_codex_path": "generated/codex/skills/google-analytics",
+      "published_claude_path": "/root/.claude/skills/google-analytics",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/google-analytics",
+      "published_codex_path": "/root/.codex/skills/google-analytics",
       "requirements": [
         "googleapis",
         "@google-analytics/data"
@@ -2916,13 +2919,13 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\google-search-console",
-      "generated_claude_path": "generated\\claude\\skills\\google-search-console",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\google-search-console",
-      "generated_codex_path": "generated\\codex\\skills\\google-search-console",
-      "published_claude_path": "C:/Users/peter/.claude/skills/google-search-console",
+      "source_path": "skills/google-search-console",
+      "generated_claude_path": "generated/claude/skills/google-search-console",
+      "generated_paperclip_path": "generated/paperclip/skills/google-search-console",
+      "generated_codex_path": "generated/codex/skills/google-search-console",
+      "published_claude_path": "/root/.claude/skills/google-search-console",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/google-search-console",
+      "published_codex_path": "/root/.codex/skills/google-search-console",
       "requirements": [
         "googleapis"
       ],
@@ -2942,13 +2945,13 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\google-tag-manager",
-      "generated_claude_path": "generated\\claude\\skills\\google-tag-manager",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\google-tag-manager",
-      "generated_codex_path": "generated\\codex\\skills\\google-tag-manager",
-      "published_claude_path": "C:/Users/peter/.claude/skills/google-tag-manager",
+      "source_path": "skills/google-tag-manager",
+      "generated_claude_path": "generated/claude/skills/google-tag-manager",
+      "generated_paperclip_path": "generated/paperclip/skills/google-tag-manager",
+      "generated_codex_path": "generated/codex/skills/google-tag-manager",
+      "published_claude_path": "/root/.claude/skills/google-tag-manager",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/google-tag-manager",
+      "published_codex_path": "/root/.codex/skills/google-tag-manager",
       "requirements": [
         "googleapis"
       ],
@@ -2968,46 +2971,147 @@
         "paperclip",
         "codex"
       ],
-      "source_path": "skills\\seo-growth-tracker",
-      "generated_claude_path": "generated\\claude\\skills\\seo-growth-tracker",
-      "generated_paperclip_path": "generated\\paperclip\\skills\\seo-growth-tracker",
-      "generated_codex_path": "generated\\codex\\skills\\seo-growth-tracker",
-      "published_claude_path": "C:/Users/peter/.claude/skills/seo-growth-tracker",
+      "source_path": "skills/seo-growth-tracker",
+      "generated_claude_path": "generated/claude/skills/seo-growth-tracker",
+      "generated_paperclip_path": "generated/paperclip/skills/seo-growth-tracker",
+      "generated_codex_path": "generated/codex/skills/seo-growth-tracker",
+      "published_claude_path": "/root/.claude/skills/seo-growth-tracker",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/seo-growth-tracker",
+      "published_codex_path": "/root/.codex/skills/seo-growth-tracker",
       "requirements": [],
       "notes": ""
     },
     {
       "id": "lora-prepare-dataset",
-      "published_claude_path": "C:/Users/peter/.claude/skills/lora-prepare-dataset",
+      "published_claude_path": "/root/.claude/skills/lora-prepare-dataset",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/lora-prepare-dataset"
+      "published_codex_path": "/root/.codex/skills/lora-prepare-dataset",
+      "name": "LoRA Prepare Dataset",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/lora-prepare-dataset",
+      "generated_claude_path": "generated/claude/skills/lora-prepare-dataset",
+      "generated_paperclip_path": "generated/paperclip/skills/lora-prepare-dataset",
+      "generated_codex_path": "generated/codex/skills/lora-prepare-dataset",
+      "requirements": [],
+      "notes": ""
     },
     {
       "id": "lora-caption-dataset",
-      "published_claude_path": "C:/Users/peter/.claude/skills/lora-caption-dataset",
+      "published_claude_path": "/root/.claude/skills/lora-caption-dataset",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/lora-caption-dataset"
+      "published_codex_path": "/root/.codex/skills/lora-caption-dataset",
+      "name": "LoRA Caption Dataset",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/lora-caption-dataset",
+      "generated_claude_path": "generated/claude/skills/lora-caption-dataset",
+      "generated_paperclip_path": "generated/paperclip/skills/lora-caption-dataset",
+      "generated_codex_path": "generated/codex/skills/lora-caption-dataset",
+      "requirements": [
+        "lora-prepare-dataset"
+      ],
+      "notes": ""
     },
     {
       "id": "lora-train",
-      "published_claude_path": "C:/Users/peter/.claude/skills/lora-train",
+      "published_claude_path": "/root/.claude/skills/lora-train",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/lora-train"
+      "published_codex_path": "/root/.codex/skills/lora-train",
+      "name": "LoRA Train",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/lora-train",
+      "generated_claude_path": "generated/claude/skills/lora-train",
+      "generated_paperclip_path": "generated/paperclip/skills/lora-train",
+      "generated_codex_path": "generated/codex/skills/lora-train",
+      "requirements": [
+        "lora-prepare-dataset",
+        "lora-caption-dataset"
+      ],
+      "notes": ""
     },
     {
       "id": "lora-evaluate",
-      "published_claude_path": "C:/Users/peter/.claude/skills/lora-evaluate",
+      "published_claude_path": "/root/.claude/skills/lora-evaluate",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/lora-evaluate"
+      "published_codex_path": "/root/.codex/skills/lora-evaluate",
+      "name": "LoRA Evaluate",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/lora-evaluate",
+      "generated_claude_path": "generated/claude/skills/lora-evaluate",
+      "generated_paperclip_path": "generated/paperclip/skills/lora-evaluate",
+      "generated_codex_path": "generated/codex/skills/lora-evaluate",
+      "requirements": [
+        "lora-train",
+        "generate-image"
+      ],
+      "notes": ""
     },
     {
       "id": "lora-version",
-      "published_claude_path": "C:/Users/peter/.claude/skills/lora-version",
+      "published_claude_path": "/root/.claude/skills/lora-version",
       "published_paperclip_status": "manifest_generated",
-      "published_codex_path": "C:/Users/peter/.codex/skills/lora-version"
+      "published_codex_path": "/root/.codex/skills/lora-version",
+      "name": "LoRA Version",
+      "type": "skill",
+      "version": "0.1.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills/lora-version",
+      "generated_claude_path": "generated/claude/skills/lora-version",
+      "generated_paperclip_path": "generated/paperclip/skills/lora-version",
+      "generated_codex_path": "generated/codex/skills/lora-version",
+      "requirements": [
+        "lora-train",
+        "lora-evaluate"
+      ],
+      "notes": ""
     }
   ],
-  "updated": "2026-04-21T22:08:35.131234"
+  "updated": "2026-04-27T09:22:24.987877"
 }
