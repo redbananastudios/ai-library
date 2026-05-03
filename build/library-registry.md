@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-04-27T09:22:24
+Updated: 2026-05-03T23:46:02
 
-Total items: 123
+Total items: 124
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -62,6 +62,7 @@ Total items: 123
 | last30days | Last 30 Days | skill | 0.1.0 | imported | yes | manifest_generated |
 | linkedin-authority-builder | LinkedIn Authority Builder | skill | 0.1.0 | imported | yes | manifest_generated |
 | linkgap | LinkGap Backlink Gap Analyzer | skill | 0.1.0 | active | yes | manifest_generated |
+| local-business-seo |  |  |  |  | no | manifest_generated |
 | local-seo-specialist | Local SEO Specialist | agent | 0.3.0 | active | yes | manifest_generated |
 | local-visibility | Local Visibility | skill | 0.1.0 | imported | yes | manifest_generated |
 | localrank-agent | LocalRank Agent | skill | 0.1.0 | imported | yes | manifest_generated |

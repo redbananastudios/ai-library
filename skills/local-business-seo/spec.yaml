@@ -1,0 +1,13 @@
+id: local-business-seo
+name: Local Business SEO Kit
+type: skill
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+changelog_summary: Initial release - distilled from Marley Moves rebuild (Apr-May 2026)
+requirements: []
+status: active
+description: Reusable agent + skills kit for building search-optimised websites for local UK service businesses. Covers site bootstrap, CMS seeding, area pages, schema graph, AEO/LLM stack, content audit, and pre-launch checklist.
+trigger: "local business website, local SEO site build, service area pages, local business schema"
+imported_from_pack: ""

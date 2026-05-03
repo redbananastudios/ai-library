@@ -3111,7 +3111,12 @@
         "lora-evaluate"
       ],
       "notes": ""
+    },
+    {
+      "id": "local-business-seo",
+      "published_claude_path": "C:/Users/peter/.claude/skills/local-business-seo",
+      "published_paperclip_status": "manifest_generated"
     }
   ],
-  "updated": "2026-04-27T09:22:24.987877"
+  "updated": "2026-05-03T23:46:02.665827"
 }

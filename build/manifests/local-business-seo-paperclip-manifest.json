@@ -1,0 +1,7 @@
+{
+  "item_id": "local-business-seo",
+  "type": "skill",
+  "payload_path": "O:\\red-banana-studio\\ai-library\\generated\\paperclip\\skills\\local-business-seo\\payload.json",
+  "published_at": "2026-05-03T23:46:02.664800",
+  "instructions": "Import payload.json into Paperclip via API or dashboard."
+}
