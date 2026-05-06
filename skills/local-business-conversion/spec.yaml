@@ -1,0 +1,13 @@
+id: local-business-conversion
+name: Local Business Conversion Kit
+type: skill
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+changelog_summary: Initial release - distilled from Marley Moves rebuild (Apr-May 2026)
+requirements: []
+status: active
+description: Sibling kit to local-business-seo. Lead-capture and conversion components for local UK service businesses — multi-step or single-step quote form (with Google Places address autocomplete and Resend server action), persistent CTA chrome (mobile call bar, desktop sticky button, mobile quote sticky bar, WhatsApp float), service-area postcode checker, and the analytics + first-touch attribution layer that powers PPC reporting (Google Ads Enhanced Conversions, Meta CAPI signal, Plausible, GA4). Three sub-skills — local-business-lead-form, local-business-sticky-ctas, local-business-conversion-analytics.
+trigger: "lead form, conversion form, quote form, sticky CTA, mobile call bar, postcode checker, enhanced conversions, attribution tracking"
+imported_from_pack: ""

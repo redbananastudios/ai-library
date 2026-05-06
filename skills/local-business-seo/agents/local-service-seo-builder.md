@@ -23,6 +23,7 @@ Figure out what stage the project is at, then invoke the right skill.
 | JSON-LD work or audit | Build/fix schema graph | `local-business-schema-graph` |
 | Adding AI/LLM optimisation | Install AEO stack | `local-business-aeo-stack` |
 | Reviewing copy | Audit for content rule violations | `local-business-content-audit` |
+| Wiring related-blocks / internal links | Apply 4+4+3 pattern | `local-business-internal-linking` |
 | Approaching cutover | Pre-launch checks | `local-business-pre-launch-checklist` |
 
 If the user's request spans multiple stages (e.g. "build out the area

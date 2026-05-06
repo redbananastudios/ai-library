@@ -1,0 +1,13 @@
+id: dataforseo-keyword-pipeline
+name: DataForSEO Keyword + Brief Pipeline
+type: skill
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+changelog_summary: Initial release - distilled from Marley Moves rebuild (Apr-May 2026)
+requirements: ['DATAFORSEO_LOGIN', 'DATAFORSEO_PASSWORD']
+status: active
+description: Cache-backed five-phase research pipeline that turns a list of competitors, towns, and services into a master keyword CSV, Google Map Pack competition CSV, per-page content briefs (with SERP snapshots, consensus H2s, content gaps, schema recommendations, internal-link suggestions, geo-ambiguity warnings), and an executive summary with top-N opportunity scores plus directory-dominated keyword flags. Idempotent across re-runs (SHA256 cache keys) so iteration is free.
+trigger: "keyword research, content brief, SERP analysis, dataforseo, map pack analysis, opportunity score"
+imported_from_pack: ""

@@ -1,0 +1,10 @@
+{
+  "id": "ai-content-workflow",
+  "source_url": "",
+  "source_kind": "custom",
+  "import_method": "extracted_from_project",
+  "imported_from_pack": "",
+  "imported_at": "2026-05-06T00:00:00Z",
+  "is_pack": false,
+  "notes": "Distilled from O:/marley/site/docs/superpowers/specs/2026-05-01-content-workflow.md. Marley enforces the rules via a project-level CLAUDE.md and a re-runnable audit script (audit-town-content-vs-shaftesbury-bar.mjs). The skill generalises the rules so they apply to non-local-business projects too — agency content, blog posts, product descriptions."
+}

@@ -1,0 +1,13 @@
+id: ai-content-workflow
+name: AI-Assisted Content Workflow
+type: skill
+version: 1.0.0
+source_url: ""
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+changelog_summary: Initial release - distilled from Marley Moves rebuild (Apr-May 2026)
+requirements: []
+status: active
+description: Six-rule discipline that gates every AI-assisted content draft (location pages, service pages, blog posts, FAQs, product descriptions). Source first (operator voice memo or transcript before any AI involvement), structured facts object before prose, AI structures and never invents (no street name / price / anecdote not in the source — empty sections stay empty with INSUFFICIENT SOURCE marker), verify against reality (street names against Royal Mail / OS Maps, postcodes against postcodes.io, claims against the operator), one earned operator-specific detail minimum per page, and first-person posts always start from a real transcript. Catches the AI-fluff failure mode that makes content generic and gets pages devalued by Helpful Content / AI search engines.
+trigger: "AI content workflow, content from voice memo, source-first content, never invent facts, content brief discipline"
+imported_from_pack: ""

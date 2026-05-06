@@ -1,0 +1,10 @@
+{
+  "id": "dataforseo-keyword-pipeline",
+  "source_url": "",
+  "source_kind": "custom",
+  "import_method": "extracted_from_project",
+  "imported_from_pack": "",
+  "imported_at": "2026-05-06T00:00:00Z",
+  "is_pack": false,
+  "notes": "Distilled from O:/marley/seo-data/scripts/run-seo-research.mjs. The Marley pipeline was a single 1099-line script targeting marleymoves.co.uk; this skill turns it into a re-runnable, parameterised workflow that adapts to any competitor list, geography, and priority page set."
+}

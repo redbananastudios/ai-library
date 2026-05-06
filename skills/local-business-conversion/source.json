@@ -1,0 +1,10 @@
+{
+  "id": "local-business-conversion",
+  "source_url": "",
+  "source_kind": "custom",
+  "import_method": "extracted_from_project",
+  "imported_from_pack": "",
+  "imported_at": "2026-05-06T00:00:00Z",
+  "is_pack": true,
+  "notes": "Distilled from O:/marley/site/web/components/forms/, components/chrome/, components/sections/HeroQuoteForm.tsx, lib/analytics.ts, lib/attribution.ts, app/actions/submit-quote.ts. Sibling kit to local-business-seo — SEO architecture and content live in that kit; this kit covers the lead-capture chrome that turns SEO traffic into form submits."
+}
