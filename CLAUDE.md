@@ -82,9 +82,8 @@ The publish target for Claude is the user's home `~/.claude/`. Codex publishes t
 
 ## Current Inventory
 
-- **60 skills** across: SEO, marketing, Shopify (11), WordPress (4), ads, dev tools, design, content, image generation
-- **3 agents** (backend-developer, frontend-developer, fullstack-developer) - currently clone_failed status
-- **2 metadata** items (awesome-agent-skills, awesome-claude-code-subagents)
+- **74 skills** across: SEO (11), Shopify (16), WordPress (4), marketing/content (10), image pipeline (7), LoRA (4), ads (2), dev tools (12), measurement (3), misc (5)
+- **20 agents**: backend-developer, frontend-developer, fullstack-developer, shopify-developer, wordpress-developer, seo-manager, local-seo-specialist, ads-manager, amazon-fba-assistant, backlink-builder, brand-builder, code-reviewer, git-specialist, image-director, image-reverse-engineer, qa-engineer, research-assistant, social-media-manager, ui-designer, video-director
 
 ## Style Notes
 
