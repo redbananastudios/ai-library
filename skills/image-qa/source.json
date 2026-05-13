@@ -1,0 +1,7 @@
+{
+  "source": "custom",
+  "author": "Red Banana Studios",
+  "created": "2026-04-20",
+  "updated": "2026-05-13",
+  "notes": "Merged from approve-output and reject-output skills into single image QA workflow."
+}

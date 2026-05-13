@@ -1,0 +1,11 @@
+id: image-qa
+name: Image QA
+type: skill
+version: 1.0.0
+source_url: ''
+source_kind: custom
+compatible_targets: ['claude', 'paperclip', 'codex']
+description: Judge generated image outputs — approve winners (promote LoRAs, record winning patterns) or reject failures (classify failure category, suggest retry strategy). Merges former approve-output and reject-output skills.
+status: active
+trigger: approve image, reject image, image looks good, bad output, image not right, redo, mark output approved
+requirements: []

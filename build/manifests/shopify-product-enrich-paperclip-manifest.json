@@ -1,7 +1,7 @@
 {
   "item_id": "shopify-product-enrich",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/shopify-product-enrich/payload.json",
-  "published_at": "2026-04-27T09:22:22.124896",
+  "payload_path": "generated\\paperclip\\skills\\shopify-product-enrich\\payload.json",
+  "published_at": "2026-05-03T23:47:42.077279",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

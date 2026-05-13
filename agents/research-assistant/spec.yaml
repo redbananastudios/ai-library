@@ -6,8 +6,8 @@ source_url: ""
 source_kind: custom
 compatible_targets: ['claude', 'paperclip', 'codex']
 changelog_summary: Rebuilt with full workflow, skill references and tool guidance
-requirements: ['deep-research', 'youtube-summarizer']
+requirements: ['deep-research', 'youtube-summarizer', 'competitor-alternatives', 'reddit-insights']
 status: active
-description: Provides general research support. Gathers information from web sources, summarises articles and videos, compiles notes and synthesises knowledge for decision-making.
+description: Investigates topics, analyses markets, evaluates competitors and synthesises findings. Gathers data from web sources, videos, Reddit and competitor products to produce structured research reports with actionable recommendations.
 trigger: ""
 imported_from_pack: ""

@@ -1926,7 +1926,9 @@
       "published_paperclip_status": "generated",
       "requirements": [
         "deep-research",
-        "youtube-summarizer"
+        "youtube-summarizer",
+        "competitor-alternatives",
+        "reddit-insights"
       ],
       "notes": "",
       "generated_codex_path": "generated\\codex\\agents\\research-assistant.toml",
@@ -3210,7 +3212,31 @@
       "published_codex_path": "",
       "requirements": [],
       "notes": ""
+    },
+    {
+      "id": "image-qa",
+      "name": "Image QA",
+      "type": "skill",
+      "version": "1.0.0",
+      "status": "active",
+      "upstream_repo_or_source": "",
+      "source_url": "",
+      "imported_from_pack": "",
+      "compatible_targets": [
+        "claude",
+        "paperclip",
+        "codex"
+      ],
+      "source_path": "skills\\image-qa",
+      "generated_claude_path": "generated\\claude\\skills\\image-qa",
+      "generated_paperclip_path": "generated\\paperclip\\skills\\image-qa",
+      "generated_codex_path": "generated\\codex\\skills\\image-qa",
+      "published_claude_path": "",
+      "published_paperclip_status": "generated",
+      "published_codex_path": "",
+      "requirements": [],
+      "notes": ""
     }
   ],
-  "updated": "2026-05-13T18:09:30.218067"
+  "updated": "2026-05-13T22:35:57.148166"
 }

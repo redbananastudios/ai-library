@@ -1,7 +1,7 @@
 {
   "item_id": "firecrawl",
   "type": "skill",
-  "payload_path": "generated/paperclip/skills/firecrawl/payload.json",
-  "published_at": "2026-04-27T09:22:21.661227",
+  "payload_path": "generated\\paperclip\\skills\\firecrawl\\payload.json",
+  "published_at": "2026-05-03T23:47:41.914159",
   "instructions": "Import payload.json into Paperclip via API or dashboard."
 }

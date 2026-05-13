@@ -1,8 +1,8 @@
 # AI Library Registry
 
-Updated: 2026-05-13T18:09:30
+Updated: 2026-05-13T22:35:57
 
-Total items: 127
+Total items: 128
 
 | ID | Name | Type | Version | Status | Claude | Paperclip |
 |---|---|---|---|---|---|---|
@@ -58,6 +58,7 @@ Total items: 127
 | image-blueprint | Image Blueprint | skill | 1.0.0 | active | yes | generated |
 | image-director | Image Director | agent | 1.0.0 | active | yes | generated |
 | image-generator | Image Generator | agent | 0.2.0 | active | yes | manifest_generated |
+| image-qa | Image QA | skill | 1.0.0 | active | yes | generated |
 | image-reverse-engineer | Image Reverse Engineer | agent | 2.0.0 | active | yes | generated |
 | image-router | Image Router | skill | 1.0.0 | active | yes | generated |
 | investigate | Investigate | skill | 0.1.0 | imported | yes | generated |

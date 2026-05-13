@@ -1,0 +1,1045 @@
+[2026-05-13T18:09:29] [INFO] Built Claude skill: ai-content-workflow
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\ai-content-workflow\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: ai-content-workflow
+[2026-05-13T18:09:29] [INFO] Built Codex skill: ai-content-workflow
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: ai-discoverability-audit
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\ai-discoverability-audit\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: ai-discoverability-audit
+[2026-05-13T18:09:29] [INFO] Built Codex skill: ai-discoverability-audit
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: anti-impossibility-validator
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\anti-impossibility-validator\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: anti-impossibility-validator
+[2026-05-13T18:09:29] [INFO] Built Codex skill: anti-impossibility-validator
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: approve-output
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\approve-output\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: approve-output
+[2026-05-13T18:09:29] [INFO] Built Codex skill: approve-output
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: awesome-agent-skills
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\awesome-agent-skills\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip metadata: awesome-agent-skills
+[2026-05-13T18:09:29] [INFO] Built Codex skill: awesome-agent-skills
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: awesome-claude-code-subagents
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\awesome-claude-code-subagents\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip metadata: awesome-claude-code-subagents
+[2026-05-13T18:09:29] [INFO] Built Codex skill: awesome-claude-code-subagents
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: backlink-analyzer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\backlink-analyzer\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: backlink-analyzer
+[2026-05-13T18:09:29] [INFO] Built Codex skill: backlink-analyzer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: backlink-outreach
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\backlink-outreach\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: backlink-outreach
+[2026-05-13T18:09:29] [INFO] Built Codex skill: backlink-outreach
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: boilerplate-generator
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\boilerplate-generator\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: boilerplate-generator
+[2026-05-13T18:09:29] [INFO] Built Codex skill: boilerplate-generator
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: browser-use
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\browser-use\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: browser-use
+[2026-05-13T18:09:29] [INFO] Built Codex skill: browser-use
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: claude-ads
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\claude-ads\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: claude-ads
+[2026-05-13T18:09:29] [INFO] Built Codex skill: claude-ads
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: cleanup-temp
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\cleanup-temp\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: cleanup-temp
+[2026-05-13T18:09:29] [INFO] Built Codex skill: cleanup-temp
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: competitor-alternatives
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\competitor-alternatives\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: competitor-alternatives
+[2026-05-13T18:09:29] [INFO] Built Codex skill: competitor-alternatives
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: content-idea-generator
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\content-idea-generator\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: content-idea-generator
+[2026-05-13T18:09:29] [INFO] Built Codex skill: content-idea-generator
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: content-strategy
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\content-strategy\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: content-strategy
+[2026-05-13T18:09:29] [INFO] Built Codex skill: content-strategy
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: copywriter
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\copywriter\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: copywriter
+[2026-05-13T18:09:29] [INFO] Built Codex skill: copywriter
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: creative-director
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\creative-director\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: creative-director
+[2026-05-13T18:09:29] [INFO] Built Codex skill: creative-director
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: dataforseo-keyword-pipeline
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\dataforseo-keyword-pipeline\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: dataforseo-keyword-pipeline
+[2026-05-13T18:09:29] [INFO] Built Codex skill: dataforseo-keyword-pipeline
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: deep-research
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\deep-research\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: deep-research
+[2026-05-13T18:09:29] [INFO] Built Codex skill: deep-research
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: design-assets
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\design-assets\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: design-assets
+[2026-05-13T18:09:29] [INFO] Built Codex skill: design-assets
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: engineering-standards
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\engineering-standards\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: engineering-standards
+[2026-05-13T18:09:29] [INFO] Built Codex skill: engineering-standards
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: facebook-ads-optimizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\facebook-ads-optimizer\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: facebook-ads-optimizer
+[2026-05-13T18:09:29] [INFO] Built Codex skill: facebook-ads-optimizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: firecrawl
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\firecrawl\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: firecrawl
+[2026-05-13T18:09:29] [INFO] Built Codex skill: firecrawl
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: frontend-design
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\frontend-design\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: frontend-design
+[2026-05-13T18:09:29] [INFO] Built Codex skill: frontend-design
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: generate-image
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\generate-image\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: generate-image
+[2026-05-13T18:09:29] [INFO] Built Codex skill: generate-image
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: google-analytics
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-analytics\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: google-analytics
+[2026-05-13T18:09:29] [INFO] Built Codex skill: google-analytics
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: google-business-profile-optimizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-business-profile-optimizer\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: google-business-profile-optimizer
+[2026-05-13T18:09:29] [INFO] Built Codex skill: google-business-profile-optimizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: google-search-console
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-search-console\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: google-search-console
+[2026-05-13T18:09:29] [INFO] Built Codex skill: google-search-console
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: google-tag-manager
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-tag-manager\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: google-tag-manager
+[2026-05-13T18:09:29] [INFO] Built Codex skill: google-tag-manager
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: humanizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\humanizer\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: humanizer
+[2026-05-13T18:09:29] [INFO] Built Codex skill: humanizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: image-blueprint
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\image-blueprint\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: image-blueprint
+[2026-05-13T18:09:29] [INFO] Built Codex skill: image-blueprint
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: image-router
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\image-router\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: image-router
+[2026-05-13T18:09:29] [INFO] Built Codex skill: image-router
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: investigate
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\investigate\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: investigate
+[2026-05-13T18:09:29] [INFO] Built Codex skill: investigate
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: last30days
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\last30days\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: last30days
+[2026-05-13T18:09:29] [INFO] Built Codex skill: last30days
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: linkedin-authority-builder
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\linkedin-authority-builder\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: linkedin-authority-builder
+[2026-05-13T18:09:29] [INFO] Built Codex skill: linkedin-authority-builder
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: linkgap
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\linkgap\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: linkgap
+[2026-05-13T18:09:29] [INFO] Built Codex skill: linkgap
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: local-business-conversion
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\local-business-conversion\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: local-business-conversion
+[2026-05-13T18:09:29] [INFO] Built Codex skill: local-business-conversion
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: local-business-seo
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\local-business-seo\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: local-business-seo
+[2026-05-13T18:09:29] [INFO] Built Codex skill: local-business-seo
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: local-visibility
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\local-visibility\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: local-visibility
+[2026-05-13T18:09:29] [INFO] Built Codex skill: local-visibility
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: localrank-agent
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\localrank-agent\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: localrank-agent
+[2026-05-13T18:09:29] [INFO] Built Codex skill: localrank-agent
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: lora-caption-dataset
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-caption-dataset\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: lora-caption-dataset
+[2026-05-13T18:09:29] [INFO] Built Codex skill: lora-caption-dataset
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: lora-evaluate
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-evaluate\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: lora-evaluate
+[2026-05-13T18:09:29] [INFO] Built Codex skill: lora-evaluate
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: lora-prepare-dataset
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-prepare-dataset\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: lora-prepare-dataset
+[2026-05-13T18:09:29] [INFO] Built Codex skill: lora-prepare-dataset
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: lora-train
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-train\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: lora-train
+[2026-05-13T18:09:29] [INFO] Built Codex skill: lora-train
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: lora-version
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-version\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: lora-version
+[2026-05-13T18:09:29] [INFO] Built Codex skill: lora-version
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: mailbox
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\mailbox\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: mailbox
+[2026-05-13T18:09:29] [INFO] Built Codex skill: mailbox
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: marketing-principles
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\marketing-principles\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: marketing-principles
+[2026-05-13T18:09:29] [INFO] Built Codex skill: marketing-principles
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: nano-banana-realism-engine
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\nano-banana-realism-engine\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: nano-banana-realism-engine
+[2026-05-13T18:09:29] [INFO] Built Codex skill: nano-banana-realism-engine
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: paid-ads
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\paid-ads\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: paid-ads
+[2026-05-13T18:09:29] [INFO] Built Codex skill: paid-ads
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: personal-brand-builder
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\personal-brand-builder\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: personal-brand-builder
+[2026-05-13T18:09:29] [INFO] Built Codex skill: personal-brand-builder
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: positioning-basics
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\positioning-basics\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: positioning-basics
+[2026-05-13T18:09:29] [INFO] Built Codex skill: positioning-basics
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: project-health
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\project-health\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: project-health
+[2026-05-13T18:09:29] [INFO] Built Codex skill: project-health
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: qa
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\qa\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: qa
+[2026-05-13T18:09:29] [INFO] Built Codex skill: qa
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: qa-only
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\qa-only\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: qa-only
+[2026-05-13T18:09:29] [INFO] Built Codex skill: qa-only
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: reddit-insights
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\reddit-insights\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: reddit-insights
+[2026-05-13T18:09:29] [INFO] Built Codex skill: reddit-insights
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: reject-output
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\reject-output\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: reject-output
+[2026-05-13T18:09:29] [INFO] Built Codex skill: reject-output
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: review
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\review\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: review
+[2026-05-13T18:09:29] [INFO] Built Codex skill: review
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: select-lora
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\select-lora\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: select-lora
+[2026-05-13T18:09:29] [INFO] Built Codex skill: select-lora
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: seo-audit
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\seo-audit\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: seo-audit
+[2026-05-13T18:09:29] [INFO] Built Codex skill: seo-audit
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: seo-growth-tracker
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\seo-growth-tracker\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: seo-growth-tracker
+[2026-05-13T18:09:29] [INFO] Built Codex skill: seo-growth-tracker
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: seo-optimizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\seo-optimizer\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: seo-optimizer
+[2026-05-13T18:09:29] [INFO] Built Codex skill: seo-optimizer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-app-development
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-app-development\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-app-development
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-app-development
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-checkout
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-checkout\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-checkout
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-checkout
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-cli
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-cli\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-cli
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-cli
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-collection-card-renderer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-collection-card-renderer\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-collection-card-renderer
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-collection-card-renderer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-content
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-content\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-content
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-content
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-functions
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-functions\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-functions
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-functions
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-graphql
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-graphql\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-graphql
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-graphql
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-hydrogen
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-hydrogen\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-hydrogen
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-hydrogen
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-liquid-templating
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-liquid-templating\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-liquid-templating
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-liquid-templating
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-pdp-designer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-pdp-designer\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-pdp-designer
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-pdp-designer
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-product-enrich
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-product-enrich\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-product-enrich
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-product-enrich
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-products
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-products\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-products
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-products
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-setup
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-setup\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-setup
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-setup
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-supplier-extract
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-supplier-extract\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-supplier-extract
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-supplier-extract
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-sync
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-sync\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-sync
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-sync
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:29] [INFO] Built Claude skill: shopify-theme-development
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-theme-development\payload.json
+[2026-05-13T18:09:29] [INFO] Built Paperclip skill: shopify-theme-development
+[2026-05-13T18:09:29] [INFO] Built Codex skill: shopify-theme-development
+[2026-05-13T18:09:29] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: simplify
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\simplify\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: simplify
+[2026-05-13T18:09:30] [INFO] Built Codex skill: simplify
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: social-card-gen
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\social-card-gen\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: social-card-gen
+[2026-05-13T18:09:30] [INFO] Built Codex skill: social-card-gen
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: social-content
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\social-content\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: social-content
+[2026-05-13T18:09:30] [INFO] Built Codex skill: social-content
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: stitch
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\stitch\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: stitch
+[2026-05-13T18:09:30] [INFO] Built Codex skill: stitch
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: upload-post
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\upload-post\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: upload-post
+[2026-05-13T18:09:30] [INFO] Built Codex skill: upload-post
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: ux-audit
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\ux-audit\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: ux-audit
+[2026-05-13T18:09:30] [INFO] Built Codex skill: ux-audit
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: voice-extractor
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\voice-extractor\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: voice-extractor
+[2026-05-13T18:09:30] [INFO] Built Codex skill: voice-extractor
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: wordpress-agent
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\wordpress-agent\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: wordpress-agent
+[2026-05-13T18:09:30] [INFO] Built Codex skill: wordpress-agent
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: wordpress-content
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\wordpress-content\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: wordpress-content
+[2026-05-13T18:09:30] [INFO] Built Codex skill: wordpress-content
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: wordpress-elementor
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\wordpress-elementor\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: wordpress-elementor
+[2026-05-13T18:09:30] [INFO] Built Codex skill: wordpress-elementor
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: wordpress-setup
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\wordpress-setup\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: wordpress-setup
+[2026-05-13T18:09:30] [INFO] Built Codex skill: wordpress-setup
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude skill: youtube-summarizer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\youtube-summarizer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip skill: youtube-summarizer
+[2026-05-13T18:09:30] [INFO] Built Codex skill: youtube-summarizer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: ads-manager
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\ads-manager\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: ads-manager
+[2026-05-13T18:09:30] [INFO] Built Codex agent: ads-manager
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: amazon-fba-assistant
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\amazon-fba-assistant\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: amazon-fba-assistant
+[2026-05-13T18:09:30] [INFO] Built Codex agent: amazon-fba-assistant
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: api-designer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\api-designer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: api-designer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: api-designer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: backend-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\backend-developer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: backend-developer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: backend-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: backlink-builder
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\backlink-builder\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: backlink-builder
+[2026-05-13T18:09:30] [INFO] Built Codex agent: backlink-builder
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: brand-builder
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\brand-builder\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: brand-builder
+[2026-05-13T18:09:30] [INFO] Built Codex agent: brand-builder
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: bug-investigator
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\bug-investigator\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: bug-investigator
+[2026-05-13T18:09:30] [INFO] Built Codex agent: bug-investigator
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: code-reviewer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\code-reviewer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: code-reviewer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: code-reviewer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: design-bridge
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\design-bridge\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: design-bridge
+[2026-05-13T18:09:30] [INFO] Built Codex agent: design-bridge
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: frontend-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\frontend-developer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: frontend-developer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: frontend-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: fullstack-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\fullstack-developer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: fullstack-developer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: fullstack-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: git-specialist
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\git-specialist\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: git-specialist
+[2026-05-13T18:09:30] [INFO] Built Codex agent: git-specialist
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: graphql-architect
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\graphql-architect\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: graphql-architect
+[2026-05-13T18:09:30] [INFO] Built Codex agent: graphql-architect
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: image-director
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\image-director\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: image-director
+[2026-05-13T18:09:30] [INFO] Built Codex agent: image-director
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: image-reverse-engineer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\image-reverse-engineer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: image-reverse-engineer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: image-reverse-engineer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: local-seo-specialist
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\local-seo-specialist\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: local-seo-specialist
+[2026-05-13T18:09:30] [INFO] Built Codex agent: local-seo-specialist
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: microservices-architect
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\microservices-architect\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: microservices-architect
+[2026-05-13T18:09:30] [INFO] Built Codex agent: microservices-architect
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: product-researcher
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\product-researcher\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: product-researcher
+[2026-05-13T18:09:30] [INFO] Built Codex agent: product-researcher
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: qa-engineer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\qa-engineer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: qa-engineer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: qa-engineer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: research-assistant
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\research-assistant\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: research-assistant
+[2026-05-13T18:09:30] [INFO] Built Codex agent: research-assistant
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: seo-manager
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\seo-manager\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: seo-manager
+[2026-05-13T18:09:30] [INFO] Built Codex agent: seo-manager
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: shopify-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\shopify-developer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: shopify-developer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: shopify-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: social-media-manager
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\social-media-manager\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: social-media-manager
+[2026-05-13T18:09:30] [INFO] Built Codex agent: social-media-manager
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: ui-designer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\ui-designer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: ui-designer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: ui-designer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: video-director
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\video-director\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: video-director
+[2026-05-13T18:09:30] [INFO] Built Codex agent: video-director
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T18:09:30] [INFO] Built Claude agent: wordpress-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\wordpress-developer\payload.json
+[2026-05-13T18:09:30] [INFO] Built Paperclip agent: wordpress-developer
+[2026-05-13T18:09:30] [INFO] Built Codex agent: wordpress-developer
+[2026-05-13T18:09:30] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: ai-content-workflow
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\ai-content-workflow\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: ai-content-workflow
+[2026-05-13T22:35:56] [INFO] Built Codex skill: ai-content-workflow
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: ai-discoverability-audit
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\ai-discoverability-audit\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: ai-discoverability-audit
+[2026-05-13T22:35:56] [INFO] Built Codex skill: ai-discoverability-audit
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: anti-impossibility-validator
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\anti-impossibility-validator\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: anti-impossibility-validator
+[2026-05-13T22:35:56] [INFO] Built Codex skill: anti-impossibility-validator
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: boilerplate-generator
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\boilerplate-generator\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: boilerplate-generator
+[2026-05-13T22:35:56] [INFO] Built Codex skill: boilerplate-generator
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: browser-use
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\browser-use\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: browser-use
+[2026-05-13T22:35:56] [INFO] Built Codex skill: browser-use
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: claude-ads
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\claude-ads\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: claude-ads
+[2026-05-13T22:35:56] [INFO] Built Codex skill: claude-ads
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: cleanup-temp
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\cleanup-temp\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: cleanup-temp
+[2026-05-13T22:35:56] [INFO] Built Codex skill: cleanup-temp
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: competitor-alternatives
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\competitor-alternatives\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: competitor-alternatives
+[2026-05-13T22:35:56] [INFO] Built Codex skill: competitor-alternatives
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: content-idea-generator
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\content-idea-generator\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: content-idea-generator
+[2026-05-13T22:35:56] [INFO] Built Codex skill: content-idea-generator
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: content-strategy
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\content-strategy\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: content-strategy
+[2026-05-13T22:35:56] [INFO] Built Codex skill: content-strategy
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: dataforseo-keyword-pipeline
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\dataforseo-keyword-pipeline\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: dataforseo-keyword-pipeline
+[2026-05-13T22:35:56] [INFO] Built Codex skill: dataforseo-keyword-pipeline
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: deep-research
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\deep-research\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: deep-research
+[2026-05-13T22:35:56] [INFO] Built Codex skill: deep-research
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: design-assets
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\design-assets\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: design-assets
+[2026-05-13T22:35:56] [INFO] Built Codex skill: design-assets
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: engineering-standards
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\engineering-standards\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: engineering-standards
+[2026-05-13T22:35:56] [INFO] Built Codex skill: engineering-standards
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: firecrawl
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\firecrawl\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: firecrawl
+[2026-05-13T22:35:56] [INFO] Built Codex skill: firecrawl
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: frontend-design
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\frontend-design\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: frontend-design
+[2026-05-13T22:35:56] [INFO] Built Codex skill: frontend-design
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: generate-image
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\generate-image\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: generate-image
+[2026-05-13T22:35:56] [INFO] Built Codex skill: generate-image
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: google-analytics
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-analytics\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: google-analytics
+[2026-05-13T22:35:56] [INFO] Built Codex skill: google-analytics
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: google-business-profile-optimizer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-business-profile-optimizer\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: google-business-profile-optimizer
+[2026-05-13T22:35:56] [INFO] Built Codex skill: google-business-profile-optimizer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: google-search-console
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-search-console\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: google-search-console
+[2026-05-13T22:35:56] [INFO] Built Codex skill: google-search-console
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: google-tag-manager
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\google-tag-manager\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: google-tag-manager
+[2026-05-13T22:35:56] [INFO] Built Codex skill: google-tag-manager
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: humanizer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\humanizer\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: humanizer
+[2026-05-13T22:35:56] [INFO] Built Codex skill: humanizer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: image-blueprint
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\image-blueprint\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: image-blueprint
+[2026-05-13T22:35:56] [INFO] Built Codex skill: image-blueprint
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: image-qa
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\image-qa\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: image-qa
+[2026-05-13T22:35:56] [INFO] Built Codex skill: image-qa
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: image-router
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\image-router\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: image-router
+[2026-05-13T22:35:56] [INFO] Built Codex skill: image-router
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: investigate
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\investigate\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: investigate
+[2026-05-13T22:35:56] [INFO] Built Codex skill: investigate
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: last30days
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\last30days\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: last30days
+[2026-05-13T22:35:56] [INFO] Built Codex skill: last30days
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: linkedin-authority-builder
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\linkedin-authority-builder\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: linkedin-authority-builder
+[2026-05-13T22:35:56] [INFO] Built Codex skill: linkedin-authority-builder
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: linkgap
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\linkgap\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: linkgap
+[2026-05-13T22:35:56] [INFO] Built Codex skill: linkgap
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: local-business-conversion
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\local-business-conversion\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: local-business-conversion
+[2026-05-13T22:35:56] [INFO] Built Codex skill: local-business-conversion
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: local-business-seo
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\local-business-seo\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: local-business-seo
+[2026-05-13T22:35:56] [INFO] Built Codex skill: local-business-seo
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: lora-caption-dataset
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-caption-dataset\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: lora-caption-dataset
+[2026-05-13T22:35:56] [INFO] Built Codex skill: lora-caption-dataset
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: lora-evaluate
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-evaluate\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: lora-evaluate
+[2026-05-13T22:35:56] [INFO] Built Codex skill: lora-evaluate
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: lora-prepare-dataset
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-prepare-dataset\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: lora-prepare-dataset
+[2026-05-13T22:35:56] [INFO] Built Codex skill: lora-prepare-dataset
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: lora-train
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-train\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: lora-train
+[2026-05-13T22:35:56] [INFO] Built Codex skill: lora-train
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: lora-version
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\lora-version\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: lora-version
+[2026-05-13T22:35:56] [INFO] Built Codex skill: lora-version
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: mailbox
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\mailbox\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: mailbox
+[2026-05-13T22:35:56] [INFO] Built Codex skill: mailbox
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: marketing-principles
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\marketing-principles\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: marketing-principles
+[2026-05-13T22:35:56] [INFO] Built Codex skill: marketing-principles
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: nano-banana-realism-engine
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\nano-banana-realism-engine\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: nano-banana-realism-engine
+[2026-05-13T22:35:56] [INFO] Built Codex skill: nano-banana-realism-engine
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: paid-ads
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\paid-ads\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: paid-ads
+[2026-05-13T22:35:56] [INFO] Built Codex skill: paid-ads
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: positioning-basics
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\positioning-basics\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: positioning-basics
+[2026-05-13T22:35:56] [INFO] Built Codex skill: positioning-basics
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: project-health
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\project-health\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: project-health
+[2026-05-13T22:35:56] [INFO] Built Codex skill: project-health
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: qa
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\qa\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: qa
+[2026-05-13T22:35:56] [INFO] Built Codex skill: qa
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: reddit-insights
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\reddit-insights\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: reddit-insights
+[2026-05-13T22:35:56] [INFO] Built Codex skill: reddit-insights
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: review
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\review\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: review
+[2026-05-13T22:35:56] [INFO] Built Codex skill: review
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: select-lora
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\select-lora\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: select-lora
+[2026-05-13T22:35:56] [INFO] Built Codex skill: select-lora
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: seo-growth-tracker
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\seo-growth-tracker\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: seo-growth-tracker
+[2026-05-13T22:35:56] [INFO] Built Codex skill: seo-growth-tracker
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: seo-optimizer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\seo-optimizer\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: seo-optimizer
+[2026-05-13T22:35:56] [INFO] Built Codex skill: seo-optimizer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-app-development
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-app-development\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-app-development
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-app-development
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-checkout
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-checkout\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-checkout
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-checkout
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-cli
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-cli\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-cli
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-cli
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-collection-card-renderer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-collection-card-renderer\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-collection-card-renderer
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-collection-card-renderer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-content
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-content\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-content
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-content
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-functions
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-functions\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-functions
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-functions
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-graphql
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-graphql\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-graphql
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-graphql
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-hydrogen
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-hydrogen\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-hydrogen
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-hydrogen
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-liquid-templating
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-liquid-templating\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-liquid-templating
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-liquid-templating
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-pdp-designer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-pdp-designer\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-pdp-designer
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-pdp-designer
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-product-enrich
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-product-enrich\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-product-enrich
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-product-enrich
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-products
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-products\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-products
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-products
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-setup
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-setup\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-setup
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-setup
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-supplier-extract
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-supplier-extract\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-supplier-extract
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-supplier-extract
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-sync
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-sync\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-sync
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-sync
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: shopify-theme-development
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\shopify-theme-development\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: shopify-theme-development
+[2026-05-13T22:35:56] [INFO] Built Codex skill: shopify-theme-development
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: social-card-gen
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\social-card-gen\payload.json
+[2026-05-13T22:35:56] [INFO] Built Paperclip skill: social-card-gen
+[2026-05-13T22:35:56] [INFO] Built Codex skill: social-card-gen
+[2026-05-13T22:35:56] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:56] [INFO] Built Claude skill: social-content
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\social-content\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: social-content
+[2026-05-13T22:35:57] [INFO] Built Codex skill: social-content
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: stitch
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\stitch\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: stitch
+[2026-05-13T22:35:57] [INFO] Built Codex skill: stitch
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: upload-post
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\upload-post\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: upload-post
+[2026-05-13T22:35:57] [INFO] Built Codex skill: upload-post
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: ux-audit
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\ux-audit\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: ux-audit
+[2026-05-13T22:35:57] [INFO] Built Codex skill: ux-audit
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: voice-extractor
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\voice-extractor\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: voice-extractor
+[2026-05-13T22:35:57] [INFO] Built Codex skill: voice-extractor
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: wordpress-content
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\wordpress-content\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: wordpress-content
+[2026-05-13T22:35:57] [INFO] Built Codex skill: wordpress-content
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: wordpress-elementor
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\wordpress-elementor\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: wordpress-elementor
+[2026-05-13T22:35:57] [INFO] Built Codex skill: wordpress-elementor
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: wordpress-setup
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\wordpress-setup\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: wordpress-setup
+[2026-05-13T22:35:57] [INFO] Built Codex skill: wordpress-setup
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude skill: youtube-summarizer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\skills\youtube-summarizer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip skill: youtube-summarizer
+[2026-05-13T22:35:57] [INFO] Built Codex skill: youtube-summarizer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: ads-manager
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\ads-manager\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: ads-manager
+[2026-05-13T22:35:57] [INFO] Built Codex agent: ads-manager
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: amazon-fba-assistant
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\amazon-fba-assistant\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: amazon-fba-assistant
+[2026-05-13T22:35:57] [INFO] Built Codex agent: amazon-fba-assistant
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: backend-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\backend-developer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: backend-developer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: backend-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: backlink-builder
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\backlink-builder\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: backlink-builder
+[2026-05-13T22:35:57] [INFO] Built Codex agent: backlink-builder
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: brand-builder
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\brand-builder\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: brand-builder
+[2026-05-13T22:35:57] [INFO] Built Codex agent: brand-builder
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: code-reviewer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\code-reviewer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: code-reviewer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: code-reviewer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: frontend-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\frontend-developer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: frontend-developer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: frontend-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: fullstack-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\fullstack-developer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: fullstack-developer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: fullstack-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: git-specialist
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\git-specialist\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: git-specialist
+[2026-05-13T22:35:57] [INFO] Built Codex agent: git-specialist
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: image-director
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\image-director\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: image-director
+[2026-05-13T22:35:57] [INFO] Built Codex agent: image-director
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: image-reverse-engineer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\image-reverse-engineer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: image-reverse-engineer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: image-reverse-engineer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: local-seo-specialist
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\local-seo-specialist\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: local-seo-specialist
+[2026-05-13T22:35:57] [INFO] Built Codex agent: local-seo-specialist
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: qa-engineer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\qa-engineer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: qa-engineer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: qa-engineer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: research-assistant
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\research-assistant\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: research-assistant
+[2026-05-13T22:35:57] [INFO] Built Codex agent: research-assistant
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: seo-manager
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\seo-manager\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: seo-manager
+[2026-05-13T22:35:57] [INFO] Built Codex agent: seo-manager
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: shopify-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\shopify-developer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: shopify-developer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: shopify-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: social-media-manager
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\social-media-manager\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: social-media-manager
+[2026-05-13T22:35:57] [INFO] Built Codex agent: social-media-manager
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: ui-designer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\ui-designer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: ui-designer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: ui-designer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: video-director
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\video-director\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: video-director
+[2026-05-13T22:35:57] [INFO] Built Codex agent: video-director
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
+[2026-05-13T22:35:57] [INFO] Built Claude agent: wordpress-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\generated\paperclip\agents\wordpress-developer\payload.json
+[2026-05-13T22:35:57] [INFO] Built Paperclip agent: wordpress-developer
+[2026-05-13T22:35:57] [INFO] Built Codex agent: wordpress-developer
+[2026-05-13T22:35:57] [INFO] Wrote O:\red-banana-studio\ai-library\build\library-registry.json
