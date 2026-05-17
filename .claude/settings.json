@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File C:\\Workspace\\ai-library\\scripts\\session-start.ps1",
+            "timeout": 30,
+            "statusMessage": "Pulling ai-library..."
+          }
+        ]
+      }
+    ]
+  }
+}
