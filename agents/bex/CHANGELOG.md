@@ -1,5 +1,11 @@
 # Bex — Changelog
 
+## 0.2.2 — 2026-05-19
+
+`compatible_targets` reduced from `['claude', 'paperclip', 'nebula']` to `['nebula']`. Bex runs on Nebula; we don't need a parallel Claude Code subagent install (`~/.claude/agents/bex.md`) or a Paperclip payload at this point. If a use-case for local Claude-Code-subagent Bex emerges later, re-add `'claude'` and run `publish-item.py bex --target=claude`. Until then, `publish-all.py` skips bex for the claude/paperclip targets.
+
+No prompt or behaviour changes — distribution-policy change only.
+
 ## 0.2.1 — 2026-05-18
 
 Correction release. Aligns Bex's roster with reality after stack decisions.

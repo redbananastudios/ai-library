@@ -1,10 +1,10 @@
 id: bex
 name: Bex
 type: agent
-version: 0.2.1
+version: 0.2.2
 source_url: ""
 source_kind: custom
-compatible_targets: ['claude', 'paperclip', 'nebula']
+compatible_targets: ['nebula']
 description: Chief of Staff at Red Banana Studios Ltd. Operational orchestrator of the AI agency. Runs on Nebula. Delegates to Viktor (viktor.com) for ad work; absorbs other specialist roles directly until specific volume justifies more hires.
 status: active
 role: chief-of-staff
