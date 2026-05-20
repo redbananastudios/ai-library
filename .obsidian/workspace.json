@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agents/bex/prompt.md",
+                "file": "generated/codex/skills/voice-extractor/references/VOICE-GUIDE-TEMPLATE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prompt"
+              "title": "VOICE-GUIDE-TEMPLATE"
             }
           }
         ]
@@ -183,8 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "0e29765515b35621",
+  "active": "168cf0b4b426009b",
   "lastOpenFiles": [
+    "agents/bex/CHANGELOG.md.tmp.134872.4c0aa392b436",
+    "agents/bex/spec.yaml.tmp.134872.385b5224eb01",
+    "agents/bex/morning-brief.md.tmp.134872.d65bc0cc94ca",
+    "agents/bex/prompt.md.tmp.134872.26f7c439beef",
+    "agents/bex/spec.yaml.tmp.134872.5ca6d4b432bf",
+    "agents/bex/prompt.md",
     "skills/google-search-console/CHANGELOG.md"
   ]
 }
