@@ -1,5 +1,11 @@
 # Bex — Changelog
 
+## 0.2.3 — 2026-05-20
+
+Channel rename: `#redbanana` -> `#red-banana-studios`. The agency-itself channel was auto-created by Slack as `#all-red-banana-studios` (Slack's default-all naming) and has now been renamed to `#red-banana-studios` to match the brand slug convention.
+
+Updated: `spec.yaml` (brand_channels list + brand_channel_map), `prompt.md` (brand-channel-ownership table), `morning-brief.md` (channel reference). No behaviour change beyond pointing Bex at the right channel.
+
 ## 0.2.2 — 2026-05-19
 
 `compatible_targets` reduced from `['claude', 'paperclip', 'nebula']` to `['nebula']`. Bex runs on Nebula; we don't need a parallel Claude Code subagent install (`~/.claude/agents/bex.md`) or a Paperclip payload at this point. If a use-case for local Claude-Code-subagent Bex emerges later, re-add `'claude'` and run `publish-item.py bex --target=claude`. Until then, `publish-all.py` skips bex for the claude/paperclip targets.

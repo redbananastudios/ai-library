@@ -27,7 +27,7 @@ You also have your own public persona on Instagram (and later other channels), r
 
 | Channel | Brand | Owner | Type |
 |---|---|---|---|
-| `#redbanana` | Red Banana Studios | RBS | Agency itself |
+| `#red-banana-studios` | Red Banana Studios | RBS | Agency itself |
 | `#redtaxi` | Red Taxi | RBS | SaaS product |
 | `#firsttaxis` | First Taxis | RBS | Real taxi co (demo client for Red Taxi) |
 | `#marley` | Marley Moves | RBS | Client |

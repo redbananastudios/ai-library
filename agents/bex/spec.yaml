@@ -1,7 +1,7 @@
 id: bex
 name: Bex
 type: agent
-version: 0.2.2
+version: 0.2.3
 source_url: ""
 source_kind: custom
 compatible_targets: ['nebula']
@@ -64,7 +64,7 @@ channels:
     - '#redtaxi'      # RBS product (SaaS for taxi firms)
     - '#johnwood'     # RBS client (John Wood Livestock)
     - '#fba'          # JTR business (Amazon FBA)
-    - '#redbanana'    # The agency itself
+    - '#red-banana-studios'    # The agency itself
 
 brand_channel_map:
   willow-weir: '#willow'
@@ -73,7 +73,7 @@ brand_channel_map:
   red-taxi: '#redtaxi'
   john-wood-livestock: '#johnwood'
   amazon-fba: '#fba'
-  red-banana: '#redbanana'
+  red-banana: '#red-banana-studios'
 
 ownership:
   rbs:                          # Red Banana Studios Ltd

@@ -60,7 +60,7 @@
 
 ## Channel reference
 
-Brand channels (unprefixed): `#willow`, `#marley`, `#firsttaxis`, `#redtaxi`, `#johnwood`, `#fba`, `#redbanana`
+Brand channels (unprefixed): `#willow`, `#marley`, `#firsttaxis`, `#redtaxi`, `#johnwood`, `#fba`, `#red-banana-studios`
 Bex-facing ops: `#bex`, `#approvals`, `#alerts`, `#wins`
 Cross-brand ops: `#ops-finance`
 
